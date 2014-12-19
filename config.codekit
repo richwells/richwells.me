@@ -299,6 +299,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/tumblr\/2012-03-25-cycling-to-mam-tor.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/tumblr\/2012-03-25-cycling-to-mam-tor.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/tumblr\/2012-03-29-sxsw12.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -610,15 +619,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/tumblr\/2013-08-14-planet-earth-sketches.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/tumblr\/2013-08-25-cycling-to-mam-tor.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/tumblr\/2013-08-25-cycling-to-mam-tor.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2690,6 +2690,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/downloads\/scrapbook-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136639,
+		"inputAbbreviatedPath": "\/_site\/downloads\/scrapbook-5.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/scrapbook-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/downloads\/scrapbook-6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2697,6 +2708,17 @@
 		"initialSize": 355254,
 		"inputAbbreviatedPath": "\/_site\/downloads\/scrapbook-6.jpg",
 		"outputAbbreviatedPath": "\/_site\/downloads\/scrapbook-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/scrapbook-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 318626,
+		"inputAbbreviatedPath": "\/_site\/downloads\/scrapbook-7.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/scrapbook-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9148,6 +9170,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/scrapbook-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136639,
+		"inputAbbreviatedPath": "\/downloads\/scrapbook-5.jpg",
+		"outputAbbreviatedPath": "\/downloads\/scrapbook-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/scrapbook-6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9155,6 +9188,17 @@
 		"initialSize": 355254,
 		"inputAbbreviatedPath": "\/downloads\/scrapbook-6.jpg",
 		"outputAbbreviatedPath": "\/downloads\/scrapbook-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/scrapbook-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 318626,
+		"inputAbbreviatedPath": "\/downloads\/scrapbook-7.jpg",
+		"outputAbbreviatedPath": "\/downloads\/scrapbook-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

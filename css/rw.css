@@ -1732,7 +1732,7 @@ a.next-link { text-align: center; width: 100%; font-size: 18px; line-height: 2; 
 @media only screen and (min-width: 1200px) { .related-strip [class*='col-'] { padding: 0 20px; } }
 @media only screen and (min-width: 1200px) { .related-strip .grid { max-width: 1400px; float: none; margin: 0 auto; } }
 
-.col-related h3 { margin: 0; font-size: 20px; }
+.col-related h3 { margin: 0; font-size: 20px; font-weight: normal; color: #000; }
 .col-related small { color: #999; float: left; width: 100%; margin: -1px 0 0; font-size: 16px; }
 .col-related a:hover { text-decoration: none; }
 .col-related .post-img-wrap { margin-bottom: 13px; }
