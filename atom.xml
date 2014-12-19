@@ -4,7 +4,7 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2014-12-19T04:36:00+00:00</updated>
+ <updated>2014-12-19T04:40:38+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
@@ -19,25 +19,25 @@
    <id>http://richwells.me/blog/better-google-tasks</id>
    <content type="html">&lt;p&gt;I’m kind of in love with Todo lists, which is a bit sad really. I make lists all the time and love ticking things off. Sometimes I write things that I’ve already done, just to put a line through it.&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/bgt-completed.jpg&quot; class=&quot;small&quot; alt=&quot; Write a blog post (completed)&quot; /&gt;
+&lt;img src=&quot;/downloads/bgt-completed.jpg&quot; class=&quot;small&quot; alt=&quot; Write a blog post (completed)&quot; /&gt;
 
 
 &lt;p&gt;I’ve tried most of the popular todo list apps out there and the one I keep coming back to is Google Tasks. It’s simple, free, saves to my Gmail account so I don’t need to log into anything else, and it works with loads of different mobile apps, meaning my tasks are everywhere and always synced.&lt;/p&gt;
 
 &lt;p&gt;The trouble is, there’s no decent looking way of using Google Tasks in a desktop browser. This is their curent design:&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/bgt-before.jpg&quot; class=&quot;small&quot; alt=&quot; The current Google Tasks&quot; /&gt;
+&lt;img src=&quot;/downloads/bgt-before.jpg&quot; class=&quot;small&quot; alt=&quot; The current Google Tasks&quot; /&gt;
 
 
 &lt;p&gt;Google stopped developing their tasks browser app a few years ago and it looks pretty dated now. Not a great thing to look at for long periods of time (which I do as I use it for work).&lt;/p&gt;
 
 &lt;p&gt;I decided to add my own styles on top of Google Tasks, just for me really. I wanted to make a thing I stare at every day better and easier to use. I took away some of the noise, made certain things more  clear and legible and generally made it more satisfying to check off tasks.&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/better-google-tasks.jpg&quot; alt=&quot;Better Google Tasks&quot; class=&quot;wide&quot; /&gt;
+&lt;img src=&quot;/downloads/better-google-tasks.jpg&quot; alt=&quot;Better Google Tasks&quot; class=&quot;wide&quot; /&gt;
 
 &lt;p&gt;I&#39;ve had a few iterations of the design. The earlier versions looked a lot more impressive, but then I realised that I needed to make something that I didn&#39;t notice. This isn&#39;t a site homepage, it&#39;s a tool, and the important thing is that I can clearly see what I need to do and when I need to do it.
 &lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/bgt-1.jpg&quot; alt=&quot;Better Google Tasks&quot; class=&quot;wide&quot; /&gt;
+&lt;img src=&quot;/downloads/bgt-1.jpg&quot; alt=&quot;Better Google Tasks&quot; class=&quot;wide&quot; /&gt;
 &lt;p&gt;
   I probably spent most time styling the completed tasks. I wanted to make it feel satisfying and instant to check stuff off, so I removed images that might take some time to load and made CSS checkboxes (which look much sharper on retina screens too).
 &lt;/p&gt;
@@ -45,10 +45,10 @@
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/bgt-2.jpg&quot; alt=&quot; The current Google Tasks&quot; /&gt;
+    &lt;img src=&quot;/downloads/bgt-2.jpg&quot; alt=&quot; The current Google Tasks&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/bgt-3.jpg&quot; alt=&quot;Better Google Tasks&quot; /&gt;
+    &lt;img src=&quot;/downloads/bgt-3.jpg&quot; alt=&quot;Better Google Tasks&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -77,16 +77,16 @@
 &lt;/div&gt;
 &lt;p&gt;On our &lt;a href=&quot;http://dayoffwithsophie.tumblr.com/post/103027376628/christmas-video&quot; target=&quot;blank&quot;&gt;daddy daycare&lt;/a&gt; day this week we made a Christmas video with a few friends from Church. It felt a little odd to be singing carols outside in November, but it turned out to be lots of fun. Here are a few screenshots of the things I filmed. Video edited by the super talented &lt;a href=&quot;https://twitter.com/leadoutdan&quot; target=&quot;blank&quot;&gt;Dan Harris&lt;/a&gt;.&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-1.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-2.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-3.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-4.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-5.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-6.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-7.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-8.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-9.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/christmas-film-10.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-1.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-2.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-3.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-4.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-5.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-6.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-7.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-8.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-9.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-10.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
 </content>
  </entry>
  
@@ -95,11 +95,11 @@
    <link href="http://richwells.me/blog/blessed-are-those-who-mourn"/>
    <updated>2014-10-10T11:35:00+01:00</updated>
    <id>http://richwells.me/blog/blessed-are-those-who-mourn</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/blessed-are-those-who-mourn.jpg&quot; alt=&quot;cardboard man&quot; class=&quot;&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/blessed-are-those-who-mourn.jpg&quot; alt=&quot;cardboard man&quot; class=&quot;&quot;/&gt;
 
 &lt;p&gt;A couple of illustrations I did for one of Bry&#39;s talks at church. Enjoyed making things out of paper, just for the fun of it.&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/blessed-are-those-who-mourn-2.jpg&quot; alt=&quot;Verse illustration&quot; class=&quot;&quot;/&gt;
+&lt;img src=&quot;/downloads/blessed-are-those-who-mourn-2.jpg&quot; alt=&quot;Verse illustration&quot; class=&quot;&quot;/&gt;
 </content>
  </entry>
  
@@ -121,16 +121,16 @@
    <id>http://richwells.me/blog/sketches-of-spain</id>
    <content type="html">&lt;p&gt;A few sketches and iPad doodles from a week away in Mallorca.&lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;/richwells.me/downloads/sketches-of-spain-1.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/sketches-of-spain-1.jpg&quot;/&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;img src=&quot;/richwells.me/downloads/sketches-of-spain.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/sketches-of-spain.jpg&quot;/&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;/richwells.me/downloads/sketches-of-spain-2.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/sketches-of-spain-2.jpg&quot;/&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;/richwells.me/downloads/sketches-of-spain-3.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/sketches-of-spain-3.jpg&quot;/&gt;
 &lt;/p&gt;
 </content>
  </entry>
@@ -149,22 +149,22 @@
 &lt;/p&gt;
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs.jpg&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs-1.gif&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs-7.jpg&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs-5.png&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs.jpg&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-1.gif&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-7.jpg&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-5.png&quot;&gt;
     &lt;div class=&#39;fitvids&#39;&gt;
       &lt;iframe src=&#39;//player.vimeo.com/video/102142593&#39; width=&#39;500&#39; height=&#39;281&#39; frameborder=&#39;0&#39; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs-4.jpg&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs-3.jpg&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/festival-of-code.gif&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/yrs-8.jpg&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-4.jpg&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-3.jpg&quot;&gt;
+    &lt;img src=&quot;/downloads/festival-of-code.gif&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-8.jpg&quot;&gt;
 
-    &lt;img src=&quot;/richwells.me/downloads/yrs-2.gif&quot;&gt;
+    &lt;img src=&quot;/downloads/yrs-2.gif&quot;&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -176,7 +176,7 @@
    <link href="http://richwells.me/blog/stretch-o-clock"/>
    <updated>2014-07-25T11:35:00+01:00</updated>
    <id>http://richwells.me/blog/stretch-o-clock</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/stretch-o-clock-2.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/stretch-o-clock-2.jpg&quot;/&gt;
 &lt;p&gt;My colleague &lt;a href=&quot;https://twitter.com/matkins&quot;&gt;Matt&lt;/a&gt; is probably the cleverest person I know, and a nice guy too. Today is his last day at Yoomee before moving on to bigger and better things.&lt;/p&gt;
 &lt;p&gt;Aside from insane coding skills, Matt&amp;#8217;s biggest legacy is teaching us some stretch moves that we do as a team every morning at 11am. We started them after reading a &lt;a href=&quot;http://www.diygenius.com/your-desk-job-is-killing-you-the-truth-about-sitting-down-infographic/&quot;&gt;blog post&lt;/a&gt; about how sitting at a computer is killing you. Turns out we&amp;#8217;re not designed to be sitting all day hunched over a screen! Now stretching is part of our daily routine and is a good chance to stop, clear your head and talk to each other.&lt;/p&gt;
 &lt;p&gt;As a leaving gift I made Matt a little framed print celebrating Stretch O’Clock.&lt;/p&gt;
@@ -190,32 +190,32 @@
    <id>http://richwells.me/blog/summer-of-cycling</id>
    <content type="html">&lt;p&gt;I&amp;#8217;ve always been into bicycles, even before they were cool and Britain started winning things on them (not any more mind you thanks to the cobbles). I&amp;#8217;ve watched the Tour de France every year since I was a kid and have fond memories of huddling round our TV with pitiful Channel 4 reception trying to pick out riders from the white noise (no chance when it was raining!). &lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo10_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo10_1280.jpg&quot;/&gt;
 &lt;p&gt;Watching The Tour pass through Yorkshire last weekend was incredible. It was like having the World Cup come to your local park - so great to watch a major sporting event happen on the familiar roads of the Peak District and brilliant to see how the whole of Yorkshire got behind it.&lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo6_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo6_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo9_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo9_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo1_1280.jpg&quot;/&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo4_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo4_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo5_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo5_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo7_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo7_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -226,7 +226,7 @@
    <link href="http://richwells.me/blog/hendersons-strong-and-northern"/>
    <updated>2014-07-09T19:16:00+01:00</updated>
    <id>http://richwells.me/blog/hendersons-strong-and-northern</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo8_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo8_1280.jpg&quot;/&gt;
 
 &lt;p&gt;To celebrate the Tour coming up north I did a &lt;a href=&quot;http://www.thelevelcollective.co.uk/shop/strong-and-northern/&quot; target=&quot;_blank&quot;&gt;T-shirt design&lt;/a&gt; for the Level Collective, in collaboration with the legendary Sheffield company &lt;a href=&quot;http://www.hendersonsrelish.com/&quot; target=&quot;blank&quot;&gt;Henderson&#39;s relish&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We&amp;#8217;re nearly sold out but have a few left in stock &lt;strong&gt;&lt;a href=&quot;http://www.thelevelcollective.co.uk/shop/strong-and-northern/&quot; title=&quot;Strong and Northern by Rich Wells&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
@@ -238,7 +238,7 @@
    <link href="http://richwells.me/blog/a-big-thank-you"/>
    <updated>2014-05-14T17:16:05+01:00</updated>
    <id>http://richwells.me/blog/a-big-thank-you</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n5l1qt72sz1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Just wanted to say a huge thank you to everyone who gave to our &lt;/span&gt;&lt;a href=&quot;http://www.tearfund.org/en/give/give_main/tfbloggers13/live/&quot; target=&quot;_blank&quot;&gt;#tfbloggers campaign&lt;/a&gt;&lt;span&gt;. Forty-one people signed up to give regularly, and it&amp;#8217;s only after speaking to a few charity fundraisers that I&amp;#8217;ve realised how incredible that number is. I&amp;#8217;m sorting out the artwork prints this week and will be sending them out as soon as I can. &lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n5l1qt72sz1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Just wanted to say a huge thank you to everyone who gave to our &lt;/span&gt;&lt;a href=&quot;http://www.tearfund.org/en/give/give_main/tfbloggers13/live/&quot; target=&quot;_blank&quot;&gt;#tfbloggers campaign&lt;/a&gt;&lt;span&gt;. Forty-one people signed up to give regularly, and it&amp;#8217;s only after speaking to a few charity fundraisers that I&amp;#8217;ve realised how incredible that number is. I&amp;#8217;m sorting out the artwork prints this week and will be sending them out as soon as I can. &lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;I&#39;m sending a print to everyone who signs up to give&quot; src=&quot;http://richwells.me/img/imsendingaprint.jpg&quot;/&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;br/&gt;Still want to give?&lt;/h2&gt;
 &lt;p&gt;It&amp;#8217;s not too late to give and get some free artwork! giving is easy:&lt;/p&gt;
@@ -265,13 +265,13 @@
    <link href="http://richwells.me/blog/art-for-cambodia"/>
    <updated>2014-04-03T21:13:00+01:00</updated>
    <id>http://richwells.me/blog/art-for-cambodia</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/cambodian-artwork.jpg&quot;/&gt;&lt;p class=&quot;intro&quot;&gt;I’m posting a limited edition signed print (1 of 60) to anyone who gives £3/month to our Tearfund Cambodia challenge.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/cambodian-artwork.jpg&quot;/&gt;&lt;p class=&quot;intro&quot;&gt;I’m posting a limited edition signed print (1 of 60) to anyone who gives £3/month to our Tearfund Cambodia challenge.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The inspiration&lt;/strong&gt;I saw these two children cycling past our mini bus in one of the villages we visited. I loved their expressions and the way they worked together to keep the tiny colourful bike upright. It was a great picture of how Tearfund are supporting communities to face uncertain futures together. I had fun creating this illustration and have tried to capture some of the vibrancy and texture that I saw all around me.&lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/cambodian-artwork-2.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/cambodian-artwork-2.jpg&quot;/&gt;
 &lt;h2&gt;How to get your print…&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Give online &lt;/strong&gt;You can donate through Tearfund’s website &lt;strong&gt;&lt;a href=&quot;http://www.tearfund.org/Admin/Inpoints/Bloggers/Bloggers2014Give&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Text HOPE TODAY to 70444&lt;/strong&gt;Texting this number will subscribe you to give £3 a month to See For Yourself, Tearfund. It will be added to your mobile phone bill. Tearfund receives 100% of the money. This subscription service will cost £3.00 per month until you send STOP to 70080.(If you give via text, could you email me your address so I know where to post the print to? My email is rich@yoomee.com)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What will this money do?&lt;/strong&gt;If 60 people signed up for just £3 a month that could mean 70 new families in Cambodia could have their lives transformed through the &lt;a href=&quot;http://brokencameras.com/2014/03/20/umoja-for-beginners/&quot; target=&quot;_blank&quot;&gt;Umoja process&lt;/a&gt;. That means 70 families who can get a better education, learn new skills and lift themselves out of poverty once and for all.&lt;a href=&quot;http://cambodia.richwells.me/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/richwells.me/downloads/cambodia-shacks.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What will this money do?&lt;/strong&gt;If 60 people signed up for just £3 a month that could mean 70 new families in Cambodia could have their lives transformed through the &lt;a href=&quot;http://brokencameras.com/2014/03/20/umoja-for-beginners/&quot; target=&quot;_blank&quot;&gt;Umoja process&lt;/a&gt;. That means 70 families who can get a better education, learn new skills and lift themselves out of poverty once and for all.&lt;a href=&quot;http://cambodia.richwells.me/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/cambodia-shacks.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Want to see more of my artwork?&lt;/strong&gt; Check out my &lt;a href=&quot;http://cambodia.richwells.me/&quot;&gt;Cambodia Travel Scrapbook&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
@@ -281,24 +281,24 @@
    <link href="http://richwells.me/blog/reflections-on-my-time-in-cambodia"/>
    <updated>2014-03-28T13:21:25+00:00</updated>
    <id>http://richwells.me/blog/reflections-on-my-time-in-cambodia</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo1_1280.jpg&quot;/&gt;
 
 &lt;p&gt;So I’m finally over the jet lag, the swelling on my leg has gone down and I’m (nearly) unpacked. It’s hard to sum up in a post all of my reflections on the amazing things I’ve experienced over the past 10 days. Cambodia is a country full of contradictions, a land of immense beauty, friendly hospitality, incredible food and also pain, poverty and deep scars from a brutal past. I’m so thankful I got the opportunity to visit such an amazing place and I think it’s changed me.&lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo6_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo6_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo8_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo8_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo5_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo5_1280.jpg&quot;/&gt;
 
 
 
@@ -306,18 +306,18 @@
 
 
 
-&lt;p&gt;&lt;img alt=&quot;The challenges&quot; src=&quot;/richwells.me/downloads/tumblr_files/the-challenges.jpg&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;The challenges&quot; src=&quot;/downloads/tumblr_files/the-challenges.jpg&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;Other than a couple of ‘&lt;a href=&quot;http://blog.richwells.me/post/80179663987/mmmm-insects&quot;&gt;interesting meals&lt;/a&gt;&#39; and a &lt;a href=&quot;http://cambodia.richwells.me/post/80575031012/a-couple-of-days-ago-i-bashed-my-ankle-while&quot;&gt;dodgy ankle&lt;/a&gt;, the main challenges of the trip for me were:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Blogging on the move&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I stepped off the plane with a bag full of gadgets, art equipment and high hopes. Being faced with an internet connection that was potentially powered by one guy on a bicycle soon made me realise that all the ‘systems’ I’d put in place might not work out quite as planned! However the real challenge was blogging on the move, there was so much to see and so many people to meet that finding the time to draw away and reflect, both through my paint brush and computer keyboard, was tough. Often I stayed up late after a packed day waiting for photos to upload, squatting on the floor by my hotel room door (the only wifi ’hotspot’ in the room. It was hot.). I wanted to be able to share more, particularly the artwork side of things, but I did the best I could with the energy I had.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Persuading people to give&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This was my first experience as a charity fundraiser, and to be honest I’ve found it really hard. Together we had a challenge to raise sixty new supporters for Tearfund’s work in Cambodia and at this point I hoped we would have a lot more than thirteen. I’ve realised, it’s a really hard ’sell’. Firstly, during a week where heart-wrenching images filled peoples home via Sport Relief, my photos of smiling, joyful people didn’t exactly shout ‘we need your help’. And secondly it’s a lot harder to raise money for training than tangible things like chickens, wells, shelters or medicine. Meeting immediate needs is of course important, but I’m convinced that Tearfund’s approach of empowering local communities to help themselves will make a really big difference in the long term. &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/richwells.me/downloads/tumblr_files/street-kid.jpg&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/tumblr_files/street-kid.jpg&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;Out of everything I’ve seen this week the thing that probably moved me the most was watching a little boy in Phnom Penh pick up litter by the riverbanks of the Mekong delta. He had no shoes and was probably only a year or so older than my daughter Sophie. When I saw him, I was gutted and was reminded of something Harry, a Tearfund worker said to us earlier in the week.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/richwells.me/downloads/tumblr_files/harry.jpg&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/tumblr_files/harry.jpg&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;For several years Harry has been working with his wife in their spare time helping people on the streets, desperately poor, who come to the city because they can’t survive in their villages. And seeing these people has made him realise that it’s not enough to help kids on the street, something needs to be done to prevent them getting there in the first place.&lt;/p&gt;
 &lt;p&gt;What I witnessed this week was not just an organisation helping people out of poverty but an organisation preventing poverty. Tearfund’s work ensures that the next generation of Cambodians will not grow up in the abject poverty that their parents experienced. Tearfund’s work ensures that whole communities learn to work together, to look out for the least among them and to embody something of the Good News that Jesus brings.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/richwells.me/downloads/tumblr_files/i-dont-like-asking.jpg&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/tumblr_files/i-dont-like-asking.jpg&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;Maybe it’s my Britishness, but I find asking people to give money to be a really hard thing to do. Giving £3 a month sounds small, but when you add it up it is a big sacrifice, especially when money is tight. It’s more than giving £10 to your friend who does that charity run one time. It’s a really big ask. &lt;/p&gt;
 &lt;p&gt;But I’m asking. Would you give £3 a month towards Tearfund’s vital work with the poor in Cambodia?&lt;/p&gt;
 &lt;p&gt;I’m in the the process of making some artwork based on my experiences of the past two weeks. For every person who gives (up to 60), I’ll post a print to say thank you. &lt;/p&gt;
@@ -338,13 +338,13 @@
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo5_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo5_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -357,17 +357,17 @@
 &lt;p&gt;Danny and I stayed with Pastor Ke Pich and his family (who is featured in the video above), and I had my first opportunity to sleep under the stars (in a mosquito net). I slept like a baby and was blown away by their hospitality over the weekend. &lt;/p&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo7_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo7_1280.jpg&quot;/&gt;
 &lt;p&gt;Had a bit of a nightmare when I got back when I realised that my camera wouldn&amp;#8217;t load the photos onto my mac. Thought I&amp;#8217;d lost them all, but after 2 hours of fiddling I&amp;#8217;ve managed to find a way round it (turns out it was a broken lead, phew!). &lt;/p&gt;
 &lt;p&gt;I&amp;#8217;ll be posting stories from Tonle Batie over the next couple of days to &lt;strong&gt;&lt;a href=&quot;http://cambodia.richwells.me&quot;&gt;my scrapbook&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo6_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo6_1280.jpg&quot;/&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/600/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo8_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/600/http://richwells.github.io/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo8_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/600/http://richwells.github.io/richwells.me/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo2_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;http://ir0.mobify.com/600/http://richwells.github.io/downloads/tumblr_files/tumblr_n2wjyiYje51rr6vpvo2_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -381,7 +381,7 @@
    <link href="http://richwells.me/blog/mmmm-insects"/>
    <updated>2014-03-20T14:10:28+00:00</updated>
    <id>http://richwells.me/blog/mmmm-insects</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2qybcTBQQ1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qybcTBQQ1rr6vpvo1_1280.jpg&quot;/&gt;
 
 &lt;p&gt;&lt;strong&gt;Try it!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I remember once hearing Michael Palin (the comedian, travel writer and Sheffielder) talk about eating food in different cultures. I can&amp;#8217;t recall the quote word for word, but he said something like&amp;#8230;&lt;/p&gt;
@@ -390,7 +390,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;I wouldn&amp;#8217;t say that I was joyfully surprised by fried insects, but they didn&#39;t taste that bad. A bit like the &amp;#8216;seaweed&amp;#8217; you get from a Chinese restaurant back home.&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2qybcTBQQ1rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qybcTBQQ1rr6vpvo2_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -399,13 +399,13 @@
    <link href="http://richwells.me/blog/day-three-in-cambodia"/>
    <updated>2014-03-20T13:24:00+00:00</updated>
    <id>http://richwells.me/blog/day-three-in-cambodia</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo1_1280.jpg&quot;/&gt;
 
 &lt;p&gt;Today was amazing. We went out of the city and visited two communities that Tearfund supports by providing Umoja training (see &lt;a href=&#39;http://blog.richwells.me/post/80086511538/umoja#notes&#39;&gt;yesterday&amp;#8217;s post&lt;/a&gt; for more on Umoja, or better still read &lt;a href=&quot;http://t.co/ZIBg970dAI&quot; target=&quot;_blank&quot;&gt;Danny&amp;#8217;s&lt;/a&gt;). In both places we met the facilitators who work with the local church to develop small projects that help the people around them. It was really inspiring and great to see first hand what people can do when they work together. &lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo3_1280.jpg&quot;/&gt;
 
 &lt;p&gt;I thought that rather than writing one long blog post, from now on I am going to start sharing mini posts, with small stories of the people I meet. Long blog posts take too long! Easier for me to share as I go and hopefully a little more engaging too. &lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo2_1280.jpg&quot;/&gt;
 
 &lt;p&gt;Check the &lt;strong&gt;&lt;a href=&quot;http://cambodia.richwells.me&quot;&gt;Cambodia scrapbook&lt;/a&gt;&lt;/strong&gt; for some stories from today. I&amp;#8217;m still adding them now, before I head to bed (I&amp;#8217;m 7 hours ahead of UK time) - a poor internet connection is not making my life easy!&lt;/p&gt;
 </content>
@@ -416,7 +416,7 @@
    <link href="http://richwells.me/blog/tuol-sleng"/>
    <updated>2014-03-19T15:05:00+00:00</updated>
    <id>http://richwells.me/blog/tuol-sleng</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2p6d1hi0H1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;After an egg and some funny tasting coffee for breakfast we met a girl called Kanya, who works for International Cooperation Cambodia (ICC), the local organisation that Tearfund works through here in Cambodia.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2p6d1hi0H1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;After an egg and some funny tasting coffee for breakfast we met a girl called Kanya, who works for International Cooperation Cambodia (ICC), the local organisation that Tearfund works through here in Cambodia.&lt;/p&gt;
 &lt;p&gt;We take a minibus and travel to their headquarters, on a dusty side road a little out of town. After climbing six flights of incredibly steep stairs we enter a cool air-conditioned room, where we spend the next few hours getting to know who ICC are and what we will be getting up to for the next week.&lt;/p&gt;
 &lt;p&gt;This is Harry. He heads up one of ICC&amp;#8217;s projects called the Village Integrated Development Project, or VIDP for short. (Sorry about all the acronyms by the way).&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://richwells.me/img/cambodia-genocide-museum0.jpg&quot;/&gt;&lt;/p&gt;
@@ -444,28 +444,28 @@
    <id>http://richwells.me/blog/arrived-in-phnom-penh</id>
    <content type="html">&lt;p&gt;We&amp;#8217;ve finally arrived in Phnom Penh, after a short wait in Bangkok. We had three hours to spare there and decided to go and explore the city rather than sitting in the airport twiddling our thumbs. It turned out to be three hours of queueing in a taxi, with an extremely brief stopover at a temple to take some touristy photos. Slightly stressful, but I&amp;#8217;m really glad we did it. &lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo1_1280.jpg&quot;/&gt;
 
 &lt;div class=&quot;grid&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo7_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo7_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/phnom-penh-2.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/phnom-penh-2.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/richwells.me/downloads/phnom-penh.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/phnom-penh.jpg&quot;/&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo2_1280.jpg&quot;/&gt;
 &lt;p&gt;I love how everything is different over here, the heat, the smells, the colours, the people, the transport. So many things to look at! It was interesting to compare the differences between Bangkok and Phnom Penh as we arrived and drove to our hotel. Cambodia definitely feels less polished, and a lot more dusty than I imagined it would be, but we have arrived in the middle of the dry season. Not the place for jeans anyway.&lt;/p&gt;
 &lt;p&gt;Right, after potentially being awake for the longest I have ever been, I think it&amp;#8217;s time I had some sleep.&lt;/p&gt;
 
 &lt;div class=&quot;grid&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo4_1280.jpg&quot;/&gt;&lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo3_1280.jpg&quot;/&gt;&lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo4_1280.jpg&quot;/&gt;&lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo3_1280.jpg&quot;/&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo8_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo8_1280.jpg&quot;/&gt;
 
 &lt;p&gt;P.S. if you&amp;#8217;re interested in a bit of Cambodian history, &lt;a href=&quot;https://twitter.com/danny_webster&quot;&gt;Danny&lt;/a&gt; who I&amp;#8217;m travelling with has come up with a handy &lt;strong&gt;&lt;a href=&quot;http://brokencameras.com/2014/03/17/a-14-point-bluffers-guide-to-cambodian-history/&quot;&gt;14 point bluffer&amp;#8217;s guide&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
 </content>
@@ -476,7 +476,7 @@
    <link href="http://richwells.me/blog/slough"/>
    <updated>2014-03-17T07:33:08+00:00</updated>
    <id>http://richwells.me/blog/slough</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2kw38BvSg1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2kw38BvSg1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 &lt;p&gt;Greetings from Slough! I’m in a budget hotel ‘near’ Heathrow Terminal 5, struggling to move after getting my money’s worth from the breakfast buffet.&lt;/p&gt;
 
 &lt;p&gt;We’re flying at mid afternoon today to Bankok, and then on from there to Phnom Penh, the capital of Cambodia. Selfishly I’m really looking forward to 12 hours or so of sitting, where it’s perfectly acceptable to watch three films back to back and sleep whenever you like. It’s been a long month!&lt;/p&gt;
@@ -502,7 +502,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
 &lt;p&gt;I started talking to the man. He was about my age, had worn out jeans and a can of cider on the grass behind him that I think he was trying to hide.&lt;/p&gt;
 &lt;p&gt;We got talking about his dog and he was telling me about how he was struggling to look after it and it was hard because he lived in tent and that&amp;#8217;s not a great place to keep a dog. He seemed like a nice guy.&lt;/p&gt;
 &lt;p&gt;At this point I realised there was a long line of cars waiting to get our car parking space and that we should probably move on, so I wished him well and got into the car. As I reversed I could see him straight ahead of me with his head in his hands crying.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;/richwells.me/downloads/man-and-dog.jpg&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;/downloads/man-and-dog.jpg&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;I felt like I should pull the car back in get out and talk to him, but I didn&amp;#8217;t. I just kept on moving and left him there.&lt;/p&gt;
 &lt;p&gt;I had to get on, I had lots to do, lots to buy before the shops shut, lots to prepare for going to Cambodia to see those people living in poverty. And I felt like such a hypocrite.&lt;/p&gt;
 &lt;p&gt;I don&amp;#8217;t know why I&amp;#8217;m sharing this really, apart from that I want to be honest from the outset that as I go out and experience things  and potentially ask you to give, I&amp;#8217;m doing it from a place of not being great at it myself. I want to be better though, I want to be someone who not only feels compassion, but does something about it. And I&amp;#8217;m hoping that going to Cambodia changes me in that way.&lt;/p&gt;
@@ -515,15 +515,15 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/yoomee-dot-com"/>
    <updated>2014-03-14T16:31:00+00:00</updated>
    <id>http://richwells.me/blog/yoomee-dot-com</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/yoomee-site.jpg&quot; alt=&quot;yoomee.com&quot;&gt;
+   <content type="html">&lt;img src=&quot;/downloads/yoomee-site.jpg&quot; alt=&quot;yoomee.com&quot;&gt;
 &lt;p&gt;One of the frustrations of having so much work on at the moment is that we have little time to update our site. The other week we had a little window in between projects and managed to push a few changes. More to come!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yoomeee.com&quot; class=&quot;cta&quot;&gt;Visit yoomee.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;video-container wide&quot;&gt;
-  &lt;video id=&quot;bgvid&quot; muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; poster=&quot;/richwells.me/downloads/yoomee-poster.jpg&quot;&gt;
-    &lt;source src=&quot;/richwells.me/downloads/yoomee.webm&quot;  type=&quot;video/webm&quot; codecs=&quot;vp8,vorbis&quot;&gt;&lt;/source&gt;
-    &lt;source src=&quot;/richwells.me/downloads/yoomee.mp4&quot; type=&quot;video/mp4&quot; codecs=&quot;avc1.42E01E&quot;&gt;&lt;/source&gt;
+  &lt;video id=&quot;bgvid&quot; muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; poster=&quot;/downloads/yoomee-poster.jpg&quot;&gt;
+    &lt;source src=&quot;/downloads/yoomee.webm&quot;  type=&quot;video/webm&quot; codecs=&quot;vp8,vorbis&quot;&gt;&lt;/source&gt;
+    &lt;source src=&quot;/downloads/yoomee.mp4&quot; type=&quot;video/mp4&quot; codecs=&quot;avc1.42E01E&quot;&gt;&lt;/source&gt;
   &lt;/video&gt;
 &lt;/div&gt;
 </content>
@@ -534,16 +534,16 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/wooden-kitchen"/>
    <updated>2014-03-13T06:41:47+00:00</updated>
    <id>http://richwells.me/blog/wooden-kitchen</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;Last Christmas we were going to buy our daughter Sophie a toy Kitchen. She loves anything kitchen related, and we needed somewhere to store her ever growing collection of fake food.&lt;/p&gt;
 &lt;p&gt;As it was going to be in our front room I didn&amp;#8217;t want a garish pink one (why are they always pink?) and the wooden ones in John Lewis were quite expensive so I decided to make my own. &amp;#8216;Easy&amp;#8217; I thought. How wrong I was — I spent far too long in our cellar stooped over a work bench sanding things, sawing things, staining things and inhaling wood dust. And I loved it. It felt really good to make something with my hands and spend some quality time being creative away from a screen.&lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo2_1280.jpg&quot;/&gt;&lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo5_1280.jpg&quot;/&gt;&lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo2_1280.jpg&quot;/&gt;&lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo5_1280.jpg&quot;/&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Big thanks to my mate Duncan Payne for the loan of man tools, and to my wife Bry for her patience!  &lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo6_1280.jpg&quot;/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo6_1280.jpg&quot;/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo3_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -560,19 +560,19 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo2_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo2_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;I decided to paint something around the story of David and Goliath, the classic underdog story from the Bible. David is this pretty insignificant guy who gets left behind to look after the sheep, but actually has more courage and confidence than anyone else in the Israelite army. I think David had a confidence in who he was made to be because he knew that he was loved and known by God. What a difference it makes when we know someone cares about us and thinks we can do it!&lt;/p&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo4_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_n29g1mDevZ1rr6vpvo4_1280.jpg&quot;/&gt;
 &lt;p&gt;The artwork was due to be auctioned at 10:30pm, but unfortunately everything was running a few minutes early, which meant me squeezing through to the front with a canvas and framing it as it was being sold. Nothing like a bit of drama to the end of the night! I was really blown away by how many bids came in, and it eventually went for £310, not bad for a couple of hours&amp;#8217; work!&lt;/p&gt;
 &lt;p&gt;Here&amp;#8217;s a short time-lapse video of me working during the evening:&lt;/p&gt;
 &lt;div class=&quot;fitvids&quot;&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;710&quot; scrolling=&quot;no&quot; src=&quot;//instagram.com/p/lTesL-lg2v/embed/&quot; width=&quot;612&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
@@ -584,7 +584,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/tom"/>
    <updated>2014-03-05T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/tom</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n22lmjnjV11rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This is Tom, our current apprentice at Yoomee. We&amp;#8217;re starting a scheme to teach young offenders to code, which is a really exciting and rewarding thing to be part of. &lt;a href=&quot;http://yoomee.com/teaching-young-offenders-to-code-update&quot; target=&quot;_blank&quot;&gt;Read More about it here&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n22lmjnjV11rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This is Tom, our current apprentice at Yoomee. We&amp;#8217;re starting a scheme to teach young offenders to code, which is a really exciting and rewarding thing to be part of. &lt;a href=&quot;http://yoomee.com/teaching-young-offenders-to-code-update&quot; target=&quot;_blank&quot;&gt;Read More about it here&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -593,7 +593,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/yoomee-is-hiring"/>
    <updated>2014-02-13T10:18:00+00:00</updated>
    <id>http://richwells.me/blog/yoomee-is-hiring</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_n0xx6pbcA01rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;h2&gt;Getting the right people on the bus&lt;/h2&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n0xx6pbcA01rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;h2&gt;Getting the right people on the bus&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Recruitment for us is about carefully growing a family, taking on board people with potential, and growing, moving forward together as equals. It&amp;#8217;s about getting the right people on the bus first, and then figuring out where to go.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -606,7 +606,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/tf-bloggers-2014"/>
    <updated>2014-01-16T12:56:00+00:00</updated>
    <id>http://richwells.me/blog/tf-bloggers-2014</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mzi9tc3NGq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;I’m really pleased to announce that I have been selected to be part of the Tearfund bloggers trip to Cambodia!&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mzi9tc3NGq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;I’m really pleased to announce that I have been selected to be part of the Tearfund bloggers trip to Cambodia!&lt;/p&gt;
 &lt;p&gt;I saw &lt;a href=&quot;http://www.tearfund.org/en/give/give_main/tfbloggers13/prelaunch/&quot; title=&quot;Tearfund Bloggers&quot; target=&quot;_blank&quot;&gt;the advert&lt;/a&gt; last month, and initially thought ’that’s a brilliant idea’, but didn’t consider applying myself, maybe because I don’t really think of myself as a ‘blogger’ - I mostly share images and often struggle with the writing side of things- but after some thought and encouragement from my lovely wife I decided to apply, and am glad I did!&lt;/p&gt;
 &lt;p&gt;I’m really excited to join &lt;a href=&quot;https://twitter.com/AnitaMathias1&quot; title=&quot;Anita Mathias&quot; target=&quot;_blank&quot;&gt;Anita&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/danny_webster&quot; title=&quot;Danny Webster&quot; target=&quot;_blank&quot;&gt;Danny&lt;/a&gt; for a week in March to tell stories of the people we meet, the situations we find ourselves in, and the great work the local church is doing in Tonle Batie (the village we will be visiting). I plan to take many photos, do lots of drawings and illustrations and share it with all of you, my internet friends. More to come soon!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://richwells.me/tearfund&quot; title=&quot;Tearfund Application&quot;&gt;Here’s my application&lt;/a&gt;&lt;/strong&gt;&lt;strong&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=BLSm7DmfIZw&quot;&gt;Here’s a video with more information about the trip&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -618,7 +618,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/coffee-packets"/>
    <updated>2014-01-13T18:55:00+00:00</updated>
    <id>http://richwells.me/blog/coffee-packets</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/coffee-packets.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;After collecting coffee packets for the last 5 years (not really sure why), I have decided to do something creative with them.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/coffee-packets.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;After collecting coffee packets for the last 5 years (not really sure why), I have decided to do something creative with them.&lt;/p&gt;
 &lt;p&gt;This is my first ever coffee packet typeface. I cut each one out by hand and covered my room with stale coffee grounds - it was a labour of love! It&amp;#8217;s early days (there aren&amp;#8217;t any numerals or punctuation yet), but you can download the images for free here. Make something! (I&amp;#8217;d love to know what you come up with).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://goo.gl/KuuIxR&quot;&gt;Download the letters here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 </content>
@@ -633,15 +633,15 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo4_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo4_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -650,7 +650,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/obsolete-formats"/>
    <updated>2014-01-11T23:00:00+00:00</updated>
    <id>http://richwells.me/blog/obsolete-formats</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mya41bJ0G71rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Obsolete formats&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mya41bJ0G71rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Obsolete formats&lt;/p&gt;
 </content>
  </entry>
  
@@ -659,7 +659,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/level-collective-faith-hope-love"/>
    <updated>2014-01-11T05:50:00+00:00</updated>
    <id>http://richwells.me/blog/level-collective-faith-hope-love</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/fhl-1.jpg&quot; alt=&quot;Faith, Hope &amp;amp; Love Tshirt design &quot; class=&quot;w100&quot;&gt;
+   <content type="html">&lt;img src=&quot;/downloads/fhl-1.jpg&quot; alt=&quot;Faith, Hope &amp;amp; Love Tshirt design &quot; class=&quot;w100&quot;&gt;
 
 &lt;p&gt;A T-shirt design I did for &lt;a href=&quot;http://www.thelevelcollective.co.uk/&quot; target=&quot;_blank&quot;&gt;The Level Collective&lt;/a&gt;, an independent ethical clothing label based in Sheffield. They do some great work with a charity in Romania and make some quality clothing with a lot of thought put into it. You can buy my T-shirt &lt;a href=&quot;http://www.thelevelcollective.co.uk/shop/faith_hope_love/&quot; title=&quot;The Level Collective Shop&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -667,21 +667,21 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/faith-hope-love.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;/downloads/faith-hope-love.jpg&quot; alt=&quot;&quot;&gt;
     &lt;p&gt;&lt;a href=&quot;http://instagram.com/p/uEy6YTu-jb/&quot;&gt;@captainworrell&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/faith-hope-love-2.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;/downloads/faith-hope-love-2.jpg&quot; alt=&quot;&quot;&gt;
     &lt;p&gt;&lt;a href=&quot;http://instagram.com/p/tjx4dFR9pl&quot;&gt;@racquelmishel&lt;/a&gt; on Instagram&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/faith-hope-love-3.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/faith-hope-love-3.jpg&quot;/&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.thelevelcollective.com/rich-wells/&quot; target=&quot;blank&quot;&gt;Read more about the design&lt;/a&gt;&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mz6e65o6jT1rr6vpvo3_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mz6e65o6jT1rr6vpvo3_r1_1280.jpg&quot;/&gt;
 
 &lt;a href=&quot;http://www.thelevelcollective.co.uk/shop/faith_hope_love/&quot; target=&quot;blank&quot; class=&quot;btn&quot;&gt;Buy a t-shirt&lt;/a&gt;
 </content>
@@ -697,14 +697,14 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo2_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo2_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo4_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo3_1280.jpg&quot; class=&quot;w100&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo4_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo92pA0Aj1rr6vpvo3_1280.jpg&quot; class=&quot;w100&quot;/&gt;
 </content>
  </entry>
  
@@ -713,35 +713,35 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/sheffield-mencap"/>
    <updated>2013-12-11T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/sheffield-mencap</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo5_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo5_1280.jpg&quot;/&gt;
 
 &lt;p&gt;One of the downsides of my kind of job is that I spend far too much time at a computer and not enough time exploring and meeting people. Today was a nice exception as I had the opportunity to visit one of our clients, a charity called &lt;a href=&quot;http://www.sheffieldmencap.org.uk/&quot;&gt;Sheffield Mencap&lt;/a&gt;. I spent a few hours with them, taking photos and seeing the work that they do, and I had a lot of fun on the way.&lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/sheffield-mencap.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/sheffield-mencap.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo6_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo6_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;In the time I was there I popped my head into the busy kitchen to check out the cookery classes, sat in on OAP bingo, watched some energetic lads play basketball (they were big posers!), looked in on a media session and spent some time in one of their art rooms. Everyone was in full Christmas swing, with turkey sandwiches, Bing Crosby on the tinny stereo and plenty of cheesy Christmas jumpers worn by the staff. I think it might be one of the most welcoming and friendly places I have ever been to.&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo8_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo8_1280.jpg&quot;/&gt;
 
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo9_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo9_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo7_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo7_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo3_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -754,13 +754,13 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo2_r1_400.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo2_r1_400.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo3_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo3_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo4_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo4_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -768,21 +768,21 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo8_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo8_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo9_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo9_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo7_r1_1280.jpg&quot;/&gt;  &lt;/div&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo7_r1_1280.jpg&quot;/&gt;  &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo1_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo1_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo6_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myntk1WL331rr6vpvo6_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -793,18 +793,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <id>http://richwells.me/blog/society6-prints</id>
    <content type="html">&lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo2_400.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo2_400.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo3_500.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo3_500.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo1_400.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo1_400.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;span&gt;I&amp;#8217;m selling a few art prints this month on &lt;/span&gt;&lt;a href=&quot;http://society6.com/richwells&quot; title=&quot;Society 6&quot;&gt;Society6&lt;/a&gt;&lt;span&gt;. Really impressed by how hassle free their service is- you just upload a few images and bam, they put it on cushions t-shirts and all manner of printed goods!&lt;/span&gt;&lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/society6.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/society6.jpg&quot;/&gt;
 &lt;p&gt;All profits I make from this experiment will go to &lt;a href=&quot;http://www.opendoorsuk.org/&quot; title=&quot;Open Doors&quot;&gt;charity&lt;/a&gt;, and there&amp;#8217;s free shipping on the site until cyber Monday (which is today). &lt;a href=&quot;http://society6.com/richwells?promo=d7fc57&quot;&gt;Get involved!&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -814,34 +814,34 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/joseph"/>
    <updated>2013-12-01T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/joseph</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo1_1280.jpg&quot;/&gt;
 
 &lt;p&gt;The other day my wife Bryony spoke at our church, about the story of Joseph and the importance of forgiveness. As a way of setting the scene she wrote a poem about his life and I did some quick comic book iPad doodles to help tell the story. &lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo4_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo4_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo5_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo5_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo8_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo8_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo6_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo6_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo9_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo9_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo7_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo7_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo2_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo2_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -852,7 +852,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/gerard-the-goat"/>
    <updated>2013-11-20T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/gerard-the-goat</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my8cztgeHN1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my8cztgeHN1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 &lt;p&gt;I saw this cheeky chap at an alpaca farm outside of Sheffield. I know he&amp;#8217;s not an alpaca by the way- you had to pay to walk around a field to see those, and so we ended up going to the warm cafe instead. Made using Procreate on the iPad, which is excellent.  &lt;/p&gt;
 </content>
  </entry>
@@ -862,7 +862,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/buggy-longboarding"/>
    <updated>2013-11-12T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/buggy-longboarding</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mysmm4eZws1rr6vpvo1_500.gif&quot; class=&quot;w100&quot;/&gt;&lt;p&gt;My first cinemagraph! &lt;a href=&quot;http://dayoffwithsophie.tumblr.com/post/68907288358/endcliffe-park&quot;&gt;Longboarding in Endcliffe Park&lt;/a&gt; on my day off with Sophie. &lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mysmm4eZws1rr6vpvo1_500.gif&quot; class=&quot;w100&quot;/&gt;&lt;p&gt;My first cinemagraph! &lt;a href=&quot;http://dayoffwithsophie.tumblr.com/post/68907288358/endcliffe-park&quot;&gt;Longboarding in Endcliffe Park&lt;/a&gt; on my day off with Sophie. &lt;/p&gt;
 </content>
  </entry>
  
@@ -871,12 +871,12 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/making-art-that-no-one-sees"/>
    <updated>2013-10-25T09:00:20+01:00</updated>
    <id>http://richwells.me/blog/making-art-that-no-one-sees</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_muqb4nrTVw1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_muqb4nrTVw1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;We recently got back from a two week holiday in Cornwall, and before we left, my wife and I decided to take a break from social media and emails. We removed from our phones all icons which spit out numbers in red dots and made a pact not to touch them until we got back. It&amp;#8217;s something we&amp;#8217;ve done on holidays before and have always found it refreshing to properly disconnect from what&amp;#8217;s going on at home and get some perspective. Recommend it.&lt;/p&gt;
 &lt;p&gt;What stood out to me this holiday was that I found it hard initially to stop thinking about &amp;#8216;sharing&amp;#8217; stuff. I&amp;#8217;m definitely not a social media addict, and I don&amp;#8217;t check everything all the time, but I realised that as someone who posts quite a lot of images, I regularly think &amp;#8216;how can I share this?&amp;#8217; &lt;/p&gt;
 &lt;p&gt;That&amp;#8217;s not a bad question in itself, but it can be unhealthy if it&amp;#8217;s the main thing you have on your mind when you see something interesting. If you&amp;#8217;re looking at a breathtaking sunset and are thinking &amp;#8216;how can I Instagram this?&amp;#8217;, you&amp;#8217;re probably not enjoying the moment as much as you could be. And thinking too much about how people will react to your work before you&amp;#8217;ve even started, can be a real creativity killer. &lt;/p&gt;
 &lt;p&gt;So on this social media free holiday, I decided to make art that no one would see, to make drawings and paintings, and then throw them away. It was actually quite hard at first, I felt like I was &amp;#8216;wasting my time&amp;#8217; and being very unproductive, but after a while I learned to enjoy the process and found it life giving.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/richwells.me/downloads/how-can-i-share-this.jpg&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/downloads/how-can-i-share-this.jpg&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;I listened to music and wrote down thoughts and prayers, sometimes on top of each other. I reminded myself that God was watching, and could make sense of it all, even if I couldn&amp;#8217;t. And most of all I began to enjoy drawing again.  Shame I can&amp;#8217;t show you what I came up with.&lt;/p&gt;
 &lt;p&gt;Now I&amp;#8217;m back into normal life it&amp;#8217;s a lot harder to make space for unproductive art. There are always more important things I should probably be doing. But when I do make some space I never regret it, and am always reminded why I enjoy what I do.&lt;/p&gt;
 </content>
@@ -903,7 +903,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/cornish-sailors"/>
    <updated>2013-10-20T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/cornish-sailors</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myohx7pdMV1rr6vpvo2_1280.jpg&quot;/&gt;&lt;p&gt;I had my first trip to Devon and Cornwall this summer and visited the incredible village of &lt;a href=&quot;http://www.clovelly.co.uk/village&quot;&gt;Clovelly&lt;/a&gt;. Walking the steep cobbled streets it&amp;#8217;s easy to imagine what life was like for a victorian sailor, setting off from this unique port ready to brave harsh the seas in the hope of a good catch.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohx7pdMV1rr6vpvo2_1280.jpg&quot;/&gt;&lt;p&gt;I had my first trip to Devon and Cornwall this summer and visited the incredible village of &lt;a href=&quot;http://www.clovelly.co.uk/village&quot;&gt;Clovelly&lt;/a&gt;. Walking the steep cobbled streets it&amp;#8217;s easy to imagine what life was like for a victorian sailor, setting off from this unique port ready to brave harsh the seas in the hope of a good catch.&lt;/p&gt;
 </content>
  </entry>
  
@@ -921,7 +921,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/cycling-to-mam-tor"/>
    <updated>2013-08-25T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/cycling-to-mam-tor</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my8adpW1zx1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;My mate Joe, on the road from Edale up to Mam Tor.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my8adpW1zx1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;My mate Joe, on the road from Edale up to Mam Tor.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -937,22 +937,22 @@ and that slightly nervous sensation you get when you think you might miss a flig
 &lt;p&gt;&lt;br /&gt;
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired.jpg&quot;/&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired-1.jpg&quot;/&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired-3.jpg&quot;/&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired-5.jpg&quot;/&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired-7.jpg&quot;/&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired-12.jpg&quot;/&gt;
-    &lt;img src=&quot;/richwells.me/downloads/vinspired-11.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired-1.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired-3.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired-5.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired-7.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired-12.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/vinspired-11.jpg&quot;/&gt;
   &lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;div class=&quot;col-1-2&quot;&gt;
-  &lt;img src=&quot;/richwells.me/downloads/vinspired-2.jpg&quot;/&gt;
-  &lt;img src=&quot;/richwells.me/downloads/vinspired-4.jpg&quot;/&gt;
-  &lt;img src=&quot;/richwells.me/downloads/vinspired-9.jpg&quot;/&gt;
-  &lt;img src=&quot;/richwells.me/downloads/vinspired-10.jpg&quot;/&gt;
-  &lt;img src=&quot;/richwells.me/downloads/vinspired-6.jpg&quot;/&gt;
-  &lt;img src=&quot;/richwells.me/downloads/vinspired-8.jpg&quot;/&gt;
+  &lt;img src=&quot;/downloads/vinspired-2.jpg&quot;/&gt;
+  &lt;img src=&quot;/downloads/vinspired-4.jpg&quot;/&gt;
+  &lt;img src=&quot;/downloads/vinspired-9.jpg&quot;/&gt;
+  &lt;img src=&quot;/downloads/vinspired-10.jpg&quot;/&gt;
+  &lt;img src=&quot;/downloads/vinspired-6.jpg&quot;/&gt;
+  &lt;img src=&quot;/downloads/vinspired-8.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;I love projects like this where I can get stuck in, take photos, do research, meet people, sketch things, take photos, design things, code things and test things. Basically I love variety!&lt;/p&gt;&lt;/p&gt;
@@ -964,8 +964,8 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/planet-earth-sketches"/>
    <updated>2013-08-14T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/planet-earth-sketches</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myohjplgDj1rr6vpvo3_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myohjplgDj1rr6vpvo4_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohjplgDj1rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohjplgDj1rr6vpvo4_1280.jpg&quot;/&gt;
 &lt;p&gt;A couple of iPad drawings whilst watching a Planet Earth Amazon episode. &lt;/p&gt;
 </content>
  </entry>
@@ -975,7 +975,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/the-gathering"/>
    <updated>2013-07-03T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/the-gathering</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mymo76G6MP1rr6vpvo2_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymo76G6MP1rr6vpvo2_1280.jpg&quot;/&gt;
 &lt;p&gt;Making fires with some blokes in a field near Swindon. Enjoyed spending time with my Father in law and a few blokes from his church at the CVM gathering.&lt;/p&gt;
 </content>
  </entry>
@@ -989,15 +989,15 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo2_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo2_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo4_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo4_1280.jpg&quot;/&gt;
 &lt;p&gt;&lt;span&gt;I wanted the design to be simple and different to the swirly gold and red crosses that are the norm in vicar land, so I stuck with one line width and one colour. The words are Jesus&amp;#8217; from Mark 1:15, which are significant to Rich. &amp;#8216;Repent&amp;#8217; probably conjures up all kinds of negative thoughts, but in fact it&amp;#8217;s really positive. It just means &amp;#8216;turn around&amp;#8217;, something that we all need to do from time to time. The Christian faith is good news: God is closer than we think and we&amp;#8217;re called to turn around and believe.&lt;/span&gt;&lt;/p&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mp9es3Ildz1rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1011,22 +1011,22 @@ and that slightly nervous sensation you get when you think you might miss a flig
 
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo1_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo1_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo2_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo2_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo3_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo3_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo4_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo4_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo6_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo6_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo5_r1_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mp295ohtmi1rr6vpvo5_r1_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -1037,13 +1037,13 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/elefriends"/>
    <updated>2013-06-26T12:44:00+01:00</updated>
    <id>http://richwells.me/blog/elefriends</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/elefriends.jpg&quot; class=&quot;w100&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/elefriends.jpg&quot; class=&quot;w100&quot;/&gt;
 
 &lt;p&gt;
   One of the most rewarding and well-used projects I&#39;ve worked on at &lt;a href=&quot;http://yoomee.com&quot;&gt;Yoomee&lt;/a&gt;, Elefriends is an online community for people who struggle with mental health issues. A closed, safe space for people to be real and to support others.
 &lt;/p&gt;
 &lt;p&gt;
-  Like &lt;a href=&quot;/richwells.me/blog/vinspired&quot;&gt;vInspired&lt;/a&gt;, we started this project as a small prototype and developed it gradually over time, testing, learning and making it better. I was involved with design, UX and front-end build.
+  Like &lt;a href=&quot;/blog/vinspired&quot;&gt;vInspired&lt;/a&gt;, we started this project as a small prototype and developed it gradually over time, testing, learning and making it better. I was involved with design, UX and front-end build.
 &lt;/p&gt;
 &lt;p&gt;
   Here&#39;s a little introduction to Elefriends, narrated by Stephen Fry:
@@ -1067,7 +1067,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/mac-app-must-haves"/>
    <updated>2013-06-11T10:57:00+01:00</updated>
    <id>http://richwells.me/blog/mac-app-must-haves</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mo8hh2AfHs1rr6vpvo2_r1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This week I have gone through the tedious task of wiping my work iMac, installing Mountain Lion (just as &lt;a href=&quot;http://www.apple.com/osx/preview/&quot; target=&quot;_blank&quot;&gt;OSX Mavericks&lt;/a&gt;&lt;span&gt; is announced - typical!), installing Rails and copying everything back again.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mo8hh2AfHs1rr6vpvo2_r1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This week I have gone through the tedious task of wiping my work iMac, installing Mountain Lion (just as &lt;a href=&quot;http://www.apple.com/osx/preview/&quot; target=&quot;_blank&quot;&gt;OSX Mavericks&lt;/a&gt;&lt;span&gt; is announced - typical!), installing Rails and copying everything back again.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;For future reference, and for anyone who’s interested, I’ve come up with a list of mac apps that I can’t do without…&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.trankynam.com/atext/&quot; target=&quot;_blank&quot;&gt;aText&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;&lt;span&gt;Text expanding software. I use it to make code snippet shortcuts, and help me shorten boring repetitive tasks. A big time saver.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.dropbox.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Super useful. I put all the current files I’m working on in Dropbox, and then I can pick them up on any machine/device. Also use it to store fonts, resources and preference files.&lt;/p&gt;
@@ -1090,7 +1090,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/castle-market"/>
    <updated>2013-05-10T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/castle-market</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my89ngZoAm1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;Castle Market is such an interesting place to draw and look around. It&#39;s pretty grim, and I&#39;m sure the new Moor Market will be a much nicer shopping experience but I&#39;ll miss this place when it&#39;s gone.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89ngZoAm1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;Castle Market is such an interesting place to draw and look around. It&#39;s pretty grim, and I&#39;m sure the new Moor Market will be a much nicer shopping experience but I&#39;ll miss this place when it&#39;s gone.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1099,7 +1099,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/rooftops-of-broomhill-on-a-windy-day"/>
    <updated>2013-04-27T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/rooftops-of-broomhill-on-a-windy-day</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my89kvEEEQ1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;Rooftops of Broomhill, on a windy day.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89kvEEEQ1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;Rooftops of Broomhill, on a windy day.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1118,7 +1118,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/george-senior-and-sons"/>
    <updated>2013-04-17T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/george-senior-and-sons</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my89iepJqK1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;&quot;George Senior &amp;amp; Sons.&quot; An entrance from another era, now the side entrance to Ponds Forge.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89iepJqK1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;&quot;George Senior &amp;amp; Sons.&quot; An entrance from another era, now the side entrance to Ponds Forge.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1127,7 +1127,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/the-sheffield-tap"/>
    <updated>2013-04-04T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/the-sheffield-tap</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my89cymZcf1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;The Sheffield Tap, probably the best railway station pub in the country in my opinion. Also the closest to where we work. Need to do some sketches of the &lt;/span&gt;&lt;a href=&quot;http://www.guardian.co.uk/uk/the-northerner/2013/mar/20/sheffield-pubs&quot; target=&quot;_blank&quot;&gt;inside&lt;/a&gt;&lt;span&gt; at some point.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89cymZcf1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;The Sheffield Tap, probably the best railway station pub in the country in my opinion. Also the closest to where we work. Need to do some sketches of the &lt;/span&gt;&lt;a href=&quot;http://www.guardian.co.uk/uk/the-northerner/2013/mar/20/sheffield-pubs&quot; target=&quot;_blank&quot;&gt;inside&lt;/a&gt;&lt;span&gt; at some point.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1138,7 +1138,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <id>http://richwells.me/blog/the-ingles</id>
    <content type="html">&lt;p&gt;A while back my friend Gaz approached me and asked if I would paint a picture of his house with words on top of it as a surprise birthday gift for his wife. Not what I normally do but I had some free time and thought I’d say yes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/richwells.me/downloads/the-ingles.jpg&quot; alt=&quot;Painting/collage for the Ingles&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/downloads/the-ingles.jpg&quot; alt=&quot;Painting/collage for the Ingles&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;The words are different Bible verses that mean something to them and are all kind of related to the house in some way. A while back they moved from a quite nice part of Sheffield to a fairly rough part of the city with an Eden team, and they do lots of great things with young people on the streets. An inspirational couple!&lt;/p&gt;
 </content>
@@ -1149,7 +1149,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/elon-musk-at-sxsw-ipad-sketchnotes"/>
    <updated>2013-03-23T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/elon-musk-at-sxsw-ipad-sketchnotes</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mycpd9AIDL1rr6vpvo1_1280.png&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mycpd9AIDL1rr6vpvo1_1280.png&quot;/&gt;
 &lt;p&gt;My iPad sketchnotes from Elon Musk’s keynote talk at South by Southwest this year. Elon is behind Tesla Motors and Spacex and is a bit of a genius. Sad to hear that he doesn’t have time to spend with his kids.&lt;/p&gt;
 </content>
  </entry>
@@ -1159,29 +1159,29 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/signs-of-south-by-southwest"/>
    <updated>2013-03-21T13:46:00+00:00</updated>
    <id>http://richwells.me/blog/signs-of-south-by-southwest</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo3_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo3_1280.jpg&quot;/&gt;
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo9_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo9_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo4_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo4_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo6_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo6_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo5_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo5_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo7_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo7_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo10_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo10_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo8_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo8_1280.jpg&quot;/&gt;
 
 &lt;p&gt;Had a great time last week in Austin. Here&amp;#8217;s a site I built to log our tweets and instagrams &lt;a href=&quot;http://sxsw.yoomee.com&quot;&gt;sxsw.yoomee.com&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -1192,7 +1192,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/tina-roth-eisenberg-%20at-sxsw"/>
    <updated>2013-03-20T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/tina-roth-eisenberg- at-sxsw</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mycpa5WphM1rr6vpvo1_1280.png&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mycpa5WphM1rr6vpvo1_1280.png&quot;/&gt;
 &lt;p&gt;My iPad sketchnotes from Tina Roth Eisenberg&amp;#8217;s keynote talk at South by Southwest.&lt;/p&gt;
 </content>
  </entry>
@@ -1202,7 +1202,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/sunset-over-higger-tor-in-the-peak-district"/>
    <updated>2013-02-23T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/sunset-over-higger-tor-in-the-peak-district</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my899imrJb1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Sunset over Higger Tor in the Peak District.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my899imrJb1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Sunset over Higger Tor in the Peak District.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1211,7 +1211,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/behind-the-electricworks"/>
    <updated>2013-02-15T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/behind-the-electricworks</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my896pIbiB1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my896pIbiB1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;&lt;span&gt;The view from the back of the &lt;/span&gt;&lt;a href=&quot;http://electric-works.net/&quot;&gt;electricworks&lt;/a&gt;&lt;span&gt;, the building that I work in. I often sit here and have my lunch when the sun’s out. It wasn’t yesterday, and the sleet made sure I didn’t stay out for too long.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -1221,7 +1221,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/nick-from-motore-cafe"/>
    <updated>2013-02-06T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/nick-from-motore-cafe</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my890wRPOk1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my890wRPOk1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;&lt;span&gt;Nick from Motore Café by the station. Best coffee in Sheffield!&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -1231,7 +1231,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/late-afternoon-in-the-winter-gardens"/>
    <updated>2013-01-30T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/late-afternoon-in-the-winter-gardens</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my86uuvx8B1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Late afternoon in the winter gardens, just as the sun was setting.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my86uuvx8B1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Late afternoon in the winter gardens, just as the sun was setting.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1240,7 +1240,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/man-and-his-dog-in-ruskin-park"/>
    <updated>2013-01-24T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/man-and-his-dog-in-ruskin-park</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my86kpWS2S1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Man and his dog in Ruskin Park.&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my86kpWS2S1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Man and his dog in Ruskin Park.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1249,7 +1249,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/sheffield-in-the-snow"/>
    <updated>2013-01-20T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/sheffield-in-the-snow</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mymowwdjZI1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymowwdjZI1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;Sheffield in the snow. Snapped this on my walk to work. No cycling in this weather!&lt;/p&gt;
 </content>
  </entry>
@@ -1261,13 +1261,13 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <id>http://richwells.me/blog/people-watching-at-caffe-nero</id>
    <content type="html">&lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo3_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo3_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo2_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo2_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;&lt;span&gt;Sketching at Caffe Nero in the winter gardens with the Sketchcrawl guys.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -1277,7 +1277,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/park-hill-flats-just-as-the-snow-came"/>
    <updated>2013-01-18T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/park-hill-flats-just-as-the-snow-came</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my85wdSSXu1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my85wdSSXu1rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1286,10 +1286,10 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/a-few-procreate-ipad-paintings-i-received-an"/>
    <updated>2013-01-10T12:21:00+00:00</updated>
    <id>http://richwells.me/blog/a-few-procreate-ipad-paintings-i-received-an</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo3_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo4_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo4_1280.jpg&quot;/&gt;
 &lt;p&gt;My favourite iPad art app at the moment is Procreate. Love how easy it is to create textures and  colours. Here are a few quick doodles/paintings.&lt;/p&gt;
 </content>
  </entry>
@@ -1313,7 +1313,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/a-walk-through-the-botanical-gardens"/>
    <updated>2013-01-03T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/a-walk-through-the-botanical-gardens</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_my85dv11B91rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my85dv11B91rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1322,7 +1322,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/mat"/>
    <updated>2012-12-05T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/mat</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myohrk2wtq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohrk2wtq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 </content>
  </entry>
  
@@ -1331,7 +1331,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/from-the-sketchbook"/>
    <updated>2012-12-05T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/from-the-sketchbook</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo7_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo2_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo5_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo4_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo3_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo10_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo8_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo9_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo6_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;From the sketchbook.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo7_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo2_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo5_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo4_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo3_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo10_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo8_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo9_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo6_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;From the sketchbook.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1340,7 +1340,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/father-forgive"/>
    <updated>2012-11-26T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/father-forgive</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_myoh8pki8K1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoh8pki8K1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 </content>
  </entry>
  
@@ -1349,7 +1349,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/my-dads-movember-effort"/>
    <updated>2012-11-23T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/my-dads-movember-effort</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfl6gux3Q1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfl6gux3Q1rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1358,7 +1358,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/the-details"/>
    <updated>2012-10-20T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/the-details</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mycnqq9DPH1rr6vpvo1_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mycnqq9DPH1rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1367,7 +1367,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/in-place-of-war"/>
    <updated>2012-10-20T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/in-place-of-war</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/ipow.gif&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/ipow.gif&quot;/&gt;
 </content>
  </entry>
  
@@ -1399,7 +1399,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/paper-53"/>
    <updated>2012-03-30T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/paper-53</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo2_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo3_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Really enjoying using &lt;/span&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/paper-by-fiftythree/id506003812&quot; title=&quot;Paper on the app store&quot;&gt;Paper&lt;/a&gt;&lt;span&gt; for iPad. &lt;/span&gt;&lt;a href=&quot;http://www.fiftythree.com/&quot; title=&quot;paper app&quot;&gt;Check out their video&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo2_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo3_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Really enjoying using &lt;/span&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/paper-by-fiftythree/id506003812&quot; title=&quot;Paper on the app store&quot;&gt;Paper&lt;/a&gt;&lt;span&gt; for iPad. &lt;/span&gt;&lt;a href=&quot;http://www.fiftythree.com/&quot; title=&quot;paper app&quot;&gt;Check out their video&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1423,9 +1423,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <content type="html">&lt;p&gt;&lt;span&gt;I did a few tshirt designs a while back for Canadian singer songwriter &lt;/span&gt;&lt;a href=&quot;http://www.danmanganmusic.com/&quot; title=&quot;Dan Mangan&quot;&gt;Dan Mangan&lt;/a&gt;&lt;span&gt;. Here they are, in need of an iron. If you&amp;#8217;d like one, he has a few left in &lt;/span&gt;&lt;a href=&quot;http://www.galleryac.com/merchandise/oh-fortune-t-shirt.html&quot; title=&quot;dan&#39;s shop&quot;&gt;his shop&lt;/a&gt;&lt;/p&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewdbpoXG1rr6vpvo1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewdbpoXG1rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewdbpoXG1rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewdbpoXG1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewdbpoXG1rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewdbpoXG1rr6vpvo3_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1434,7 +1434,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/imageination-will-take-you-everywhere"/>
    <updated>2012-01-03T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/imageination-will-take-you-everywhere</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mymsccUInc1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymsccUInc1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 </content>
  </entry>
  
@@ -1443,7 +1443,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/terracotta-army"/>
    <updated>2011-12-05T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/terracotta-army</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mymoidF3Qu1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Tourists and two thousand year old soldier. A photo I took on our trip to the Terracotta Army.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymoidF3Qu1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Tourists and two thousand year old soldier. A photo I took on our trip to the Terracotta Army.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1455,16 +1455,16 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <content type="html">&lt;p&gt;&lt;span&gt;I&amp;#8217;ve been involved in a project at my church called 100 Day Bible Challenge. We&amp;#8217;re currently reading through 100 key parts of the Bible every day for 100 days and I am hoping to do a bit of daily artwork inspired by what we&amp;#8217;ve read. Its been great so far- we have 360 people on the &lt;/span&gt;&lt;a href=&quot;http://www.facebook.com/groups/286637061359303&quot;&gt;Facebook group&lt;/a&gt;&lt;span&gt; and loads of discussions going on. Check the &lt;/span&gt;&lt;a href=&quot;http://100daybiblechallenge.com/&quot;&gt;website&lt;/a&gt;&lt;span&gt; for more details.&lt;/span&gt;&lt;/p&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo1_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo3_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo4_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo5_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo6_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo7_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo8_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo9_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo10_r2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo1_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo4_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo5_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo6_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo7_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo8_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo9_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfirgt0vH1rr6vpvo10_r2_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1473,8 +1473,8 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/download-elloello-font"/>
    <updated>2011-11-03T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/download-elloello-font</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/ello-ello.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Want to write like me? Now you can. &lt;/p&gt;
-&lt;p class=&quot;p1&quot;&gt;&lt;a href=&quot;/richwells.me/downloads/elloello.zip&quot; title=&quot;Download elloello!&quot; class=&quot;btn&quot;&gt;Download ElloEllo here&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/ello-ello.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Want to write like me? Now you can. &lt;/p&gt;
+&lt;p class=&quot;p1&quot;&gt;&lt;a href=&quot;/downloads/elloello.zip&quot; title=&quot;Download elloello!&quot; class=&quot;btn&quot;&gt;Download ElloEllo here&lt;/a&gt;&lt;/p&gt;
 &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Licensed under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;&lt;span class=&quot;s2&quot;&gt;Creative Commons Attribution-ShareAlike 3.0 Unported License&lt;/span&gt;&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -1486,25 +1486,25 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <id>http://richwells.me/blog/ndsm-wharf</id>
    <content type="html">&lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo5_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo5_1280.jpg&quot;/&gt;
   &lt;/div&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo4_1280.jpg&quot;/&gt;
+    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo4_1280.jpg&quot;/&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;span&gt;The NDSM Wharf is a really cool place that has an old Shipyard building warehouse, which has been transformed into a skatepark and customised portacabins for 250+ artists. It&amp;#8217;s a really interesting/inspiring/random place to walk around if you are ever in Amsterdam.&lt;/span&gt;&lt;/p&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo2_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo2_r1_1280.jpg&quot;/&gt;
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo3_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo1_1280.jpg&quot;/&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo10_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo8_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo9_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo11_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo12_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo10_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo8_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo9_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo11_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo12_r1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1516,16 +1516,16 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <content type="html">&lt;p&gt;Some photos I took from Picnic 11 in Amsterdam. The theme this year was &amp;#8216;Future cities- exploring global urbanisation and its impact on our cities, our societies and our lives.&amp;#8217; At Yoomee we developed the online networking tools and apps for the Festival, and it was reward to see it used by so many people over the week.&lt;/p&gt;
 
 
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo3_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo4_r1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo5_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo6_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo7_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo8_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo9_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo10_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo3_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo4_r1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo5_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo6_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo7_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo8_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo9_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfkqshvy21rr6vpvo10_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
@@ -1558,7 +1558,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/holiday-sketches"/>
    <updated>2011-06-06T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/holiday-sketches</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmb5kgxVq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Some sketches I did last week whilst on holiday. Enjoyed getting away from emails and the internet, I should do it more often! &lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmb5kgxVq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Some sketches I did last week whilst on holiday. Enjoyed getting away from emails and the internet, I should do it more often! &lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1567,7 +1567,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/rip-gil-scott-heron"/>
    <updated>2011-06-01T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/rip-gil-scott-heron</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmb9w4Dpq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;RIP Gil Scott Heron&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmb9w4Dpq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;RIP Gil Scott Heron&lt;/p&gt;
 </content>
  </entry>
  
@@ -1576,7 +1576,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/grandad"/>
    <updated>2011-04-04T00:00:00+01:00</updated>
    <id>http://richwells.me/blog/grandad</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbbq3x6j1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Me and my Grandad.&lt;/p&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbbq3x6j1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Me and my Grandad.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1597,15 +1597,15 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/lift11"/>
    <updated>2011-02-05T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/lift11</id>
-   <content type="html">&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo1_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo3_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo4_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo5_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo7_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo8_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo6_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/richwells.me/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo9_1280.jpg&quot;/&gt;
+   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo1_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo2_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo3_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo4_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo5_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo7_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo8_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo6_1280.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo9_1280.jpg&quot;/&gt;
 
 &lt;p&gt;&lt;span&gt;Had a fun time this week attending &lt;/span&gt;&lt;a href=&quot;http://liftconference.com/lift11&quot; title=&quot;lift 11&quot;&gt;Lift11 conference&lt;/a&gt;&lt;span&gt; in Geneva. I was involved as a visual recorder at a workshop, sketching ideas, and helping people to visualise concepts. Unfortunately I can&amp;#8217;t post any of my work (as everyone had to sign an NDA), but I did take some photos of my time there. Think I might have a break now from espresso, chocolate and cheese!&lt;/span&gt;&lt;/p&gt;
 </content>
@@ -1616,7 +1616,7 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <link href="http://richwells.me/blog/haemnet"/>
    <updated>2011-01-05T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/haemnet</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/richwells.me/downloads/haemnet4.jpg&quot; alt=&quot;Haemnet logo&quot;&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/downloads/haemnet4.jpg&quot; alt=&quot;Haemnet logo&quot;&gt;&lt;/p&gt;
 </content>
  </entry>
  
