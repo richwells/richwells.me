@@ -4,7 +4,7 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2014-12-19T16:03:27+00:00</updated>
+ <updated>2014-12-19T16:17:57+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
@@ -1675,6 +1675,10 @@ and that slightly nervous sensation you get when you think you might miss a flig
    <updated>2011-01-03T00:00:00+00:00</updated>
    <id>http://richwells.me/blog/various-logos</id>
    <content type="html">&lt;img src=&quot;/downloads/life-church.jpg&quot;&gt;
+&lt;img src=&quot;/downloads/haemnet4.jpg&quot;&gt;
+&lt;img src=&quot;/downloads/study-yorkshire-2.jpg&quot;&gt;
+&lt;img src=&quot;/downloads/piefighter.jpg&quot;&gt;
+&lt;img src=&quot;/downloads/coffee-plus.jpg&quot;&gt;
 </content>
  </entry>
  

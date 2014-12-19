@@ -2518,6 +2518,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/downloads\/life-church.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154902,
+		"inputAbbreviatedPath": "\/_site\/downloads\/life-church.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/life-church.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/downloads\/local-delicacies.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8604,6 +8615,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/coffee-plus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42718,
+		"inputAbbreviatedPath": "\/downloads\/coffee-plus.jpg",
+		"outputAbbreviatedPath": "\/downloads\/coffee-plus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/day-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8842,6 +8864,17 @@
 		"initialSize": 680053,
 		"inputAbbreviatedPath": "\/downloads\/phnom-penh.jpg",
 		"outputAbbreviatedPath": "\/downloads\/phnom-penh.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/piefighter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26164,
+		"inputAbbreviatedPath": "\/downloads\/piefighter.jpg",
+		"outputAbbreviatedPath": "\/downloads\/piefighter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9117,6 +9150,17 @@
 		"initialSize": 1.60874e+06,
 		"inputAbbreviatedPath": "\/downloads\/strong-and-northern.jpg",
 		"outputAbbreviatedPath": "\/downloads\/strong-and-northern.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/study-yorkshire-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20220,
+		"inputAbbreviatedPath": "\/downloads\/study-yorkshire-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/study-yorkshire-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
