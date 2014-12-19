@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".fitvids").fitVids(),$.scrollUp(),$("#scrollUp").html("<i class='fa fa-angle-up'></i>");var o=$("#isotope").imagesLoaded(function(){o.isotope({itemSelector:".col-related",layoutMode:"masonry"})})});

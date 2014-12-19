@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='chrome=1' http-equiv='X-UA-Compatible'>
+    <title>Better Google Tasks by Rich Wells</title>
+    <meta content='Rich Wells' name='author'>
+    <meta content='Have a gmail account? Thought so! You can now use Google Tasks in a much nicer way.' name='description'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <link href='../css/bgt/base.css' rel='stylesheet'>
+    <link href='../css/bgt/skin.css' rel='stylesheet'>
+    <link href='../css/bgt/better-google-tasks.css' rel='stylesheet'>
+    <link href='../css/bgt/responsive.css' rel='stylesheet'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Favicon and apple touch icons -->
+    <!-- ================================================== -->
+    <meta property="og:image" content="http://dl.dropboxusercontent.com/u/292336/tasks_styles/img/bgt.jpg"/>
+    <meta property="og:image:secure_url" content="https://dl.dropboxusercontent.com/u/292336/tasks_styles/img/bgt.jpg" />
+    <link href='../img/bgt/apple-touch-icon-57x57.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+    <link href='../img/bgt/apple-touch-icon-114x114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+    <link href='../img/bgt/apple-touch-icon-72x72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+    <link href='../img/bgt/apple-touch-icon-144x144.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+    <link href='../img/bgt/apple-touch-icon-60x60.png' rel='apple-touch-icon-precomposed' sizes='60x60'>
+    <link href='../img/bgt/apple-touch-icon-120x120.png' rel='apple-touch-icon-precomposed' sizes='120x120'>
+    <link href='../img/bgt/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='76x76'>
+    <link href='../img/bgt/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../img/bgt/favicon-196x196.png' rel='icon' sizes='196x196' type='image/png'>
+    <link href='../img/bgt/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+    <link href='../img/bgt/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+    <link href='../img/bgt/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+    <link href='../img/bgt/favicon-128.png' rel='icon' sizes='128x128' type='image/png'>
+    <!-- Javascripts -->
+    <!-- ================================================== -->
+    <script src='../js/bgt/TweenMax.min.js' type='text/javascript'></script>
+    <script src='../js/bgt/jquery.min.js' type='text/javascript'></script>
+    <script src='../js/bgt/modernizr.js' type='text/javascript'></script>
+    <script src='../js/bgt/bootstrap.js' type='text/javascript'></script>
+    <script src='../js/bgt/fitvids.js' type='text/javascript'></script>
+    <script src='../js/bgt/jquery.scrollUp.min.js' type='text/javascript'></script>
+    <script src='../js/bgt/jquery.scrollmagic.min.js' type='text/javascript'></script>
+    <script src='../js/bgt/jquery.scrollmagic.debug.js' type='text/javascript'></script>
+    <script src='../js/bgt/scripts.js' type='text/javascript'></script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56720879-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class='bgt'>
+    <div id='trigger-top'></div>
+    <div id='trigger1'></div>
+    <div class='bgt-header-wrap' id='animate1'>
+      <header>
+        <!--
+          Navbar
+          ==================================================
+        -->
+        <div class='navbar' id='ym-navbar'>
+          <div class='navbar-inner'>
+            <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </a>
+            <a class='brand anim-150' href='http://richwells.me'>
+              <img src='../img/bgt/rw_logo.png'>
+            </a>
+            <div class='nav-collapse'>
+              <ul class='nav pull-right'>
+                <li>
+                  <a class='bgt-nav-link' href='https://chrome.google.com/webstore/detail/better-google-tasks/denjcdefjebbmlihdoojnebochnkgcin' target='blank'>Download for Chrome</a>
+                </li>
+                <li>
+                  <a class='bgt-nav-link' href='#help'>Help</a>
+                </li>
+                <li class='visible-desktop'>
+                  <a class='nav-icon' href='http://twitter.com/richwells' target='blank' x=''>
+                    <i class='fa fa-twitter'></i>
+                  </a>
+                </li>
+              </ul>
+              <ul class='nav nav-elsewhere-links hidden-tablet hidden-desktop'>
+                <li>
+                  <a href='http://richwells.me' target='blank'>
+                    About me
+                  </a>
+                </li>
+                <li>
+                  <a href='http://twitter.com/richwells' target='blank'>
+                    <i class='fa fa-twitter'></i>
+                    Twitter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id='trigger2'></div>
+      <div class='bgt-wrap'>
+        <div class='bgt-intro-wrap anim-150'>
+          <div class='bgt-intro-text fade-in' id='animate2'>
+            <h1>
+              Better Google Tasks
+            </h1>
+            <p class='bgt-intro-p' data-200='opacity:0;' data-60='opacity:1;'>
+              Have a Gmail account? Thought so.
+              <br class='hide-sm'>
+              Ever heard of Google Tasks?
+              <br class='hide-sm'>
+              You can now use it in a much better way.
+              <span class='bgt-arrow'></span>
+            </p>
+          </div>
+          <div class='bgt-intro-img-wrap fade-in one'>
+            <div id='until-now-trigger'></div>
+            <img alt='Better Google Tasks' class='bgt-intro' src='../img/bgt/bgt-1.jpg'>
+            <a class='bgt-free fade-in two' href='https://chrome.google.com/webstore/detail/better-google-tasks/denjcdefjebbmlihdoojnebochnkgcin'>
+              <div class='free-bg'></div>
+              <div class='free-text'>
+                Free
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='bgt-why-and-why-not phi-wrap'>
+      <div class='phi phi-lg'>
+        <div class='phi-inner bgt-why animate-me'>
+          <h2 class='bgt-h2'>Why use Google Tasks?</h2>
+          <div id='why-list-trigger'></div>
+          <ul class='bgt-why-list'>
+            <li id='task1'>
+              <div class='tick-icon'></div>
+              Free
+            </li>
+            <li id='task2'>
+              <div class='tick-icon'></div>
+              Simple
+            </li>
+            <li id='task3'>
+              <div class='tick-icon'></div>
+              Works with your Google account
+            </li>
+            <li id='task4'>
+              <div class='tick-icon'></div>
+              Reliable cloud sync
+            </li>
+            <li id='task5'>
+              <div class='tick-icon'></div>
+              Syncs with a huge selection of mobile apps
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='phi phi-sm'>
+        <div class='phi-inner bgt-why-not animate-me'>
+          <h2 class='bgt-h2'>Why not?</h2>
+          <ul class='bgt-why-list'>
+            <li>
+              <div class='tick-icon-unchecked'></div>
+              No decent way to use it on a desktop
+            </li>
+          </ul>
+          <p class='bgt-until-now animate-me' id='until-now'>
+            <span class='until-now-text'>
+              Until now
+            </span>
+            <span class='until-now-arrow'>
+              <span class='until-now-arrow-head'></span>
+            </span>
+          </p>
+          <br class='clear'>
+        </div>
+      </div>
+    </div>
+    <div class='phi-wrap switch old-and-new'>
+      <div class='phi phi-sm old'>
+        <div class='phi-inner'>
+          <h2 class='bgt-postit-title'>I used to use this</h2>
+          <img alt='The standard google tasks view' class='img-old' src='../img/bgt/bgt-postit-before.jpg'>
+          <p class='bgt-postit-description'>
+            The standard Google tasks view is OK, but spending lots of time looking at it can make you feel sad inside.
+          </p>
+        </div>
+      </div>
+      <div class='phi phi-lg new'>
+        <div class='phi-inner'>
+          <h2 class='bgt-postit-title'>I turned it into this</h2>
+          <img alt='The standard google tasks view' class='img-new' src='../img/bgt/bgt-postit-after.jpg'>
+          <p class='bgt-postit-description'>
+            I took the exsisting view, removed a few things, improved a few things and generally made it more satisfying to get stuff done. It's not perfect, but it's better.
+          </p>
+        </div>
+      </div>
+      <div class='get-app-wrap'>
+        <div class='get-app'>
+          <h2 class='bgt-postit-title'>You can have it too. Here's how:</h2>
+          <ol>
+            <li>
+              <span class='postit-large'>
+                Install the free Chrome Extension
+              </span>
+              <br>
+            </li>
+            <li>
+              <span class='postit-large'>
+                Click the tasks icon
+              </span>
+              <br>
+              <span class='postit-small'>
+                or go to
+                <a href='https://mail.google.com/tasks/canvas' target='blank'>https://mail.google.com/tasks/canvas</a>
+              </span>
+            </li>
+            <li>
+              <span class='postit-large'>
+                Use and enjoy
+              </span>
+              <br>
+              <span class='postit-small'>
+                See
+                <a href='#help'>keyboard shortcuts</a>
+                for power use.
+              </span>
+            </li>
+          </ol>
+          <a class='download-btn' href='https://chrome.google.com/webstore/detail/better-google-tasks/denjcdefjebbmlihdoojnebochnkgcin'>Download for Google Chrome</a>
+        </div>
+      </div>
+    </div>
+    <div id='help'>
+      <div class='extra-title-wrap'>
+        <h1 class='extra-title'>
+          Using Better Google Tasks
+          <span class='bgt-arrow'></span>
+        </h1>
+      </div>
+    </div>
+    <div class='extra-wrap'>
+      <div class='extra'>
+        <div class='col-50 col-feedback'>
+          <div class='padding'>
+            <h2>Help</h2>
+            <h3>Getting started</h3>
+            <p>
+              Once you've installed the
+              <a href='https://chrome.google.com/webstore/detail/better-google-tasks/denjcdefjebbmlihdoojnebochnkgcin'>Chrome extension</a>
+              click on the tasks icon, or go to
+              <a href='https://mail.google.com/tasks/canvas'>https://mail.google.com/tasks/canvas.</a>
+              From now on every time you go to this address the extension will load the Better Google Tasks styles .
+              I bookmark this link and set this as a pinned tab on Chrome so I always have it to hand. You can then type cmd + 1 to access it quickly.
+            </p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-pin.jpg'>
+            <h3>
+              Create a new task
+            </h3>
+            <p>
+              Start typing to create a task and press enter when you're done.
+            </p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-task.jpg'>
+            <h3>Complete a task</h3>
+            <p>Click the checkbox and magic will happen. I've tried to make it as satisfying as possible to  check off tasks. It feels good to get stuff done.</p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-task-completed.jpg'>
+            <h3>
+              Edit the task's details
+            </h3>
+            <p>
+              Click arrow to the right of the task to edit it's details (or presss shift + enter). You can add some notes in the green area, add a due date or move to another list.
+            </p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-task-details.jpg'>
+            <h3>
+              Indent a task
+            </h3>
+            <p>
+              You can indent tasks by pressing tab, and un-indent by pressing shift and tab. This only works in the 'My order' view.
+            </p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-task-indent.jpg'>
+            <h3>
+              Create a new list
+            </h3>
+            <p>
+              Click 'new list' at the bottom left of the page. A window will pop up where you can add a list name.
+            </p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-list-new.jpg'>
+            <h3>Delete or rename a list</h3>
+            <p>
+              Hover over a list item and you will see a pencil icon. Click on that and you can change the list name or delete it.
+            </p>
+            <h3>Show tasks in date order</h3>
+            <p>When you've assigned dates to tasks it's helpful to view them in date order. Click 'sort by date' in the menu bar and that will happen. Pressing cmd/ctrl + up/down in this view will change the date, helpful if you're behind on due tasks.</p>
+            <img alt='Pin a tab on Google Chrome' class='help-img' src='../img/bgt/help-list-date.jpg'>
+          </div>
+          <div class='padding'>
+            <h3>I'd love to know what you think</h3>
+            <p>
+              Have any ideas on how I could make this better? Get in touch: rich@yoomee.com
+            </p>
+          </div>
+          <div class='padding'>
+            <h3>Mobile apps</h3>
+            <p>
+              There are loads of Mobile apps that sync with Google Tasks and quite a few of them are good. I use
+              <a href='https://itunes.apple.com/gb/app/gotasks-google-tasks-client/id389113399?mt=8' target='_blank'>Go Tasks</a>
+              for iphone, which is free. It's not super polished, but it works really well.
+            </p>
+          </div>
+        </div>
+        <div class='col-50 col-shortcuts'>
+          <div class='padding'>
+            <h2>Keyboard shortcuts</h2>
+            <ul class='keyboard-shortcuts'>
+              <li>
+                <span class='ks-desc'>Navigate tasks</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>up arrow</span>
+                  <span class='ks-and'>+</span>
+                  <span class='ks ks-down'>down arrow</span>
+                </div>
+              </li>
+              <li>
+                <span class='ks-desc'>Move a task up the list</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>cmd/ctrl</span>
+                  <span class='ks-and'>+</span>
+                  <span class='ks ks-down'>up</span>
+                </div>
+              </li>
+              <li>
+                <span class='ks-desc'>Move a task down the list</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>cmd/ctrl</span>
+                  <span class='ks-and'>+</span>
+                  <span class='ks ks-down'>down</span>
+                </div>
+              </li>
+              <li>
+                <span class='ks-desc'>Indent task</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>tab</span>
+                </div>
+              </li>
+              <li>
+                <span class='ks-desc'>Un-indent task</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>shift</span>
+                  <span class='ks-and'>+</span>
+                  <span class='ks ks-down'>tab</span>
+                </div>
+              </li>
+              <li>
+                <span class='ks-desc'>Show task details</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>shift</span>
+                  <span class='ks-and'>+</span>
+                  <span class='ks ks-down'>enter</span>
+                </div>
+              </li>
+              <li>
+                <span class='ks-desc'>Delete text</span>
+                <div class='ks-wrap'>
+                  <span class='ks ks-up'>delete</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='extra-footer'>
+          <div class='col-50'>
+            <div class='padding'>
+              <h3>About me</h3>
+              <p>
+                My name is Rich Wells. I live in Sheffield and I'm Creative Director at
+                <a href='http://yoomee.com'>Yoomee.</a>
+                I love making things, drawing on things and telling stories.
+              </p>
+              <p>
+                <br>
+                <a href='http://richwells.me'>http://richwells.me</a>
+                <br>
+                <a href='http://twitter.com/richwells'>@richwells</a>
+              </p>
+            </div>
+          </div>
+          <div class='col-50'>
+            <div class='padding'>
+              <h3>A big thanks to...</h3>
+              <ul>
+                <li>
+                  <a href='https://twitter.com/matkins' target='_blank'>Matt Atkins</a>
+                  for turning my styles into an awesome Chrome extension.
+                </li>
+                <li>
+                  <a href='http://fortawesome.github.io/Font-Awesome/' target='_blank'>Font awesome</a>
+                  for icons
+                </li>
+                <li>
+                  <a href='http://www.iawriter.com/mac/' target='_blank'>iA writer</a>
+                  and
+                  <a href='http://www.karelia.com/products/the-hit-list/mac.html' target='_blank'>The Hit List</a>
+                  for UX inspiration.
+                </li>
+                <li>
+                  <a href='https://twitter.com/austinkleon' target='_blank'>Austin Kleon</a>
+                  for the encouragement to #showyourwork
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class='container-fluid'>
+          <div class='row-fluid'>
+            <div class='footer-bottom'>
+              <ul class='unstyled'>
+                <li>
+                  <small>&copy; Rich Wells 2014</small>
+                </li>
+              </ul>
+            </div>
+            <!-- /.-lg-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /footer -->
+    </div>
+  </body>
+</html>
+<script>
+  $(document).ready(function(){
+    // init controller
+    var controller = new ScrollMagic();
+
+    var sceneOptions = {duration: 200, offset: 100};
+
+    var elements = $(".animate-me");
+
+
+    // Tweens
+    var tween = TweenMax.to("#animate1", 0.5, {backgroundColor: "#073747", backgroundPosition: "0 -200px", ease: Linear.easeNone});
+    var tween2 = TweenMax.to("#animate2", 0.5, {opacity: "0"});
+
+
+
+    // Scenes
+    var scene = new ScrollScene({triggerElement: "#trigger1", triggerHook: "onLeave", duration: 800})
+    .setTween(tween)
+    .addTo(controller);
+
+    var scene = new ScrollScene({triggerElement: "#trigger2", triggerHook: "onLeave", duration: 400})
+    .setTween(tween2)
+    .addTo(controller);
+
+    // until now
+    new ScrollScene(sceneOptions)
+      .addTo(controller)
+      .triggerHook("onCenter")
+      .triggerElement(elements[2])
+      .setTween(TweenMax.from(elements[2], 1, {scale: 0, ease: Back.easeOut}));
+
+    new ScrollScene({triggerElement: "#task1"})
+  		.setClassToggle("#task1", "active") // add class toggle
+  		.addTo(controller)
+
+
+    new ScrollScene({triggerElement: "#task2"})
+      .setClassToggle("#task2", "active") // add class toggle
+      .addTo(controller)
+
+
+
+    new ScrollScene({triggerElement: "#task3"})
+      .setClassToggle("#task3", "active") // add class toggle
+      .addTo(controller)
+
+
+    new ScrollScene({triggerElement: "#task4"})
+      .setClassToggle("#task4", "active") // add class toggle
+      .addTo(controller)
+
+
+    new ScrollScene({triggerElement: "#task5"})
+      .setClassToggle("#task5", "active") // add class toggle
+      .addTo(controller)
+
+
+
+  });
+</script>

@@ -1,0 +1,1153 @@
+/* @override
+	https://dl.dropboxusercontent.com/u/292336/richwells/css/styles.css
+	https://dl.dropboxusercontent.com/u/292336/richwells/css/skin.css
+	http://richwells.github.io/richwells.me/css/skin.css
+*/
+
+/*=============================== Colours  ================================*/
+
+body.home {
+	background: #ECECEC;
+	color: #333;
+}
+
+html {
+
+
+
+}
+
+
+/*=============================== typography  ================================*/
+
+@font-face {
+    font-family: 'elloelloboldbold';
+    src: url('../fonts/elloellobold-webfont.eot');
+    src: url('../fonts/elloellobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/elloellobold-webfont.woff') format('woff'),
+         url('../fonts/elloellobold-webfont.ttf') format('truetype'),
+         url('../fonts/elloellobold-webfont.svg#elloelloboldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'elloellonormalnormal';
+    src: url('../fonts/elloellonormal-webfont.eot');
+    src: url('../fonts/elloellonormal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/elloellonormal-webfont.woff') format('woff'),
+         url('../fonts/elloellonormal-webfont.ttf') format('truetype'),
+         url('../fonts/elloellonormal-webfont.svg#elloellonormalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+h3,
+.h3 {
+	font-size: 20px;
+}
+
+.tile h3 {
+	font-size: 16px;
+	position: relative;
+	line-height: 1.2;
+	font-weight: bold;
+	margin: 10px 10px 6px;
+	color: #333;
+
+}
+
+.tile p {
+	font-size: 13px;
+	margin: 0 10px 10px;
+	color: #666;
+
+}
+
+.strip-title {
+	font-family: elloelloboldbold, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+.body-text a, .caption a {
+	border-bottom: 1px solid #fff;
+	    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.body-text a:hover, .caption a:hover {
+	border-bottom: 1px solid #56b37f;
+	text-decoration: none;
+
+}
+.navbar {
+	-webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.caption p.intro {
+	font-size: 28px;
+	margin-bottom: 30px;
+	line-height: 1.45;
+	font-weight: 200;
+	color: #444;
+
+}
+.caption h2 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 30px 0;
+}
+
+/*=============================== General styles  ================================*/
+
+.col-flex-3 {
+	width: 100%;
+}
+
+.col-flex-3 {
+	width: 50%;
+}
+
+/*make small screen clear every 2*/
+
+.col-flex-3:nth-child(2n+3) {
+	clear: left;
+}
+
+.col-flex-4:nth-child(2n+3) {
+	clear: left;
+}
+
+/*=============================== Navbar  ================================*/
+.tumblr #ym-navbar {
+	background: #78A82B;
+}
+#ym-navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.navbar {
+	background: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.home .navbar {
+
+}
+.home .navbar.fixed {
+	background: #78A82B;
+	opacity: 1;
+}
+#ym-navbar .nav a {
+	background: none;
+	font-size: 16px;
+	color: #fff;
+}
+html body #ym-navbar .nav a.nav-icon {
+	font-size: 26px;
+
+}
+.home #ym-navbar .nav a.nav-icon {
+	padding-top: 22px;
+}
+.tumblr #ym-navbar .nav a.nav-icon {
+	padding-top: 15px;
+}
+#ym-navbar a.brand {
+	width: 110px;
+	float: left;
+	padding: 0px 0 0;
+	margin: 15px 0 0;
+}
+.home #ym-navbar a.brand {
+	margin-top: 25px;
+}
+#ym-navbar a.brand img {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+#ym-navbar .nav .active a {
+	font-weight: bold;
+}
+
+	.tumblr #ym-navbar.fixed {
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.06); /* older android */
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.06);
+
+	}
+
+	.home #ym-navbar .nav > li > a {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		font-size: 18px;
+	}
+	#ym-navbar.fixed .nav > li > a {
+
+	}
+
+.nav-elsewhere-links--title {
+	color: #999;
+	text-transform: uppercase;
+	font-weight: bold;
+
+
+	padding: 0 0 8px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 20px;
+}
+
+ul.nav.nav-elsewhere-links {
+	background: #eee;
+	color: #000;
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	border-bottom: 8px solid #78A82B;
+}
+#ym-navbar ul.nav-elsewhere-links > li > a {
+	color: #000;
+	color: #78A82B;
+}
+.nav-elsewhere-links i {
+	line-height: 1;
+	float: left;
+	margin-right: 6px;
+
+}
+
+/*=============================== Homepage  ================================*/
+.about-header {
+	background: #314414 url(../img/about-header.jpg) no-repeat center 0px;
+	height: 900px;
+}
+.hello-wrap {
+	float: left;
+	width: 100%;
+
+}
+.hello-bubble {
+	display: block;
+	text-indent: -9000em;
+  display:block;
+  width: 400px;
+  clear: both;
+  float: ;
+  margin: 80px auto 0;
+}
+.header-top {
+	position: relative;
+	z-index: 40;
+
+}
+.lower-strip {
+	position: relative;
+	z-index: 10;
+	padding: 0 50px;
+
+}
+.about-wrap {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.about-intro {
+	text-align: center;
+	font-weight: 300;
+	color: #333;
+	font-size: 40px;
+	line-height: 1.2;
+	margin:90px 0;
+}
+.listy {
+	color: #333;
+
+}
+.listy li {
+	clear: both;
+	line-height: 1.4;
+	margin-bottom: 40px;
+	float: left;
+}
+.listy-big {
+	margin-top: 40px;
+	font-size: 26px;
+	font-weight: 300;
+}
+.listy a {
+	color: #333;
+	text-decoration: none;
+	font-weight: 500;
+}
+.listy-left {
+	float: left;
+	width: 20%;
+}
+.listy-right {
+	width: 75%;
+	float: right;
+}
+.listy-right a {
+	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.some-other-links {
+
+	text-align: center;
+}
+.listy-small {
+	clear: both;
+	margin: 80px 0;
+	text-align: center;
+}
+.listy-small li {
+	margin: 0 0 50px;
+	width: 100%;
+}
+.listy-small strong {
+	float: left;
+	width: 100%;
+}
+
+.strip-other-links {
+	float: left;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+
+.strip-title {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+.strip-title-networks {
+	color: #333;
+}
+.strip {
+	padding: 20px 0;
+}
+.strip-2 {
+	background: #333;
+	padding: 30px 0;
+}
+
+.strip-1 .well {
+	color: #333;
+	min-height: 160px;
+}
+
+.strip-3 {
+
+	padding: 0;
+}
+.strip-4 {
+	padding: 0;
+}
+a.next-link {
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	line-height: 2;
+	display: block;
+}
+.elsewhere-links, .elsewhere-links li {
+	list-style-type: none;
+	margin: 0;
+}
+
+.elsewhere-links li {
+	width: 14.2%;
+	float: left;
+}
+
+.elsewhere-links a {
+	color: #999;
+	display: block;
+	text-align: center;
+}
+
+.elsewhere-links a:hover {
+	text-decoration: none;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.elsewhere-links i {
+	font-size: 40px;
+	line-height: 20px;
+	height: 30px;
+	width: 100%;
+	display: block;
+	color: #78A82B;
+	margin: 0 0 8px;
+}
+.elsewhere-links-home {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 70px 0;
+}
+.elsewhere-links-home i {
+	color:#78A82B;
+}
+
+.elsewhere-links span {
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: bold;
+}
+.elsewhere-links-home span {
+	display: none;
+}
+
+/* Give image in a link a border radius and light opacity on hover */
+
+.img-wrap img {
+	border-radius: 3px;
+	width: 100%;
+}
+
+.img-wrap:hover img {
+	opacity: 0.8;
+}
+
+#myCarousel {
+	margin-top: 40px;
+}
+
+.featured-work-title {
+	position: absolute;
+	z-index: 100;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	margin: -40px 0 0;
+	font-size: 20px;
+	padding: 10px 0;
+	background: #00c0eb;
+	color: #fff;
+}
+
+/*=============================== About page  ================================*/
+
+.strip-team {
+	background: #f5f5f5;
+}
+
+/*=============================== tile  ================================*/
+
+.tile {
+	float: left;
+
+	color: #FA8A10;
+
+	width: 25%;
+}
+
+.tile__link {
+	background: #fff;
+	display: block;
+	position: relative;
+	margin: 0 10px;
+	min-height: 220px;
+
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+
+
+
+}
+.tile__link:hover {
+	text-decoration: none;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+
+		-webkit-box-shadow:1px 1px 1px #000;
+	box-shadow:1px 1px 1px #000;
+
+}
+
+.tile img {
+	/*-webkit-filter: grayscale(100%);*/
+
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+
+
+
+}
+
+.tile:hover {
+	text-decoration: none;
+	color: #719831;
+}
+
+.tile:hover img {
+	/*-webkit-filter: grayscale(0%);*/
+}
+
+/*=============================== Footer  ================================*/
+
+footer.strip {
+	padding-bottom: 0;
+}
+
+.footer-bottom {
+		margin-top: 40px;
+	padding: 20px;
+	color: #bbb;
+	clear: both;
+	text-align: center;
+}
+
+.footer-bottom ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+/*=============================== Tumblr overrides  ================================*/
+body.tumblr {
+	background: #e8e8e8 !important;
+	padding-top: 40px;
+}
+header#header {
+	display: none;
+}
+figure {
+	margin: 0;
+}
+.header-tumblr {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background: #fff;
+	box-shadow:1px 1px 10px rgba(0,0,0,0.1), 1px 1px 0px rgba(0,0,0,0.1);
+
+}
+.cambodia .header-tumblr {
+	box-shadow:none;
+}
+.blog-header-link:hover {
+	text-decoration: none;
+	color: #434343;
+}
+.index-page #posts {
+	margin-top: 30px;
+}
+.arrows {
+	position: absolute;
+	top: 100px;
+	color: #000;
+	display: block;
+	float: left;
+}
+.share-item-link i.icon-link {
+	float: left;
+	line-height: 1.2;
+	font-size: 18px;
+	text-indent: -1px;
+	margin-right: 6px;
+}
+.share-item-link:before {
+	width: 0;
+}
+.follow-and-archive {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.tumblr-btn {
+	display: block;
+	float: left;
+	width: 46%;
+	font-weight: 600;
+	padding: 8px 0;
+	background: #e8e8e8;
+	border-radius:4px;
+}
+.tumblr-btn:hover {
+	text-decoration: none;
+	background: #ccc;
+}
+.tumblr-btn-archive {
+	margin-left: 4%;
+}
+
+
+.post-arrows {
+	position: fixed;
+	top: 50%;
+	display: block;
+	background: rgba(255,255,255,0.0);
+	float: left;
+	left: 0px;
+	font-size: 30px;
+	line-height: 1;
+	padding: 30px;
+	margin: 0;
+}
+.post-arrows:hover {
+	text-decoration: none;
+	background: #fff;
+}
+.post-arrows i {
+	float: left;
+	position: absolute;
+	top: 18px;
+	left: 25px;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+.post-arrows.next {
+	left: auto;
+	right: 0;
+
+}
+
+a.all-posts-link {
+	margin: 0 auto 50px;
+	float: none;
+	display: block;
+	text-align: center;
+
+}
+
+/*style tumblr follow button*/
+#tumblr_controls {
+	top: -40px !important;
+	right: 8px !important;
+	z-index: 3 !important;
+	position: absolute !important;
+
+}
+/*==================== tumblr tag show ====================*/
+.photo .tag-photo,
+.photos .tag-photos,
+.video .tag-video,
+.art .tag-art,
+.update .tag-update,
+.thoughts .tag-thoughts,
+.note .tag-note,
+.ideas .tag-ideas,
+.quotes .tag-quotes,
+.studies .tag-studies,
+.sketches .tag-sketches,
+.work .tag-work,
+.inspiration .tag-inspiration {
+	font-weight: bold;
+}
+
+
+/*==================== tearfund proposal page ====================*/
+body.tearfund {
+	background: #fff;
+}
+.tf-subtitle {
+	margin-bottom: 0px;
+	font-size: 22px;
+	color: #333;
+}
+.tf-smaller-subtitle {
+	margin-bottom: 6px;
+	font-size: 17px;
+}
+.tearfund #ym-navbar {
+	background: #78A82B;
+	position: relative;
+}
+.tearfund-intro {
+	margin: 0 auto 40px;
+	float: left;
+	width: 100%;
+	-webkit-box-shadow:3px 0px 20px rgba(0,0,0,0.2), 0px 0px 1px rgba(0,0,0,0.3);
+	box-shadow:3px 0px 20px rgba(0,0,0,0.2), 0px 0px 1px rgba(0,0,0,0.3);
+}
+.tearfund-wrap {
+	max-width: 700px;
+	position: relative;
+	z-index: 20;
+}
+.tearfund-wrap p {
+	font-size: 18px;
+}
+.tearfund-wrap p.tf-notes {
+	font-size: 14px;
+
+
+}
+.tf-intro-text {
+	margin-bottom: 30px;
+
+}
+
+.stephen-wrap {
+	max-width: 400px;
+	margin: 0 auto;
+}
+.stephen {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.stephen img {
+	margin: 0 auto 10px;
+}
+.tf-cta {
+	font-weight: bold;
+	display: block;
+	background: url(../../img/bgt/tf/tf-cta.png) no-repeat 0 0;
+	height: 300px;
+	color: #fff;
+	margin: 50px 0 0;
+	text-align: center;
+	padding: 30px 30px 0 ;
+}
+.tf-cta span {
+	display: none;
+
+}
+@media (max-width: 600px) {
+	.tf-cta {
+	background: #79AB2F;
+	height: auto;
+	padding: 10px;
+	-moz-border-radius:3pxpx;
+-webkit-border-radius:3pxpx;
+border-radius:3pxpx;
+margin: 20px 0;
+}
+.tf-cta span {
+	display: block;
+	color: rgba(255,255,255,0.7);
+
+}
+}
+
+
+.tf-images-strip {
+	background: #B07F4F url(../img/cork.jpg);
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+	clear: both;
+}
+.tf-strip-inner {
+	max-width: 860px;
+	margin: 0 auto;
+}
+.tf-img-item {
+	display: block;
+	position: relative;
+}
+.tf-img-label {
+	display: block;
+	background: #333;
+	color: #fff;
+	float: left;
+	padding: 10px;
+	position: absolute;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.5);
+}
+.tf-img-label:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.tf-flickr {
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 30;
+}
+.tf-img-label-flickr {
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	z-index: 60;
+	background: #D63C8F;
+}
+.tf-flickr img {
+	border: 6px solid #fff;
+	max-width: 470px;
+	margin-left: 0px;
+	position: relative;
+	z-index: 2;
+
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+
+
+}
+
+.tf-img-label-pinterest {
+	top: 10px;
+	right: -30px;
+	background: #C43116;
+
+
+}
+.tf-pinterest {
+	width: 340px;
+	display: block;
+	float: right;
+	height: 410px;
+	padding: 0px;
+	margin: 30px 0 0 0;
+	position: relative;
+	z-index: 20;
+}
+.tf-instagram {
+	margin: 40px 0 0;
+	float: left;
+	position: relative;
+	z-index: 63;
+
+}
+.tf-lower-strip {
+	z-index: 0;
+	position: relative;
+}
+.tf-img-label-instagram {
+	bottom: -15px;
+	left: 50px;
+	background: #3B71A4;
+	z-index: 33;
+
+}
+.tf-ig {
+	float: left;
+	width: 110px;
+	margin: 0 10px 0 0;
+
+	box-shadow:1px 1px 2px rgba(0,0,0,0.5);
+}
+@media (max-width: 900px) {
+
+
+.tf-images-strip {
+	width: 90%;
+	padding-left:5%;
+	padding-right:5%;
+}
+.tf-flickr {
+	width: 55%;
+}
+.tf-flickr img {
+	width: 100%;
+
+}
+.tf-pinterest {
+	margin: 0 0px 0 0;
+	width: 40%;
+}
+.tf-pinterest img {
+	width: 100%;
+}
+.tf-img-label-pinterest {
+	top: 0px;
+	position: relative;
+	width: 88%;
+	padding: 10px 5%;
+	right: auto;
+	background: #C43116;
+
+
+}
+.tf-instagram {
+	width: 60%;
+	margin: -70px 0 0;
+	clear: both;
+	float: left;
+}
+.tf-ig {
+	width: 21%;
+	margin: 0 4% 0 0;
+
+	box-shadow:1px 1px 2px rgba(0,0,0,0.5);
+}
+img.tf-ig.tf-ig-4 {
+	margin-right: 0;
+}
+}
+
+@media (max-width: 660px) {
+	.tf-strip-inner {
+	margin: 0 0px;
+	width: 100%;
+	padding-left:0;
+	padding-right:0;
+}
+.tf-flickr {
+	margin: 30px auto;
+	float: none;
+	clear: both;
+	width: 100%;
+}
+.tf-flickr img {
+	max-width: auto;
+	width: 100%;
+	float: none;
+	position: relative;
+	border: none;
+	margin: 0 auto;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+
+}
+.tf-img-label-flickr {
+	right: auto;
+	left: 0;
+}
+.tf-pinterest {
+	margin: 30px auto;
+	float: none;
+	clear: both;
+	height: auto;
+}
+.tf-pinterest {
+	width: 100%;
+	padding: 0;
+}
+.tf-pinterest img {
+	width: 100%;
+}
+.tf-instagram {
+	width: 100%;
+	margin: 0px 0 0;
+	clear: both;
+	float: left;
+}
+
+
+
+}
+
+
+
+.tf-mobile {
+	float: left;
+	width: 100%;
+}
+.tf-mobile-left {
+	max-width: 460px;
+	float: left;
+	margin-right: 20px;
+}
+.tf-mobile-right {
+	max-width: 220px;
+}
+.tf-challenge {
+	float: left;
+}
+.tf-challenge-strip {
+	background: #401A07 url(../../img/bgt/tf/tf-challenge.jpg) no-repeat top center;
+	float: left;
+	width: 100%;
+	height: 260px;
+	clear: both;
+	z-index: 10;
+}
+@media (max-width: 850px) {
+.tf-challenge-strip {
+	background: #401A07 url(../../img/bgt/tf/tf-challenge-mobile.jpg) no-repeat top center;
+
+}
+}
+
+a.challenge-find-out-more {
+	float: right;
+	margin: 250px 20px 0 0;
+	color: rgba(255,255,255,0.5);
+}
+
+@media (max-width: 500px) {
+.tf-challenge-strip {
+	background: #401A07 url(../../img/bgt/tf/tf-challenge-mobile-xs.jpg) no-repeat top center;
+	height: 170px;
+
+}
+	a.challenge-find-out-more {
+	margin-top: 160px;
+}
+}
+.tf-explore {
+	float: left;
+	width: 100%;
+}
+.explore-box {
+	width: 48%;
+	float: left;
+}
+@media (max-width: 600px) {
+	.explore-box {
+	width: 100%;
+	float: left;
+}
+
+}
+.explore-box-left {
+	margin-right: 4%;
+}
+
+.explore-subtitle-link {
+	color: #333;
+
+}
+.explore-text-link, .grey-link {
+	color: #888;
+	text-decoration: underline;
+}
+.tf-strip-in-summary {
+	background: url(../../img/bgt/tf/tf-strip-in-summary.jpg) top center no-repeat;
+	height: 20px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 50px 0 50px;
+}
+.tf-signature {
+	float: left;
+	width: 100%;
+	height: 140px;
+	background: url(../../img/bgt/tf/tf-signature.png) top center no-repeat;
+}
+.tf-footer-links {
+	float: left;
+	clear: both;
+	margin: 20px 0;
+}
+.tf-footer-links li {
+	float: left;
+	width: 100%;
+	margin: 0 0 10px;
+	text-align: center;
+}
+/*=============================== Cambodia stuff  ================================*/
+.cambodia-title {
+	background: url(../img/cambodia-title.jpg) top center no-repeat;
+	text-indent: -9000em;
+	display: block;
+	width: 100%;
+	height: 0;
+	background-size: 100%;
+	padding-top: 24%;
+	margin: 40px 0;
+}
+.cambodia-header-permalink {
+	margin-top: 50px;
+	position: relative;
+}
+.scrapbook-header {
+	padding-top: 40px;
+}
+.header-scrapbook {
+	background: #e8e8e8;
+}
+.cambodia-title-permalink {
+	display: block;
+	background: #e8e8e8;
+}
+.cambodia .text .post {
+	background: #30787A;
+	color: #fff;
+	border-radius: 4px;
+}
+.cambodia .text a, .cambodia .text p, .cambodia .text h2 {
+	color: #fff;
+}
+.cambodia .text h2 {
+	font-size: 23px;
+	line-height: 1.3;
+}
+.cambodia-advert {
+	text-indent: -9000em;
+	  display:block;
+  background: url(../img/cambodia-advert.png ) no-repeat center;
+  width:406px;
+  height:268px;
+  position: absolute;
+  top: 350px;
+  right: 40px;
+}
+@media (min-width: 1200px) {
+	.cambodia-advert {
+	right: 120px;
+	}
+}
+@media (min-width: 1400px) {
+	.cambodia-advert {
+	right: 220px;
+	}
+}
+@media (max-width: 960px) {
+	.cambodia-advert {
+
+		background: url(../img/cambodia-advert-mobile.png ) no-repeat center;
+		background-color:#3A7979;
+		right: 0;
+		height: 160px;
+		width: 100%;
+		top: 520px;
+	}
+}
+@media (max-width: 480px) {
+	.cambodia-advert {
+	top: 240px;
+	background-color:none;
+	}
+}
+.cambodia-advert:hover {
+
+}
+.cambodia-advert-blog {
+	display: block;
+	width: 100%;
+	padding: 40px 0 20px;
+	background: #e8e8e8;
+	text-align: center;
+	margin: 0;
+
+}
+.cambodia-advert-blog span {
+	font-weight: bold;
+}
+.cambodia.index-page.grid .panel {
+	display: none;
+}
