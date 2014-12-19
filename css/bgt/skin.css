@@ -1061,7 +1061,7 @@ a.challenge-find-out-more {
 }
 /*=============================== Cambodia stuff  ================================*/
 .cambodia-title {
-	background: url(../img/cambodia-title.jpg) top center no-repeat;
+	background: url(../../img/bgt/cambodia-title.jpg) top center no-repeat;
 	text-indent: -9000em;
 	display: block;
 	width: 100%;
@@ -1099,7 +1099,7 @@ a.challenge-find-out-more {
 .cambodia-advert {
 	text-indent: -9000em;
 	  display:block;
-  background: url(../img/cambodia-advert.png ) no-repeat center;
+  background: url(../../img/bgt/cambodia-advert.png ) no-repeat center;
   width:406px;
   height:268px;
   position: absolute;
@@ -1119,7 +1119,7 @@ a.challenge-find-out-more {
 @media (max-width: 960px) {
 	.cambodia-advert {
 
-		background: url(../img/cambodia-advert-mobile.png ) no-repeat center;
+		background: url(../../img/bgt/cambodia-advert-mobile.png ) no-repeat center;
 		background-color:#3A7979;
 		right: 0;
 		height: 160px;

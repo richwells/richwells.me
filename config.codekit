@@ -1890,11 +1890,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/bgt\/skin.css": {
+	"\/_site\/css\/rw.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/bgt\/skin.css",
+		"inputAbbreviatedPath": "\/_site\/css\/rw.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5864,6 +5864,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bgt\/cambodia-title-elsewhere.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39845,
+		"inputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title-elsewhere.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title-elsewhere.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bgt\/cambodia-title-permalink.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60309,
+		"inputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title-permalink.png",
+		"outputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title-permalink.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bgt\/cambodia-title-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26355,
+		"inputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title-sm.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title-sm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bgt\/cambodia-title.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60269,
+		"inputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bgt\/cambodia-title.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bgt\/favicon-128.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6047,6 +6091,17 @@
 		"initialSize": 5326,
 		"inputAbbreviatedPath": "\/_site\/img\/bgt\/rw_logo.png",
 		"outputAbbreviatedPath": "\/_site\/img\/bgt\/rw_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bgt\/scrapbook-title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18873,
+		"inputAbbreviatedPath": "\/_site\/img\/bgt\/scrapbook-title.png",
+		"outputAbbreviatedPath": "\/_site\/img\/bgt\/scrapbook-title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12190,6 +12245,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bgt\/cambodia-title-elsewhere.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39845,
+		"inputAbbreviatedPath": "\/img\/bgt\/cambodia-title-elsewhere.jpg",
+		"outputAbbreviatedPath": "\/img\/bgt\/cambodia-title-elsewhere.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bgt\/cambodia-title-permalink.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60309,
+		"inputAbbreviatedPath": "\/img\/bgt\/cambodia-title-permalink.png",
+		"outputAbbreviatedPath": "\/img\/bgt\/cambodia-title-permalink.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bgt\/cambodia-title-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26355,
+		"inputAbbreviatedPath": "\/img\/bgt\/cambodia-title-sm.jpg",
+		"outputAbbreviatedPath": "\/img\/bgt\/cambodia-title-sm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bgt\/cambodia-title.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60269,
+		"inputAbbreviatedPath": "\/img\/bgt\/cambodia-title.jpg",
+		"outputAbbreviatedPath": "\/img\/bgt\/cambodia-title.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bgt\/favicon-128.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -12373,6 +12472,17 @@
 		"initialSize": 5326,
 		"inputAbbreviatedPath": "\/img\/bgt\/rw_logo.png",
 		"outputAbbreviatedPath": "\/img\/bgt\/rw_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bgt\/scrapbook-title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18873,
+		"inputAbbreviatedPath": "\/img\/bgt\/scrapbook-title.png",
+		"outputAbbreviatedPath": "\/img\/bgt\/scrapbook-title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
