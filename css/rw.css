@@ -85,7 +85,7 @@ blockquote { padding: .5rem 1rem; margin: .8rem 0; color: #7a7a7a; border-left: 
 blockquote p:last-child { margin-bottom: 0; }
 
 @media (min-width: 30em) { blockquote { padding-right: 5rem; padding-left: 1.25rem; } }
-img { display: block; max-width: 100%; /* border-radius: 5px; */ }
+img { display: block; max-width: 100%; border-radius: 4px; }
 
 @media only screen and (min-width: 769px) { img.small { max-width: 450px; text-align: center; display: inline-block; margin-left: 60px; float: none; } }
 @media only screen and (min-width: 954px) { img.small { margin-left: 120px; } }
