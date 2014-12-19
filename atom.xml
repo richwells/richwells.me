@@ -4,7 +4,7 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2014-12-19T19:19:52+00:00</updated>
+ <updated>2014-12-19T19:35:01+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
@@ -333,7 +333,21 @@
    <link href="http://richwells.me/blog/cambodia-scrapbook"/>
    <updated>2014-03-25T13:24:00+00:00</updated>
    <id>http://richwells.me/blog/cambodia-scrapbook</id>
-   <content type="html">&lt;img src=&quot;/downloads/scrapbook-anim.gif&quot;/&gt;
+   <content type="html">&lt;p&gt;
+  Here are a few sketches and iPad paintings from my Cambodian travels last March. I was keen to capture as much as I could and share short stories of the people we met out there.
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;a href=&quot;http://cambodia.richwells.me&quot; class=&quot;cta&quot;&gt;View the full travel scrapbook&lt;/a&gt;
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/scrapbook-1.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-2.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-3.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-4.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-5.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-6.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-7.jpg&quot;/&gt;
+&lt;img src=&quot;/downloads/scrapbook-8.jpg&quot;/&gt;
 </content>
  </entry>
  
