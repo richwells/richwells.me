@@ -1760,7 +1760,9 @@ body.video { background: #6dff99; }
 
 body.tfbloggers { background: #79c9d6; }
 
-body.ux { background: #BFABF9; }
+body.ux { background: #BFABF9; background: #FFDA46; }
+
+body.thoughts { background: #97DD75; }
 
 .storytime { background-color: #fff; padding: 20px; }
 

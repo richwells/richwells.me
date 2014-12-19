@@ -155,6 +155,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/tumblr\/2011-02-05-lanterns.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/tumblr\/2011-02-05-lanterns.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/tumblr\/2011-02-05-lift11.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1334,6 +1343,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/blog\/lanterns\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/lanterns\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/blog\/late-afternoon-in-the-winter-gardens\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1879,6 +1897,127 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/downloads\/100dbc-book-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74915,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59989,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-10.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107175,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-11.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63509,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64965,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55805,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-4.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54680,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-5.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44243,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-6.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80460,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-7.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62769,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-8.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/100dbc-book-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60978,
+		"inputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-9.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/100dbc-book-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/downloads\/4-knows.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2304,6 +2443,28 @@
 		"initialSize": 475150,
 		"inputAbbreviatedPath": "\/_site\/downloads\/introducing-sophie.jpg",
 		"outputAbbreviatedPath": "\/_site\/downloads\/introducing-sophie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/lantern-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113060,
+		"inputAbbreviatedPath": "\/_site\/downloads\/lantern-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/lantern-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/lantern-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132612,
+		"inputAbbreviatedPath": "\/_site\/downloads\/lantern-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/lantern-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7998,6 +8159,127 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/downloads\/100dbc-book-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74915,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59989,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-10.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107175,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-11.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63509,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64965,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-3.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55805,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-4.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54680,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-5.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44243,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-6.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80460,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-7.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62769,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-8.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/100dbc-book-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60978,
+		"inputAbbreviatedPath": "\/downloads\/100dbc-book-9.jpg",
+		"outputAbbreviatedPath": "\/downloads\/100dbc-book-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/4-knows.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8423,6 +8705,28 @@
 		"initialSize": 547310,
 		"inputAbbreviatedPath": "\/downloads\/introducing-sophie.jpg",
 		"outputAbbreviatedPath": "\/downloads\/introducing-sophie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/lantern-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113060,
+		"inputAbbreviatedPath": "\/downloads\/lantern-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/lantern-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/lantern-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132612,
+		"inputAbbreviatedPath": "\/downloads\/lantern-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/lantern-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
