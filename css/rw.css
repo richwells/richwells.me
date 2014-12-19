@@ -1477,6 +1477,12 @@ a.pagination-item:hover { background-color: #f5f5f5; }
 
 .w100 { width: 100%; }
 
+.sig { margin: 50px auto 120px; width: 110px; }
+@media only screen and (min-width: 954px) { .sig { width: 150px; } }
+
+h2.sig-title { font-weight: normal; text-align: center; line-height: 1.2; font-size: 20px; margin: 30px 10px; }
+@media only screen and (min-width: 769px) { h2.sig-title { font-size: 40px; margin: 70px 0; } }
+
 /* Navigation stuff */
 /*
 * Masthead

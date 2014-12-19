@@ -1899,15 +1899,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/rw.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/rw.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/css\/rw.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2342,6 +2333,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/downloads\/coffee-plus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50764,
+		"inputAbbreviatedPath": "\/_site\/downloads\/coffee-plus.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/coffee-plus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/downloads\/day-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2580,6 +2582,17 @@
 		"initialSize": 253670,
 		"inputAbbreviatedPath": "\/_site\/downloads\/phnom-penh.jpg",
 		"outputAbbreviatedPath": "\/_site\/downloads\/phnom-penh.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/piefighter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31391,
+		"inputAbbreviatedPath": "\/_site\/downloads\/piefighter.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/piefighter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2855,6 +2868,17 @@
 		"initialSize": 1.60874e+06,
 		"inputAbbreviatedPath": "\/_site\/downloads\/strong-and-northern.jpg",
 		"outputAbbreviatedPath": "\/_site\/downloads\/strong-and-northern.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/study-yorkshire-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29708,
+		"inputAbbreviatedPath": "\/_site\/downloads\/study-yorkshire-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/study-yorkshire-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6324,6 +6348,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/sig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19304,
+		"inputAbbreviatedPath": "\/_site\/img\/sig.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/sig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/sophie-tn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6771,6 +6806,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/page9\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/signpost\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/signpost\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -12630,6 +12674,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/sig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19304,
+		"inputAbbreviatedPath": "\/img\/sig.jpg",
+		"outputAbbreviatedPath": "\/img\/sig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sophie-tn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12999,6 +13054,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/signpost\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/signpost\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/storytime\/1.html": {
 		"fileType": 8192,
