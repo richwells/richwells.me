@@ -155,6 +155,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/2015-01-02-new-year-new-site.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2015-01-02-new-year-new-site.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/tumblr\/2011-02-05-lanterns.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1487,6 +1496,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/blog\/new-year-new-site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/new-year-new-site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/blog\/nick-from-motore-cafe\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2499,6 +2517,39 @@
 		"initialSize": 475150,
 		"inputAbbreviatedPath": "\/_site\/downloads\/introducing-sophie.jpg",
 		"outputAbbreviatedPath": "\/_site\/downloads\/introducing-sophie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/jekyll-tn-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173823,
+		"inputAbbreviatedPath": "\/_site\/downloads\/jekyll-tn-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/jekyll-tn-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/jekyll-tn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165430,
+		"inputAbbreviatedPath": "\/_site\/downloads\/jekyll-tn.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/jekyll-tn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/jekyll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103483,
+		"inputAbbreviatedPath": "\/_site\/downloads\/jekyll.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/jekyll.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8979,6 +9030,39 @@
 		"initialSize": 547310,
 		"inputAbbreviatedPath": "\/downloads\/introducing-sophie.jpg",
 		"outputAbbreviatedPath": "\/downloads\/introducing-sophie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/jekyll-tn-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173823,
+		"inputAbbreviatedPath": "\/downloads\/jekyll-tn-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/jekyll-tn-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/jekyll-tn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165430,
+		"inputAbbreviatedPath": "\/downloads\/jekyll-tn.jpg",
+		"outputAbbreviatedPath": "\/downloads\/jekyll-tn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/jekyll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103483,
+		"inputAbbreviatedPath": "\/downloads\/jekyll.jpg",
+		"outputAbbreviatedPath": "\/downloads\/jekyll.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

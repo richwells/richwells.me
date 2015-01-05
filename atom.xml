@@ -4,13 +4,96 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2014-12-19T21:11:02+00:00</updated>
+ <updated>2015-01-05T08:45:49+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>New year, new site</title>
+   <link href="http://richwells.me/blog/new-year-new-site"/>
+   <updated>2015-01-02T10:35:00+00:00</updated>
+   <id>http://richwells.me/blog/new-year-new-site</id>
+   <content type="html">&lt;div class=&quot;alert&quot;&gt;
+  &lt;h3&gt;Warning&lt;/h3&gt;
+  &lt;p&gt;
+   This blog is fairly nerdy/boring.
+  &lt;br&gt;
+  Not your cup of tea?
+  &lt;a href=&quot;/tag/sketches&quot;&gt;Look at some pictures instead&lt;/a&gt;.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;
+Happy 2015. I’ve just updated my site, which was one of my goals for 2014. Made it live just in time!
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/jekyll-tn.jpg&quot;&gt;
+
+&lt;p&gt;
+My blog was on Tumblr, which served me well but it was definitely time for a change. Tumblr is great for sharing things quickly and easily, (I still use it for &lt;a href=&quot;http://dayoffwithsophie.tumblr.com&quot; target=&quot;blank&quot;&gt;Daddy Daycare Tuesdays&lt;/a&gt;), but I was getting frustrated with how little I could control, especially images, which is mostly what I share anyway.
+&lt;/p&gt;
+
+&lt;p&gt;
+I loved Tumblr’s simplicity though, the fact that I didn’t have to play with databases and servers was a definite bonus and helped me to focus on content. So going back to something like Wordpress seemed like a step in the wrong direction.
+&lt;/p&gt;
+
+&lt;p&gt;
+I was considering building a static HTML site, so it would be simple, fast and I could control anything I wanted. But updating it in the future would be a bit of a nightmare. Then I discovered &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;blank&quot;&gt;Jekyll&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/jekyll.jpg&quot; alt=&quot;Jekyll website&quot;&gt;
+
+&lt;p&gt;
+Jekyll is a static site generator that runs on Ruby. It basically let’s you create templates and write blog posts (in markdown or HTML) and then compiles everything into a static HTML site that you can host anywhere.
+&lt;/p&gt;
+
+&lt;p&gt;
+It’s not the most straight forward thing to get started with, (the &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;docs&lt;/a&gt; aren’t that detailed) but there are many helpful blog posts out there, and once it’s all set up it works like a dream.  I can now edit a header or footer file, and Jekyll updates every html page that shows it. I can also write Markdown blog posts in my favourite app IA Writer, which is a bonus.
+&lt;/p&gt;
+
+&lt;h3&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;
+I wanted this new site to be fairly minimal, with a focus on the content, especially images. My previous design had a green nav bar, which was ok, but it clashed if the content didn’t go with the green, so I decided to strip away most of the colour. Who knows, I might add some back later on.
+&lt;/p&gt;
+&lt;p&gt;
+I used the excellent &lt;a href=&quot;http://getpoole.com/&quot; target=&quot;blank&quot;&gt;Poole&lt;/a&gt; starter theme by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;blank&quot;&gt;@mdo&lt;/a&gt; (one of the guys behind &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;blank&quot;&gt;Bootstrap&lt;/a&gt;) as a base for the design, and then refactored the styles to only keep what I need. I made use of the font &lt;a href=&quot;http://www.google.com/fonts/specimen/Karla&quot; target=&quot;blank&quot;&gt;Karla&lt;/a&gt;, which I love, and then spent quite a while making everything as visual as I could, with related posts and tag pages, so that old posts didn’t get lost.
+&lt;/p&gt;
+&lt;p&gt;
+As always, it’s still a work in progress (could do with some browser testing!), but I’m excited about having an easier way to share visual things in 2015.
+&lt;/p&gt;
+&lt;p&gt;
+Here&#39;s a list of Jekyll links that I found helpful when building this site:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/&quot; target=&quot;blank&quot;&gt;Build A Blog With Jekyll And GitHub Pages&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll docs&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://import.jekyllrb.com/docs/tumblr/&quot; target=&quot;blank&quot;&gt;Jekyll Tumblr importer&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://getpoole.com/&quot; target=&quot;blank&quot;&gt;Poole starter theme&lt;/a&gt;
+  &lt;/li&gt;
+    &lt;li&gt;
+    &lt;a href=&quot;http://www.chrisyin.com/2014/08/23/jekyll-related-posts/&quot; target=&quot;blank&quot;&gt;Jekyll related posts plugin&lt;/a&gt;
+  &lt;/li&gt;
+    &lt;li&gt;
+    &lt;a href=&quot;http://www.mobify.com/mobifyjs/v2/docs/image-resizer/&quot; target=&quot;blank&quot;&gt;Mobify.js&lt;/a&gt; (Responsive image/CDN thing)
+  &lt;/li&gt;
+    &lt;li&gt;
+    &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;blank&quot;&gt;Github pages&lt;/a&gt; (Where I host this site)
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Improving Google Tasks</title>
