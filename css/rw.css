@@ -1463,10 +1463,10 @@ a.pagination-item:hover { background-color: #f5f5f5; }
 
 .col-1-8 { width: 12.5%; }
 
-@media only screen and (max-width: 768px) { [class*='col-'] { width: 100%; padding: 0; } }
+@media only screen and (max-width: 450px) { [class*='col-'] { width: 100%; padding: 0; } }
 
 @media only screen and (max-width: 953px) { .related-strip .grid .col-related { width: 50%; padding: 0px 10px; } }
-@media only screen and (max-width: 768px) { .related-strip .grid .col-related { width: 100%; padding: 0px; } }
+@media only screen and (max-width: 450px) { .related-strip .grid .col-related { width: 100%; padding: 0px; } }
 
 /* Opt-in outside padding */
 .grid-pad { padding: 30px 0 30px 30px; }
