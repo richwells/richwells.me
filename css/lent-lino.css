@@ -1,3 +1,6 @@
 body {
-  background:#fff;
+  background:#fff !important;
+}
+h1 {
+  text-align:center !important;
 }
