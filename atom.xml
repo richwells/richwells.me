@@ -4,13 +4,28 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-02-13T11:55:52+00:00</updated>
+ <updated>2015-02-16T02:18:44+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Digital Disciples</title>
+   <link href="http://richwells.me/digital-disciples"/>
+   <updated>2015-02-15T10:35:00+00:00</updated>
+   <id>http://richwells.me/digital-disciples-talk</id>
+   <content type="html">&lt;div class=&quot;fitvids&quot;&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;500&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//www.slideshare.net/slideshow/embed_code/44710518&quot; width=&quot;720&quot;&gt; &lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;
+  Last weekend I did a talk at The Student Conference in Sheffield, an event for 100 or so Christian students at the Showroom Cinema. I shared a bit about me and a few thoughts on technology, faith, storytelling and the internet. Here are some of my slides.
+&lt;/p&gt;
+
+&lt;a class=&quot;cta&quot; href=&quot;http://goo.gl/k04Fhj&quot;&gt;Download slides as a PDF&lt;/a&gt;
+</content>
+ </entry>
  
  <entry>
    <title>New year, new site</title>
