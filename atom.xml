@@ -4,7 +4,7 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-02-16T02:18:44+00:00</updated>
+ <updated>2015-02-16T02:45:09+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
@@ -24,6 +24,38 @@
 &lt;/p&gt;
 
 &lt;a class=&quot;cta&quot; href=&quot;http://goo.gl/k04Fhj&quot;&gt;Download slides as a PDF&lt;/a&gt;
+
+&lt;div class=&quot;grid wide&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-1.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-2.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-7.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  &lt;img src=&quot;/downloads/dd-5.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;img src=&quot;/downloads/dd-3.jpg&quot; alt=&quot;&quot;&gt;
+&lt;div class=&quot;grid wide&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-4.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-6.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-8.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/dd-9.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
 </content>
  </entry>
  
