@@ -4,13 +4,29 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-02-16T15:11:01+00:00</updated>
+ <updated>2015-02-19T13:18:20+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>The Best Day</title>
+   <link href="http://richwells.me/the-best-day"/>
+   <updated>2015-02-15T10:35:00+00:00</updated>
+   <id>http://richwells.me/the-morning-commute</id>
+   <content type="html">&lt;img src=&quot;/downloads/commute.jpg&quot; alt=&quot;cycling to work&quot;&gt;
+&lt;p&gt;
+  Me and my orange coat on the morning commute. Captured by &lt;a  href=&quot;https://twitter.com/leadoutdan&quot; target=&quot;blank&quot;&gt;Dan&lt;/a&gt; for this video:
+&lt;/p&gt;
+
+&lt;div class=&quot;fitvids&quot;&gt;
+  &lt;iframe src=&quot;//player.vimeo.com/video/119472414&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Digital Disciples</title>
