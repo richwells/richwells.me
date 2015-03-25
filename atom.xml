@@ -4,13 +4,65 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-02-19T13:18:20+00:00</updated>
+ <updated>2015-03-25T11:58:03+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Smashing Oxford</title>
+   <link href="http://richwells.me/smashing-oxford"/>
+   <updated>2015-03-24T10:35:00+00:00</updated>
+   <id>http://richwells.me/smashing</id>
+   <content type="html">&lt;p&gt;Last week I went with my colleague Jon to Smashing Conference, a two day event in Oxford Town Hall. There were lasers, balloons, and more importantly a variety of different talks about the web industry. I enjoyed having time away from everyday work to think a bit more about what we do and how we can be better at it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/downloads/smashing.jpg&quot; alt=&quot;Inside Oxford Town Hall&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A few things I took away…&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Solving real world problems is the most important thing. Not a new concept at all, but good to be reminded.&lt;/li&gt;
+&lt;li&gt;The challenge to read widely, and look for inspiration in unexpected places. &lt;a href=&quot;http://smashingconf.com/oxford-2015/speakers/christopher-murphy&quot;&gt;Christopher Murphy’s talk&lt;/a&gt; was one of my highlights&lt;/li&gt;
+&lt;li&gt;A realisation that listening to people talk about code doesn’t work for me. Maybe I’m just slow, but I like to learn by doing, rather than looking at code on a powerpoint.&lt;/li&gt;
+&lt;li&gt;That speed is important. The helpful reminder that most people aren’t using new apple devices with fast broadband. The sites I make should work on poor connections (I still need to optimise this site)&lt;/li&gt;
+&lt;li&gt;“LieFi” - My experience of using wifi at almost every conference I’ve been to. The little bars on my phone said everything was ok, but it all lies.&lt;/li&gt;
+&lt;li&gt;That my attention span doesn’t cope with back to back 40 minute talks, especially when there’s little leg and elbow room (I am very tall though). They could have made the format a little bit more stimulating and creative in my opinion.&lt;/li&gt;
+&lt;li&gt;That people really respond to sketch notes. I took a brief break from my Lent twitter fast to share my notes and was surprised with how many people responded to them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are a few sketch notes:&lt;/p&gt;
+
+&lt;div class=&quot;grid wide fitvids&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+
+    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;A brief history of responsive images by &lt;a href=&quot;https://twitter.com/yoavweiss&quot;&gt;@yoavweiss&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/sketchnotes?src=hash&quot;&gt;#sketchnotes&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/ZzKdqOXwCN&quot;&gt;pic.twitter.com/ZzKdqOXwCN&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577813342053666817&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+    &lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+
+    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;Orange lanyards, Oxford Town Hall and &lt;a href=&quot;https://twitter.com/owltastic&quot;&gt;@owltastic&lt;/a&gt; talking about empathy &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/fdoCfFMuSQ&quot;&gt;pic.twitter.com/fdoCfFMuSQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577805875362062336&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+
+    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;My &lt;a href=&quot;https://twitter.com/hashtag/sketchnotes?src=hash&quot;&gt;#sketchnotes&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/fehler&quot;&gt;@fehler&lt;/a&gt;&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; talk &amp;quot;A good writer is a good thinker&amp;quot;. Super inspiring. &lt;a href=&quot;http://t.co/rsY0PtRrTm&quot;&gt;pic.twitter.com/rsY0PtRrTm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577777652595093504&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+
+    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&amp;quot;People don’t go out to eat nourishing food, they go out for food that’s tasty &amp;amp; beautiful&amp;quot; &lt;a href=&quot;https://twitter.com/codepo8&quot;&gt;@codepo8&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/NSB1JvTPHc&quot;&gt;pic.twitter.com/NSB1JvTPHc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/578138304043954176&quot;&gt;March 18, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;.&lt;a href=&quot;https://twitter.com/Polledemaagt&quot;&gt;@Polledemaagt&lt;/a&gt; on crafting for &lt;a href=&quot;https://twitter.com/hashtag/worlddomination?src=hash&quot;&gt;#worlddomination&lt;/a&gt; and solving human problems &lt;a href=&quot;https://twitter.com/hashtag/sketchnotes?src=hash&quot;&gt;#sketchnotes&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/a9zMtDuJr8&quot;&gt;pic.twitter.com/a9zMtDuJr8&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/578214679912271872&quot;&gt;March 18, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+
+    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;Rethinking publishing with &lt;a href=&quot;https://twitter.com/PeterBilak&quot;&gt;@PeterBilak&lt;/a&gt;. Tempted to get a &lt;a href=&quot;https://twitter.com/WorksThatWork&quot;&gt;@WorksThatWork&lt;/a&gt; subscription after this talk! &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/HwHO8AyjxO&quot;&gt;pic.twitter.com/HwHO8AyjxO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577861676080500736&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Best Day</title>

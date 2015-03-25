@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Smashing Oxford &middot; Rich Wells
+    
+  </title>
+
+  <meta name="author" content="Rich Wells">
+  
+    <meta content="Last week I went with my colleague Jon to Smashing Conference, a two day event in Oxford Town Hall. There were lasers, balloons, and more importantly a variety of different talks about the web industry. I enjoyed having time away from everyday work to think a bit more about what we do and how we can be better at it." name="Description">
+    
+  <meta content="index, follow" name="robots">
+
+
+  <script>!function(a,b,c,d,e){function g(a,c,d,e){var f=b.getElementsByTagName("script")[0];a.src=e,a.id=c,a.setAttribute("class",d),f.parentNode.insertBefore(a,f)}a.Mobify={points:[+new Date]};var f=/((; )|#|&|^)mobify=(\d)/.exec(location.hash+"; "+b.cookie);if(f&&f[3]){if(!+f[3])return}else if(!c())return;b.write('<plaintext style="display:none">'),setTimeout(function(){var c=a.Mobify=a.Mobify||{};c.capturing=!0;var f=b.createElement("script"),h="mobify",i=function(){var c=new Date;c.setTime(c.getTime()+3e5),b.cookie="mobify=0; expires="+c.toGMTString()+"; path=/",a.location=a.location.href};f.onload=function(){if(e)if("string"==typeof e){var c=b.createElement("script");c.onerror=i,g(c,"main-executable",h,mainUrl)}else a.Mobify.mainExecutable=e.toString(),e()},f.onerror=i,g(f,"mobify-js",h,d)})}(window,document,function(){a=/webkit|(firefox)[\/\s](\d+)|(opera)[\s\S]*version[\/\s](\d+)|(trident)[\/\s](\d+)/i.exec(navigator.userAgent);return!a||a[1]&&4>+a[2]||a[3]&&11>+a[4]||a[5]&&6>+a[6]?!1:!0},
+
+// path to mobify.js
+"//cdn.mobify.com/mobifyjs/build/mobify-2.0.16.min.js",
+
+// calls to APIs go here (or path to a main.js)
+function() {
+  var capturing = window.Mobify && window.Mobify.capturing || false;
+
+  if (capturing) {
+    Mobify.Capture.init(function(capture){
+      var capturedDoc = capture.capturedDoc;
+
+      var images = capturedDoc.querySelectorAll("img, picture");
+      Mobify.ResizeImages.resize(images);
+
+      // Render source DOM to document
+      capture.renderCapturedDoc();
+    });
+  }
+});</script>
+
+
+  <!-- CSS -->
+  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/css/rw.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/img/favicon3.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Javascripts -->
+  <!--==================================================-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/modernizr.js"></script>
+  <script type="text/javascript" src="/js/fitvids.js"></script>
+  <script type="text/javascript" src="/js/jquery.scrollUp.min.js"></script>
+  <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" src="/js/isotope.js"></script>
+
+
+
+  
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25851291-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+
+  <script>
+  // Picture element HTML5 shiv
+  document.createElement( "picture" );
+  </script>
+  <script src="/js/picturefill.min.js" async></script>
+
+  <script type="text/javascript" src="/js/min/scripts-min.js"></script>
+
+
+</head>
+
+
+  <body class="layout-reverse blog ">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+
+  
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item sidebar-blog " href="/">Blog</a>
+    <a class="sidebar-nav-item sidebar-about" href="/about">About me</a>
+    <a href="http://twitter.com/richwells" class="twitter sidebar-social" target="_blank"> <i class="fa fa-twitter"></i>
+      <span>Twitter</span></a>
+    <a href="http://instagram.com/richwells" class="instagram sidebar-social" target="_blank"> <i class="fa fa-instagram"></i> <span> Instagram</span></a>
+  </nav>
+
+
+
+  <div class="col-play sidebar-col">
+    <h3 class="sidebar-nav-item sidebar-work-and-play">Work &amp; play</h3>
+    <ul class="footer-list">
+      <li>
+        <a href="http://yoomee.com" target="_blank">Yoomee</a>
+      </li>
+      <li>
+        <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
+      </li>
+      <li>
+        <a href="http://richwells.me/better-google-tasks" target="_blank">Better Google Tasks</a>
+      </li>
+      <li>
+        <a href="http://cambodia.richwells.me" target="_blank">Cambodia scrapbook</a>
+      </li>
+      <li>
+        <a href="http://100daybiblechallenge.com" target="_blank">100 Day Bible Challenge</a>
+      </li>
+      <li>
+        <a href="https://www.thelevelcollective.com/rich-wells/" target="_blank">The Level Collective</a>
+      </li>
+      <li>
+        <a href="https://www.pinterest.com/richiewells/sketchbook/" target="_blank">Pinterest sketchbook</a>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+  <div class="container container-header">
+    <h3 class="masthead-title rw-logo">
+      <a href="/" title="Home">Rich Wells</a>
+      
+    </h3>
+    <ul class="header-nav">
+      <li><a href="/" class="nav-blog">Blog</a></li>
+      <li><a href="/about" class="nav-about">About me</a></li>
+      <li><a href="http://twitter.com/richwells" target="blank"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="http://instagram.com/richwells" target="blank"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+  </div>
+</div>
+
+      <a href="/" class="all-posts-link">
+  All posts
+</a>
+<div class="container content">
+  <div class="post">
+    <h1 class="post-title">Smashing Oxford</h1>
+    <span class="post-date">24 Mar 2015</span>
+    <p>Last week I went with my colleague Jon to Smashing Conference, a two day event in Oxford Town Hall. There were lasers, balloons, and more importantly a variety of different talks about the web industry. I enjoyed having time away from everyday work to think a bit more about what we do and how we can be better at it.</p>
+
+<p><img src="/downloads/smashing.jpg" alt="Inside Oxford Town Hall"></p>
+
+<p>A few things I took away…</p>
+
+<ul>
+<li>Solving real world problems is the most important thing. Not a new concept at all, but good to be reminded.</li>
+<li>The challenge to read widely, and look for inspiration in unexpected places. <a href="http://smashingconf.com/oxford-2015/speakers/christopher-murphy">Christopher Murphy’s talk</a> was one of my highlights</li>
+<li>A realisation that listening to people talk about code doesn’t work for me. Maybe I’m just slow, but I like to learn by doing, rather than looking at code on a powerpoint.</li>
+<li>That speed is important. The helpful reminder that most people aren’t using new apple devices with fast broadband. The sites I make should work on poor connections (I still need to optimise this site)</li>
+<li>“LieFi” - My experience of using wifi at almost every conference I’ve been to. The little bars on my phone said everything was ok, but it all lies.</li>
+<li>That my attention span doesn’t cope with back to back 40 minute talks, especially when there’s little leg and elbow room (I am very tall though). They could have made the format a little bit more stimulating and creative in my opinion.</li>
+<li>That people really respond to sketch notes. I took a brief break from my Lent twitter fast to share my notes and was surprised with how many people responded to them.</li>
+</ul>
+
+<p>Here are a few sketch notes:</p>
+
+<div class="grid wide fitvids">
+  <div class="col-1-2">
+
+    <blockquote class="twitter-tweet" lang="en"><p>A brief history of responsive images by <a href="https://twitter.com/yoavweiss">@yoavweiss</a> <a href="https://twitter.com/hashtag/sketchnotes?src=hash">#sketchnotes</a> <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a> <a href="http://t.co/ZzKdqOXwCN">pic.twitter.com/ZzKdqOXwCN</a></p>&mdash; Rich Wells (@richwells) <a href="https://twitter.com/richwells/status/577813342053666817">March 17, 2015</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+    <blockquote class="twitter-tweet" lang="en"><p>Orange lanyards, Oxford Town Hall and <a href="https://twitter.com/owltastic">@owltastic</a> talking about empathy <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a> <a href="http://t.co/fdoCfFMuSQ">pic.twitter.com/fdoCfFMuSQ</a></p>&mdash; Rich Wells (@richwells) <a href="https://twitter.com/richwells/status/577805875362062336">March 17, 2015</a></blockquote>
+
+
+    <blockquote class="twitter-tweet" lang="en"><p>My <a href="https://twitter.com/hashtag/sketchnotes?src=hash">#sketchnotes</a> from <a href="https://twitter.com/fehler">@fehler</a>&#39;s <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a> talk &quot;A good writer is a good thinker&quot;. Super inspiring. <a href="http://t.co/rsY0PtRrTm">pic.twitter.com/rsY0PtRrTm</a></p>&mdash; Rich Wells (@richwells) <a href="https://twitter.com/richwells/status/577777652595093504">March 17, 2015</a></blockquote>
+
+
+  </div>
+  <div class="col-1-2">
+
+    <blockquote class="twitter-tweet" lang="en"><p>&quot;People don’t go out to eat nourishing food, they go out for food that’s tasty &amp; beautiful&quot; <a href="https://twitter.com/codepo8">@codepo8</a> <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a> <a href="http://t.co/NSB1JvTPHc">pic.twitter.com/NSB1JvTPHc</a></p>&mdash; Rich Wells (@richwells) <a href="https://twitter.com/richwells/status/578138304043954176">March 18, 2015</a></blockquote>
+
+    <blockquote class="twitter-tweet" lang="en"><p>.<a href="https://twitter.com/Polledemaagt">@Polledemaagt</a> on crafting for <a href="https://twitter.com/hashtag/worlddomination?src=hash">#worlddomination</a> and solving human problems <a href="https://twitter.com/hashtag/sketchnotes?src=hash">#sketchnotes</a> <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a> <a href="http://t.co/a9zMtDuJr8">pic.twitter.com/a9zMtDuJr8</a></p>&mdash; Rich Wells (@richwells) <a href="https://twitter.com/richwells/status/578214679912271872">March 18, 2015</a></blockquote>
+
+
+    <blockquote class="twitter-tweet" lang="en"><p>Rethinking publishing with <a href="https://twitter.com/PeterBilak">@PeterBilak</a>. Tempted to get a <a href="https://twitter.com/WorksThatWork">@WorksThatWork</a> subscription after this talk! <a href="https://twitter.com/hashtag/smashingconf?src=hash">#smashingconf</a> <a href="http://t.co/HwHO8AyjxO">pic.twitter.com/HwHO8AyjxO</a></p>&mdash; Rich Wells (@richwells) <a href="https://twitter.com/richwells/status/577861676080500736">March 17, 2015</a></blockquote>
+  </div>
+
+</div>
+
+  </div>
+</div> <!-- end container -->
+
+
+
+
+<div class="related-strip" id="container">
+  <h2>Related Posts</h2>
+  <div id="isotope" class="grid">
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/elon-musk-at-sxsw-ipad-sketchnotes">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mycpd9AIDL1rr6vpvo1_1280.png" alt="Elon Musk at sxsw">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/elon-musk-at-sxsw-ipad-sketchnotes">
+          <h3 class="post-title">Elon Musk at sxsw</h3>
+          <small>23 Mar 2013</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/tina-roth-eisenberg-%20at-sxsw">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mycpa5WphM1rr6vpvo1_1280.png" alt="Swiss Miss' 11 Rules">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/tina-roth-eisenberg-%20at-sxsw">
+          <h3 class="post-title">Swiss Miss' 11 Rules</h3>
+          <small>20 Mar 2013</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/art-for-cambodia">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/cambodian-artwork.jpg" alt="Give to Tearfund, get some artwork">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/art-for-cambodia">
+          <h3 class="post-title">Give to Tearfund, get some artwork</h3>
+          <small>03 Apr 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/reflections-on-my-time-in-cambodia">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/reflections-on-cambodia.jpg" alt="Reflections on my time in Cambodia">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/reflections-on-my-time-in-cambodia">
+          <h3 class="post-title">Reflections on my time in Cambodia</h3>
+          <small>28 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/cambodia-scrapbook">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/scrapbook-anim.gif" alt="Cambodia travel scrapbook">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/cambodia-scrapbook">
+          <h3 class="post-title">Cambodia travel scrapbook</h3>
+          <small>25 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/tonle-batie">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_n2wjyiYje51rr6vpvo3_1280.jpg" alt="Our time in Tonle Batie">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/tonle-batie">
+          <h3 class="post-title">Our time in Tonle Batie</h3>
+          <small>23 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/mmmm-insects">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/local-delicacies.jpg" alt="Local delicacies">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/mmmm-insects">
+          <h3 class="post-title">Local delicacies</h3>
+          <small>20 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/day-three-in-cambodia">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/day-3.jpg" alt="Seeing for ourselves">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/day-three-in-cambodia">
+          <h3 class="post-title">Seeing for ourselves</h3>
+          <small>20 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/tuol-sleng">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/tuol-sleng.jpg" alt="Tuol Sleng Genoside Museum">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/tuol-sleng">
+          <h3 class="post-title">Tuol Sleng Genoside Museum</h3>
+          <small>19 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/arrived-in-phnom-penh">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/phnom-penh.jpg" alt="Phnom Penh">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/arrived-in-phnom-penh">
+          <h3 class="post-title">Phnom Penh</h3>
+          <small>18 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/slough">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_n2kw38BvSg1rr6vpvo1_1280.jpg" alt="Waiting in Slough">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/slough">
+          <h3 class="post-title">Waiting in Slough</h3>
+          <small>17 Mar 2014</small>
+        </a>
+      </div>
+    
+      <div class="col-1-3 col-related">
+        
+        <a href="/blog/tf-bloggers-2014">
+          <span class="post-img-wrap">
+            
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mzi9tc3NGq1rr6vpvo1_1280.jpg" alt="Tearfund bloggers 2014">
+          
+        </span>
+      </a>
+      
+      <a href="/blog/tf-bloggers-2014">
+          <h3 class="post-title">Tearfund bloggers 2014</h3>
+          <small>16 Jan 2014</small>
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle">
+      <i class="fa fa-bars"></i>
+    </label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+    <div class="footer">
+  <div class="footer-container">
+    <div class="grid">
+      <div class="col-1-3 col-footer-about">
+        <h3>About me</h3>
+        <p>
+          Designer, illustrator and maker of things. Creative Director at <a href="http://yoomee.com" target="_blank">Yoomee</a>. Christian, husband, dad, cyclist. Sheffield, UK.
+        </p>
+        <a href="/about" class="cta">Tell me more</a>
+
+      </div>
+      <div class="col-1-4 col-play">
+        <h3>Work &amp; play</h3>
+        <ul class="footer-list">
+          <li>
+            <a href="http://yoomee.com" target="_blank">Yoomee</a>
+          </li>
+          <li>
+            <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
+          </li>
+          <li>
+            <a href="/better-google-tasks" target="_blank">Better Google Tasks</a>
+          </li>
+          <li>
+            <a href="http://cambodia.richwells.me" target="_blank">Cambodia travel scrapbook</a>
+          </li>
+          <li>
+            <a href="http://100daybiblechallenge.com" target="_blank">100 Day Bible Challenge</a>
+          </li>
+          <li>
+            <a href="https://www.thelevelcollective.com/rich-wells/" target="_blank">The Level Collective</a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/richiewells/sketchbook/" target="_blank">Pinterest sketchbook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-1-4 col-networks">
+        <h3>Networks</h3>
+        <ul class="footer-list">
+          <li class="">
+             <a href="http://twitter.com/richwells" class="twitter" target="_blank"> <i class="fa fa-twitter"></i>
+             <span>Twitter</span></a>
+          </li>
+          <li class="">
+             <a href="http://instagram.com/richwells" class="instagram" target="_blank"> <i class="fa fa-instagram"></i> <span> Instagram</span></a>
+          </li>
+          <li class="">
+             <a href="http://www.pinterest.com/richiewells/" class="dribble" target="_blank"> <i class="fa fa-pinterest"></i> <span> Pinterest </span></a>
+          </li>
+          <li class="">
+             <a href="http://dribbble.com/richwells" class="dribble" target="_blank"> <i class="fa fa-dribbble"></i> <span> Dribbble </span></a>
+          </li>
+          <li class="flickr-list-item">
+             <a href="http://flickr.com/richwells" class="flickr" target="_blank"> <i class="fa fa-flickr"></i> <span> Flickr</span></a>
+          </li>
+          <li class="vimeo-list-item">
+             <a href="http://vimeo.com/richwells" class="vimeo" target="_blank"> <i class="fa fa-vimeo-square"></i> <span> Vimeo </span></a>
+          </li>
+          <li class="">
+             <a href="http://www.linkedin.com/pub/rich-wells/42/34/51" class="linkedin" target="_blank"> <i class="fa fa-linkedin"></i>
+             <span>LinkedIn </span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <p class="copyright">
+    &copy; Rich Wells 2015. All rights reserved.
+  </p>
+</div>
+
+  </body>
+</html>
