@@ -1780,4 +1780,7 @@ body.thoughts { background: #97DD75; }
 
 .storytime-inner { display: table-cell; text-align: center; vertical-align: middle; }
 
+@media only screen and (min-width: 954px) { .farewell-daddy-daycare { background: url(/downloads/farewell-daddy-daycare-strip-md.jpg) repeat-x center 70px; }
+  .farewell-daddy-daycare .post { background: #fff; margin-top: 500px; } }
+
 /*# sourceMappingURL=rw.css.map */
