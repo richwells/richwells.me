@@ -1217,7 +1217,7 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 
 html, body { overflow-x: hidden; margin: 0; padding: 0; }
 
-html { font-family: "Karla", helvetica, Arial, sans-serif; color: #515151; }
+html { font-family: "Karla", helvetica, Arial, sans-serif; color: #000; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Karla", Helvetica, Arial, sans-serif; font-weight: 600; color: #313131; letter-spacing: -.025rem; }
 
