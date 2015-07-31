@@ -4,13 +4,88 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-06-03T11:40:37+01:00</updated>
+ <updated>2015-07-31T12:09:52+01:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Square Share</title>
+   <link href="http://richwells.me/squareshare"/>
+   <updated>2015-07-20T11:35:00+01:00</updated>
+   <id>http://richwells.me/square-share</id>
+   <content type="html">&lt;p&gt;
+  Two of my friends Matt and Tom recently started up a business called &lt;a href=&quot;http://square-share.co.uk/&quot; target=&quot;_blank&quot;&gt;Square Share&lt;/a&gt; and I helped them set up their branding.
+&lt;/p&gt;
+
+  &lt;img class=&quot;small&quot; src=&quot;/downloads/ss-matt-and-tom.jpg&quot; alt=&quot;Tom and Matt&quot;&gt;
+
+&lt;p&gt;
+  The Square Share idea came about after an art installation they made called &lt;em&gt;The selfie printer&lt;/em&gt;, which pulls through all #selfie images in real time on Twitter and Instagram, and prints them out quickly on a receipt printer. The printer would be left on for weeks in a room, filling up the floor and walls with pictures of people’s faces from all around the world.
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://instagram.com/p/pYq8Hwlg0T/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_top&quot;&gt;A video posted by Rich Wells (@richwells)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2014-06-18T12:31:10+00:00&quot;&gt;Jun 18, 2014 at 5:31am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  Seeing the selfie printer in action made me think a lot about the things we share online and how people might engage with them in ways we couldn’t imagine. And also how vain we can be sometimes! The art project had a huge response and they decided to develop the idea further.
+
+&lt;/p&gt;
+
+
+&lt;img class=&quot;small&quot; src=&quot;/downloads/ss-2.png&quot; alt=&quot;#selfie to #yourevent&quot;&gt;
+
+
+&lt;p&gt;
+  The result was Square Share. Photos pulled in realtime from social media and printed instantly, on high quality photo paper. They were inspired by how disposable cameras at weddings give a different angle on the day and how physical polaroid prints change the way people interact with photos.
+
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/ss-4.jpg&quot; alt=&quot;square-share&quot; class=&quot;wide&quot; /&gt;
+
+&lt;p&gt;
+  When Matt first showed me the prototype I was really impressed with the simple box they’d made to house the printer,  Raspberry Pi and internet dongle that made it work. While the #selfie art project had all the wires on show, the Square Share box was clean, simple and a bit magical. It reminded me of early Apple products - hiding the technical stuff and making something more human and fun. It was great to see how people responded with surprise and joy to a photo they’d just shared online coming out of a random box, at hand height.
+
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src=&quot;/downloads/ss-5.jpg&quot; alt=&quot;inspiration and thoughts&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  I realised that the box and the prints were the most important elements of the brand. The design and branding shouldn’t get in the way of this, so I decided to keep it as simple as possible. I ended up choosing three colours, and a nice rounded font for the titles to give it that human feel. After exploring a few different logo ideas and trying to be clever with printer icons and animations, I stripped everything away and put their name in a box. Simple. Here are some pages from my brand guidelines.
+&lt;/p&gt;
+
+
+&lt;img src=&quot;/downloads/ss-6.jpg&quot; alt=&quot;lgoo guidelines&quot;&gt;
+&lt;img src=&quot;/downloads/ss-7.jpg&quot; alt=&quot;colours&quot;&gt;
+&lt;img src=&quot;/downloads/ss-8.jpg&quot; alt=&quot;typography&quot;&gt;
+&lt;img src=&quot;/downloads/ss-9.jpg&quot; alt=&quot;photo print&quot;&gt;
+
+
+&lt;!-- &lt;div class=&quot;grid wide&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/ss-6.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/ss-7.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/ss-8.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/ss-9.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;
+&lt;img src=&quot;/downloads/ss-10.jpg&quot; alt=&quot;t-shirt&quot;&gt;
+&lt;img src=&quot;/downloads/ss-11.jpg&quot; alt=&quot;website&quot;&gt;
+&lt;img src=&quot;/downloads/ss-12.jpg&quot; alt=&quot;Square Share in action&quot; class=&quot;wide&quot;&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Be kind to your future self</title>
