@@ -4,13 +4,191 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-11-18T10:04:12+00:00</updated>
+ <updated>2015-12-08T09:27:08+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Designing a plywood sofa</title>
+   <link href="http://richwells.me/designing-a-plywood-sofa"/>
+   <updated>2015-11-27T10:35:00+00:00</updated>
+   <id>http://richwells.me/designing-a-sofa</id>
+   <content type="html">&lt;img src=&quot;/downloads/sofa-1.jpg&quot; alt=&quot;Plywood sofa&quot;&gt;
+
+&lt;p&gt; When deciding what side projects to take up, I pick things that are different to what I do normally in the day, and challenge me in some kind of new way. A while back we needed a sofa at work and so it sounded like a good challenge to make one. “How hard can it be?” I said. (Well, quite, it turns out).&lt;/p&gt;
+
+&lt;h2&gt; The inspiration&lt;/h2&gt;
+
+&lt;img src=&quot;/downloads/sofa-original.jpg&quot; alt=&quot;The Eames Sofa Compact&quot;&gt;
+
+&lt;p&gt;
+  One of my favourite chairs is the Eames sofa compact, designed by Charles and Ray Eames in 1954. When it came out it was pretty revolutionary. They wanted to create “The best for the least, for the most,” and before flat pack furniture became the norm they designed a chair that could be shipped in a small box and assembled by anyone. They knew that shipping carriers preferred weight over volume, and so they started with that constraint — something that could be shipped anywhere cheaply and wouldn’t get damaged in the process.
+&lt;/p&gt;
+
+&lt;div class=&quot;grid wide&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-box.jpg&quot; alt=&quot;Unpacking an Eames Sofa&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-box-2.jpg&quot; alt=&quot;Unpacking an Eames Sofa&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;
+  The Sofa compact is simple with just three cushions and a frame, but to get there, the Eames explored many different prototypes with a variety of materials and angles, until they got to something that is incredible comfy and takes up a small amount of space.
+&lt;/p&gt;
+
+&lt;div class=&quot;grid wide&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-s73.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-s73-2.jpg&quot; alt=&quot;&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;
+  I’d like to own an Eames Sofa one day, but as I don’t have a spare $5000 lying around I decided to design something for myself inspired by it, out of plywood.
+&lt;/p&gt;
+
+&lt;h2&gt; Early ideas&lt;/h2&gt;
+&lt;p&gt;
+  Here are some of my initial sketches/ideas.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sofa-sketches.jpg&quot; alt=&quot;Initial sketches&quot; class=&quot;&quot;&gt;
+
+&lt;p&gt;I decided before spending money on plywood I should make some 3D models on my computer to work out how much plywood I would need. I used &lt;a href=&quot;http://www.sketchup.com/&quot; target=&quot;blank&quot;&gt;Sketch Up&lt;/a&gt; (it’s free) and started with a simple three cushion shape and a supporting plywood base.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sofa-sketchup-1.jpg&quot; alt=&quot;Sketch up prototypes&quot; class=&quot;wide&quot;&gt;
+
+
+&lt;h2&gt; Refining the design&lt;/h2&gt;
+
+&lt;p&gt;
+I liked where it was going, but it was pretty brutal in shape. Over time I refined the legs and the back- taking material away whilst thinking about the weight it needed to support. I wanted it to feel mid-century modern- clean, with slightly tapered legs and no harsh edges.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sofa-sketchup-2.jpg&quot; alt=&quot;Sketch up prototypes&quot; class=&quot;wide&quot;&gt;
+
+&lt;h2&gt; Details, details&lt;/h2&gt;
+
+&lt;p&gt;
+It was starting to come together, but there were still lots of details I needed to sort out. The main one being: How would it be strong enough to hold three people’s weight?
+&lt;/p&gt;
+
+&lt;p&gt;
+At one point I was considering attaching steel bars to the frame, but I really wanted it to be elegant and strong enough to work it’s own, so I designed a supporting frame that the base could slot on to, to distribute the weight onto the legs.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sofa-frame.jpg&quot; alt=&quot;The frame&quot; class=&quot;&quot;&gt;
+
+&lt;h2&gt; Designing for assembly&lt;/h2&gt;
+
+&lt;p&gt;
+The design was getting quite complex and I knew that I would struggle to make it myself. It was around this point that I discovered &lt;a href=&quot;http://chopshopcnc.com/&quot; target=&quot;blank&quot;&gt;The Chop Shop&lt;/a&gt; — a company in Sheffield that will cut out any shape you want in plywood. This changed my thinking - rather than design a one off for myself I started to consider how I could design the sofa for others to cut out and assemble.
+&lt;/p&gt;
+&lt;p&gt;
+On the screen I worked out how I would put this together from the separate parts. If everything was to slot together it was really important to make it as obvious as possible where each bit goes, and so I either tried to make part exactly the same or completely different to avoid any confusion.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sofa-exploded-1.jpg&quot; alt=&quot;The sofa exploded&quot; class=&quot;&quot;&gt;
+&lt;img src=&quot;/downloads/sofa-exploded-2.jpg&quot; alt=&quot;The sofa exploded&quot; class=&quot;&quot;&gt;
+
+&lt;h2&gt; Exporting the design &lt;/h2&gt;
+
+&lt;p&gt;
+Now the design was ready to be cut out. I exported the parts (using the free &lt;a href=&quot;https://extensions.sketchup.com/en/content/wikihouse&quot; target=&quot;blank&quot;&gt;Wikihouse&lt;/a&gt; plugin) to svg vectors, which I could then lay out on a board in Illustrator. I eventually had three boards, with a bit of space on them to play around with other ideas.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sofa-boards.jpg&quot; alt=&quot;The sofa parts layed out on a board&quot; class=&quot;&quot;&gt;
+
+&lt;h2&gt; Chop Shopping &lt;/h2&gt;
+
+&lt;p&gt;
+We were finally ready to go. My first design was cut out late on a Friday evening by Sam at the Chop Shop. The finished result was a bit like a giant airfix model.
+&lt;/p&gt;
+&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-chopshop-1.jpg&quot; alt=&quot;At the chop shop&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-chopshop-2.jpg&quot; alt=&quot;At the chop shop&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-chopshop-3.jpg&quot; alt=&quot;At the chop shop&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-1-2&quot;&gt;
+    &lt;img src=&quot;/downloads/sofa-chopshop-4.jpg&quot; alt=&quot;At the chop shop&quot;&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;
+It was so weird holding the actual parts after working through all the details for so long on a screen. They seemed smaller than I imagined and I was pretty nervous that this would all be a failure, that my 10 months of thinking/designing (admittedly whilst watching tv) would have been a waste. I still didn’t really know if it would hold a person’s weight.
+&lt;/p&gt;
+
+&lt;h2&gt; Assembling the frame &lt;/h2&gt;
+&lt;p&gt;
+To my joy and relief- it worked! I put together the wooden frame in our front room and it felt really sturdy and I was especially pleased with the angles of the back. There were a few tight slots that needed filing out, but all in all it worked as expected.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sofa-living-room.jpg&quot; alt=&quot;Assemling it all&quot;&gt;
+
+&lt;h2&gt; Upholstery &lt;/h2&gt;
+
+&lt;p&gt;
+I got the cushions upholstered by a local shop called &lt;a href=&quot;http://www.cundys.co.uk/&quot; target=&quot;blank&quot;&gt;Cundy upholstery&lt;/a&gt;. They’re pretty old school, so I had to convert all my measurements to inches, but they gave me some really helpful advice.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sofa-cundys.jpg&quot; alt=&quot;Cundy upholstery&quot;&gt;
+
+&lt;p&gt;
+Getting the back cushions right was essential for the design to work, so we developed a way of using multiple layers of foam to get the right shape. The foam was covered in a dacron wrap, and then the fabric was added on top, stapled to a thin board which was screwed to the back boards.
+&lt;/p&gt;
+
+
+&lt;h2&gt; Putting it all together &lt;/h2&gt;
+
+&lt;p&gt;
+So the day finally came around where I could assemble everything, which I did in our office. Everyone stopped work to watch me nervously attach everything together and be the first guinea pig to test it out. I think they were secretly hoping I&#39;d squash it.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sofa-cushion.jpg&quot; alt=&quot;The sofa back boards&quot;&gt;
+
+&lt;img src=&quot;/downloads/sofa-straps.jpg&quot; alt=&quot;The sofa straps&quot;&gt;
+
+&lt;h2&gt; So what’s it like to sit on? &lt;/h2&gt;
+
+&lt;p&gt;
+To my relief it works much better than I even imagined. It’s fairly firm at the moment, it’s not a “cuddle up and watch tv” sofa, but having used it a lot for a week, it’s the perfect angle for reading and using laptops, and it’s already starting to soften up. The most rewarding thing has been seeing other people use it in the team- it’s changed a corner of the room we didn’t use into a social area, and made our temporary office space feel a lot more like home.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sofa-mark.jpg&quot; alt=&quot;Mark sitting on the sofa&quot;&gt;
+&lt;img src=&quot;/downloads/sofa-group.jpg&quot; alt=&quot;Group sitting on the sofa&quot;&gt;
+
+&lt;h2&gt;Next steps &lt;/h2&gt;
+
+&lt;p&gt;
+I want to treat this project like I would a digital one — I have a first version but it needs testing, and I want to learn as much as I can and build further iterations to improve the design. I already have a list of things I want to improve (mainly around making it easy to assemble), so hopefully I can iron out a few ‘bugs’ before I give it to the world.
+&lt;/p&gt;
+&lt;p&gt;
+Still not sure what to do with it in the end - I’m considering open sourcing the design so other people can make them too. I’ll  let you know how I go.
+&lt;/p&gt;
+
+&lt;H3&gt;Big thanks to&lt;/H3&gt;
+&lt;ul&gt;
+  &lt;li&gt;My wife Bry for her patience&lt;/li&gt;
+  &lt;li&gt;Yoomee for paying for the first prototype and letting me work on this in &#39;&lt;a href=&quot;http://www.yoomee.com/investment-time&quot; target=&quot;blank&quot;&gt;investment time&lt;/a&gt;&#39;&lt;/li&gt;
+  &lt;li&gt;Ivan &amp;amp; Sam at the &lt;a href=&quot;http://chopshopcnc.com/&quot; target=&quot;blank&quot;&gt;Chop Shop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cundys.co.uk/&quot; target=&quot;blank&quot;&gt;Cundy Upholstery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Barbican, for their excellent exhibition: &lt;a href=&quot;http://www.barbican.org.uk/artgallery/event-detail.asp?ID=18398&quot; target=&quot;blank&quot;&gt;&quot;The World of Charles and Ray Eames&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Never a grey day</title>
