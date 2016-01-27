@@ -88,8 +88,7 @@ blockquote p:last-child { margin-bottom: 0; }
 @media (min-width: 30em) { blockquote { padding-right: 5rem; padding-left: 1.25rem; } }
 img { display: block; max-width: 100%; border-radius: 4px; }
 
-@media only screen and (min-width: 769px) { img.small { max-width: 450px; text-align: center; display: inline-block; margin-left: 60px; float: none; } }
-@media only screen and (min-width: 954px) { img.small { margin-left: 120px; } }
+@media only screen and (min-width: 769px) { img.small { max-width: 450px; text-align: center; display: block; margin-left: auto; margin-right: auto; float: none; } }
 
 /* Tables */
 table { margin-bottom: 1rem; width: 100%; border: 1px solid #e5e5e5; border-collapse: collapse; }
@@ -1223,8 +1222,8 @@ h1, h2, h3, h4, h5, h6 { font-family: "Karla", Helvetica, Arial, sans-serif; fon
 
 a { color: #000; }
 
-.post p a, .footer a, .listy-right a { border-bottom: 1px solid #000; }
-.post p a:hover, .footer a:hover, .listy-right a:hover { text-decoration: none; border-bottom-color: #ccc; }
+.post p a, .footer a, .listy-right a, .post li a { border-bottom: 1px solid #000; }
+.post p a:hover, .footer a:hover, .listy-right a:hover, .post li a:hover { text-decoration: none; border-bottom-color: #ccc; }
 
 .read-more-link, .cta { font-weight: bold; border-bottom: 2px solid #000; }
 .read-more-link:hover, .cta:hover { text-decoration: none; border-bottom-color: #ccc; }

@@ -4,13 +4,73 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2015-12-08T09:27:08+00:00</updated>
+ <updated>2016-01-27T10:56:59+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Sheffield Digital</title>
+   <link href="http://richwells.me/sheffield-digital"/>
+   <updated>2016-01-27T10:35:00+00:00</updated>
+   <id>http://richwells.me/sheffield-digital</id>
+   <content type="html">&lt;img src=&quot;/downloads/sd-1.jpg&quot; alt=&quot;Sheffield Digital logo&quot;&gt;
+&lt;img src=&quot;/downloads/sd-tn-gif.gif&quot; alt=&quot;Sheffield Digital logo&quot;&gt;
+
+&lt;p&gt; I recently had the pleasure of designing the identity for Sheffield Digital.&lt;/p&gt;
+
+&lt;p&gt;The organisation was set up a year ago by &lt;a href=&quot;https://twitter.com/@chrisdymond&quot; data-href=&quot;https://twitter.com/@chrisdymond&quot; rel=&quot;nofollow&quot;&gt;Chris&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/@melkanarek&quot; data-href=&quot;https://twitter.com/@melkanarek&quot; rel=&quot;nofollow&quot;&gt;Mel&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/@saulcozens&quot; data-href=&quot;https://twitter.com/@saulcozens&quot;rel=&quot;nofollow&quot;&gt;Saul&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/@birchenall&quot; data-href=&quot;https://twitter.com/@birchenall&quot;&gt;Neill&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/@andymayer&quot; data-href=&quot;https://twitter.com/@andymayer&quot;&gt;Andy&lt;/a&gt;, to connect people together in Sheffield, be a voice for the community and promote the city’s digital capabilities around the country/world.
+&lt;/p&gt;
+
+&lt;h2&gt; Workshopping&lt;/h2&gt;
+
+&lt;p&gt;
+  We got started by running a brand workshop at Yoomee HQ. To get everyone talking about design, we laid out a heat map of images/designs/messaging that we thought fitted with where we wanted to go. Often the most interesting part of these workshops are the disagreements — the tension between “it’s this, but also this, but definitely not that.” We all come from different angles and sometimes we don’t have the right words to explain what we mean, so having visual examples and time to thrash out a shared direction really helps.
+&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/sd-workshop.jpg&quot; alt=&quot;Brand workshop at Yoomee&quot;&gt;
+
+&lt;p&gt;
+  Our heat map ended up becoming a bit of a moodboard. We were inspired by patterns, glitches, maps, and things that felt digital without looking too ‘techy’ or ‘Broadband ISP’.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sd-moodboard.jpg&quot; class=&quot;wide&quot; alt=&quot;Moodboard&quot;&gt;
+
+&lt;h2&gt;Early ideas&lt;/h2&gt;
+&lt;p&gt;
+  I started playing around with a few logo ideas, some more wacky than others. I was keen to keep the logo simple, over the top of more creative colours/patterns.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sd-ideas.jpg&quot; class=&quot;wide&quot; alt=&quot;early ideas&quot;&gt;
+&lt;img src=&quot;/downloads/sd-gif.gif&quot; alt=&quot;early logo ideas&quot; class=&quot;small&quot;&gt;
+&lt;p&gt;
+  We eventually landed on a concept, inspired by maps. An abstract shape showing connections in the city.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sd-map.jpg&quot; alt=&quot;Network pattern inspired by maps&quot;&gt;
+&lt;p&gt;
+The logo in itself is really simple, says what it does (the url is sheffield.digital). I used the excellent font Calibre, and slightly altered some of the letter forms so the ‘h and d’ and the two ‘l’s aligned.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sd-logo-grid.png&quot; alt=&quot;refining the logo&quot; class=&quot;small&quot;&gt;
+
+&lt;p&gt;
+  We ended up picking a range of colours, half inspired by text editors and half inspired by &lt;a href=&quot;http://sheffield.digital/announcing-the-sheffielddigital-slack-team/&quot; target=&quot;blank&quot;&gt;Slack’s&lt;/a&gt; colourful UI. As Slack is heavily used by the Sheffield Digital community (and us at &lt;a href=&quot;http://yoomee.com&quot;&gt;Yoomee&lt;/a&gt;), it seemed like a good idea to have a colour scheme that compliments that. I also designed some obligatory non digital things.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sd-tshirts.jpg&quot; alt=&quot;tshirts and twitter&quot; class=&quot;wide&quot;&gt;
+
+&lt;h2&gt;Website&lt;/h2&gt;
+&lt;p&gt;
+  I worked with Saul on the &lt;a href=&quot;http://sheffield.digital&quot;&gt;responsive Wordpress site&lt;/a&gt;. It’s a quick first iteration, and we hope to develop it over time.
+&lt;/p&gt;
+&lt;img src=&quot;/downloads/sd-website.jpg&quot; alt=&quot;Sheffield Digital Website&quot; class=&quot;wide&quot;&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;
+  I also posted this to &lt;a href=&quot;https://medium.com/@richwells/sheffield-digital-b4665e87c1d2#.3vkq9fnho&quot;&gt;Medium&lt;/a&gt;.
+&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Designing a plywood sofa</title>
@@ -187,6 +247,10 @@ Still not sure what to do with it in the end - I’m considering open sourcing t
   &lt;li&gt;&lt;a href=&quot;http://www.cundys.co.uk/&quot; target=&quot;blank&quot;&gt;Cundy Upholstery&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The Barbican, for their excellent exhibition: &lt;a href=&quot;http://www.barbican.org.uk/artgallery/event-detail.asp?ID=18398&quot; target=&quot;blank&quot;&gt;&quot;The World of Charles and Ray Eames&quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;
+  I also posted this to &lt;a href=&quot;https://medium.com/@richwells/building-a-plywood-sofa-c30882f50bf5#.n0j890d95&quot;&gt;Medium&lt;/a&gt;.
+&lt;/p&gt;
 </content>
  </entry>
  
