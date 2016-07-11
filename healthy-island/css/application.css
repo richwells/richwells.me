@@ -1188,6 +1188,9 @@ a.back {
   height: 80px;
   font-size: 20px;
   font-family: fatfrank, helvetica, arial, sans-serif; }
+  @media only screen and (max-width: 600px) {
+    a.back {
+      text-indent: -9000em; } }
 
 body.home {
   background: #6ECBE5 url(../images/sky.png) repeat-x top center;
@@ -1219,8 +1222,7 @@ body.home {
   @media only screen and (min-width: 600px) {
     .island {
       height: 740px;
-      background: url(../images/island.png) no-repeat top center;
-      background-image: url(../images/island.svg); } }
+      background: url(../images/island.png) no-repeat top center; } }
   @media only screen and (min-width: 993px) {
     .island {
       max-width: 1006px;
@@ -1259,7 +1261,7 @@ body.home {
   text-align: center;
   width: 100%;
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 25px;
   font-family: "fatfrank", sans-serif;
   letter-spacing: 0.6px; }
@@ -1429,7 +1431,6 @@ body.home {
 @media only screen and (min-width: 600px) {
   .sea-1 {
     background: url("../images/sea-1.png") top center no-repeat;
-    background-image: url("../images/sea-1.svg");
     width: 100%;
     height: 115px;
     position: absolute;
@@ -1438,7 +1439,6 @@ body.home {
 
   .sea-2 {
     background: url("../images/sea-2.png") top center no-repeat;
-    background-image: url("../images/sea-2.svg");
     width: 100%;
     height: 75px;
     position: absolute;
@@ -1456,6 +1456,74 @@ body.home {
     .about {
       max-width: 800px;
       margin: 0 auto; } }
+
+@media only screen and (min-width: 993px) {
+  .sketches, .game-graphics {
+    width: 1000px; }
+    .sketches img, .game-graphics img {
+      float: left;
+      margin: 40px 0;
+      margin-left: -150px; } }
+
+body.play {
+  background: #8FA32B; }
+  @media only screen and (min-width: 600px) {
+    body.play {
+      width: 100%;
+      float: left;
+      background: #8FA32B url("../images/play-phone.png") center 50px no-repeat;
+      background-image: url("../images/play-phone.svg");
+      height: 704px;
+      margin-top: 24px; } }
+
+.play a.back {
+  color: #fff; }
+  @media only screen and (max-width: 993px) {
+    .play a.back {
+      display: none; } }
+
+@media only screen and (max-width: 600px) {
+  .play-phone {
+    background: #000;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px; } }
+
+.screen {
+  width: 512px;
+  height: 290px;
+  margin: 46px auto 0;
+  background: #000;
+  position: relative; }
+  @media only screen and (max-width: 600px) {
+    .screen {
+      margin-top: 0; } }
+
+.play-info {
+  max-width: 700px;
+  margin: 90px auto;
+  text-align: center; }
+
+.play .appstore-links {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 440px;
+  margin: 0 auto; }
+
+.play-button {
+  display: block;
+  width: 512px;
+  text-indent: -9000em;
+  height: 290px;
+  background: url("../images/play-button.png") center top no-repeat;
+  background-image: url("../images/play-button.svg");
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.play .footer {
+  background: #656B2D; }
 
 .privacy {
   background: #E9E4CD; }
