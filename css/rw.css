@@ -1216,9 +1216,9 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 
 html, body { overflow-x: hidden; margin: 0; padding: 0; }
 
-html { font-family: "Karla", helvetica, Arial, sans-serif; color: #000; }
+html { font-family: "sofia-pro", helvetica, Arial, sans-serif; color: #444; -webkit-font-smoothing: antialiased; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Karla", Helvetica, Arial, sans-serif; font-weight: 600; color: #313131; letter-spacing: -.025rem; }
+h1, h2, h3, h4, h5, h6 { font-weight: 600; color: #000; -webkit-font-smoothing: auto; }
 
 a { color: #000; }
 
@@ -1610,7 +1610,7 @@ ul.header-nav li a i { font-size: 22px; line-height: 30px; }
 
 .about-wrap { max-width: 800px; margin: 0 auto; }
 
-h2.about-intro { font-weight: normal; text-align: center; line-height: 1.2; font-size: 23px; margin: 30px 0; }
+h2.about-intro { text-align: center; line-height: 1.2; font-size: 23px; margin: 30px 0; }
 @media only screen and (min-width: 769px) { h2.about-intro { font-size: 40px; margin: 70px 0; } }
 
 .listy { color: #333; }
