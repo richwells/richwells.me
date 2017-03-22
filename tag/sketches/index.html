@@ -30,6 +30,7 @@
   <meta content="index, follow" name="robots">
 
 
+
   <script>!function(a,b,c,d,e){function g(a,c,d,e){var f=b.getElementsByTagName("script")[0];a.src=e,a.id=c,a.setAttribute("class",d),f.parentNode.insertBefore(a,f)}a.Mobify={points:[+new Date]};var f=/((; )|#|&|^)mobify=(\d)/.exec(location.hash+"; "+b.cookie);if(f&&f[3]){if(!+f[3])return}else if(!c())return;b.write('<plaintext style="display:none">'),setTimeout(function(){var c=a.Mobify=a.Mobify||{};c.capturing=!0;var f=b.createElement("script"),h="mobify",i=function(){var c=new Date;c.setTime(c.getTime()+3e5),b.cookie="mobify=0; expires="+c.toGMTString()+"; path=/",a.location=a.location.href};f.onload=function(){if(e)if("string"==typeof e){var c=b.createElement("script");c.onerror=i,g(c,"main-executable",h,mainUrl)}else a.Mobify.mainExecutable=e.toString(),e()},f.onerror=i,g(f,"mobify-js",h,d)})}(window,document,function(){a=/webkit|(firefox)[\/\s](\d+)|(opera)[\s\S]*version[\/\s](\d+)|(trident)[\/\s](\d+)/i.exec(navigator.userAgent);return!a||a[1]&&4>+a[2]||a[3]&&11>+a[4]||a[5]&&6>+a[6]?!1:!0},
 
 // path to mobify.js
@@ -53,8 +54,9 @@ function() {
 });</script>
 
 
+
   <!-- CSS -->
-  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://use.typekit.net/ipw5gpd.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -65,7 +67,7 @@ function() {
   <link rel="shortcut icon" href="/img/favicon3.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
 
   <!-- Javascripts -->
   <!--==================================================-->
@@ -75,6 +77,7 @@ function() {
   <script type="text/javascript" src="/js/jquery.scrollUp.min.js"></script>
   <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" src="/js/isotope.js"></script>
+  <!-- <script src="/js/infinite-jekyll.js"></script> -->
 
 
   
@@ -115,7 +118,7 @@ function() {
   
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item sidebar-blog " href="/">Blog</a>
+    <a class="sidebar-nav-item sidebar-blog " href="/projects/">Projects</a>
     <a class="sidebar-nav-item sidebar-about" href="/about">About me</a>
     <a href="http://twitter.com/richwells" class="twitter sidebar-social" target="_blank"> <i class="fa fa-twitter"></i>
       <span>Twitter</span></a>
@@ -131,19 +134,19 @@ function() {
         <a href="http://yoomee.com" target="_blank">Yoomee</a>
       </li>
       <li>
-        <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
+        <a href="http://printedbyus.org/" target="_blank">Printed by Us</a>
       </li>
       <li>
-        <a href="http://richwells.me/better-google-tasks" target="_blank">Better Google Tasks</a>
+        <a href="/better-google-tasks" target="_blank">Better Google Tasks</a>
       </li>
       <li>
-        <a href="http://cambodia.richwells.me" target="_blank">Cambodia scrapbook</a>
+        <a href="http://cambodia.richwells.me" target="_blank">Cambodia travel scrapbook</a>
       </li>
       <li>
         <a href="http://100daybiblechallenge.com" target="_blank">100 Day Bible Challenge</a>
       </li>
       <li>
-        <a href="https://www.thelevelcollective.com/rich-wells/" target="_blank">The Level Collective</a>
+        <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
       </li>
       <li>
         <a href="https://www.pinterest.com/richiewells/sketchbook/" target="_blank">Pinterest sketchbook</a>
@@ -168,8 +171,9 @@ function() {
       
     </h3>
     <ul class="header-nav">
-      <li><a href="/" class="nav-blog">Blog</a></li>
-      <li><a href="/about" class="nav-about">About me</a></li>
+      <li><a href="/" class="nav-about">About me</a></li>
+      <li><a href="/projects" class="nav-projects">Projects</a></li>
+      
       <li><a href="http://twitter.com/richwells" target="blank"><i class="fa fa-twitter"></i></a></li>
       <li><a href="http://instagram.com/richwells" target="blank"><i class="fa fa-instagram"></i></a></li>
     </ul>
@@ -177,20 +181,36 @@ function() {
 </div>
 
       <div class="tag-sketches">
-  <div class="container blog-tags">
+  <div class="blog-tags projects-header container">
+  <h1 class="projects-title">Projects</h1>
+
   <ul class="blog-tag-list">
-    <li><a class="tag-link-everything" href="/">everything</a></li>
-    <li><a class="tag-link-sketches" href="/tag/sketches">sketches</a></li>
-    <li><a class="tag-link-photos" href="/tag/photos">photos</a></li>
-    <li><a class="tag-link-video" href="/tag/video">videos</a></li>
-    <li><a class="tag-link-work" href="/tag/work">design work</a></li>
-    <li><a class="tag-link-ux" href="/tag/ux">web/UX</a></li>
+
+    <li><a class="tag-link-everything" href="/projects/">Everything</a></li>
+    <li><a class="tag-link-branding" href="/tag/branding">Brand</a></li>
+    <li><a class="tag-link-illustration" href="/tag/illustration">Illustration</a></li>
+    <!-- <li><a class="tag-link-work" href="/tag/work">work</a></li> -->
+
+    <li><a class="tag-link-ux" href="/tag/ux">Digital/UX</a></li>
+    <!-- <li><a class="tag-link-ux" href="/tag/ux">front-end coding</a></li> -->
+    <!-- <li><a class="tag-link-sketches" href="/tag/sketches">sketches</a></li> -->
+
+    <li><a class="tag-link-photos" href="/tag/photos">Photography</a></li>
+    <!-- <li><a class="tag-link-furniture" href="/tag/furniture">Furniture &amp; interiors</a></li> -->
+    <!-- <li><a class="tag-link-video" href="/tag/video">storytelling/motion</a></li> -->
+    <!-- <li><a class="tag-link-travels" href="/tag/travels">travel</a></li> -->
+    <!-- <li><a class="tag-link-travels" href="/tag/travels">mental health</a></li> -->
+    <!-- <li><a class="tag-link-travels" href="/tag/travels">co-creation</a></li> -->
+    <!-- <li><a class="tag-link-yoomee" href="/tag/yoomee">yoomee</a></li> -->
+
+
+
     <!-- <li><a class="tag-link-illustration" href="/tag/illustration">Illustrations</a></li> -->
 
-    <li><a class="tag-link-inspiration" href="/tag/inspiration">inspiration</a></li>
-    <li><a class="tag-link-thoughts" href="/tag/thoughts">thoughts</a></li>
-    <li><a class="tag-link-yoomee" href="/tag/yoomee">yoomee</a></li>
-    <li><a class="tag-link-travels" href="/tag/travels">travels</a></li>
+    <!-- <li><a class="tag-link-inspiration" href="/tag/inspiration">inspiration</a></li> -->
+    <!-- <li><a class="tag-link-thoughts" href="/tag/thoughts">Talks/thoughts</a></li> -->
+
+
   </ul>
 </div>
 
@@ -211,6 +231,7 @@ function() {
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/collage-9.jpg" alt="Back to collage">
+          <!-- <img src="/downloads/collage-9.jpg" alt="Back to collage"> -->
           
         </span>
       </a>
@@ -240,12 +261,27 @@ function() {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="col-1-3 col-related">
       
       <a href="/never-grey">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/nevergrey.jpg" alt="Never a grey day">
+          <!-- <img src="/downloads/nevergrey.jpg" alt="Never a grey day"> -->
           
         </span>
       </a>
@@ -271,12 +307,19 @@ function() {
     
     
     
+    
+    
+    
+    
+    
+    
     <div class="col-1-3 col-related">
       
       <a href="/be-kind-to-your-future-self">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/be-kind-to-your-future-self-3.jpg" alt="Be kind to your future self">
+          <!-- <img src="/downloads/be-kind-to-your-future-self-3.jpg" alt="Be kind to your future self"> -->
           
         </span>
       </a>
@@ -340,27 +383,18 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/blessed-are-those-who-mourn">
+      <a href="/projects/blessed-are-those-who-mourn">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/blessed-are-those-who-mourn.jpg" alt="Blessed">
+          <!-- <img src="/downloads/blessed-are-those-who-mourn.jpg" alt="Blessed"> -->
           
         </span>
       </a>
       
-      <a href="/blog/blessed-are-those-who-mourn">
+      <a href="/projects/blessed-are-those-who-mourn">
         <h3 class="post-title">Blessed</h3>
         
       </a>
@@ -385,19 +419,18 @@ function() {
     
     
     
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/sketches-of-spain">
+      <a href="/projects/sketches-of-spain">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/sketches-of-spain-1.jpg" alt="Sketches of Spain">
+          <!-- <img src="/downloads/sketches-of-spain-1.jpg" alt="Sketches of Spain"> -->
           
         </span>
       </a>
       
-      <a href="/blog/sketches-of-spain">
+      <a href="/projects/sketches-of-spain">
         <h3 class="post-title">Sketches of Spain</h3>
         
       </a>
@@ -458,21 +491,42 @@ function() {
     
     
     
+    <div class="col-1-3 col-related">
+      
+      <a href="/projects/hendersons-strong-and-northern">
+        <span class="post-img-wrap">
+          
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/strong-and-northern.jpg" alt="Hendos Strong &amp; Northern">
+          <!-- <img src="/downloads/strong-and-northern.jpg" alt="Hendos Strong &amp; Northern"> -->
+          
+        </span>
+      </a>
+      
+      <a href="/projects/hendersons-strong-and-northern">
+        <h3 class="post-title">Hendos Strong &amp; Northern</h3>
+        
+      </a>
+    </div>
+
+    
+    
+    
     
     
     
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/good-to-be-back">
+      <a href="/projects/good-to-be-back">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/team-yoomee.png" alt="Team Yoomee">
+          <!-- <img src="/downloads/team-yoomee.png" alt="Team Yoomee"> -->
           
         </span>
       </a>
       
-      <a href="/blog/good-to-be-back">
+      <a href="/projects/good-to-be-back">
         <h3 class="post-title">Team Yoomee</h3>
         
       </a>
@@ -483,41 +537,6 @@ function() {
     
     
     
-    <div class="col-1-3 col-related">
-      
-      <a href="/blog/art-for-cambodia">
-        <span class="post-img-wrap">
-          
-          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/cambodian-artwork.jpg" alt="Give to Tearfund, get some artwork">
-          
-        </span>
-      </a>
-      
-      <a href="/blog/art-for-cambodia">
-        <h3 class="post-title">Give to Tearfund, get some artwork</h3>
-        
-      </a>
-    </div>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -526,15 +545,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/cambodia-scrapbook">
+      <a href="/projects/cambodia-scrapbook">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/scrapbook-anim.gif" alt="Cambodia travel scrapbook">
+          <!-- <img src="/downloads/scrapbook-anim.gif" alt="Cambodia travel scrapbook"> -->
           
         </span>
       </a>
       
-      <a href="/blog/cambodia-scrapbook">
+      <a href="/projects/cambodia-scrapbook">
         <h3 class="post-title">Cambodia travel scrapbook</h3>
         
       </a>
@@ -615,75 +635,23 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <div class="col-1-3 col-related">
+      
+      <a href="/projects/coffee-packets">
+        <span class="post-img-wrap">
+          
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/coffee-packets.jpg" alt="Coffee packet typography">
+          <!-- <img src="/downloads/coffee-packets.jpg" alt="Coffee packet typography"> -->
+          
+        </span>
+      </a>
+      
+      <a href="/projects/coffee-packets">
+        <h3 class="post-title">Coffee packet typography</h3>
+        
+      </a>
+    </div>
+
     
     
     
@@ -697,15 +665,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/obsolete-formats">
+      <a href="/projects/obsolete-formats">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mya41bJ0G71rr6vpvo1_1280.jpg" alt="Obsolete formats">
+          <!-- <img src="/downloads//tumblr_files/tumblr_mya41bJ0G71rr6vpvo1_1280.jpg" alt="Obsolete formats"> -->
           
         </span>
       </a>
       
-      <a href="/blog/obsolete-formats">
+      <a href="/projects/obsolete-formats">
         <h3 class="post-title">Obsolete formats</h3>
         
       </a>
@@ -728,15 +697,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/christmas-sketches">
+      <a href="/projects/christmas-sketches">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/christmas-sketches.jpg" alt="Christmas Sketches">
+          <!-- <img src="/downloads/christmas-sketches.jpg" alt="Christmas Sketches"> -->
           
         </span>
       </a>
       
-      <a href="/blog/christmas-sketches">
+      <a href="/projects/christmas-sketches">
         <h3 class="post-title">Christmas Sketches</h3>
         
       </a>
@@ -789,42 +759,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/joseph">
-        <span class="post-img-wrap">
-          
-          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mynste9AvO1rr6vpvo1_1280.jpg" alt="Joseph">
-          
-        </span>
-      </a>
-      
-      <a href="/blog/joseph">
-        <h3 class="post-title">Joseph</h3>
-        
-      </a>
-    </div>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="col-1-3 col-related">
-      
-      <a href="/blog/gerard-the-goat">
+      <a href="/projects/gerard-the-goat">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my8cztgeHN1rr6vpvo1_1280.jpg" alt="Gerard the goat">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my8cztgeHN1rr6vpvo1_1280.jpg" alt="Gerard the goat"> -->
           
         </span>
       </a>
       
-      <a href="/blog/gerard-the-goat">
+      <a href="/projects/gerard-the-goat">
         <h3 class="post-title">Gerard the goat</h3>
         
       </a>
@@ -859,21 +803,18 @@ function() {
     
     
     
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/cornish-sailors">
+      <a href="/projects/cornish-sailors">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_myohx7pdMV1rr6vpvo2_1280.jpg" alt="Cornish sailors">
+          <!-- <img src="/downloads//tumblr_files/tumblr_myohx7pdMV1rr6vpvo2_1280.jpg" alt="Cornish sailors"> -->
           
         </span>
       </a>
       
-      <a href="/blog/cornish-sailors">
+      <a href="/projects/cornish-sailors">
         <h3 class="post-title">Cornish sailors</h3>
         
       </a>
@@ -898,23 +839,18 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/planet-earth-sketches">
+      <a href="/projects/planet-earth-sketches">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_myohjplgDj1rr6vpvo3_1280.jpg" alt="Planet Earth">
+          <!-- <img src="/downloads//tumblr_files/tumblr_myohjplgDj1rr6vpvo3_1280.jpg" alt="Planet Earth"> -->
           
         </span>
       </a>
       
-      <a href="/blog/planet-earth-sketches">
+      <a href="/projects/planet-earth-sketches">
         <h3 class="post-title">Planet Earth</h3>
         
       </a>
@@ -959,31 +895,18 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/castle-market">
+      <a href="/projects/castle-market">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my89ngZoAm1rr6vpvo1_1280.jpg" alt="Castle market">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my89ngZoAm1rr6vpvo1_1280.jpg" alt="Castle market"> -->
           
         </span>
       </a>
       
-      <a href="/blog/castle-market">
+      <a href="/projects/castle-market">
         <h3 class="post-title">Castle market</h3>
         
       </a>
@@ -1004,15 +927,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/rooftops-of-broomhill-on-a-windy-day">
+      <a href="/projects/rooftops-of-broomhill-on-a-windy-day">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my89kvEEEQ1rr6vpvo1_1280.jpg" alt="Broomhill">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my89kvEEEQ1rr6vpvo1_1280.jpg" alt="Broomhill"> -->
           
         </span>
       </a>
       
-      <a href="/blog/rooftops-of-broomhill-on-a-windy-day">
+      <a href="/projects/rooftops-of-broomhill-on-a-windy-day">
         <h3 class="post-title">Broomhill</h3>
         
       </a>
@@ -1031,25 +955,18 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/george-senior-and-sons">
+      <a href="/projects/george-senior-and-sons">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my89iepJqK1rr6vpvo1_1280.jpg" alt="George Senior &amp; Sons">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my89iepJqK1rr6vpvo1_1280.jpg" alt="George Senior &amp; Sons"> -->
           
         </span>
       </a>
       
-      <a href="/blog/george-senior-and-sons">
+      <a href="/projects/george-senior-and-sons">
         <h3 class="post-title">George Senior &amp; Sons</h3>
         
       </a>
@@ -1068,15 +985,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/the-sheffield-tap">
+      <a href="/projects/the-sheffield-tap">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my89cymZcf1rr6vpvo1_1280.jpg" alt="The Tap">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my89cymZcf1rr6vpvo1_1280.jpg" alt="The Tap"> -->
           
         </span>
       </a>
       
-      <a href="/blog/the-sheffield-tap">
+      <a href="/projects/the-sheffield-tap">
         <h3 class="post-title">The Tap</h3>
         
       </a>
@@ -1095,15 +1013,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/the-ingles">
+      <a href="/projects/the-ingles">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/the-ingles.jpg" alt="The Ingles' house">
+          <!-- <img src="/downloads/the-ingles.jpg" alt="The Ingles' house"> -->
           
         </span>
       </a>
       
-      <a href="/blog/the-ingles">
+      <a href="/projects/the-ingles">
         <h3 class="post-title">The Ingles' house</h3>
         
       </a>
@@ -1150,15 +1069,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/tina-roth-eisenberg-%20at-sxsw">
+      <a href="/projects/tina-roth-eisenberg-%20at-sxsw">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mycpa5WphM1rr6vpvo1_1280.png" alt="Swiss Miss' 11 Rules">
+          <!-- <img src="/downloads//tumblr_files/tumblr_mycpa5WphM1rr6vpvo1_1280.png" alt="Swiss Miss' 11 Rules"> -->
           
         </span>
       </a>
       
-      <a href="/blog/tina-roth-eisenberg-%20at-sxsw">
+      <a href="/projects/tina-roth-eisenberg-%20at-sxsw">
         <h3 class="post-title">Swiss Miss' 11 Rules</h3>
         
       </a>
@@ -1173,15 +1093,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/sunset-over-higger-tor-in-the-peak-district">
+      <a href="/projects/sunset-over-higger-tor-in-the-peak-district">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my899imrJb1rr6vpvo1_1280.jpg" alt="Sunset over Higger Tor">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my899imrJb1rr6vpvo1_1280.jpg" alt="Sunset over Higger Tor"> -->
           
         </span>
       </a>
       
-      <a href="/blog/sunset-over-higger-tor-in-the-peak-district">
+      <a href="/projects/sunset-over-higger-tor-in-the-peak-district">
         <h3 class="post-title">Sunset over Higger Tor</h3>
         
       </a>
@@ -1202,15 +1123,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/behind-the-electricworks">
+      <a href="/projects/behind-the-electricworks">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my896pIbiB1rr6vpvo1_1280.jpg" alt="Behind the Electricworks">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my896pIbiB1rr6vpvo1_1280.jpg" alt="Behind the Electricworks"> -->
           
         </span>
       </a>
       
-      <a href="/blog/behind-the-electricworks">
+      <a href="/projects/behind-the-electricworks">
         <h3 class="post-title">Behind the Electricworks</h3>
         
       </a>
@@ -1227,15 +1149,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/nick-from-motore-cafe">
+      <a href="/projects/nick-from-motore-cafe">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my890wRPOk1rr6vpvo1_1280.jpg" alt="Motore">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my890wRPOk1rr6vpvo1_1280.jpg" alt="Motore"> -->
           
         </span>
       </a>
       
-      <a href="/blog/nick-from-motore-cafe">
+      <a href="/projects/nick-from-motore-cafe">
         <h3 class="post-title">Motore</h3>
         
       </a>
@@ -1256,15 +1179,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/late-afternoon-in-the-winter-gardens">
+      <a href="/projects/late-afternoon-in-the-winter-gardens">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my86uuvx8B1rr6vpvo1_1280.jpg" alt="The Winter Gardens">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my86uuvx8B1rr6vpvo1_1280.jpg" alt="The Winter Gardens"> -->
           
         </span>
       </a>
       
-      <a href="/blog/late-afternoon-in-the-winter-gardens">
+      <a href="/projects/late-afternoon-in-the-winter-gardens">
         <h3 class="post-title">The Winter Gardens</h3>
         
       </a>
@@ -1281,15 +1205,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/man-and-his-dog-in-ruskin-park">
+      <a href="/projects/man-and-his-dog-in-ruskin-park">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my86kpWS2S1rr6vpvo1_1280.jpg" alt="Ruskin park">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my86kpWS2S1rr6vpvo1_1280.jpg" alt="Ruskin park"> -->
           
         </span>
       </a>
       
-      <a href="/blog/man-and-his-dog-in-ruskin-park">
+      <a href="/projects/man-and-his-dog-in-ruskin-park">
         <h3 class="post-title">Ruskin park</h3>
         
       </a>
@@ -1318,15 +1243,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/people-watching-at-caffe-nero">
+      <a href="/projects/people-watching-at-caffe-nero">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my869z9Ubq1rr6vpvo3_1280.jpg" alt="People watching at Caffe Nero">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my869z9Ubq1rr6vpvo3_1280.jpg" alt="People watching at Caffe Nero"> -->
           
         </span>
       </a>
       
-      <a href="/blog/people-watching-at-caffe-nero">
+      <a href="/projects/people-watching-at-caffe-nero">
         <h3 class="post-title">People watching at Caffe Nero</h3>
         
       </a>
@@ -1343,15 +1269,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/park-hill-flats-just-as-the-snow-came">
+      <a href="/projects/park-hill-flats-just-as-the-snow-came">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my85wdSSXu1rr6vpvo1_1280.jpg" alt="Park Hill flats just as the snow came">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my85wdSSXu1rr6vpvo1_1280.jpg" alt="Park Hill flats just as the snow came"> -->
           
         </span>
       </a>
       
-      <a href="/blog/park-hill-flats-just-as-the-snow-came">
+      <a href="/projects/park-hill-flats-just-as-the-snow-came">
         <h3 class="post-title">Park Hill flats just as the snow came</h3>
         
       </a>
@@ -1368,15 +1295,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/a-few-procreate-ipad-paintings-i-received-an">
+      <a href="/projects/a-few-procreate-ipad-paintings-i-received-an">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo1_1280.jpg" alt="Procreate">
+          <!-- <img src="/downloads//tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo1_1280.jpg" alt="Procreate"> -->
           
         </span>
       </a>
       
-      <a href="/blog/a-few-procreate-ipad-paintings-i-received-an">
+      <a href="/projects/a-few-procreate-ipad-paintings-i-received-an">
         <h3 class="post-title">Procreate</h3>
         
       </a>
@@ -1407,15 +1335,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/a-walk-through-the-botanical-gardens">
+      <a href="/projects/a-walk-through-the-botanical-gardens">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my85dv11B91rr6vpvo1_1280.jpg" alt="A walk through the Botanical Gardens">
+          <!-- <img src="/downloads//tumblr_files/tumblr_my85dv11B91rr6vpvo1_1280.jpg" alt="A walk through the Botanical Gardens"> -->
           
         </span>
       </a>
       
-      <a href="/blog/a-walk-through-the-botanical-gardens">
+      <a href="/projects/a-walk-through-the-botanical-gardens">
         <h3 class="post-title">A walk through the Botanical Gardens</h3>
         
       </a>
@@ -1430,15 +1359,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/mat">
+      <a href="/projects/mat">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_myohrk2wtq1rr6vpvo1_1280.jpg" alt="Mat">
+          <!-- <img src="/downloads//tumblr_files/tumblr_myohrk2wtq1rr6vpvo1_1280.jpg" alt="Mat"> -->
           
         </span>
       </a>
       
-      <a href="/blog/mat">
+      <a href="/projects/mat">
         <h3 class="post-title">Mat</h3>
         
       </a>
@@ -1453,15 +1383,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/from-the-sketchbook">
+      <a href="/projects/from-the-sketchbook">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_myoi9ch0vT1rr6vpvo1_1280.jpg" alt="From the sketchbook">
+          <!-- <img src="/downloads//tumblr_files/tumblr_myoi9ch0vT1rr6vpvo1_1280.jpg" alt="From the sketchbook"> -->
           
         </span>
       </a>
       
-      <a href="/blog/from-the-sketchbook">
+      <a href="/projects/from-the-sketchbook">
         <h3 class="post-title">From the sketchbook</h3>
         
       </a>
@@ -1478,15 +1409,16 @@ function() {
     
     <div class="col-1-3 col-related">
       
-      <a href="/blog/father-forgive">
+      <a href="/projects/father-forgive">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_myoh8pki8K1rr6vpvo1_1280.jpg" alt="Father forgive">
+          <!-- <img src="/downloads//tumblr_files/tumblr_myoh8pki8K1rr6vpvo1_1280.jpg" alt="Father forgive"> -->
           
         </span>
       </a>
       
-      <a href="/blog/father-forgive">
+      <a href="/projects/father-forgive">
         <h3 class="post-title">Father forgive</h3>
         
       </a>
@@ -1545,53 +1477,19 @@ function() {
     
     
     
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/cycling-to-mam-tor">
+      <a href="/projects/dan-mangan">
         <span class="post-img-wrap">
           
-          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_my8adpW1zx1rr6vpvo1_1280.jpg" alt="Edale to Mam Tor">
+          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mgewdbpoXG1rr6vpvo1_1280.jpg" alt="Dan Mangan Tshirt designs">
+          <!-- <img src="/downloads//tumblr_files/tumblr_mgewdbpoXG1rr6vpvo1_1280.jpg" alt="Dan Mangan Tshirt designs"> -->
           
         </span>
       </a>
       
-      <a href="/blog/cycling-to-mam-tor">
-        <h3 class="post-title">Edale to Mam Tor</h3>
-        
-      </a>
-    </div>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="col-1-3 col-related">
-      
-      <a href="/blog/paper-53">
-        <span class="post-img-wrap">
-          
-          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mgew3wqNV11rr6vpvo1_1280.jpg" alt="Paper by 53">
-          
-        </span>
-      </a>
-      
-      <a href="/blog/paper-53">
-        <h3 class="post-title">Paper by 53</h3>
+      <a href="/projects/dan-mangan">
+        <h3 class="post-title">Dan Mangan Tshirt designs</h3>
         
       </a>
     </div>
@@ -1673,43 +1571,18 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/holiday-sketches">
+      <a href="/projects/holiday-sketches">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mgmb5kgxVq1rr6vpvo1_1280.jpg" alt="Holiday sketches">
+          <!-- <img src="/downloads//tumblr_files/tumblr_mgmb5kgxVq1rr6vpvo1_1280.jpg" alt="Holiday sketches"> -->
           
         </span>
       </a>
       
-      <a href="/blog/holiday-sketches">
+      <a href="/projects/holiday-sketches">
         <h3 class="post-title">Holiday sketches</h3>
         
       </a>
@@ -1717,31 +1590,6 @@ function() {
 
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="col-1-3 col-related">
-      
-      <a href="/blog/rip-gil-scott-heron">
-        <span class="post-img-wrap">
-          
-          <img src="http://ir0.mobify.com/500/http://richwells.me/downloads//tumblr_files/tumblr_mgmb9w4Dpq1rr6vpvo1_1280.jpg" alt="RIP Gil Scott Heron">
-          
-        </span>
-      </a>
-      
-      <a href="/blog/rip-gil-scott-heron">
-        <h3 class="post-title">RIP Gil Scott Heron</h3>
-        
-      </a>
-    </div>
-
     
     
     
@@ -1824,7 +1672,7 @@ function() {
             <a href="http://yoomee.com" target="_blank">Yoomee</a>
           </li>
           <li>
-            <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
+            <a href="http://printedbyus.org/" target="_blank">Printed by Us</a>
           </li>
           <li>
             <a href="/better-google-tasks" target="_blank">Better Google Tasks</a>
@@ -1836,7 +1684,7 @@ function() {
             <a href="http://100daybiblechallenge.com" target="_blank">100 Day Bible Challenge</a>
           </li>
           <li>
-            <a href="https://www.thelevelcollective.com/rich-wells/" target="_blank">The Level Collective</a>
+            <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
           </li>
           <li>
             <a href="https://www.pinterest.com/richiewells/sketchbook/" target="_blank">Pinterest sketchbook</a>
@@ -1854,11 +1702,13 @@ function() {
              <a href="http://instagram.com/richwells" class="instagram" target="_blank"> <i class="fa fa-instagram"></i> <span> Instagram</span></a>
           </li>
           <li class="">
+             <a href="https://medium.com/@richwells" class="medium" target="_blank"> <i class="fa fa-medium"></i> <span>Medium </span></a>
+          </li>
+
+          <li class="">
              <a href="http://www.pinterest.com/richiewells/" class="dribble" target="_blank"> <i class="fa fa-pinterest"></i> <span> Pinterest </span></a>
           </li>
-          <li class="">
-             <a href="http://dribbble.com/richwells" class="dribble" target="_blank"> <i class="fa fa-dribbble"></i> <span> Dribbble </span></a>
-          </li>
+          
           <li class="flickr-list-item">
              <a href="http://flickr.com/richwells" class="flickr" target="_blank"> <i class="fa fa-flickr"></i> <span> Flickr</span></a>
           </li>

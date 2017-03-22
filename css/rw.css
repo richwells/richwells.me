@@ -1486,6 +1486,12 @@ h2.sig-title { font-weight: normal; text-align: center; line-height: 1.2; font-s
 .alert { padding: 15px; background: #FFF0A4; color: #000; margin: 0 0 20px; }
 .alert p, .alert h3 { margin: 0; }
 
+.infinite-spinner { display: block; width: 40px; height: 40px; border-radius: 40px; background-color: #333; margin: 60px auto; -webkit-animation: scaleout 1.0s infinite ease-in-out; animation: scaleout 1.0s infinite ease-in-out; }
+
+@-webkit-keyframes scaleout { 0% { -webkit-transform: scale(0); }
+  100% { -webkit-transform: scale(1); opacity: 0; } }
+@keyframes scaleout { 0% { transform: scale(0); -webkit-transform: scale(0); }
+  100% { transform: scale(1); -webkit-transform: scale(1); opacity: 0; } }
 /* Navigation stuff */
 /*
 * Masthead
@@ -1522,7 +1528,7 @@ ul.header-nav li a { color: black; float: left; margin: 0 0 0 24px; }
 ul.header-nav li a i { font-size: 22px; line-height: 30px; }
 @media only screen and (min-width: 769px) { ul.header-nav { display: block; } }
 
-.about .nav-about, .blog .nav-blog { font-weight: bold; }
+.about .nav-about, .blog .nav-projects, .projects-index .nav-projects { font-weight: bold; }
 
 .nav-absolute .masthead { position: absolute; top: 0px; left: 0px; width: 100%; float: left; }
 
@@ -1595,6 +1601,19 @@ ul.header-nav li a i { font-size: 22px; line-height: 30px; }
 @media only screen and (min-width: 1200px) { .about-header { background: #B99E89 url(../img/about-header-lg.jpg) no-repeat center 0px; height: 690px; } }
 @media only screen and (min-width: 1400px) { .about-header { background: #B99E89 url(../img/about-header-xl.jpg) no-repeat center 0px; height: 880px; } }
 
+.freelance-cog--top { display: block; position: absolute; bottom: 200px; right: 50%; margin-right: -75px; text-decoration: none; width: 150px; height: 150px; display: none; }
+@media only screen and (min-width: 1200px) { .freelance-cog--top { display: block; right: 180px; bottom: 140px; } }
+
+.freelance-cog-img { width: 150px; height: 150px; }
+
+.freelance-cog__thumbs-up { display: block; position: absolute; width: 70px; height: 78px; left: 50%; top: 30px; margin-left: -35px; z-index: 1000; }
+
+.freelance-cog--bottom { width: 150px; height: 150px; display: block; position: absolute; left: 50%; top: 0; margin-left: -75px; }
+@media only screen and (min-width: 1200px) { .freelance-cog--bottom { display: none; } }
+
+.freelance-cog-bottom-wrap { position: relative; width: 100%; float: left; clear: both; height: 150px; }
+@media only screen and (min-width: 1200px) { .freelance-cog-bottom-wrap { display: none; } }
+
 /* Make about hambuger nav have a white bg*/
 .about .sidebar-toggle { background: #fff; color: #000; }
 @media only screen and (max-width: 768px) { .about .masthead-title { display: none; } }
@@ -1624,7 +1643,7 @@ h2.about-intro { text-align: center; line-height: 1.2; font-size: 23px; margin: 
 
 .listy-left { float: left; width: 20%; }
 
-.listy-right { width: 75%; float: right; letter-spacing: -0.2px; }
+.listy-right { text-align: center; }
 .listy-right a { font-weight: bold; }
 
 .some-other-links { text-align: center; }
@@ -1707,7 +1726,7 @@ a.next-link { text-align: center; width: 100%; font-size: 18px; line-height: 2; 
 /* Blog post or page title */
 .page-title, .post-title, .post-title a { color: #303030; }
 
-.page-title, .post-title { margin-top: 0; clear: both; }
+.page-title, .post-title { margin-top: 0; clear: both; text-align: center; }
 
 /* Meta data line below post title */
 .post-date { visibility: hidden; display: block; margin-top: -30px; margin-bottom: 1rem; color: #9a9a9a; }
@@ -1744,34 +1763,20 @@ a.next-link { text-align: center; width: 100%; font-size: 18px; line-height: 2; 
 .col-related .post-img-wrap .fitvids { margin: 0; }
 .col-related .post-img-wrap { display: block; width: 100%; float: left; }
 
-ul.blog-tag-list { margin: 0 0 30px; padding: 0; list-style-type: none; float: left; width: 100%; }
-@media only screen and (min-width: 769px) { ul.blog-tag-list { margin: 0 0 60px; } }
-ul.blog-tag-list li { float: left; margin: 0; padding: 0; }
-ul.blog-tag-list a { display: block; float: left; background: #fff; padding: 3px 9px; margin: 0 5px 10px; }
+.projects-header { max-width: 1200px; margin: 0 auto; }
+
+h1.projects-title { text-align: center; margin-bottom: 30px; }
+
+ul.blog-tag-list { margin: 0 0 20px; text-align: center; padding: 0; list-style-type: none; float: left; width: 100%; }
+ul.blog-tag-list li { display: inline-block; margin: 0; padding: 0; }
+ul.blog-tag-list a { display: block; background: #fff; padding: 6px 13px; margin: 0 0 10px; line-height: 1; font-size: 18px; }
 
 .blog-index ul.blog-tag-list a { background: #f5f5f5; }
 
-.tag-photos a.tag-link-photos, .tag-illustration a.tag-link-illustrations, .tag-work a.tag-link-work, .tag-thoughts a.tag-link-thoughts, .tag-sketches a.tag-link-sketches, .tag-yoomee a.tag-link-yoomee, .tag-video a.tag-link-video, .blog-index .tag-everything a.tag-link-everything, .tag-travels a.tag-link-travels, .tag-ux a.tag-link-ux, .tag-inspiration a.tag-link-inspiration { background: #000; color: #fff; }
+.tag-photos a.tag-link-photos, .tag-illustration a.tag-link-illustrations, .tag-work a.tag-link-work, .tag-thoughts a.tag-link-thoughts, .tag-sketches a.tag-link-sketches, .tag-yoomee a.tag-link-yoomee, .tag-video a.tag-link-video, .blog-index .tag-everything a.tag-link-everything, .tag-travels a.tag-link-travels, .tag-ux a.tag-link-ux, .tag-inspiration a.tag-link-inspiration, .projects-index a.tag-link-everything, .branding a.tag-link-branding, .illustration a.tag-link-illustration, .furniture a.tag-link-furniture { background: #000; color: #fff; border-radius: 100px; font-weight: bold; cursor: pointer; }
+.tag-photos a.tag-link-photos:hover, .tag-illustration a.tag-link-illustrations:hover, .tag-work a.tag-link-work:hover, .tag-thoughts a.tag-link-thoughts:hover, .tag-sketches a.tag-link-sketches:hover, .tag-yoomee a.tag-link-yoomee:hover, .tag-video a.tag-link-video:hover, .blog-index .tag-everything a.tag-link-everything:hover, .tag-travels a.tag-link-travels:hover, .tag-ux a.tag-link-ux:hover, .tag-inspiration a.tag-link-inspiration:hover, .projects-index a.tag-link-everything:hover, .branding a.tag-link-branding:hover, .illustration a.tag-link-illustration:hover, .furniture a.tag-link-furniture:hover { text-decoration: none; }
 
 .tag-strip { background: #fff; }
-
-body.sketches { background: #ffb6b6; }
-
-body.photos { background: #C7ECF7; }
-
-body.work { background: #E0B394; }
-
-body.inspiration { background: #a9b6ba; }
-
-body.yoomee { background: #FC986D; }
-
-body.video { background: #6dff99; }
-
-body.travels { background: #79c9d6; }
-
-body.ux { background: #BFABF9; background: #FFDA46; }
-
-body.thoughts { background: #97DD75; }
 
 .storytime { background-color: #fff; padding: 20px; }
 

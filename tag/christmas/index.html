@@ -30,6 +30,7 @@
   <meta content="index, follow" name="robots">
 
 
+
   <script>!function(a,b,c,d,e){function g(a,c,d,e){var f=b.getElementsByTagName("script")[0];a.src=e,a.id=c,a.setAttribute("class",d),f.parentNode.insertBefore(a,f)}a.Mobify={points:[+new Date]};var f=/((; )|#|&|^)mobify=(\d)/.exec(location.hash+"; "+b.cookie);if(f&&f[3]){if(!+f[3])return}else if(!c())return;b.write('<plaintext style="display:none">'),setTimeout(function(){var c=a.Mobify=a.Mobify||{};c.capturing=!0;var f=b.createElement("script"),h="mobify",i=function(){var c=new Date;c.setTime(c.getTime()+3e5),b.cookie="mobify=0; expires="+c.toGMTString()+"; path=/",a.location=a.location.href};f.onload=function(){if(e)if("string"==typeof e){var c=b.createElement("script");c.onerror=i,g(c,"main-executable",h,mainUrl)}else a.Mobify.mainExecutable=e.toString(),e()},f.onerror=i,g(f,"mobify-js",h,d)})}(window,document,function(){a=/webkit|(firefox)[\/\s](\d+)|(opera)[\s\S]*version[\/\s](\d+)|(trident)[\/\s](\d+)/i.exec(navigator.userAgent);return!a||a[1]&&4>+a[2]||a[3]&&11>+a[4]||a[5]&&6>+a[6]?!1:!0},
 
 // path to mobify.js
@@ -53,8 +54,9 @@ function() {
 });</script>
 
 
+
   <!-- CSS -->
-  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://use.typekit.net/ipw5gpd.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -65,7 +67,7 @@ function() {
   <link rel="shortcut icon" href="/img/favicon3.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
 
   <!-- Javascripts -->
   <!--==================================================-->
@@ -75,6 +77,7 @@ function() {
   <script type="text/javascript" src="/js/jquery.scrollUp.min.js"></script>
   <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" src="/js/isotope.js"></script>
+  <!-- <script src="/js/infinite-jekyll.js"></script> -->
 
 
   
@@ -115,7 +118,7 @@ function() {
   
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item sidebar-blog " href="/">Blog</a>
+    <a class="sidebar-nav-item sidebar-blog " href="/projects/">Projects</a>
     <a class="sidebar-nav-item sidebar-about" href="/about">About me</a>
     <a href="http://twitter.com/richwells" class="twitter sidebar-social" target="_blank"> <i class="fa fa-twitter"></i>
       <span>Twitter</span></a>
@@ -131,19 +134,19 @@ function() {
         <a href="http://yoomee.com" target="_blank">Yoomee</a>
       </li>
       <li>
-        <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
+        <a href="http://printedbyus.org/" target="_blank">Printed by Us</a>
       </li>
       <li>
-        <a href="http://richwells.me/better-google-tasks" target="_blank">Better Google Tasks</a>
+        <a href="/better-google-tasks" target="_blank">Better Google Tasks</a>
       </li>
       <li>
-        <a href="http://cambodia.richwells.me" target="_blank">Cambodia scrapbook</a>
+        <a href="http://cambodia.richwells.me" target="_blank">Cambodia travel scrapbook</a>
       </li>
       <li>
         <a href="http://100daybiblechallenge.com" target="_blank">100 Day Bible Challenge</a>
       </li>
       <li>
-        <a href="https://www.thelevelcollective.com/rich-wells/" target="_blank">The Level Collective</a>
+        <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
       </li>
       <li>
         <a href="https://www.pinterest.com/richiewells/sketchbook/" target="_blank">Pinterest sketchbook</a>
@@ -168,8 +171,9 @@ function() {
       
     </h3>
     <ul class="header-nav">
-      <li><a href="/" class="nav-blog">Blog</a></li>
-      <li><a href="/about" class="nav-about">About me</a></li>
+      <li><a href="/" class="nav-about">About me</a></li>
+      <li><a href="/projects" class="nav-projects">Projects</a></li>
+      
       <li><a href="http://twitter.com/richwells" target="blank"><i class="fa fa-twitter"></i></a></li>
       <li><a href="http://instagram.com/richwells" target="blank"><i class="fa fa-instagram"></i></a></li>
     </ul>
@@ -177,20 +181,36 @@ function() {
 </div>
 
       <div class="tag-christmas">
-  <div class="container blog-tags">
+  <div class="blog-tags projects-header container">
+  <h1 class="projects-title">Projects</h1>
+
   <ul class="blog-tag-list">
-    <li><a class="tag-link-everything" href="/">everything</a></li>
-    <li><a class="tag-link-sketches" href="/tag/sketches">sketches</a></li>
-    <li><a class="tag-link-photos" href="/tag/photos">photos</a></li>
-    <li><a class="tag-link-video" href="/tag/video">videos</a></li>
-    <li><a class="tag-link-work" href="/tag/work">design work</a></li>
-    <li><a class="tag-link-ux" href="/tag/ux">web/UX</a></li>
+
+    <li><a class="tag-link-everything" href="/projects/">Everything</a></li>
+    <li><a class="tag-link-branding" href="/tag/branding">Brand</a></li>
+    <li><a class="tag-link-illustration" href="/tag/illustration">Illustration</a></li>
+    <!-- <li><a class="tag-link-work" href="/tag/work">work</a></li> -->
+
+    <li><a class="tag-link-ux" href="/tag/ux">Digital/UX</a></li>
+    <!-- <li><a class="tag-link-ux" href="/tag/ux">front-end coding</a></li> -->
+    <!-- <li><a class="tag-link-sketches" href="/tag/sketches">sketches</a></li> -->
+
+    <li><a class="tag-link-photos" href="/tag/photos">Photography</a></li>
+    <!-- <li><a class="tag-link-furniture" href="/tag/furniture">Furniture &amp; interiors</a></li> -->
+    <!-- <li><a class="tag-link-video" href="/tag/video">storytelling/motion</a></li> -->
+    <!-- <li><a class="tag-link-travels" href="/tag/travels">travel</a></li> -->
+    <!-- <li><a class="tag-link-travels" href="/tag/travels">mental health</a></li> -->
+    <!-- <li><a class="tag-link-travels" href="/tag/travels">co-creation</a></li> -->
+    <!-- <li><a class="tag-link-yoomee" href="/tag/yoomee">yoomee</a></li> -->
+
+
+
     <!-- <li><a class="tag-link-illustration" href="/tag/illustration">Illustrations</a></li> -->
 
-    <li><a class="tag-link-inspiration" href="/tag/inspiration">inspiration</a></li>
-    <li><a class="tag-link-thoughts" href="/tag/thoughts">thoughts</a></li>
-    <li><a class="tag-link-yoomee" href="/tag/yoomee">yoomee</a></li>
-    <li><a class="tag-link-travels" href="/tag/travels">travels</a></li>
+    <!-- <li><a class="tag-link-inspiration" href="/tag/inspiration">inspiration</a></li> -->
+    <!-- <li><a class="tag-link-thoughts" href="/tag/thoughts">Talks/thoughts</a></li> -->
+
+
   </ul>
 </div>
 
@@ -293,17 +313,28 @@ function() {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/christmas-film">
+      <a href="/projects/christmas-film">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/candles.jpg" alt="Making a Christmas film">
+          <!-- <img src="/downloads/candles.jpg" alt="Making a Christmas film"> -->
           
         </span>
       </a>
       
-      <a href="/blog/christmas-film">
+      <a href="/projects/christmas-film">
         <h3 class="post-title">Making a Christmas film</h3>
         
       </a>
@@ -504,204 +535,23 @@ function() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <div class="col-1-3 col-related">
       
-      <a href="/blog/christmas-sketches">
+      <a href="/projects/christmas-sketches">
         <span class="post-img-wrap">
           
           <img src="http://ir0.mobify.com/500/http://richwells.me/downloads/christmas-sketches.jpg" alt="Christmas Sketches">
+          <!-- <img src="/downloads/christmas-sketches.jpg" alt="Christmas Sketches"> -->
           
         </span>
       </a>
       
-      <a href="/blog/christmas-sketches">
+      <a href="/projects/christmas-sketches">
         <h3 class="post-title">Christmas Sketches</h3>
         
       </a>
     </div>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -1246,7 +1096,7 @@ function() {
             <a href="http://yoomee.com" target="_blank">Yoomee</a>
           </li>
           <li>
-            <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
+            <a href="http://printedbyus.org/" target="_blank">Printed by Us</a>
           </li>
           <li>
             <a href="/better-google-tasks" target="_blank">Better Google Tasks</a>
@@ -1258,7 +1108,7 @@ function() {
             <a href="http://100daybiblechallenge.com" target="_blank">100 Day Bible Challenge</a>
           </li>
           <li>
-            <a href="https://www.thelevelcollective.com/rich-wells/" target="_blank">The Level Collective</a>
+            <a href="http://dayoffwithsophie.tumblr.com" target="_blank">Daddy daycare</a>
           </li>
           <li>
             <a href="https://www.pinterest.com/richiewells/sketchbook/" target="_blank">Pinterest sketchbook</a>
@@ -1276,11 +1126,13 @@ function() {
              <a href="http://instagram.com/richwells" class="instagram" target="_blank"> <i class="fa fa-instagram"></i> <span> Instagram</span></a>
           </li>
           <li class="">
+             <a href="https://medium.com/@richwells" class="medium" target="_blank"> <i class="fa fa-medium"></i> <span>Medium </span></a>
+          </li>
+
+          <li class="">
              <a href="http://www.pinterest.com/richiewells/" class="dribble" target="_blank"> <i class="fa fa-pinterest"></i> <span> Pinterest </span></a>
           </li>
-          <li class="">
-             <a href="http://dribbble.com/richwells" class="dribble" target="_blank"> <i class="fa fa-dribbble"></i> <span> Dribbble </span></a>
-          </li>
+          
           <li class="flickr-list-item">
              <a href="http://flickr.com/richwells" class="flickr" target="_blank"> <i class="fa fa-flickr"></i> <span> Flickr</span></a>
           </li>

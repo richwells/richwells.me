@@ -4,7 +4,7 @@
  <title>Rich Wells</title>
  <link href="http://richwells.me/atom.xml" rel="self"/>
  <link href="http://richwells.me/"/>
- <updated>2017-03-01T10:37:28+00:00</updated>
+ <updated>2017-03-22T23:40:37+00:00</updated>
  <id>http://richwells.me</id>
  <author>
    <name>Rich Wells</name>
@@ -511,7 +511,7 @@ Still not sure what to do with it in the end - I’m considering open sourcing t
  </entry>
  
  <entry>
-   <title>Farewell to the Daddy Daycare blog</title>
+   <title>Daddy Daycare</title>
    <link href="http://richwells.me/farewell-to-the-daddy-daycare-blog"/>
    <updated>2015-05-05T11:35:00+01:00</updated>
    <id>http://richwells.me/farewell-daddy-daycare-blog</id>
@@ -550,74 +550,6 @@ Still not sure what to do with it in the end - I’m considering open sourcing t
 &lt;p&gt;
   Enjoyed reading the daddy daycare blog? Let me know! It’s always good to be encouraged:-)
 &lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Smashing Oxford</title>
-   <link href="http://richwells.me/smashing-oxford"/>
-   <updated>2015-03-24T10:35:00+00:00</updated>
-   <id>http://richwells.me/smashing</id>
-   <content type="html">&lt;p&gt;Last week I went with my colleague &lt;a href=&quot;https://twitter.com/JRKyte&quot;&gt;Jon&lt;/a&gt; to &lt;a href=&quot;http://smashingconf.com/oxford-2015/&quot;&gt;Smashing Conference&lt;/a&gt;, a two day event in Oxford Town Hall. There were lasers, balloons, and more importantly a variety of different talks about the web industry. I enjoyed having time away from everyday work to think a bit more about what we do and how we can be better at it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/downloads/smashing.jpg&quot; alt=&quot;Inside Oxford Town Hall&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A few things I took away…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Solving real world problems is the most important thing. Not a new concept at all, but good to be reminded.&lt;/li&gt;
-  &lt;li&gt;The challenge to read widely, and look for inspiration in unexpected places. &lt;a href=&quot;http://smashingconf.com/oxford-2015/speakers/christopher-murphy&quot;&gt;Christopher Murphy’s talk&lt;/a&gt; was one of my highlights.&lt;/li&gt;
-  &lt;li&gt;A realisation that listening to people talk about code doesn’t work for me. Maybe I’m just slow, but I like to learn by doing, rather than looking at code on a powerpoint.&lt;/li&gt;
-  &lt;li&gt;That speed is important. The helpful reminder that most people aren’t using new apple devices with fast broadband. The sites I make should work on poor connections (need to optimise this site for starters).&lt;/li&gt;
-  &lt;li&gt;“LieFi” - My experience of using wifi at almost every conference I’ve been to. The little bars on my phone said everything was ok, but it was all lies.&lt;/li&gt;
-  &lt;li&gt;That my attention span doesn’t cope with back to back 40 minute talks, especially when there’s little leg and elbow room (I am very tall though). I think they could have made the format a little bit more creative and stimulating.&lt;/li&gt;
-  &lt;li&gt;That people really respond to sketch notes. I took a brief break from my Lent twitter fast to share my notebook doodles and was surprised with how many people responded to them.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are a few of my sketch notes:&lt;/p&gt;
-
-&lt;div class=&quot;grid wide fitvids&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-
-    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;A brief history of responsive images by &lt;a href=&quot;https://twitter.com/yoavweiss&quot;&gt;@yoavweiss&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/sketchnotes?src=hash&quot;&gt;#sketchnotes&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/ZzKdqOXwCN&quot;&gt;pic.twitter.com/ZzKdqOXwCN&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577813342053666817&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
-    &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-
-
-    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;Orange lanyards, Oxford Town Hall and &lt;a href=&quot;https://twitter.com/owltastic&quot;&gt;@owltastic&lt;/a&gt; talking about empathy &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/fdoCfFMuSQ&quot;&gt;pic.twitter.com/fdoCfFMuSQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577805875362062336&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-
-    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;My &lt;a href=&quot;https://twitter.com/hashtag/sketchnotes?src=hash&quot;&gt;#sketchnotes&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/fehler&quot;&gt;@fehler&lt;/a&gt;&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; talk &amp;quot;A good writer is a good thinker&amp;quot;. Super inspiring. &lt;a href=&quot;http://t.co/rsY0PtRrTm&quot;&gt;pic.twitter.com/rsY0PtRrTm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577777652595093504&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-
-    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&amp;quot;People don’t go out to eat nourishing food, they go out for food that’s tasty &amp;amp; beautiful&amp;quot; &lt;a href=&quot;https://twitter.com/codepo8&quot;&gt;@codepo8&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/NSB1JvTPHc&quot;&gt;pic.twitter.com/NSB1JvTPHc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/578138304043954176&quot;&gt;March 18, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;.&lt;a href=&quot;https://twitter.com/Polledemaagt&quot;&gt;@Polledemaagt&lt;/a&gt; on crafting for &lt;a href=&quot;https://twitter.com/hashtag/worlddomination?src=hash&quot;&gt;#worlddomination&lt;/a&gt; and solving human problems &lt;a href=&quot;https://twitter.com/hashtag/sketchnotes?src=hash&quot;&gt;#sketchnotes&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/a9zMtDuJr8&quot;&gt;pic.twitter.com/a9zMtDuJr8&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/578214679912271872&quot;&gt;March 18, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-
-    &lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;Rethinking publishing with &lt;a href=&quot;https://twitter.com/PeterBilak&quot;&gt;@PeterBilak&lt;/a&gt;. Tempted to get a &lt;a href=&quot;https://twitter.com/WorksThatWork&quot;&gt;@WorksThatWork&lt;/a&gt; subscription after this talk! &lt;a href=&quot;https://twitter.com/hashtag/smashingconf?src=hash&quot;&gt;#smashingconf&lt;/a&gt; &lt;a href=&quot;http://t.co/HwHO8AyjxO&quot;&gt;pic.twitter.com/HwHO8AyjxO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Wells (@richwells) &lt;a href=&quot;https://twitter.com/richwells/status/577861676080500736&quot;&gt;March 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-
-&lt;/div&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>The Best Day</title>
-   <link href="http://richwells.me/the-best-day"/>
-   <updated>2015-02-15T10:35:00+00:00</updated>
-   <id>http://richwells.me/the-morning-commute</id>
-   <content type="html">&lt;img src=&quot;/downloads/commute.jpg&quot; alt=&quot;cycling to work&quot;&gt;
-&lt;p&gt;
-  Me and my orange coat on the morning commute. Captured by &lt;a  href=&quot;https://twitter.com/leadoutdan&quot; target=&quot;blank&quot;&gt;Dan&lt;/a&gt; for this video:
-&lt;/p&gt;
-
-&lt;div class=&quot;fitvids&quot;&gt;
-  &lt;iframe src=&quot;//player.vimeo.com/video/119472414&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
 </content>
  </entry>
  
@@ -665,89 +597,6 @@ Still not sure what to do with it in the end - I’m considering open sourcing t
   &lt;/div&gt;
 
 &lt;/div&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>New year, new site</title>
-   <link href="http://richwells.me/blog/new-year-new-site"/>
-   <updated>2015-01-02T10:35:00+00:00</updated>
-   <id>http://richwells.me/blog/new-year-new-site</id>
-   <content type="html">&lt;div class=&quot;alert&quot;&gt;
-  &lt;h3&gt;Warning&lt;/h3&gt;
-  &lt;p&gt;
-   This blog is fairly nerdy/boring.
-  &lt;br&gt;
-  Not your cup of tea?
-  &lt;a href=&quot;/tag/sketches&quot;&gt;Look at some pictures instead&lt;/a&gt;.
-  &lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;
-Happy 2015. I’ve just updated my site, which was one of my goals for 2014. Made it live just in time!
-&lt;/p&gt;
-&lt;img src=&quot;/downloads/jekyll-tn-2.jpg&quot;&gt;
-
-&lt;p&gt;
-My blog was on Tumblr, which served me well but it was definitely time for a change. Tumblr is great for sharing things quickly and easily, (I still use it for &lt;a href=&quot;http://dayoffwithsophie.tumblr.com&quot; target=&quot;blank&quot;&gt;Daddy Daycare Tuesdays&lt;/a&gt;), but I was getting frustrated with how little I could control, especially images, which is mostly what I share anyway.
-&lt;/p&gt;
-
-&lt;p&gt;
-I loved Tumblr’s simplicity though, the fact that I didn’t have to play with databases and servers was a definite bonus and helped me to focus on content. So going back to something like Wordpress seemed like a step in the wrong direction.
-&lt;/p&gt;
-
-&lt;p&gt;
-I was considering building a static HTML site, so it would be simple, fast and I could control anything I wanted. But updating it in the future would be a bit of a nightmare. Then I discovered &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;blank&quot;&gt;Jekyll&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;img src=&quot;/downloads/jekyll.jpg&quot; alt=&quot;Jekyll website&quot;&gt;
-
-&lt;p&gt;
-Jekyll is a static site generator that runs on Ruby. It basically let’s you create templates and write blog posts (in markdown or HTML) and then compiles everything into a static HTML site that you can host anywhere.
-&lt;/p&gt;
-
-&lt;p&gt;
-It’s not the most straight forward thing to get started with, (the &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;docs&lt;/a&gt; aren’t that detailed) but there are many helpful blog posts out there, and once it’s all set up it works like a dream.  I can now edit a header or footer file, and Jekyll updates every html page that shows it. I can also write Markdown blog posts in my favourite app IA Writer, which is a bonus.
-&lt;/p&gt;
-
-&lt;h3&gt;Design&lt;/h3&gt;
-
-&lt;p&gt;
-I wanted this new site to be fairly minimal, with a focus on the content, especially images. My previous design had a green nav bar, which was ok, but it clashed if the content didn’t go with the green, so I decided to strip away most of the colour. Who knows, I might add some back later on.
-&lt;/p&gt;
-&lt;p&gt;
-I used the excellent &lt;a href=&quot;http://getpoole.com/&quot; target=&quot;blank&quot;&gt;Poole&lt;/a&gt; starter theme by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;blank&quot;&gt;@mdo&lt;/a&gt; (one of the guys behind &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;blank&quot;&gt;Bootstrap&lt;/a&gt;) as a base for the design, and then refactored the styles to only keep what I need. I made use of the font &lt;a href=&quot;http://www.google.com/fonts/specimen/Karla&quot; target=&quot;blank&quot;&gt;Karla&lt;/a&gt;, which I love, and then spent quite a while making everything as visual as I could, with related posts and tag pages, so that old posts didn’t get lost.
-&lt;/p&gt;
-&lt;p&gt;
-As always, it’s still a work in progress (could do with some browser testing!), but I’m excited about having an easier way to share visual things in 2015.
-&lt;/p&gt;
-&lt;p&gt;
-Here&#39;s a list of Jekyll links that I found helpful when building this site:
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/&quot; target=&quot;blank&quot;&gt;Build A Blog With Jekyll And GitHub Pages&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll docs&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href=&quot;http://import.jekyllrb.com/docs/tumblr/&quot; target=&quot;blank&quot;&gt;Jekyll Tumblr importer&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href=&quot;http://getpoole.com/&quot; target=&quot;blank&quot;&gt;Poole starter theme&lt;/a&gt;
-  &lt;/li&gt;
-    &lt;li&gt;
-    &lt;a href=&quot;http://www.chrisyin.com/2014/08/23/jekyll-related-posts/&quot; target=&quot;blank&quot;&gt;Jekyll related posts plugin&lt;/a&gt;
-  &lt;/li&gt;
-    &lt;li&gt;
-    &lt;a href=&quot;http://www.mobify.com/mobifyjs/v2/docs/image-resizer/&quot; target=&quot;blank&quot;&gt;Mobify.js&lt;/a&gt; (Responsive image/CDN thing)
-  &lt;/li&gt;
-    &lt;li&gt;
-    &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;blank&quot;&gt;Github pages&lt;/a&gt; (Where I host this site)
-  &lt;/li&gt;
-&lt;/ul&gt;
 </content>
  </entry>
  
@@ -807,10 +656,33 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  </entry>
  
  <entry>
-   <title>Making a Christmas film</title>
-   <link href="http://richwells.me/blog/christmas-film"/>
+   <title>Picture frame coffee table</title>
+   <link href="http://richwells.me/projects/picture-frame-coffee-table"/>
    <updated>2014-11-21T10:35:00+00:00</updated>
-   <id>http://richwells.me/blog/christmas-film</id>
+   <id>http://richwells.me/projects/picture-frame-coffee-table</id>
+   <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
+  &lt;iframe src=&quot;//player.vimeo.com/video/113002294&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;On our &lt;a href=&quot;http://dayoffwithsophie.tumblr.com/post/103027376628/christmas-video&quot; target=&quot;blank&quot;&gt;daddy daycare&lt;/a&gt; day this week we made a Christmas video with a few friends from Church. It felt a little odd to be singing carols outside in November, but it turned out to be lots of fun. Here are a few screenshots of the things I filmed. Video edited by the super talented &lt;a href=&quot;https://twitter.com/leadoutdan&quot; target=&quot;blank&quot;&gt;Dan Harris&lt;/a&gt;.&lt;/p&gt;
+
+&lt;img src=&quot;/downloads/christmas-film-1.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-2.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-3.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-4.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-5.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-6.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-7.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-8.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-9.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+&lt;img src=&quot;/downloads/christmas-film-10.jpg&quot; alt=&quot;christmas video stills&quot;/&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Making a Christmas film</title>
+   <link href="http://richwells.me/projects/christmas-film"/>
+   <updated>2014-11-21T10:35:00+00:00</updated>
+   <id>http://richwells.me/projects/christmas-film</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
   &lt;iframe src=&quot;//player.vimeo.com/video/113002294&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -831,9 +703,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>Blessed</title>
-   <link href="http://richwells.me/blog/blessed-are-those-who-mourn"/>
+   <link href="http://richwells.me/projects/blessed-are-those-who-mourn"/>
    <updated>2014-10-10T11:35:00+01:00</updated>
-   <id>http://richwells.me/blog/blessed-are-those-who-mourn</id>
+   <id>http://richwells.me/projects/blessed-are-those-who-mourn</id>
    <content type="html">&lt;img src=&quot;/downloads/blessed-are-those-who-mourn.jpg&quot; alt=&quot;cardboard man&quot; class=&quot;&quot;/&gt;
 
 &lt;p&gt;A couple of illustrations I did for one of Bry&#39;s talks at church. Enjoyed making things out of paper, just for the fun of it.&lt;/p&gt;
@@ -844,9 +716,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>The Four Knows of Creativity</title>
-   <link href="http://richwells.me/blog/the-four-knows-of-creativity"/>
+   <link href="http://richwells.me/projects/the-four-knows-of-creativity"/>
    <updated>2014-09-15T09:09:00+01:00</updated>
-   <id>http://richwells.me/blog/the-four-knows-of-creativity</id>
+   <id>http://richwells.me/projects/the-four-knows-of-creativity</id>
    <content type="html">&lt;div class=&quot;fitvids&quot;&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;536&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//www.slideshare.net/slideshow/embed_code/39096666&quot; width=&quot;662&quot;&gt; &lt;/iframe&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br/&gt;Last weekend I did a talk at the Tearfund Rhythms Visual Communication day. I shared a bit of my story and a few things that I&amp;#8217;ve found helpful to know when creating and communicating.&lt;/p&gt;
 &lt;p&gt;It was great to be part of the day and to chat about creativity with some really inspiring young people. There&amp;#8217;s a bit of a transcript thing on my &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/richiewells/four-knowsofcreativity&quot; title=&quot;Rich Wells slideshare presentation&quot;&gt;slideshare&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
@@ -855,9 +727,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>Sketches of Spain</title>
-   <link href="http://richwells.me/blog/sketches-of-spain"/>
+   <link href="http://richwells.me/projects/sketches-of-spain"/>
    <updated>2014-09-09T01:39:44+01:00</updated>
-   <id>http://richwells.me/blog/sketches-of-spain</id>
+   <id>http://richwells.me/projects/sketches-of-spain</id>
    <content type="html">&lt;p&gt;A few sketches and iPad doodles from a week away in Mallorca.&lt;/p&gt;
 &lt;p&gt;
     &lt;img src=&quot;/downloads/sketches-of-spain-1.jpg&quot;/&gt;
@@ -876,9 +748,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>Festival of Code</title>
-   <link href="http://richwells.me/blog/festival-of-code"/>
+   <link href="http://richwells.me/projects/festival-of-code"/>
    <updated>2014-07-28T19:16:00+01:00</updated>
-   <id>http://richwells.me/blog/festival-of-code</id>
+   <id>http://richwells.me/projects/festival-of-code</id>
    <content type="html">&lt;p&gt;
   This week we welcomed 13 young people and 5 mentors to Electric Works for the Festival of Code. We were one of a number of centres across the country hosting this week-long event which enables young people to get together, form teams, and design and build apps, websites, games or hardware all based around the Government&#39;s open data.
 &lt;/p&gt;
@@ -912,9 +784,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>Stretch O' Clock</title>
-   <link href="http://richwells.me/blog/stretch-o-clock"/>
+   <link href="http://richwells.me/projects/stretch-o-clock"/>
    <updated>2014-07-25T11:35:00+01:00</updated>
-   <id>http://richwells.me/blog/stretch-o-clock</id>
+   <id>http://richwells.me/projects/stretch-o-clock</id>
    <content type="html">&lt;img src=&quot;/downloads/stretch-o-clock-2.jpg&quot;/&gt;
 &lt;p&gt;My colleague &lt;a href=&quot;https://twitter.com/matkins&quot;&gt;Matt&lt;/a&gt; is probably the cleverest person I know, and a nice guy too. Today is his last day at Yoomee before moving on to bigger and better things.&lt;/p&gt;
 &lt;p&gt;Aside from insane coding skills, Matt&amp;#8217;s biggest legacy is teaching us some stretch moves that we do as a team every morning at 11am. We started them after reading a &lt;a href=&quot;http://www.diygenius.com/your-desk-job-is-killing-you-the-truth-about-sitting-down-infographic/&quot;&gt;blog post&lt;/a&gt; about how sitting at a computer is killing you. Turns out we&amp;#8217;re not designed to be sitting all day hunched over a screen! Now stretching is part of our daily routine and is a good chance to stop, clear your head and talk to each other.&lt;/p&gt;
@@ -924,9 +796,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>A summer of cycling</title>
-   <link href="http://richwells.me/blog/summer-of-cycling"/>
+   <link href="http://richwells.me/projects/summer-of-cycling"/>
    <updated>2014-07-09T19:16:00+01:00</updated>
-   <id>http://richwells.me/blog/summer-of-cycling</id>
+   <id>http://richwells.me/projects/summer-of-cycling</id>
    <content type="html">&lt;p&gt;I&amp;#8217;ve always been into bicycles, even before they were cool and Britain started winning things on them (not any more mind you thanks to the cobbles). I&amp;#8217;ve watched the Tour de France every year since I was a kid and have fond memories of huddling round our TV with pitiful Channel 4 reception trying to pick out riders from the white noise (no chance when it was raining!). &lt;/p&gt;
 
 &lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo10_1280.jpg&quot;/&gt;
@@ -962,9 +834,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>Hendos Strong &amp; Northern</title>
-   <link href="http://richwells.me/blog/hendersons-strong-and-northern"/>
+   <link href="http://richwells.me/projects/hendersons-strong-and-northern"/>
    <updated>2014-07-09T19:16:00+01:00</updated>
-   <id>http://richwells.me/blog/hendersons-strong-and-northern</id>
+   <id>http://richwells.me/projects/hendersons-strong-and-northern</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n8gwnoDs491rr6vpvo8_1280.jpg&quot;/&gt;
 
 &lt;p&gt;To celebrate the Tour coming up north I did a &lt;a href=&quot;http://www.thelevelcollective.co.uk/shop/strong-and-northern/&quot; target=&quot;_blank&quot;&gt;T-shirt design&lt;/a&gt; for the Level Collective, in collaboration with the legendary Sheffield company &lt;a href=&quot;http://www.hendersonsrelish.com/&quot; target=&quot;blank&quot;&gt;Henderson&#39;s relish&lt;/a&gt;.&lt;/p&gt;
@@ -973,25 +845,10 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  </entry>
  
  <entry>
-   <title>Thanks for donating</title>
-   <link href="http://richwells.me/blog/a-big-thank-you"/>
-   <updated>2014-05-14T17:16:05+01:00</updated>
-   <id>http://richwells.me/blog/a-big-thank-you</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n5l1qt72sz1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Just wanted to say a huge thank you to everyone who gave to our &lt;/span&gt;&lt;a href=&quot;http://www.tearfund.org/en/give/give_main/tfbloggers13/live/&quot; target=&quot;_blank&quot;&gt;#tfbloggers campaign&lt;/a&gt;&lt;span&gt;. Forty-one people signed up to give regularly, and it&amp;#8217;s only after speaking to a few charity fundraisers that I&amp;#8217;ve realised how incredible that number is. I&amp;#8217;m sorting out the artwork prints this week and will be sending them out as soon as I can. &lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;I&#39;m sending a print to everyone who signs up to give&quot; src=&quot;http://richwells.me/img/imsendingaprint.jpg&quot;/&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;br/&gt;Still want to give?&lt;/h2&gt;
-&lt;p&gt;It&amp;#8217;s not too late to give and get some free artwork! giving is easy:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Give online &lt;br/&gt;&lt;/strong&gt;You can donate through Tearfund’s website &lt;strong&gt;&lt;a href=&quot;http://www.tearfund.org/Admin/Inpoints/Bloggers/Bloggers2014Give&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Text HOPE TODAY to 70444&lt;/strong&gt;&lt;br/&gt;Texting this number will subscribe you to give £3 a month to See For Yourself, Tearfund. It will be added to your mobile phone bill. Tearfund receives 100% of the money. This subscription service will cost £3.00 per month until you send STOP to 70080.&lt;br/&gt;(If you give via text, could you email me your address so I know where to post the print to? My email is rich@yoomee.com)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What will this money do?&lt;br/&gt;&lt;/strong&gt;If 60 people signed up for just £3 a month that could mean 70 new families in Cambodia could have their lives transformed through the &lt;a href=&quot;http://brokencameras.com/2014/03/20/umoja-for-beginners/&quot; target=&quot;_blank&quot;&gt;Umoja process&lt;/a&gt;. That means 70 families who can get a better education, learn new skills and lift themselves out of poverty once and for all.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Team Yoomee</title>
-   <link href="http://richwells.me/blog/good-to-be-back"/>
+   <link href="http://richwells.me/projects/good-to-be-back"/>
    <updated>2014-05-13T09:47:00+01:00</updated>
-   <id>http://richwells.me/blog/good-to-be-back</id>
+   <id>http://richwells.me/projects/good-to-be-back</id>
    <content type="html">&lt;p&gt;I decided to have a bit of a break from sharing things last month after the intensity of blogging on the move in Cambodia (110 posts in 2 weeks!).&lt;/p&gt;
 &lt;p&gt;It&amp;#8217;s been great to spend some &lt;a href=&#39;http://instagram.com/p/nDyHQVlg3m/&#39;&gt;quality time with family&lt;/a&gt; over Easter, &lt;a href=&#39;http://instagram.com/p/nLg_6llg2v/&#39;&gt;ride bicycles&lt;/a&gt; and get back into my job at Yoomee — we&amp;#8217;ve hired some more people, &lt;a href=&#39;http://instagram.com/p/m5ZcM_lg7j/&#39;&gt;knocked down a wall&lt;/a&gt; and started some exciting &lt;a href=&#39;http://digital.girlguiding.org.uk/introducing-yoomee&#39;&gt;new projects&lt;/a&gt;. Here&amp;#8217;s a little doodle of our current team.&lt;/p&gt;
 
@@ -1000,78 +857,10 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  </entry>
  
  <entry>
-   <title>Give to Tearfund, get some artwork</title>
-   <link href="http://richwells.me/blog/art-for-cambodia"/>
-   <updated>2014-04-03T21:13:00+01:00</updated>
-   <id>http://richwells.me/blog/art-for-cambodia</id>
-   <content type="html">&lt;img src=&quot;/downloads/cambodian-artwork.jpg&quot;/&gt;&lt;p class=&quot;intro&quot;&gt;I’m posting a limited edition signed print (1 of 60) to anyone who gives £3/month to our Tearfund Cambodia challenge.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The inspiration&lt;/strong&gt;I saw these two children cycling past our mini bus in one of the villages we visited. I loved their expressions and the way they worked together to keep the tiny colourful bike upright. It was a great picture of how Tearfund are supporting communities to face uncertain futures together. I had fun creating this illustration and have tried to capture some of the vibrancy and texture that I saw all around me.&lt;/p&gt;
-&lt;img src=&quot;/downloads/cambodian-artwork-2.jpg&quot;/&gt;
-&lt;h2&gt;How to get your print…&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Give online &lt;/strong&gt;You can donate through Tearfund’s website &lt;strong&gt;&lt;a href=&quot;http://www.tearfund.org/Admin/Inpoints/Bloggers/Bloggers2014Give&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Text HOPE TODAY to 70444&lt;/strong&gt;Texting this number will subscribe you to give £3 a month to See For Yourself, Tearfund. It will be added to your mobile phone bill. Tearfund receives 100% of the money. This subscription service will cost £3.00 per month until you send STOP to 70080.(If you give via text, could you email me your address so I know where to post the print to? My email is rich@yoomee.com)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What will this money do?&lt;/strong&gt;If 60 people signed up for just £3 a month that could mean 70 new families in Cambodia could have their lives transformed through the &lt;a href=&quot;http://brokencameras.com/2014/03/20/umoja-for-beginners/&quot; target=&quot;_blank&quot;&gt;Umoja process&lt;/a&gt;. That means 70 families who can get a better education, learn new skills and lift themselves out of poverty once and for all.&lt;/p&gt;&lt;a href=&quot;http://cambodia.richwells.me/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/cambodia-ironing-board.jpg&quot;/&gt;&lt;/a&gt;
-&lt;p&gt;&lt;strong&gt;Want to see more of my artwork?&lt;/strong&gt; Check out my &lt;a href=&quot;http://cambodia.richwells.me/&quot;&gt;Cambodia Travel Scrapbook&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Reflections on my time in Cambodia</title>
-   <link href="http://richwells.me/blog/reflections-on-my-time-in-cambodia"/>
-   <updated>2014-03-28T13:21:25+00:00</updated>
-   <id>http://richwells.me/blog/reflections-on-my-time-in-cambodia</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo1_1280.jpg&quot;/&gt;
-
-&lt;p&gt;So I’m finally over the jet lag, the swelling on my leg has gone down and I’m (nearly) unpacked. It’s hard to sum up in a post all of my reflections on the amazing things I’ve experienced over the past 10 days. Cambodia is a country full of contradictions, a land of immense beauty, friendly hospitality, incredible food and also pain, poverty and deep scars from a brutal past. I’m so thankful I got the opportunity to visit such an amazing place and I think it’s changed me.&lt;/p&gt;
-
-&lt;div class=&quot;grid wide&quot;&gt;
-  &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo6_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo3_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-3&quot;&gt;
-    &lt;img src=&quot;http://ir0.mobify.com/300/http://richwells.github.io/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo8_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n35pjpOzdg1rr6vpvo5_1280.jpg&quot;/&gt;
-
-
-
-&lt;p&gt;My highlights definitely included getting off the beaten tourist track and meeting people in their own homes, glimpsing real life away from the stereotypes and my own preconceptions. It was incredible to see the way Tearfund is working to help communities stand on their own two feet, partnering with the local church who are already there and are in it for the long haul. I didn’t see anything that could be classed as a ‘handout’, rather many efforts to support local leaders to be able to equip those around them.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;img alt=&quot;The challenges&quot; src=&quot;/downloads/tumblr_files/the-challenges.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;Other than a couple of ‘&lt;a href=&quot;http://blog.richwells.me/post/80179663987/mmmm-insects&quot;&gt;interesting meals&lt;/a&gt;&#39; and a &lt;a href=&quot;http://cambodia.richwells.me/post/80575031012/a-couple-of-days-ago-i-bashed-my-ankle-while&quot;&gt;dodgy ankle&lt;/a&gt;, the main challenges of the trip for me were:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Blogging on the move&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I stepped off the plane with a bag full of gadgets, art equipment and high hopes. Being faced with an internet connection that was potentially powered by one guy on a bicycle soon made me realise that all the ‘systems’ I’d put in place might not work out quite as planned! However the real challenge was blogging on the move, there was so much to see and so many people to meet that finding the time to draw away and reflect, both through my paint brush and computer keyboard, was tough. Often I stayed up late after a packed day waiting for photos to upload, squatting on the floor by my hotel room door (the only wifi ’hotspot’ in the room. It was hot.). I wanted to be able to share more, particularly the artwork side of things, but I did the best I could with the energy I had.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Persuading people to give&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This was my first experience as a charity fundraiser, and to be honest I’ve found it really hard. Together we had a challenge to raise sixty new supporters for Tearfund’s work in Cambodia and at this point I hoped we would have a lot more than thirteen. I’ve realised, it’s a really hard ’sell’. Firstly, during a week where heart-wrenching images filled peoples home via Sport Relief, my photos of smiling, joyful people didn’t exactly shout ‘we need your help’. And secondly it’s a lot harder to raise money for training than tangible things like chickens, wells, shelters or medicine. Meeting immediate needs is of course important, but I’m convinced that Tearfund’s approach of empowering local communities to help themselves will make a really big difference in the long term. &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/tumblr_files/street-kid.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;Out of everything I’ve seen this week the thing that probably moved me the most was watching a little boy in Phnom Penh pick up litter by the riverbanks of the Mekong delta. He had no shoes and was probably only a year or so older than my daughter Sophie. When I saw him, I was gutted and was reminded of something Harry, a Tearfund worker said to us earlier in the week.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/tumblr_files/harry.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;For several years Harry has been working with his wife in their spare time helping people on the streets, desperately poor, who come to the city because they can’t survive in their villages. And seeing these people has made him realise that it’s not enough to help kids on the street, something needs to be done to prevent them getting there in the first place.&lt;/p&gt;
-&lt;p&gt;What I witnessed this week was not just an organisation helping people out of poverty but an organisation preventing poverty. Tearfund’s work ensures that the next generation of Cambodians will not grow up in the abject poverty that their parents experienced. Tearfund’s work ensures that whole communities learn to work together, to look out for the least among them and to embody something of the Good News that Jesus brings.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/downloads/tumblr_files/i-dont-like-asking.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;Maybe it’s my Britishness, but I find asking people to give money to be a really hard thing to do. Giving £3 a month sounds small, but when you add it up it is a big sacrifice, especially when money is tight. It’s more than giving £10 to your friend who does that charity run one time. It’s a really big ask. &lt;/p&gt;
-&lt;p&gt;But I’m asking. Would you give £3 a month towards Tearfund’s vital work with the poor in Cambodia?&lt;/p&gt;
-&lt;p&gt;I’m in the the process of making some artwork based on my experiences of the past two weeks. For every person who gives (up to 60), I’ll post a print to say thank you. &lt;/p&gt;
-&lt;p&gt;There are two ways you can give to Tearfund:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Text HOPE TODAY to 70444&lt;/strong&gt;Texting this number will subscribe you to give £3 a month to See For Yourself, Tearfund. It will be added to your mobile phone bill. Tearfund receives 100% of the money. This subscription service will cost £3.00 per month until you send STOP to 70080.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Give online&lt;/strong&gt;You can donate through Tearfund’s website &lt;strong&gt;&lt;a href=&quot;http://www.tearfund.org/en/give/see_for_yourself/asia/support_asia/&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What will this money do?&lt;/strong&gt;If 60 people signed up for just £3 a month that could mean 70 new families in Cambodia could have their lives transformed through the &lt;a href=&quot;http://brokencameras.com/2014/03/20/umoja-for-beginners/&quot; target=&quot;_blank&quot;&gt;Umoja process&lt;/a&gt;. That means 70 families who can get a better education, learn new skills and lift themselves out of poverty once and for all.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Cambodia travel scrapbook</title>
-   <link href="http://richwells.me/blog/cambodia-scrapbook"/>
+   <link href="http://richwells.me/projects/cambodia-scrapbook"/>
    <updated>2014-03-25T13:24:00+00:00</updated>
-   <id>http://richwells.me/blog/cambodia-scrapbook</id>
+   <id>http://richwells.me/projects/cambodia-scrapbook</id>
    <content type="html">&lt;p&gt;
   Here are a few sketches and iPad paintings from my Cambodian travels last March. I was keen to capture as much as I could and share short stories of the people we met out there.
 &lt;/p&gt;
@@ -1092,9 +881,9 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  
  <entry>
    <title>Our time in Tonle Batie</title>
-   <link href="http://richwells.me/blog/tonle-batie"/>
+   <link href="http://richwells.me/projects/tonle-batie"/>
    <updated>2014-03-23T14:42:00+00:00</updated>
-   <id>http://richwells.me/blog/tonle-batie</id>
+   <id>http://richwells.me/projects/tonle-batie</id>
    <content type="html">&lt;p&gt;We&amp;#8217;ve just come back from a two day trip to Tonle Batie, a village an hour or so out of Phnom Penh. No wifi, no 3G, and a great opportunity to spend quality time with some generous people who don&amp;#8217;t always have it easy.&lt;/p&gt;
 
 
@@ -1143,144 +932,10 @@ Here&#39;s a list of Jekyll links that I found helpful when building this site:
  </entry>
  
  <entry>
-   <title>Local delicacies</title>
-   <link href="http://richwells.me/blog/mmmm-insects"/>
-   <updated>2014-03-20T14:10:28+00:00</updated>
-   <id>http://richwells.me/blog/mmmm-insects</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qybcTBQQ1rr6vpvo1_1280.jpg&quot;/&gt;
-
-&lt;p&gt;&lt;strong&gt;Try it!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I remember once hearing Michael Palin (the comedian, travel writer and Sheffielder) talk about eating food in different cultures. I can&amp;#8217;t recall the quote word for word, but he said something like&amp;#8230;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;When someone from a different culture offers you jellied sheep&amp;#8217;s eyeballs, don&amp;#8217;t turn them down, you might miss the opportunity to be joyfully surprised.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I wouldn&amp;#8217;t say that I was joyfully surprised by fried insects, but they didn&#39;t taste that bad. A bit like the &amp;#8216;seaweed&amp;#8217; you get from a Chinese restaurant back home.&lt;/p&gt;
-
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qybcTBQQ1rr6vpvo2_1280.jpg&quot;/&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Seeing for ourselves</title>
-   <link href="http://richwells.me/blog/day-three-in-cambodia"/>
-   <updated>2014-03-20T13:24:00+00:00</updated>
-   <id>http://richwells.me/blog/day-three-in-cambodia</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo1_1280.jpg&quot;/&gt;
-
-&lt;p&gt;Today was amazing. We went out of the city and visited two communities that Tearfund supports by providing Umoja training (see &lt;a href=&#39;http://blog.richwells.me/post/80086511538/umoja#notes&#39;&gt;yesterday&amp;#8217;s post&lt;/a&gt; for more on Umoja, or better still read &lt;a href=&quot;http://t.co/ZIBg970dAI&quot; target=&quot;_blank&quot;&gt;Danny&amp;#8217;s&lt;/a&gt;). In both places we met the facilitators who work with the local church to develop small projects that help the people around them. It was really inspiring and great to see first hand what people can do when they work together. &lt;/p&gt;
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo3_1280.jpg&quot;/&gt;
-
-&lt;p&gt;I thought that rather than writing one long blog post, from now on I am going to start sharing mini posts, with small stories of the people I meet. Long blog posts take too long! Easier for me to share as I go and hopefully a little more engaging too. &lt;/p&gt;
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2qwcbq9A41rr6vpvo2_1280.jpg&quot;/&gt;
-
-&lt;p&gt;Check the &lt;strong&gt;&lt;a href=&quot;http://cambodia.richwells.me&quot;&gt;Cambodia scrapbook&lt;/a&gt;&lt;/strong&gt; for some stories from today. I&amp;#8217;m still adding them now, before I head to bed (I&amp;#8217;m 7 hours ahead of UK time) - a poor internet connection is not making my life easy!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Tuol Sleng Genoside Museum</title>
-   <link href="http://richwells.me/blog/tuol-sleng"/>
-   <updated>2014-03-19T15:05:00+00:00</updated>
-   <id>http://richwells.me/blog/tuol-sleng</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2p6d1hi0H1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;After an egg and some funny tasting coffee for breakfast we met a girl called Kanya, who works for International Cooperation Cambodia (ICC), the local organisation that Tearfund works through here in Cambodia.&lt;/p&gt;
-&lt;p&gt;We take a minibus and travel to their headquarters, on a dusty side road a little out of town. After climbing six flights of incredibly steep stairs we enter a cool air-conditioned room, where we spend the next few hours getting to know who ICC are and what we will be getting up to for the next week.&lt;/p&gt;
-&lt;p&gt;This is Harry. He heads up one of ICC&amp;#8217;s projects called the Village Integrated Development Project, or VIDP for short. (Sorry about all the acronyms by the way).&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://richwells.me/img/cambodia-genocide-museum0.jpg&quot;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Harry tells us that VIDP is based on an approach that is sometimes known as ’Umoja&amp;#8217;, a Swahili word meaning togetherness.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://richwells.me/img/cambodia-genocide-museum4.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;Rather than handing over aid or dictating a specific programme to people in need, Umoja is all about training individuals who go into their own villages and work together with the local church to start little projects that help grow community and fight property. Without any external seed money or financial backing they work out ways of making it happen, pooling the little they have to build something together. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Context is everything&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This all sounds great, but it is particularly relevant when put in the context of Cambodia&amp;#8217;s recent history. The brutal events of the 70s and 80s left the country gutted, devastatingly poor and brought with it a strong sense of distrust at anything community-related. Harry tells us that the affects of all of this are still very much present today.&lt;/p&gt;
-&lt;p&gt;In the afternoon we went to the Tuol Sleng Genoside Museum. As the name suggests this is not an enjoyable place to visit.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://richwells.me/img/cambodia-genocide-museum.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;Our guide was telling us about when the Americans moved out of Cambodia in the 70s and how he remembers cheering with everyone else as the Khmer Rouge army came in on Tanks to liberate it. The celebrations stopped abruptly as the people were told that they had to leave everything and move to the countryside in three hours or they would be shot. Middle class people, educated people, doctors, lawyers and religious people were killed and the whole country was subjected to forced labour in the rice fields with appalling conditions. By the end of it all, an estimated 2 million people had died.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://richwells.me/img/cambodia-genocide-museum2.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;Tuol Sleng was a torture prison during this time. Over 4 years this housed 20,000 people, including 165 babies, and at the end of it all only 7 adults and 4 children survived. It&amp;#8217;s a horrific place with rough, stained walls and torture equipment still left out the way it was when the Vietnamese Army liberated it. Kanya told me that when she first went round the museum as a girl you could still smell the blood.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://richwells.me/img/cambodia-genocide-museum3.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;There were 167 prisons like this during the Pol Pot regime, along with 343 killing fields. I can&amp;#8217;t get my head around the numbers, or the brutality of it all. How can people do this? What motivates them? I was expecting our guide to have an answer, but he just said that he didn&amp;#8217;t know.&lt;/p&gt;
-&lt;p&gt;I don&amp;#8217;t know either. Going through something like today, I find it pretty impossible to deny the presence of evil. And I think in a strange way, thats why I&amp;#8217;m a Christian. I don&amp;#8217;t doubt the presence of evil, its clearly in this world and I don&amp;#8217;t doubt the presence of good, that&amp;#8217;s clearly here too. And I believe that God is good, that he is &amp;#8216;Umoja&amp;#8217; and wants more goodness and Umoja in the world. Hopefully see some more of that tomorrow.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Phnom Penh</title>
-   <link href="http://richwells.me/blog/arrived-in-phnom-penh"/>
-   <updated>2014-03-18T09:58:52+00:00</updated>
-   <id>http://richwells.me/blog/arrived-in-phnom-penh</id>
-   <content type="html">&lt;p&gt;We&amp;#8217;ve finally arrived in Phnom Penh, after a short wait in Bangkok. We had three hours to spare there and decided to go and explore the city rather than sitting in the airport twiddling our thumbs. It turned out to be three hours of queueing in a taxi, with an extremely brief stopover at a temple to take some touristy photos. Slightly stressful, but I&amp;#8217;m really glad we did it. &lt;/p&gt;
-
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo1_1280.jpg&quot;/&gt;
-
-&lt;div class=&quot;grid&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo7_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/phnom-penh-2.jpg&quot;/&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/downloads/phnom-penh.jpg&quot;/&gt;
-
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo2_1280.jpg&quot;/&gt;
-&lt;p&gt;I love how everything is different over here, the heat, the smells, the colours, the people, the transport. So many things to look at! It was interesting to compare the differences between Bangkok and Phnom Penh as we arrived and drove to our hotel. Cambodia definitely feels less polished, and a lot more dusty than I imagined it would be, but we have arrived in the middle of the dry season. Not the place for jeans anyway.&lt;/p&gt;
-&lt;p&gt;Right, after potentially being awake for the longest I have ever been, I think it&amp;#8217;s time I had some sleep.&lt;/p&gt;
-
-&lt;div class=&quot;grid&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo4_1280.jpg&quot;/&gt;&lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo3_1280.jpg&quot;/&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2mxi4ls0g1rr6vpvo8_1280.jpg&quot;/&gt;
-
-&lt;p&gt;P.S. if you&amp;#8217;re interested in a bit of Cambodian history, &lt;a href=&quot;https://twitter.com/danny_webster&quot;&gt;Danny&lt;/a&gt; who I&amp;#8217;m travelling with has come up with a handy &lt;strong&gt;&lt;a href=&quot;http://brokencameras.com/2014/03/17/a-14-point-bluffers-guide-to-cambodian-history/&quot;&gt;14 point bluffer&amp;#8217;s guide&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Waiting in Slough</title>
-   <link href="http://richwells.me/blog/slough"/>
-   <updated>2014-03-17T07:33:08+00:00</updated>
-   <id>http://richwells.me/blog/slough</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2kw38BvSg1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
-&lt;p&gt;Greetings from Slough! I’m in a budget hotel ‘near’ Heathrow Terminal 5, struggling to move after getting my money’s worth from the breakfast buffet.&lt;/p&gt;
-
-&lt;p&gt;We’re flying at mid afternoon today to Bankok, and then on from there to Phnom Penh, the capital of Cambodia. Selfishly I’m really looking forward to 12 hours or so of sitting, where it’s perfectly acceptable to watch three films back to back and sleep whenever you like. It’s been a long month!&lt;/p&gt;
-
-&lt;p&gt;For the next week and a half Danny, Anita and I will  visiting projects run by Tearfund’s local partners and seeing how the church over there is helping to build community and end poverty. I intend to record as much as I can for you people back home, taking photos and making artwork inspired by the people I meet, and hopefully at the end of it to tell stories that wouldn’t otherwise be heard. &lt;/p&gt;
-
-&lt;p&gt;I’m going to be blogging on my site and together all of our posts will be pulled through here: &lt;a href=&quot;http://tearfund.org/bloggers&quot;&gt;http://tearfund.org/bloggers&lt;/a&gt; . I’ve also set up a kind of travel scrapbook here(&lt;a href=&quot;http://Cambodia.richwells.me&quot;&gt;http://Cambodia.richwells.me&lt;/a&gt;), where I will post sketches, photos, tweets and other random things that don’t deserve their own blog post.&lt;/p&gt;
-
-&lt;p&gt;I’m feeling really excited,&lt;br/&gt;
-and that slightly nervous sensation you get when you think you might miss a flight. But most of all I’m feeling blessed. Blessed to be able to go on this trip at all and to have some amazing people around me who have encouraged me to do it in the first place. Big thanks go to my wife Bryony, for her love and support, and to Yoomee (&lt;a href=&quot;http://Yoomee.com&quot;&gt;http://Yoomee.com&lt;/a&gt;), the company I work for. Andy and Nicola, the directors are absolute legends and have let me go in work time, which is such a blessing- I’m not sure many employers would do that.&lt;/p&gt;
-
-&lt;p&gt;See you on the other side!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Feeling a little bit hypocritical</title>
-   <link href="http://richwells.me/blog/feeling-a-little-bit-hypocritical"/>
-   <updated>2014-03-15T16:31:00+00:00</updated>
-   <id>http://richwells.me/blog/feeling-a-little-bit-hypocritical</id>
-   <content type="html">&lt;p&gt;&lt;span&gt;Today was my last full day at home with the family before leaving tomorrow for Cambodia. We decided to treat ourselves and go out for lunch to the Mud Crab Diner on Ecclesall road, a kind of retro American motorcycle-themed restaurant, whose speciality is a burger with peanut butter and cheese on top of it. Nothing about this meal is good for you in any way, but it tastes aaaamazing.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;On our way back my daughter Sophie noticed a man sitting on the grass verge next to our car with a dog. She loves dogs. It was a big and white, with an ugly face and a wide grin. I didn&amp;#8217;t want Sophie to walk too close to it, so I made sure I stood between her and the beast.&lt;/p&gt;
-&lt;p&gt;I started talking to the man. He was about my age, had worn out jeans and a can of cider on the grass behind him that I think he was trying to hide.&lt;/p&gt;
-&lt;p&gt;We got talking about his dog and he was telling me about how he was struggling to look after it and it was hard because he lived in tent and that&amp;#8217;s not a great place to keep a dog. He seemed like a nice guy.&lt;/p&gt;
-&lt;p&gt;At this point I realised there was a long line of cars waiting to get our car parking space and that we should probably move on, so I wished him well and got into the car. As I reversed I could see him straight ahead of me with his head in his hands crying.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;/downloads/man-and-dog.jpg&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;I felt like I should pull the car back in get out and talk to him, but I didn&amp;#8217;t. I just kept on moving and left him there.&lt;/p&gt;
-&lt;p&gt;I had to get on, I had lots to do, lots to buy before the shops shut, lots to prepare for going to Cambodia to see those people living in poverty. And I felt like such a hypocrite.&lt;/p&gt;
-&lt;p&gt;I don&amp;#8217;t know why I&amp;#8217;m sharing this really, apart from that I want to be honest from the outset that as I go out and experience things  and potentially ask you to give, I&amp;#8217;m doing it from a place of not being great at it myself. I want to be better though, I want to be someone who not only feels compassion, but does something about it. And I&amp;#8217;m hoping that going to Cambodia changes me in that way.&lt;/p&gt;
-&lt;p&gt;Later on I drove back to the car park and looked around for the man with the dog. I was going to see if he wanted a chat, if I could buy him a meal, or even just get him a couple of tins of dog food. But he wasn&amp;#8217;t there. Next time I want to do better first time round.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Yoomee.com</title>
-   <link href="http://richwells.me/blog/yoomee-dot-com"/>
+   <link href="http://richwells.me/projects/yoomee-dot-com"/>
    <updated>2014-03-14T16:31:00+00:00</updated>
-   <id>http://richwells.me/blog/yoomee-dot-com</id>
+   <id>http://richwells.me/projects/yoomee-dot-com</id>
    <content type="html">&lt;img src=&quot;/downloads/yoomee-site.jpg&quot; alt=&quot;yoomee.com&quot;&gt;
 &lt;p&gt;One of the frustrations of having so much work on at the moment is that we have little time to update our site. The other week we had a small window in between projects and managed to push a few changes. More to come!&lt;/p&gt;
 
@@ -1297,9 +952,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Hey, look I made a toy kitchen!</title>
-   <link href="http://richwells.me/blog/wooden-kitchen"/>
+   <link href="http://richwells.me/projects/wooden-kitchen"/>
    <updated>2014-03-13T06:41:47+00:00</updated>
-   <id>http://richwells.me/blog/wooden-kitchen</id>
+   <id>http://richwells.me/projects/wooden-kitchen</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n2df1nc2qi1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;Last Christmas we were going to buy our daughter Sophie a toy Kitchen. She loves anything kitchen related, and we needed somewhere to store her ever growing collection of fake food.&lt;/p&gt;
 &lt;p&gt;As it was going to be in our front room I didn&amp;#8217;t want a garish pink one (why are they always pink?) and the wooden ones in John Lewis were quite expensive so I decided to make my own. &amp;#8216;Easy&amp;#8217; I thought. How wrong I was — I spent far too long in our cellar stooped over a work bench sanding things, sawing things, staining things and inhaling wood dust. And I loved it. It felt really good to make something with my hands and spend some quality time being creative away from a screen.&lt;/p&gt;
@@ -1315,18 +970,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Summer</title>
-   <link href="http://richwells.me/blog/summer"/>
+   <link href="http://richwells.me/projects/summer"/>
    <updated>2014-03-12T03:12:00+00:00</updated>
-   <id>http://richwells.me/blog/summer</id>
+   <id>http://richwells.me/projects/summer</id>
    <content type="html">&lt;img src=&quot;/downloads/summer.jpg&quot;/&gt;
 </content>
  </entry>
  
  <entry>
    <title>Goldddigger live art auction</title>
-   <link href="http://richwells.me/blog/golddigger-artwork"/>
+   <link href="http://richwells.me/projects/golddigger-artwork"/>
    <updated>2014-03-11T03:12:00+00:00</updated>
-   <id>http://richwells.me/blog/golddigger-artwork</id>
+   <id>http://richwells.me/projects/golddigger-artwork</id>
    <content type="html">&lt;p&gt;Last weekend I did some live art for an organisation called Golddigger Trust. They were having a Charity auction to raise money for the work that they do with young people in our area who need help and support, particularly with self-esteem issues.  &lt;/p&gt;
 
 
@@ -1356,18 +1011,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Tom</title>
-   <link href="http://richwells.me/blog/tom"/>
+   <link href="http://richwells.me/projects/tom"/>
    <updated>2014-03-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/tom</id>
+   <id>http://richwells.me/projects/tom</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n22lmjnjV11rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This is Tom, our current apprentice at Yoomee. We&amp;#8217;re starting a scheme to teach young offenders to code, which is a really exciting and rewarding thing to be part of. &lt;a href=&quot;http://yoomee.com/teaching-young-offenders-to-code-update&quot; target=&quot;_blank&quot;&gt;Read More about it here&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Yoomee is hiring</title>
-   <link href="http://richwells.me/blog/yoomee-is-hiring"/>
+   <link href="http://richwells.me/projects/yoomee-is-hiring"/>
    <updated>2014-02-13T10:18:00+00:00</updated>
-   <id>http://richwells.me/blog/yoomee-is-hiring</id>
+   <id>http://richwells.me/projects/yoomee-is-hiring</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_n0xx6pbcA01rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;h2&gt;Getting the right people on the bus&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Recruitment for us is about carefully growing a family, taking on board people with potential, and growing, moving forward together as equals. It&amp;#8217;s about getting the right people on the bus first, and then figuring out where to go.&lt;/p&gt;
@@ -1377,22 +1032,10 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>Tearfund bloggers 2014</title>
-   <link href="http://richwells.me/blog/tf-bloggers-2014"/>
-   <updated>2014-01-16T12:56:00+00:00</updated>
-   <id>http://richwells.me/blog/tf-bloggers-2014</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mzi9tc3NGq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;I’m really pleased to announce that I have been selected to be part of the Tearfund bloggers trip to Cambodia!&lt;/p&gt;
-&lt;p&gt;I saw &lt;a href=&quot;http://www.tearfund.org/en/give/give_main/tfbloggers13/prelaunch/&quot; title=&quot;Tearfund Bloggers&quot; target=&quot;_blank&quot;&gt;the advert&lt;/a&gt; last month, and initially thought ’that’s a brilliant idea’, but didn’t consider applying myself, maybe because I don’t really think of myself as a ‘blogger’ - I mostly share images and often struggle with the writing side of things- but after some thought and encouragement from my lovely wife I decided to apply, and am glad I did!&lt;/p&gt;
-&lt;p&gt;I’m really excited to join &lt;a href=&quot;https://twitter.com/AnitaMathias1&quot; title=&quot;Anita Mathias&quot; target=&quot;_blank&quot;&gt;Anita&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/danny_webster&quot; title=&quot;Danny Webster&quot; target=&quot;_blank&quot;&gt;Danny&lt;/a&gt; for a week in March to tell stories of the people we meet, the situations we find ourselves in, and the great work the local church is doing in Tonle Batie (the village we will be visiting). I plan to take many photos, do lots of drawings and illustrations and share it with all of you, my internet friends. More to come soon!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://richwells.me/tearfund&quot; title=&quot;Tearfund Application&quot;&gt;Here’s my application&lt;/a&gt;&lt;/strong&gt;&lt;strong&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=BLSm7DmfIZw&quot;&gt;Here’s a video with more information about the trip&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Coffee packet typography</title>
-   <link href="http://richwells.me/blog/coffee-packets"/>
+   <link href="http://richwells.me/projects/coffee-packets"/>
    <updated>2014-01-13T18:55:00+00:00</updated>
-   <id>http://richwells.me/blog/coffee-packets</id>
+   <id>http://richwells.me/projects/coffee-packets</id>
    <content type="html">&lt;img src=&quot;/downloads/coffee-packets.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;After collecting coffee packets for the last 5 years (not really sure why), I have decided to do something creative with them.&lt;/p&gt;
 &lt;p&gt;This is my first ever coffee packet typeface. I cut each one out by hand and covered my room with stale coffee grounds - it was a labour of love! It&amp;#8217;s early days (there aren&amp;#8217;t any numerals or punctuation yet), but you can download the images for free here. Make something! (I&amp;#8217;d love to know what you come up with).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://goo.gl/KuuIxR&quot;&gt;Download the letters here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
@@ -1400,40 +1043,19 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>All the best laid plans</title>
-   <link href="http://richwells.me/blog/fog"/>
-   <updated>2014-01-13T17:13:00+00:00</updated>
-   <id>http://richwells.me/blog/fog</id>
-   <content type="html">&lt;p&gt;This weekend I decided to introduce two of my colleagues to the Peak District. It&amp;#8217;s one of the real bonuses of living in Sheffield, I love getting out to enjoy the winding roads, sheer rock faces and incredible views. Unfortunately we drove into a cloud, therefore my colleagues saw none of the above!&lt;/p&gt;
-
-&lt;div class=&quot;grid&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo3_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo4_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;img src=&quot;/downloads/tumblr_files/tumblr_mzczftNmNs1rr6vpvo1_1280.jpg&quot;/&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Obsolete formats</title>
-   <link href="http://richwells.me/blog/obsolete-formats"/>
+   <link href="http://richwells.me/projects/obsolete-formats"/>
    <updated>2014-01-11T23:00:00+00:00</updated>
-   <id>http://richwells.me/blog/obsolete-formats</id>
+   <id>http://richwells.me/projects/obsolete-formats</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mya41bJ0G71rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Obsolete formats&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Faith, Hope &amp; Love</title>
-   <link href="http://richwells.me/blog/level-collective-faith-hope-love"/>
+   <link href="http://richwells.me/projects/level-collective-faith-hope-love"/>
    <updated>2014-01-11T05:50:00+00:00</updated>
-   <id>http://richwells.me/blog/level-collective-faith-hope-love</id>
+   <id>http://richwells.me/projects/level-collective-faith-hope-love</id>
    <content type="html">&lt;img src=&quot;/downloads/fhl-1.jpg&quot; alt=&quot;Faith, Hope &amp;amp; Love Tshirt design &quot; class=&quot;w100&quot;&gt;
 
 &lt;p&gt;A T-shirt design I did for &lt;a href=&quot;http://www.thelevelcollective.co.uk/&quot; target=&quot;_blank&quot;&gt;The Level Collective&lt;/a&gt;, an independent ethical clothing label based in Sheffield. They do some great work with a charity in Romania and make some quality clothing with a lot of thought put into it. You can buy my T-shirt &lt;a href=&quot;http://www.thelevelcollective.co.uk/shop/faith_hope_love/&quot; title=&quot;The Level Collective Shop&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -1464,9 +1086,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Christmas Sketches</title>
-   <link href="http://richwells.me/blog/christmas-sketches"/>
+   <link href="http://richwells.me/projects/christmas-sketches"/>
    <updated>2013-12-27T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/christmas-sketches</id>
+   <id>http://richwells.me/projects/christmas-sketches</id>
    <content type="html">&lt;p&gt;Every year on the Sunday before Christmas, my wife&amp;#8217;s parents invite all the elderly single people at their church to join them for a Christmas dinner. There&amp;#8217;s lots of sherry, laughter, stories being shared and helpings of bread and butter pudding being enjoyed (a desert they request every year!). It&amp;#8217;s great to join in with the fun and capture some of the incredible character of people who&amp;#8217;ve been around for a little while longer than me!&lt;/p&gt;
 
 
@@ -1485,9 +1107,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Friendly faces at Sheffield Mencap</title>
-   <link href="http://richwells.me/blog/sheffield-mencap"/>
+   <link href="http://richwells.me/projects/sheffield-mencap"/>
    <updated>2013-12-11T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/sheffield-mencap</id>
+   <id>http://richwells.me/projects/sheffield-mencap</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myo8bq7v2o1rr6vpvo5_1280.jpg&quot;/&gt;
 
 &lt;p&gt;One of the downsides of my kind of job is that I spend far too much time at a computer and not enough time exploring and meeting people. Today was a nice exception as I had the opportunity to visit one of our clients, a charity called &lt;a href=&quot;http://www.sheffieldmencap.org.uk/&quot;&gt;Sheffield Mencap&lt;/a&gt;. I spent a few hours with them, taking photos and seeing the work that they do, and I had a lot of fun on the way.&lt;/p&gt;
@@ -1522,9 +1144,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Daddy daycare</title>
-   <link href="http://richwells.me/blog/daddy-daycare"/>
+   <link href="http://richwells.me/projects/daddy-daycare"/>
    <updated>2013-12-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/daddy-daycare</id>
+   <id>http://richwells.me/projects/daddy-daycare</id>
    <content type="html">&lt;p&gt;Last Summer I was given a great chance to start working four days a week so that I could spend time with a little bundle of energy called Sophie. As we embarked on our Daddy Day Care experiment my wife challenged me to try to do something different every week. The result has been recorded in Sophie&amp;#8217;s inimitable style &lt;a href=&quot;http://dayoffwithsophie.tumblr.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
@@ -1563,9 +1185,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Art prints for Open Doors</title>
-   <link href="http://richwells.me/blog/society6-prints"/>
+   <link href="http://richwells.me/projects/society6-prints"/>
    <updated>2013-12-02T02:12:00+00:00</updated>
-   <id>http://richwells.me/blog/society6-prints</id>
+   <id>http://richwells.me/projects/society6-prints</id>
    <content type="html">&lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-3&quot;&gt;
     &lt;img src=&quot;/downloads/tumblr_files/tumblr_mx6405nmks1rr6vpvo2_400.jpg&quot;/&gt;
@@ -1585,48 +1207,10 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>Joseph</title>
-   <link href="http://richwells.me/blog/joseph"/>
-   <updated>2013-12-01T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/joseph</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo1_1280.jpg&quot;/&gt;
-
-&lt;p&gt;The other day my wife Bryony spoke at our church, about the story of Joseph and the importance of forgiveness. As a way of setting the scene she wrote a poem about his life and I did some quick comic book iPad doodles to help tell the story. &lt;/p&gt;
-
-&lt;div class=&quot;grid wide&quot;&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo3_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo4_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo5_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo8_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo6_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo9_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo7_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-1-2&quot;&gt;
-    &lt;img src=&quot;/downloads/tumblr_files/tumblr_mynste9AvO1rr6vpvo2_1280.jpg&quot;/&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Gerard the goat</title>
-   <link href="http://richwells.me/blog/gerard-the-goat"/>
+   <link href="http://richwells.me/projects/gerard-the-goat"/>
    <updated>2013-11-20T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/gerard-the-goat</id>
+   <id>http://richwells.me/projects/gerard-the-goat</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my8cztgeHN1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 &lt;p&gt;I saw this cheeky chap at an alpaca farm outside of Sheffield. I know he&amp;#8217;s not an alpaca by the way- you had to pay to walk around a field to see those, and so we ended up going to the warm cafe instead. Made using Procreate on the iPad, which is excellent.  &lt;/p&gt;
 </content>
@@ -1634,18 +1218,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Buggy longboarding</title>
-   <link href="http://richwells.me/blog/buggy-longboarding"/>
+   <link href="http://richwells.me/projects/buggy-longboarding"/>
    <updated>2013-11-12T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/buggy-longboarding</id>
+   <id>http://richwells.me/projects/buggy-longboarding</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mysmm4eZws1rr6vpvo1_500.gif&quot; class=&quot;w100&quot;/&gt;&lt;p&gt;My first cinemagraph! &lt;a href=&quot;http://dayoffwithsophie.tumblr.com/post/68907288358/endcliffe-park&quot;&gt;Longboarding in Endcliffe Park&lt;/a&gt; on my day off with Sophie. &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Making art that no one sees</title>
-   <link href="http://richwells.me/blog/making-art-that-no-one-sees"/>
+   <link href="http://richwells.me/projects/making-art-that-no-one-sees"/>
    <updated>2013-10-25T09:00:20+01:00</updated>
-   <id>http://richwells.me/blog/making-art-that-no-one-sees</id>
+   <id>http://richwells.me/projects/making-art-that-no-one-sees</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_muqb4nrTVw1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;We recently got back from a two week holiday in Cornwall, and before we left, my wife and I decided to take a break from social media and emails. We removed from our phones all icons which spit out numbers in red dots and made a pact not to touch them until we got back. It&amp;#8217;s something we&amp;#8217;ve done on holidays before and have always found it refreshing to properly disconnect from what&amp;#8217;s going on at home and get some perspective. Recommend it.&lt;/p&gt;
 &lt;p&gt;What stood out to me this holiday was that I found it hard initially to stop thinking about &amp;#8216;sharing&amp;#8217; stuff. I&amp;#8217;m definitely not a social media addict, and I don&amp;#8217;t check everything all the time, but I realised that as someone who posts quite a lot of images, I regularly think &amp;#8216;how can I share this?&amp;#8217; &lt;/p&gt;
@@ -1658,44 +1242,19 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>The Pixel Painter</title>
-   <link href="http://richwells.me/blog/the-pixel-painter"/>
-   <updated>2013-10-21T11:35:00+01:00</updated>
-   <id>http://richwells.me/blog/the-pixel-painter</id>
-   <content type="html">&lt;div class=&#39;fitvids wide&#39;&gt;
-  &lt;iframe src=&#39;//player.vimeo.com/video/70748579&#39; width=&#39;500&#39; height=&#39;281&#39; frameborder=&#39;0&#39; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;blockquote&gt;
-  Hal Lasko, who was better known as Grandpa, worked as a graphic artist back when everything was done by hand. His family introduced him to the computer and Microsoft Paint long after he retired.
-&lt;/blockquote&gt;
-&lt;p&gt;When I&#39;m old I want to be like this man.&lt;/p&gt;
-..
-</content>
- </entry>
- 
- <entry>
    <title>Cornish sailors</title>
-   <link href="http://richwells.me/blog/cornish-sailors"/>
+   <link href="http://richwells.me/projects/cornish-sailors"/>
    <updated>2013-10-20T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/cornish-sailors</id>
+   <id>http://richwells.me/projects/cornish-sailors</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohx7pdMV1rr6vpvo2_1280.jpg&quot;/&gt;&lt;p&gt;I had my first trip to Devon and Cornwall this summer and visited the incredible village of &lt;a href=&quot;http://www.clovelly.co.uk/village&quot;&gt;Clovelly&lt;/a&gt;. Walking the steep cobbled streets it&amp;#8217;s easy to imagine what life was like for a victorian sailor, setting off from this unique port ready to brave harsh the seas in the hope of a good catch.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Learn by doing</title>
-   <link href="http://richwells.me/blog/learn-by-doing"/>
-   <updated>2013-09-02T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/learn-by-doing</id>
-   <content type="html">&lt;blockquote&gt;Mainly play the things on the piano which please you, even if the teacher does not assign those. That is the way to learn the most, that when you are doing something with such enjoyment that you don’t notice that the time passes. I am sometimes so wrapped up in my work that I forget about the noon meal&lt;/blockquote&gt;Albert Einstein’s Advice to His Son
-</content>
- </entry>
- 
- <entry>
    <title>Helping young people volunteer with vInspired</title>
-   <link href="http://richwells.me/blog/vinspired"/>
+   <link href="http://richwells.me/projects/vinspired"/>
    <updated>2013-08-14T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/vinspired</id>
+   <id>http://richwells.me/projects/vinspired</id>
    <content type="html">&lt;p&gt;At &lt;a href=&quot;http://yoomee.com&quot;&gt;Yoomee&lt;/a&gt; we work with lots of inspiring organisations. One of them is called vInspired. The name gives it away. They provide young people with opportunities to volunteer and support worthy causes in creative ways.&lt;/p&gt;
 
 &lt;p&gt;The current &lt;a href=&quot;http://vinspired.com&quot;&gt;vinspired.com&lt;/a&gt; started as a simple prototype and has developed as we have been running co-creation workshops, user testing sessions and generally getting as many people involved in the process as we can.&lt;/p&gt;
@@ -1727,9 +1286,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Planet Earth</title>
-   <link href="http://richwells.me/blog/planet-earth-sketches"/>
+   <link href="http://richwells.me/projects/planet-earth-sketches"/>
    <updated>2013-08-14T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/planet-earth-sketches</id>
+   <id>http://richwells.me/projects/planet-earth-sketches</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohjplgDj1rr6vpvo3_1280.jpg&quot;/&gt;
 &lt;img src=&quot;/downloads/tumblr_files/tumblr_myohjplgDj1rr6vpvo4_1280.jpg&quot;/&gt;
 &lt;p&gt;A couple of iPad drawings whilst watching a Planet Earth Amazon episode. &lt;/p&gt;
@@ -1738,9 +1297,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>The Gathering</title>
-   <link href="http://richwells.me/blog/the-gathering"/>
+   <link href="http://richwells.me/projects/the-gathering"/>
    <updated>2013-07-03T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/the-gathering</id>
+   <id>http://richwells.me/projects/the-gathering</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymo76G6MP1rr6vpvo2_1280.jpg&quot;/&gt;
 &lt;p&gt;Making fires with some blokes in a field near Swindon. Enjoyed spending time with my Father in law and a few blokes from his church at the CVM gathering.&lt;/p&gt;
 </content>
@@ -1748,9 +1307,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Vicar clothes</title>
-   <link href="http://richwells.me/blog/vicar-clothes"/>
+   <link href="http://richwells.me/projects/vicar-clothes"/>
    <updated>2013-07-01T09:28:00+01:00</updated>
-   <id>http://richwells.me/blog/vicar-clothes</id>
+   <id>http://richwells.me/projects/vicar-clothes</id>
    <content type="html">&lt;p&gt;My friend Rich got ordained yesterday in Doncaster Minster. &lt;span&gt;Here are a few photos of him in a dress. I designed his stole, which is the white thing that goes round the neck. As I mostly work on short-term web projects it was satisfying to design something that will potentially last a long time (I can&amp;#8217;t imagine it wearing out anyway…)&lt;/span&gt;&lt;/p&gt;
 
 &lt;div class=&quot;grid wide&quot;&gt;
@@ -1769,9 +1328,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Instagram</title>
-   <link href="http://richwells.me/blog/recent-instagrams"/>
+   <link href="http://richwells.me/projects/recent-instagrams"/>
    <updated>2013-06-27T12:44:00+01:00</updated>
-   <id>http://richwells.me/blog/recent-instagrams</id>
+   <id>http://richwells.me/projects/recent-instagrams</id>
    <content type="html">&lt;p&gt;A few recent &lt;a href=&quot;http://instagram.com/richwells&quot; target=&quot;_blank&quot;&gt;Instagrams&lt;/a&gt;. Taken a lot more since getting an iphone 5. Also enjoying using the &lt;a href=&quot;http://vsco.co/vscocam&quot;&gt;vscocam app&lt;/a&gt; to edit photos on the go.  &lt;/p&gt;
 
 
@@ -1800,9 +1359,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Elefriends</title>
-   <link href="http://richwells.me/blog/elefriends"/>
+   <link href="http://richwells.me/projects/elefriends"/>
    <updated>2013-06-26T12:44:00+01:00</updated>
-   <id>http://richwells.me/blog/elefriends</id>
+   <id>http://richwells.me/projects/elefriends</id>
    <content type="html">&lt;img src=&quot;/downloads/elefriends.jpg&quot; class=&quot;w100&quot;/&gt;
 
 &lt;p&gt;
@@ -1829,79 +1388,46 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>Mac app must-haves</title>
-   <link href="http://richwells.me/blog/mac-app-must-haves"/>
-   <updated>2013-06-11T10:57:00+01:00</updated>
-   <id>http://richwells.me/blog/mac-app-must-haves</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mo8hh2AfHs1rr6vpvo2_r1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This week I have gone through the tedious task of wiping my work iMac, installing Mountain Lion (just as &lt;a href=&quot;http://www.apple.com/osx/preview/&quot; target=&quot;_blank&quot;&gt;OSX Mavericks&lt;/a&gt;&lt;span&gt; is announced - typical!), installing Rails and copying everything back again.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;For future reference, and for anyone who’s interested, I’ve come up with a list of mac apps that I can’t do without…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.trankynam.com/atext/&quot; target=&quot;_blank&quot;&gt;aText&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;&lt;span&gt;Text expanding software. I use it to make code snippet shortcuts, and help me shorten boring repetitive tasks. A big time saver.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.dropbox.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Super useful. I put all the current files I’m working on in Dropbox, and then I can pick them up on any machine/device. Also use it to store fonts, resources and preference files.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://evernote.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Evernote&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;I put everything I need for reference here, including  my inspiration library, code snippets, notes, links, PDF documents, receipts and photos of sketches, and everything is tagged so I can find it quickly. The killer feature of Evernote is its image indexing, which is amazing for searching through images of hand drawn notes.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.adobe.com/uk/products/creativecloud.html&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Adobe Creative Cloud&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Standard design software. Just upgraded after using CS4 for a while. Looking forward to getting my teeth into the new features of Photoshop in particular.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.potionfactory.com/thehitlist/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;The Hit List&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;My favourite todo list app. Love the attention to detail, keyboard shortcuts and the way you can quickly estimate and time tasks. We record all our time at&lt;a href=&quot;http://yoomee.com/&quot; target=&quot;_blank&quot;&gt;Yoomee&lt;/a&gt; so this is helpful for keeping a record of what I’ve done during the day.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.iawriter.com/mac/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;iA writer&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;A simple text editor for writing, with no distractions. The iPad and iPhone apps are great too.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.macupdate.com/app/mac/31091/menubar-countdown&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Menubar countdown timer&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;I get really involved in whatever I’m doing so I work in 25 minute bursts and use a countdown timer to keep me on track. This one is nice and simple.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.macupdate.com/app/mac/33343/capsee&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;CapSee&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;I don’t know why this isn’t part of OSX. Lets you know when you press the caps lock, which I do every other time I try to press shift.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://macrabbit.com/espresso/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;CSSEdit&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;A few years old but still my favourite CSS editor, and the best tool I’ve come across for designing in the browser. It’s now part of Espresso, but I prefer it as a stand-alone app. Would love it to support sass/less though.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.pagelayers.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Page layers&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Turns a website into a Photoshop file. Great for building prototypes and experimenting with design ideas on the go.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://xscopeapp.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;xScope&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Grids, loupes and other useful stuff for UI designers.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.jpegmini.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;JPEGmini&lt;/strong&gt;&lt;/a&gt;&lt;br/&gt;Shrinks jpegs without affecting the quality.&lt;/p&gt;
-&lt;p&gt;I also use &lt;a href=&quot;http://www.google.com/intl/en_uk/chrome/browser/&quot; target=&quot;_blank&quot;&gt;Chrome&lt;/a&gt;, &lt;a href=&quot;http://macromates.com/&quot; target=&quot;_blank&quot;&gt;Textmate&lt;/a&gt;, &lt;a href=&quot;http://www.apple.com/uk/ilife/iphoto/&quot; target=&quot;_blank&quot;&gt;iPhoto&lt;/a&gt;, &lt;a href=&quot;http://www.apple.com/uk/ilife/imovie/&quot; target=&quot;_blank&quot;&gt;iMovie&lt;/a&gt;, &lt;a href=&quot;http://www.apple.com/uk/iwork/keynote/&quot; target=&quot;_blank&quot;&gt;Keynote&lt;/a&gt;, &lt;a href=&quot;http://gitx.laullon.com/&quot; target=&quot;_blank&quot;&gt;Gitx&lt;/a&gt;, &lt;a href=&quot;http://www.sequelpro.com/&quot; target=&quot;_blank&quot;&gt;Sequel Pro&lt;/a&gt;,&lt;a href=&quot;https://www.spotify.com/&quot; target=&quot;_blank&quot;&gt;Spotify&lt;/a&gt;, and plenty of web apps (but I’ll leave that for another blog post.)&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Castle market</title>
-   <link href="http://richwells.me/blog/castle-market"/>
+   <link href="http://richwells.me/projects/castle-market"/>
    <updated>2013-05-10T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/castle-market</id>
+   <id>http://richwells.me/projects/castle-market</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89ngZoAm1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;Castle Market is such an interesting place to draw and look around. It&#39;s pretty grim, and I&#39;m sure the new Moor Market will be a much nicer shopping experience but I&#39;ll miss this place when it&#39;s gone.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Broomhill</title>
-   <link href="http://richwells.me/blog/rooftops-of-broomhill-on-a-windy-day"/>
+   <link href="http://richwells.me/projects/rooftops-of-broomhill-on-a-windy-day"/>
    <updated>2013-04-27T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/rooftops-of-broomhill-on-a-windy-day</id>
+   <id>http://richwells.me/projects/rooftops-of-broomhill-on-a-windy-day</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89kvEEEQ1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;Rooftops of Broomhill, on a windy day.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Be disciplined and work hard</title>
-   <link href="http://richwells.me/blog/be-disciplined"/>
-   <updated>2013-04-18T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/be-disciplined</id>
-   <content type="html">&lt;blockquote&gt;Be disciplined. Work hard. Be prepared to hear ‘no’ a lot and don’t care…Be prepared to have a lot of people not enjoy your work and have it not bother you; you should do it because you want to do it.&lt;/blockquote&gt;
-&lt;p&gt;Oliver Jeffers&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>George Senior &amp; Sons</title>
-   <link href="http://richwells.me/blog/george-senior-and-sons"/>
+   <link href="http://richwells.me/projects/george-senior-and-sons"/>
    <updated>2013-04-17T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/george-senior-and-sons</id>
+   <id>http://richwells.me/projects/george-senior-and-sons</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89iepJqK1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;&quot;George Senior &amp;amp; Sons.&quot; An entrance from another era, now the side entrance to Ponds Forge.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>The Tap</title>
-   <link href="http://richwells.me/blog/the-sheffield-tap"/>
+   <link href="http://richwells.me/projects/the-sheffield-tap"/>
    <updated>2013-04-04T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/the-sheffield-tap</id>
+   <id>http://richwells.me/projects/the-sheffield-tap</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my89cymZcf1rr6vpvo1_1280.jpg&quot;/&gt;&lt;p&gt;&lt;span&gt;The Sheffield Tap, probably the best railway station pub in the country in my opinion. Also the closest to where we work. Need to do some sketches of the &lt;/span&gt;&lt;a href=&quot;http://www.guardian.co.uk/uk/the-northerner/2013/mar/20/sheffield-pubs&quot; target=&quot;_blank&quot;&gt;inside&lt;/a&gt;&lt;span&gt; at some point.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>The Ingles' house</title>
-   <link href="http://richwells.me/blog/the-ingles"/>
+   <link href="http://richwells.me/projects/the-ingles"/>
    <updated>2013-04-03T21:13:00+01:00</updated>
-   <id>http://richwells.me/blog/the-ingles</id>
+   <id>http://richwells.me/projects/the-ingles</id>
    <content type="html">&lt;p&gt;A while back my friend Gaz approached me and asked if I would paint a picture of his house with words on top of it. Not what I normally do but I had some free time and thought I’d say yes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/downloads/the-ingles.jpg&quot; alt=&quot;Painting/collage for the Ingles&quot; /&gt;&lt;/p&gt;
@@ -1912,9 +1438,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Elon Musk at sxsw</title>
-   <link href="http://richwells.me/blog/elon-musk-at-sxsw-ipad-sketchnotes"/>
+   <link href="http://richwells.me/projects/elon-musk-at-sxsw-ipad-sketchnotes"/>
    <updated>2013-03-23T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/elon-musk-at-sxsw-ipad-sketchnotes</id>
+   <id>http://richwells.me/projects/elon-musk-at-sxsw-ipad-sketchnotes</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mycpd9AIDL1rr6vpvo1_1280.png&quot;/&gt;
 &lt;p&gt;My iPad sketchnotes from Elon Musk’s keynote talk at South by Southwest this year. Elon is behind Tesla Motors and Spacex and is a bit of a genius. Sad to hear that he doesn’t have time to spend with his kids.&lt;/p&gt;
 </content>
@@ -1922,9 +1448,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Signs of South by Southwest</title>
-   <link href="http://richwells.me/blog/signs-of-south-by-southwest"/>
+   <link href="http://richwells.me/projects/signs-of-south-by-southwest"/>
    <updated>2013-03-21T13:46:00+00:00</updated>
-   <id>http://richwells.me/blog/signs-of-south-by-southwest</id>
+   <id>http://richwells.me/projects/signs-of-south-by-southwest</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mk0upcGlaE1rr6vpvo3_1280.jpg&quot;/&gt;
 &lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
@@ -1955,9 +1481,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Swiss Miss' 11 Rules</title>
-   <link href="http://richwells.me/blog/tina-roth-eisenberg-%20at-sxsw"/>
+   <link href="http://richwells.me/projects/tina-roth-eisenberg-%20at-sxsw"/>
    <updated>2013-03-20T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/tina-roth-eisenberg- at-sxsw</id>
+   <id>http://richwells.me/projects/tina-roth-eisenberg- at-sxsw</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mycpa5WphM1rr6vpvo1_1280.png&quot;/&gt;
 &lt;p&gt;My iPad sketchnotes from Tina Roth Eisenberg&amp;#8217;s keynote talk at South by Southwest.&lt;/p&gt;
 </content>
@@ -1965,18 +1491,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Sunset over Higger Tor</title>
-   <link href="http://richwells.me/blog/sunset-over-higger-tor-in-the-peak-district"/>
+   <link href="http://richwells.me/projects/sunset-over-higger-tor-in-the-peak-district"/>
    <updated>2013-02-23T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/sunset-over-higger-tor-in-the-peak-district</id>
+   <id>http://richwells.me/projects/sunset-over-higger-tor-in-the-peak-district</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my899imrJb1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Sunset over Higger Tor in the Peak District.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Behind the Electricworks</title>
-   <link href="http://richwells.me/blog/behind-the-electricworks"/>
+   <link href="http://richwells.me/projects/behind-the-electricworks"/>
    <updated>2013-02-15T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/behind-the-electricworks</id>
+   <id>http://richwells.me/projects/behind-the-electricworks</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my896pIbiB1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;&lt;span&gt;The view from the back of the &lt;/span&gt;&lt;a href=&quot;http://electric-works.net/&quot;&gt;electricworks&lt;/a&gt;&lt;span&gt;, the building that I work in. I often sit here and have my lunch when the sun’s out. It wasn’t yesterday, and the sleet made sure I didn’t stay out for too long.&lt;/span&gt;&lt;/p&gt;
 </content>
@@ -1984,9 +1510,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Motore</title>
-   <link href="http://richwells.me/blog/nick-from-motore-cafe"/>
+   <link href="http://richwells.me/projects/nick-from-motore-cafe"/>
    <updated>2013-02-06T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/nick-from-motore-cafe</id>
+   <id>http://richwells.me/projects/nick-from-motore-cafe</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my890wRPOk1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;&lt;span&gt;Nick from Motore Café by the station. Best coffee in Sheffield!&lt;/span&gt;&lt;/p&gt;
 </content>
@@ -1994,27 +1520,27 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>The Winter Gardens</title>
-   <link href="http://richwells.me/blog/late-afternoon-in-the-winter-gardens"/>
+   <link href="http://richwells.me/projects/late-afternoon-in-the-winter-gardens"/>
    <updated>2013-01-30T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/late-afternoon-in-the-winter-gardens</id>
+   <id>http://richwells.me/projects/late-afternoon-in-the-winter-gardens</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my86uuvx8B1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Late afternoon in the winter gardens, just as the sun was setting.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Ruskin park</title>
-   <link href="http://richwells.me/blog/man-and-his-dog-in-ruskin-park"/>
+   <link href="http://richwells.me/projects/man-and-his-dog-in-ruskin-park"/>
    <updated>2013-01-24T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/man-and-his-dog-in-ruskin-park</id>
+   <id>http://richwells.me/projects/man-and-his-dog-in-ruskin-park</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my86kpWS2S1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Man and his dog in Ruskin Park.&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Sheffield in the snow</title>
-   <link href="http://richwells.me/blog/sheffield-in-the-snow"/>
+   <link href="http://richwells.me/projects/sheffield-in-the-snow"/>
    <updated>2013-01-20T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/sheffield-in-the-snow</id>
+   <id>http://richwells.me/projects/sheffield-in-the-snow</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymowwdjZI1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;p&gt;Sheffield in the snow. Snapped this on my walk to work. No cycling in this weather!&lt;/p&gt;
 </content>
@@ -2022,9 +1548,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>People watching at Caffe Nero</title>
-   <link href="http://richwells.me/blog/people-watching-at-caffe-nero"/>
+   <link href="http://richwells.me/projects/people-watching-at-caffe-nero"/>
    <updated>2013-01-19T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/people-watching-at-caffe-nero</id>
+   <id>http://richwells.me/projects/people-watching-at-caffe-nero</id>
    <content type="html">&lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
     &lt;img src=&quot;/downloads/tumblr_files/tumblr_my869z9Ubq1rr6vpvo3_1280.jpg&quot;/&gt;
@@ -2040,18 +1566,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Park Hill flats just as the snow came</title>
-   <link href="http://richwells.me/blog/park-hill-flats-just-as-the-snow-came"/>
+   <link href="http://richwells.me/projects/park-hill-flats-just-as-the-snow-came"/>
    <updated>2013-01-18T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/park-hill-flats-just-as-the-snow-came</id>
+   <id>http://richwells.me/projects/park-hill-flats-just-as-the-snow-came</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my85wdSSXu1rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
  <entry>
    <title>Procreate</title>
-   <link href="http://richwells.me/blog/a-few-procreate-ipad-paintings-i-received-an"/>
+   <link href="http://richwells.me/projects/a-few-procreate-ipad-paintings-i-received-an"/>
    <updated>2013-01-10T12:21:00+00:00</updated>
-   <id>http://richwells.me/blog/a-few-procreate-ipad-paintings-i-received-an</id>
+   <id>http://richwells.me/projects/a-few-procreate-ipad-paintings-i-received-an</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo2_1280.jpg&quot;/&gt;
 &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgf6w0ruJ81rr6vpvo3_1280.jpg&quot;/&gt;
@@ -2062,9 +1588,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Bible Challenge Book</title>
-   <link href="http://richwells.me/blog/bible-challenge-book"/>
+   <link href="http://richwells.me/projects/bible-challenge-book"/>
    <updated>2013-01-10T08:22:00+00:00</updated>
-   <id>http://richwells.me/blog/bible-challenge-book</id>
+   <id>http://richwells.me/projects/bible-challenge-book</id>
    <content type="html">&lt;div class=&quot;fitvids&quot;&gt;
   &lt;iframe src=&quot;//player.vimeo.com/video/53417575?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;100 Day Bible Challenge Book&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -2115,72 +1641,54 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>A walk through the Botanical Gardens</title>
-   <link href="http://richwells.me/blog/a-walk-through-the-botanical-gardens"/>
+   <link href="http://richwells.me/projects/a-walk-through-the-botanical-gardens"/>
    <updated>2013-01-03T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/a-walk-through-the-botanical-gardens</id>
+   <id>http://richwells.me/projects/a-walk-through-the-botanical-gardens</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my85dv11B91rr6vpvo1_1280.jpg&quot;/&gt;
 </content>
  </entry>
  
  <entry>
    <title>Mat</title>
-   <link href="http://richwells.me/blog/mat"/>
+   <link href="http://richwells.me/projects/mat"/>
    <updated>2012-12-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/mat</id>
+   <id>http://richwells.me/projects/mat</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myohrk2wtq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 </content>
  </entry>
  
  <entry>
    <title>From the sketchbook</title>
-   <link href="http://richwells.me/blog/from-the-sketchbook"/>
+   <link href="http://richwells.me/projects/from-the-sketchbook"/>
    <updated>2012-12-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/from-the-sketchbook</id>
+   <id>http://richwells.me/projects/from-the-sketchbook</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo7_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo2_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo5_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo4_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo3_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo10_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo8_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo9_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoi9ch0vT1rr6vpvo6_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;From the sketchbook.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Father forgive</title>
-   <link href="http://richwells.me/blog/father-forgive"/>
+   <link href="http://richwells.me/projects/father-forgive"/>
    <updated>2012-11-26T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/father-forgive</id>
+   <id>http://richwells.me/projects/father-forgive</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_myoh8pki8K1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
 </content>
  </entry>
  
  <entry>
-   <title>My dad's Movember effort</title>
-   <link href="http://richwells.me/blog/my-dads-movember-effort"/>
-   <updated>2012-11-23T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/my-dads-movember-effort</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgfl6gux3Q1rr6vpvo1_1280.jpg&quot;/&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>The details are not the details</title>
-   <link href="http://richwells.me/blog/the-details"/>
-   <updated>2012-10-20T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/the-details</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mycnqq9DPH1rr6vpvo1_1280.jpg&quot;/&gt;
-</content>
- </entry>
- 
- <entry>
    <title>In Place of War branding</title>
-   <link href="http://richwells.me/blog/in-place-of-war"/>
+   <link href="http://richwells.me/projects/in-place-of-war"/>
    <updated>2012-10-20T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/in-place-of-war</id>
+   <id>http://richwells.me/projects/in-place-of-war</id>
    <content type="html">&lt;img src=&quot;/downloads/ipow.gif&quot;/&gt;
 </content>
  </entry>
  
  <entry>
    <title>Introducing Sophie</title>
-   <link href="http://richwells.me/blog/sophie-wells"/>
+   <link href="http://richwells.me/projects/sophie-wells"/>
    <updated>2012-09-06T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/sophie-wells</id>
+   <id>http://richwells.me/projects/sophie-wells</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
 &lt;iframe src=&quot;//player.vimeo.com/video/49013771?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;Sophie the sloth&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -2190,9 +1698,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>China</title>
-   <link href="http://richwells.me/blog/china"/>
+   <link href="http://richwells.me/projects/china"/>
    <updated>2012-04-16T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/china</id>
+   <id>http://richwells.me/projects/china</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
 &lt;iframe src=&quot;//player.vimeo.com/video/40372602?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;China&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br/&gt;&lt;p&gt;A few months ago we went to China. We travelled around the country with some amazing people and got to experience so many new sights, smells and tastes. I shot way too much video but have finally got round to making a summary of one second shots.&lt;/p&gt;
 &lt;p&gt;Music is &amp;#8216;Same Dream China&amp;#8217; by Gold Panda (&lt;a href=&quot;http://itunes.apple.com/gb/album/same-dream-china/id394131664?i=394131677&quot;&gt;buy on iTunes&lt;/a&gt;).&lt;/p&gt;
@@ -2200,28 +1708,10 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>Edale to Mam Tor</title>
-   <link href="http://richwells.me/blog/cycling-to-mam-tor"/>
-   <updated>2012-03-31T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/cycling-to-mam-tor</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_my8adpW1zx1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;My mate Joe, on the road from Edale up to Mam Tor.&lt;/span&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Paper by 53</title>
-   <link href="http://richwells.me/blog/paper-53"/>
-   <updated>2012-03-30T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/paper-53</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo2_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgew3wqNV11rr6vpvo3_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Really enjoying using &lt;/span&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/paper-by-fiftythree/id506003812&quot; title=&quot;Paper on the app store&quot;&gt;Paper&lt;/a&gt;&lt;span&gt; for iPad. &lt;/span&gt;&lt;a href=&quot;http://www.fiftythree.com/&quot; title=&quot;paper app&quot;&gt;Check out their video&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Yoomee goes Southwest</title>
-   <link href="http://richwells.me/blog/sxsw12"/>
+   <link href="http://richwells.me/projects/sxsw12"/>
    <updated>2012-03-29T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/sxsw12</id>
+   <id>http://richwells.me/projects/sxsw12</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
   &lt;iframe src=&quot;//player.vimeo.com/video/39057126?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;Yoomee at SXSW 2012&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -2231,9 +1721,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Dan Mangan Tshirt designs</title>
-   <link href="http://richwells.me/blog/dan-mangan"/>
+   <link href="http://richwells.me/projects/dan-mangan"/>
    <updated>2012-03-22T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/dan-mangan</id>
+   <id>http://richwells.me/projects/dan-mangan</id>
    <content type="html">&lt;p&gt;&lt;span&gt;I did a few tshirt designs a while back for Canadian singer songwriter &lt;/span&gt;&lt;a href=&quot;http://www.danmanganmusic.com/&quot; title=&quot;Dan Mangan&quot;&gt;Dan Mangan&lt;/a&gt;&lt;span&gt;. Here they are, in need of an iron. If you&amp;#8217;d like one, he has a few left in &lt;/span&gt;&lt;a href=&quot;http://www.galleryac.com/merchandise/oh-fortune-t-shirt.html&quot; title=&quot;dan&#39;s shop&quot;&gt;his shop&lt;/a&gt;&lt;/p&gt;
 
 
@@ -2244,28 +1734,19 @@ and that slightly nervous sensation you get when you think you might miss a flig
  </entry>
  
  <entry>
-   <title>Imagination will take you everywhere</title>
-   <link href="http://richwells.me/blog/imageination-will-take-you-everywhere"/>
-   <updated>2012-01-03T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/imageination-will-take-you-everywhere</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymsccUInc1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Terracotta Army</title>
-   <link href="http://richwells.me/blog/terracotta-army"/>
+   <link href="http://richwells.me/projects/terracotta-army"/>
    <updated>2011-12-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/terracotta-army</id>
+   <id>http://richwells.me/projects/terracotta-army</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mymoidF3Qu1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Tourists and two thousand year old soldier. A photo I took on our trip to the Terracotta Army.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>100 Day Bible Challenge</title>
-   <link href="http://richwells.me/blog/100daybiblechallenge"/>
+   <link href="http://richwells.me/projects/100daybiblechallenge"/>
    <updated>2011-11-29T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/100daybiblechallenge</id>
+   <id>http://richwells.me/projects/100daybiblechallenge</id>
    <content type="html">&lt;p&gt;&lt;span&gt;I&amp;#8217;ve been involved in a project at my church called 100 Day Bible Challenge. We&amp;#8217;re currently reading through 100 key parts of the Bible every day for 100 days and I am hoping to do a bit of daily artwork inspired by what we&amp;#8217;ve read. Its been great so far- we have 360 people on the &lt;/span&gt;&lt;a href=&quot;http://www.facebook.com/groups/286637061359303&quot;&gt;Facebook group&lt;/a&gt;&lt;span&gt; and loads of discussions going on. Check the &lt;/span&gt;&lt;a href=&quot;http://100daybiblechallenge.com/&quot;&gt;website&lt;/a&gt;&lt;span&gt; for more details.&lt;/span&gt;&lt;/p&gt;
 
 
@@ -2284,9 +1765,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Download my free font Ello Ello</title>
-   <link href="http://richwells.me/blog/download-elloello-font"/>
+   <link href="http://richwells.me/projects/download-elloello-font"/>
    <updated>2011-11-03T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/download-elloello-font</id>
+   <id>http://richwells.me/projects/download-elloello-font</id>
    <content type="html">&lt;img src=&quot;/downloads/ello-ello.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Want to write like me? Now you can. &lt;/p&gt;
 &lt;p class=&quot;p1&quot;&gt;&lt;a href=&quot;/downloads/elloello.zip&quot; title=&quot;Download elloello!&quot; class=&quot;btn&quot;&gt;Download ElloEllo here&lt;/a&gt;&lt;/p&gt;
 &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Licensed under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;&lt;span class=&quot;s2&quot;&gt;Creative Commons Attribution-ShareAlike 3.0 Unported License&lt;/span&gt;&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
@@ -2295,9 +1776,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Ndsm Wharf, Amsterdam</title>
-   <link href="http://richwells.me/blog/ndsm-wharf"/>
+   <link href="http://richwells.me/projects/ndsm-wharf"/>
    <updated>2011-09-22T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/ndsm-wharf</id>
+   <id>http://richwells.me/projects/ndsm-wharf</id>
    <content type="html">&lt;div class=&quot;grid wide&quot;&gt;
   &lt;div class=&quot;col-1-2&quot;&gt;
     &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgewmzJVf41rr6vpvo5_1280.jpg&quot;/&gt;
@@ -2324,9 +1805,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Picnic Festival</title>
-   <link href="http://richwells.me/blog/picnic11"/>
+   <link href="http://richwells.me/projects/picnic11"/>
    <updated>2011-09-21T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/picnic11</id>
+   <id>http://richwells.me/projects/picnic11</id>
    <content type="html">&lt;p&gt;Some photos I took from Picnic 11 in Amsterdam. The theme this year was &amp;#8216;Future cities- exploring global urbanisation and its impact on our cities, our societies and our lives.&amp;#8217; At Yoomee we developed the online networking tools and apps for the Festival, and it was reward to see it used by so many people over the week.&lt;/p&gt;
 
 
@@ -2345,9 +1826,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Les Alpes</title>
-   <link href="http://richwells.me/blog/les-alpes"/>
+   <link href="http://richwells.me/projects/les-alpes"/>
    <updated>2011-07-28T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/les-alpes</id>
+   <id>http://richwells.me/projects/les-alpes</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
   &lt;iframe src=&quot;//player.vimeo.com/video/26984839?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;Les Alpes&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -2358,9 +1839,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Peace in the Park</title>
-   <link href="http://richwells.me/blog/peace-in-the-park"/>
+   <link href="http://richwells.me/projects/peace-in-the-park"/>
    <updated>2011-06-06T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/peace-in-the-park</id>
+   <id>http://richwells.me/projects/peace-in-the-park</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
 &lt;iframe src=&quot;//player.vimeo.com/video/24719761?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;Peace in the park balloon release&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span&gt;On Saturday Bry and myself manned the balloon stall at Peace in the Park, Sheffield. The idea was to get people to write messages of peace, attach them to helium balloons and release them all together at 5pm. After a few sketchy moments transporting them across a field under a net we managed to do just that. It all turned out a bit sony bravia&amp;#8230;&lt;/span&gt;&lt;/p&gt;
@@ -2369,36 +1850,18 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Holiday sketches</title>
-   <link href="http://richwells.me/blog/holiday-sketches"/>
+   <link href="http://richwells.me/projects/holiday-sketches"/>
    <updated>2011-06-06T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/holiday-sketches</id>
+   <id>http://richwells.me/projects/holiday-sketches</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmb5kgxVq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;span&gt;Some sketches I did last week whilst on holiday. Enjoyed getting away from emails and the internet, I should do it more often! &lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>RIP Gil Scott Heron</title>
-   <link href="http://richwells.me/blog/rip-gil-scott-heron"/>
-   <updated>2011-06-01T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/rip-gil-scott-heron</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmb9w4Dpq1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;RIP Gil Scott Heron&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Family likeness?</title>
-   <link href="http://richwells.me/blog/grandad"/>
-   <updated>2011-04-04T00:00:00+01:00</updated>
-   <id>http://richwells.me/blog/grandad</id>
-   <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbbq3x6j1rr6vpvo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Me and my Grandad.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Panasonic GF1</title>
-   <link href="http://richwells.me/blog/panasonic-gf1"/>
+   <link href="http://richwells.me/projects/panasonic-gf1"/>
    <updated>2011-02-25T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/panasonic-gf1</id>
+   <id>http://richwells.me/projects/panasonic-gf1</id>
    <content type="html">&lt;div class=&quot;fitvids wide&quot;&gt;
 &lt;iframe src=&quot;//player.vimeo.com/video/20334460?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot; title=&quot;Panasonic GF1 test&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 
@@ -2408,9 +1871,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Lift 11</title>
-   <link href="http://richwells.me/blog/lift11"/>
+   <link href="http://richwells.me/projects/lift11"/>
    <updated>2011-02-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/lift11</id>
+   <id>http://richwells.me/projects/lift11</id>
    <content type="html">&lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo1_1280.jpg&quot;/&gt;
 &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo2_1280.jpg&quot;/&gt;
 &lt;img src=&quot;/downloads/tumblr_files/tumblr_mgmbkxPOnH1rr6vpvo3_1280.jpg&quot;/&gt;
@@ -2427,9 +1890,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Lanterns</title>
-   <link href="http://richwells.me/blog/lanterns"/>
+   <link href="http://richwells.me/projects/lanterns"/>
    <updated>2011-02-05T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/lanterns</id>
+   <id>http://richwells.me/projects/lanterns</id>
    <content type="html">&lt;img src=&quot;/downloads/lantern-1.jpg&quot;/&gt;
 &lt;img src=&quot;/downloads/lantern-2.jpg&quot;/&gt;
 </content>
@@ -2437,9 +1900,9 @@ and that slightly nervous sensation you get when you think you might miss a flig
  
  <entry>
    <title>Various logos</title>
-   <link href="http://richwells.me/blog/various-logos"/>
+   <link href="http://richwells.me/projects/various-logos"/>
    <updated>2011-01-03T00:00:00+00:00</updated>
-   <id>http://richwells.me/blog/various-logos</id>
+   <id>http://richwells.me/projects/various-logos</id>
    <content type="html">&lt;img src=&quot;/downloads/life-church.jpg&quot;&gt;
 &lt;img src=&quot;/downloads/haemnet4.jpg&quot;&gt;
 &lt;img src=&quot;/downloads/study-yorkshire-2.jpg&quot;&gt;
