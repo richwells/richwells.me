@@ -2423,6 +2423,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/downloads\/picture-frame-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213517,
+		"inputAbbreviatedPath": "\/_site\/downloads\/picture-frame-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/picture-frame-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/picture-frame-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362212,
+		"inputAbbreviatedPath": "\/_site\/downloads\/picture-frame-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/picture-frame-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/downloads\/picture-frame-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 412593,
+		"inputAbbreviatedPath": "\/_site\/downloads\/picture-frame-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/downloads\/picture-frame-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/downloads\/picture-frame-coffee-table-tn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -11083,6 +11116,39 @@
 		"initialSize": 680053,
 		"inputAbbreviatedPath": "\/downloads\/phnom-penh.jpg",
 		"outputAbbreviatedPath": "\/downloads\/phnom-penh.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/picture-frame-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213517,
+		"inputAbbreviatedPath": "\/downloads\/picture-frame-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/picture-frame-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/picture-frame-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362212,
+		"inputAbbreviatedPath": "\/downloads\/picture-frame-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/picture-frame-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/picture-frame-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 412593,
+		"inputAbbreviatedPath": "\/downloads\/picture-frame-3.jpg",
+		"outputAbbreviatedPath": "\/downloads\/picture-frame-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
