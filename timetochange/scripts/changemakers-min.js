@@ -1,1 +1,1 @@
-$(document).ready(function(){$("a.filter-strip__link").click(function(){$(".filter-strip").toggleClass("active")})});
+$(document).ready(function(){$("a.filter-strip__link").click(function(){$(".filter-strip").toggleClass("active")}),twttr.events.bind("rendered",function(t){var e=$("#content.cm-wrapper").imagesLoaded(function(){e.isotope({itemSelector:".cm-box",layoutMode:"masonry"})})})});
