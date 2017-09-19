@@ -1,0 +1,2859 @@
+
+// _base.scss imports _custom.scss (variables and mixins) and other partials.
+@import "base";
+// _calendarcolors.scss imports event calendar color palette.
+@import "calendarcolors";
+// _civicrm.scss imports civicrm style overrides.
+@import "civicrm";
+// _tabs.scss imports tabs style overrides.
+@import "tabs";
+
+
+@import "custom.scss";
+
+// A few mixins and variables for responsive stuff
+@import "cm-responsive.scss";
+
+// I've done a header here - you might want to throw this away - just thought that the page would look unfinished if I didn't include it
+@import "cm-header.scss";
+
+// styles for change makers page
+@import "changemakers.scss";
+
+
+/* =============================================================================
+ *   Base
+ * ========================================================================== */
+
+html {
+  background: $page;
+}
+
+body, input, select {
+  font-family: $interstate; // Set from _custom.scss font variables
+  font-weight: normal;
+  color: $ttc-black;
+  line-height: 1.3;
+	margin:0;
+}
+
+
+/* =============================================================================
+ *   HTML Elements
+ * ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $interstate;
+  font-weight: bold;
+}
+
+blockquote {
+	background: $ttc-lightergrey;
+	color: $ttc-darkred;
+	font-family: $interstate-light;
+	font-size: 1.125em;
+	font-weight: normal;
+	padding: 0.5em 0.5em 0 0.5em;
+	border-radius: 4px;
+	@include rough-border-lightergrey;
+	&.twitter-tweet {
+		background: $ttc-lightblue;
+		@include rough-border-lightblue;
+		color: $ttc-blue;
+	}
+}
+
+.hide {
+	@include element-hidden;
+}
+
+.ajax-progress-throbber {
+    @include element-hidden;
+}
+
+
+ul,
+.item-list ul {
+  list-style-image: url(images/bullet.png);
+  padding-left: 16px;
+}
+
+
+ol,
+.item-list ol {
+  list-style: decimal;
+  padding-left: 16px;
+}
+
+
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-family: $mono;
+}
+
+hr {
+	@include element-hidden;
+}
+
+
+/* =============================================================================
+ *   Wrappers
+ * ========================================================================== */
+
+#header-wrapper {
+  .container {
+	  header {
+		  position: relative;
+		  padding: 2em 0;
+		  #menu-wrapper {
+			  margin-top: -60px;
+		  }
+		  .block {
+			  margin: 0;
+		  }
+	  }
+  }
+}
+
+#page-header-wrapper {
+	background-color: #eee;
+	.container {}
+}
+
+
+/* =============================================================================
+ *   Branding
+ * ========================================================================== */
+
+#branding {
+	#logo {
+		padding: 0;
+			img {
+				vertical-align: bottom;
+		}
+	}
+	#name-and-slogan {
+		@include offscreen;
+	}
+	#site-name {
+	  @include offscreen;
+	  margin: 0;
+
+	  a {
+
+	    &:link,
+	    &:visited {
+	      text-decoration: none;
+	    }
+
+	    &:hover,
+	    &:focus {
+	      text-decoration: underline;
+	    }
+	  }
+	}
+	#site-slogan {
+	  margin: 0;
+	}
+}
+
+/* =============================================================================
+ *   Page content header
+ * ========================================================================== */
+
+/*
+ * The main page title (h1)
+ */
+#page-title,
+.block-featured-case-studies .block-title {
+  font-family: $interstate;
+  font-weight: bold;
+  color: $ttc-grey;
+  font-size: 1.875em;
+  line-height: 1.2;
+  margin: 0 0 0.5em 0;
+}
+.block-featured-case-studies .block-title {
+	text-align: center;
+}
+
+
+/* =============================================================================
+ *   Misc Global Styles
+ * ========================================================================== */
+
+/*
+ * Aggregator feed source
+ */
+#aggregator .feed-source .feed-icon {
+  display: inline;
+  float: none;
+  margin-right: 10px;
+}
+
+
+.feed-details dt,
+.feed-details dd {
+  display: inline;
+  margin: 0;
+}
+
+
+/*
+ * Generic styles for links. See the ul.links declaration in node and comment stylesheets
+ */
+ul.links {
+  margin: 0;
+  padding: 1.5em 0 0 0;
+  clear: both;
+
+  &.inline {
+    display: block;
+  }
+
+  li {
+    display: inline;
+    list-style: none;
+    padding: 0 10px 0 0;
+  }
+}
+
+
+/*
+ * Search results are an ordered list so reset the margin
+ */
+.search-results {
+  margin: 0;
+}
+
+/* CTA Buttons */
+.cta-btn a,
+a.cta-btn {
+	display: block;
+	background-image: url(images/list_arrow_rev.gif);
+	background-repeat: no-repeat;
+	background-position: 0.75em 0.9em;
+	padding: 0.5em 0 0.5em 2em;
+	border-radius: 4px;
+	@include big-button-red;
+}
+.field-name-field-cta-button {
+	a.cta-btn {
+		float: left;
+		margin: 1em 0;
+		background-position: 0.75em 0.75em;
+		padding-right: 1em;
+		&:hover {
+			background-color: $ttc-grey;
+		}
+	}
+}
+
+/* =============================================================================
+ *   Regions
+ * ========================================================================== */
+
+/* Search bar region in header */
+.region-search-bar {
+	@include element-hidden;
+	.region-inner {
+		padding-top: 20px;
+		.block-header-links {
+			float: left; width: 40%;
+			clear: none;
+			ul.menu {
+				padding: 0;
+				li {
+					padding-top: 10px;
+					padding-right: 20px;
+					list-style: none;
+					float: left;
+					&.last {
+						padding-right: 0;
+					}
+					a {
+						font-size: 1.125em;
+						font-family: $interstate;
+						font-weight: bold;
+						color: $ttc-darkred;
+					}
+				}
+			}
+		}
+		.block-search {
+			float: left; width: 60%;
+			clear: none;
+			.search-form {
+				display: inline-block;
+				border: 2px solid $ttc-grey;
+				border-radius: 24px;
+				padding: 0; margin: 0;
+				.form-type-textfield {
+					.form-text {
+						background: none;
+						border: none;
+						width: auto;
+						float: left;
+					}
+				}
+				.form-actions {
+					.form-submit {
+						background: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Highlighted region */
+.region-highlighted {
+	background-color: #ddd;
+	.region-inner {}
+}
+
+/* Second sidebar */
+.region-sidebar-second {
+	.block-list {
+		.block-inner {
+			background: $ttc-lightergrey;
+			padding: 1em;
+			border-radius: 4px;
+			h2.block-title {
+				font-family: $interstate-blackcond;
+				font-weight: normal;
+				padding-left: 1.85em;
+				color: $ttc-grey;
+			}
+			.view-content {
+				font-family: $interstate-lightcond;
+				color: $ttc-grey;
+				a {
+					color: $ttc-blue;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+				ul {
+					list-style-image: url(images/list_arrow.gif);
+					p {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	.block-categories h2.block-title {
+		background: url(images/tags.png) no-repeat left top;
+	}
+	.block-posts h2.block-title {
+		background: url(images/bullhorn.png) no-repeat left top;
+	}
+}
+
+
+/* Tertiary content */
+.region-tertiary-content {
+	.block-follow {
+		.block-inner {
+			ul.follow-us {
+				padding: 0;
+				li {
+					list-style: none;
+					padding-right: 2em;
+					float: left;
+					a {
+						display: block;
+						width: 36px; height: 36px;
+						background-position: right top;
+						background-repeat: no-repeat;
+						&.facebook { background-image: url(images/facebook.png); }
+						&.youtube { background-image: url(images/youtube.png); }
+						&.twitter { background-image: url(images/twitter.png); }
+						&.instagram { background-image: url(images/instagram.png); }
+						span {
+							@include element-hidden;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Footer content */
+.region-footer-one {
+	.region-inner {
+		border-top: 4px solid $ttc-darkred;
+		padding-top: 20px;
+		.footer-menu {
+			ul.menu {
+				padding: 0;
+				li {
+					list-style: none;
+					padding-right: 1em;
+					font-weight: bold;
+					float: left;
+					a {
+						color: $ttc-darkred;
+					}
+				}
+			}
+		}
+		.copyright {
+			p {
+				font-size: 0.875em;
+			}
+		}
+	}
+}
+.region-footer-two {
+	.region-inner {
+		.block-title {
+			font-size: 1em;
+		}
+		.block-partners,
+		.block-funded {
+			float: left;
+		}
+	}
+}
+
+/* =============================================================================
+ *   Links
+ * ========================================================================== */
+
+a {
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: $ttc-blue;
+  }
+
+  &:active,
+  &.active {}
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+
+/* =============================================================================
+ *   Primary, Secondary and Menu Bar region menus
+ * ========================================================================== */
+
+#primary-menu-bar {
+  margin: 0;
+
+  h2 {
+	font-family: $interstate;
+	font-weight: bold;
+	font-size: 1.125em;
+	padding-bottom: 30px;
+	display: table;
+	width: 100%;
+	.at-menu-toggle-button-link {
+		display: block;
+		float: right;
+		color: $ttc-grey;
+		background: $ttc-lightergrey url(images/menu.png) no-repeat 0.75em center;
+		padding: 0.35em 0.75em 0.35em 2.5em;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	#pull-search {
+		display: block;
+		float: right;
+		cursor: pointer;
+		width: 64px; height: 32px;
+		background: url(images/search_icons_larger.png) no-repeat center center;
+		span {
+			@include element-hidden;
+		}
+	}
+  }
+
+  .menu-wrapper {
+	  ul,
+	  ul.menu {
+	    margin: 0;
+	    padding: 0;
+	    clear: both;
+	  }
+
+	  li,
+	  ul.menu li {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	  }
+
+	  li a,
+	  ul.menu li a {
+	    display: block;
+	    white-space: nowrap;
+		background: $ttc-lightergrey;
+		font-family: $interstate;
+		font-size: 1.125em;
+		font-weight: bold;
+		padding: 0.35em 0.75em;
+
+	    &:link, &:visited {
+		    color: $ttc-grey;
+	    }
+
+	    &.active-trail, &.active {
+			background: $ttc-darkred;
+			color: white;
+			text-decoration: none;
+	    }
+	  }
+  }
+}
+
+
+/* =============================================================================
+ *   Menus, usually blocks
+ * ========================================================================== */
+
+ul.menu {
+  padding-left: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  ul {
+    padding-left: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  li {
+    margin: 0;
+
+    &.collapsed {
+	  list-style-image: url(images/list_collapsed.png);
+    }
+    &.expanded {
+	  list-style-image: url(images/list_expanded.png);
+    }
+    &.leaf {
+	  list-style-image: url(images/list_leaf.png);
+    }
+  }
+}
+
+
+/* If li.content exists it's a problem, so reset the padding */
+.block .menu li.content {
+  padding: 0;
+}
+
+.primary-links-side,
+.secondary-links-side {
+	ul.menu {
+		//background: $ttc-grey;
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			padding: 0;
+		}
+	}
+	ul.menu li.active-trail,
+	ul.menu li.active-trail ul.menu {
+		a {
+			background-color: $ttc-lightergrey;
+		}
+	}
+	a {
+		display: block;
+		color: $ttc-grey;
+		margin-top: 3px;
+		border-radius: 4px;
+		font-size: 1.125em;
+		font-family: $interstate-blackcond;
+		font-weight: normal;
+		padding: 0.5em 1em 0.5em 2em;
+		background-color: $ttc-lightergrey;
+		background-image: url(images/list_arrow.gif);
+		background-repeat: no-repeat;
+		background-position: 0.75em 0.9em;
+		&:hover, &.active {
+			background-color: $ttc-grey !important ;
+			background-image: url(images/list_arrow_rev.gif);
+			color: white;
+			text-decoration: none;
+		}
+	}
+	/* level 2 */
+	ul li ul li a {
+		padding-left: 2em;
+		background-image: none;
+		font-family: $interstate-lightcond;
+	}
+	/* level 3 */
+	ul li ul li ul li a {
+		padding-left: 4em;
+	}
+	/* level 4 */
+	ul li ul li ul li ul li a {
+		padding-left: 5em;
+	}
+	/* level 5 */
+	ul li ul li ul li ul li ul li a {
+		padding-left: 6em;
+	}
+}
+
+
+/* =============================================================================
+ *   Breadcrumbs
+ * ========================================================================== */
+
+#breadcrumb {
+
+  .breadcrumb-wrapper {
+	  margin-bottom: 1.5em;
+  }
+
+  /* If the label is set to show in theme settings the label class is added */
+  .breadcrumb-label {
+    font-size: 1em;
+    display: inline;
+    padding-right: 10px;
+
+    &:after {
+      content: ":";
+    }
+  }
+
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  .with-breadcrumb-label ol {
+    display: inline;
+  }
+
+  li {
+    list-style: none;
+    display: inline;
+  }
+
+}
+
+
+/* =============================================================================
+ *   Pagers
+ * ========================================================================== */
+
+ul.pager {
+	font-family: $interstate;
+	font-size: 0.875em;
+	background: $ttc-lightergrey;
+	margin: 1em 0 0 0;
+	padding: 0.5em;
+	border-radius: 4px;
+	color: $ttc-black;
+	li {
+		padding: 0 0.2em;
+		a {
+			color: $ttc-blue;
+			display: inline-block;
+		}
+	}
+}
+
+
+
+.item-list ul.pager li {
+  margin: 0;
+}
+
+
+ul.pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+
+  &.pager-current {
+    font-weight: bold;
+  }
+}
+
+
+.block ul.pager li {
+  margin: 0;
+}
+
+
+.pager-load-more {
+	background: none !important ;
+	margin: 0 !important ; padding: 0 !important ;
+	a {
+		display: inline-block;
+		background-color: $ttc-grey;
+		color: white !important ;
+		font-size: 1.25em;
+		font-weight: bold;
+		padding: 0.5em 1em;
+		margin: 1em 0;
+		border-radius: 4px;
+		&:hover {
+			background-color: $ttc-darkred;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+/* =============================================================================
+ *   Skip Navigation
+ * ========================================================================== */
+
+#skip-link {
+  left: 50%;
+  margin-left: -6.5em;
+  margin-top: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  width: 12em;
+  z-index: 50;
+
+  a {
+    background: #444;
+    background: rgba(0, 0, 0, 0.6);
+    color: $page;
+    display: block;
+    line-height: 2;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      background: #444;
+      background: rgba(0, 0, 0, 0.6);
+      color: $page;
+      display: block;
+      line-height: 2;
+      padding: 0;
+      text-align: center;
+      text-decoration: none;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      outline: 0;
+    }
+  }
+}
+
+
+/* =============================================================================
+ *   Tabs (local tasks)
+ * ========================================================================== */
+
+ul.primary {
+  border-bottom-color: $border;
+  margin: 1em 0 0;
+  padding: 0 0 0 5px;
+
+  li {
+    display: block;
+    float: left;
+    margin: 0 1px -1px;
+
+    a {
+      background-color: $ultralight;
+      border-color: $border;
+      margin-right: 1px;
+      padding: 0 10px;
+      display: block;
+      float: left;
+      height: 1.5em;
+      line-height: 1.5em;
+
+      &:hover,
+      &:focus {
+        background-color: $light;
+        border-color: $border;
+      }
+    }
+  }
+
+  li.active {
+    a,
+    a:hover,
+    a:focus {
+      background-color: $page;
+      border-bottom-color: $page;
+    }
+  }
+}
+
+
+ul.secondary {
+  border-bottom: 1px solid $border;
+  margin: 1em 0 0;
+  padding: 0 .3em 1em;
+
+  li {
+    border-right: 0;
+    list-style: none;
+    padding: 0 10px 0 0;
+
+    a {
+      &:hover,
+      &.active {
+        border-bottom: none;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+/* =============================================================================
+ *   Action links
+ * ========================================================================== */
+
+ul.action-links {
+  margin: 1.5em 0;
+}
+
+
+/* =============================================================================
+ *  Field Styling
+ * ========================================================================== */
+
+/*
+ * Wrapper for any field
+ */
+.field {
+	margin-bottom: 1em;
+}
+
+/*
+ * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
+ */
+.field-label {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  line-height: inherit;
+  margin-bottom: 0;
+}
+
+/*
+ * Taxonomy
+ */
+.field-type-taxonomy-term-reference {
+
+  /* The same bottom margin as p, blockquote, ul, ol and dl */
+  margin-bottom: 1.5em;
+
+  .field-items {
+	@include taxonomy-tags;
+  }
+
+  &.field-label-inline .field-items {
+    margin: 0;
+    padding: 0;
+  }
+
+  &.field-label-inline .field-item {
+    display: inline;
+    list-style: none;
+    padding: 0 10px 0 0;
+  }
+}
+.taxonomy-term-description {
+	a:link, a:visited {
+		text-decoration: underline;
+	}
+}
+
+
+/*
+ * Long text
+ */
+.field-type-text-long {
+	a:link, a:visited {
+		text-decoration: underline;
+	}
+}
+
+
+/*
+ * Float left setting
+ */
+.ia-l .field-type-image figure,
+.iat-l .field-type-image figure {
+  margin: 5px 20px 15px 0;
+}
+
+
+/*
+ * Centered setting
+ */
+.ia-c .field-type-image figure,
+.iat-c .field-type-image figure {
+  margin: 5px auto 15px;
+}
+
+
+/*
+ * Float right setting
+ */
+.ia-r .field-type-image figure,
+.iat-r .field-type-image figure {
+  margin: 5px 0 15px 20px;
+}
+
+/* custom field settings */
+.field-name-field-contact-event-organiser,
+.field-name-field-group-organiser-email,
+.field-name-field-registration-link,
+.register-btn {
+	a {
+		display: block; float: left;
+		padding: 0.5em 1em;
+		margin: 0 0.5em 2em 0;
+		border-radius: 4px;
+		@include big-button-red;
+	}
+}
+.field-name-field-hidden-image {
+	@include element-hidden;
+}
+
+
+
+/* =============================================================================
+ *   Block Styling
+ * ========================================================================== */
+
+/*
+ * Main wrapper for most blocks, block_system_main does not have it
+ */
+.block {
+  margin-bottom: 1.5em;
+}
+
+/*
+ * Block title
+ */
+.block-title {
+  margin: 0 0 0.83em 0;
+}
+
+/* =============================================================================
+ *   Node Styling
+ * ========================================================================== */
+
+.node {
+  margin-bottom: 20px;
+
+  &.node-teaser {
+	img {
+		width: 125px;
+		height: 125px;
+		border-radius: 4px;
+	}
+  }
+
+  .node-title {
+    margin: 0 0 0.67em 0;
+	a {
+		color: $ttc-blue;
+	}
+  }
+
+  .submitted {
+    font-size: 0.875em;
+    color: $ttc-purple;
+  }
+
+  .node-content {
+  	.field-name-body {
+  		a:link, a:visited {
+  			text-decoration: underline;
+		}
+	}
+  }
+}
+
+/* Quotations content type */
+.node-quotations {
+	.field-item {
+		padding: 1em;
+		margin: 0 0 1em 0;
+		text-align: center;
+		background: $ttc-lightergrey;
+		.field-type-image {
+			width: 50%;
+			margin: 0 auto 0.5em auto;
+		}
+		h2, p { margin: 0; }
+		h2 { font-size: 1em; }
+		p { font-size: 0.875em; }
+	}
+}
+
+/* Case study content type */
+.node-case-study-pledge {
+	.group-pledge-summary,
+	.group-pledge-content {
+		background-color: $ttc-lightergrey;
+		padding: 1em;
+		margin-bottom: 2em;
+	}
+}
+
+/* Event Suggestion content type */
+.node-event-suggestion {
+	.node-content {
+		.group-wrapper-div {
+			border-width: 4px;
+			border-color: $ttc-blue;
+			@include rough-border-blue-square;
+			border-image-width: 18px 18px 18px 18px;
+			padding: 1em;
+			margin-bottom: 1em;
+			.group-col-two {
+				.group-inner-left,
+				.group-inner-right {
+					.field {
+						padding-left: 42px; min-height: 32px;
+						background-position: left top;
+						background-repeat: no-repeat;
+						font-size: 0.875em;
+					}
+				}
+				.field-name-field-hold-event { background-image: url(images/icon_compass_red.png); }
+				.field-name-field-happy-to { background-image: url(images/icon_megaphone.png); }
+				.field-name-field-how-many-people-num { background-image: url(images/icon_people.png); }
+				.field-name-field-minimum-audience-size { background-image: url(images/icon_crowd.png); }
+				.field-name-field-maximum-audience-size { background-image: url(images/icon_crowd.png); }
+				.field-name-field-your-budget-num { background-image: url(images/icon_poundsign.png); }
+			}
+		}
+		.field-name-field-call-to-actions {
+			float: right;
+			p {
+				float: left;
+				margin-left: 1em;
+				.cta-btn {
+					display: inline-block;
+					padding: 0.25em 0.5em;
+					background-image: none;
+				}
+			}
+		}
+	}
+}
+/* Classifield Advert content type */
+.node-type-champions-advert {
+	.node-content {
+		.field-name-field-contact-link {
+			padding-top: 1em;
+			a {
+				@include big-button-red;
+				padding: 0.25em 0.5em;
+				border-radius: 6px;
+				font-size: 1.5em;
+			}
+		}
+	}
+}
+/* hide recipient email field */
+.webform-component--recipient-email {
+	@include element-hidden;
+}
+
+
+/* =============================================================================
+ *   Comment Styling - Comments, comment wrapper, comment form
+ * ========================================================================== */
+
+/*
+ * Wrapper for the list of comments and its titles
+ */
+#comments {
+  margin: 1.5em 0;
+
+  h2 {
+  	color: $ttc-grey;
+    &.comment-title {
+      margin: 0 0 1em 0;
+    }
+
+    &.comment-form {
+      margin: 0;
+    }
+  }
+}
+
+
+/*
+ * Wrapper for a single comment
+ */
+.comment {
+	margin-bottom: 1.5em;
+	padding: 1em;
+	background: $ttc-lightergrey;
+	border: none;
+
+  .submitted {
+
+    p {
+	    font-size: 0.875em;
+	    color: $ttc-purple;
+    }
+
+  }
+}
+
+
+/*
+ * Comment title
+ */
+.comment-title {
+  margin: 0 0 0.5em 0;
+}
+
+
+/*
+ * "New" marker for comments that are new for the current user
+ */
+.new {
+  color: $highlight;
+}
+
+
+/*
+ * Nested comments are indented
+ */
+.indented {
+  margin-left: 40px;
+}
+
+
+/* =============================================================================
+ *   Forms
+ * ========================================================================== */
+
+/*
+ * Wrapper for a form element (or group of form elements) and its label
+ */
+.form-item {
+  input,
+  textarea,
+  select {
+    font-family: $interstate;
+	font-weight: normal;
+  }
+
+  .form-text,
+  .form-textarea {
+    @include text-field;
+  }
+
+  .form-text,
+  .form-textarea,
+  .form-file {
+    width: 100%;
+  }
+
+  input.error,
+  textarea.error,
+  select.error {
+    border: 2px solid $highlight;
+  }
+
+  label {
+    font-weight: bold;
+	padding-left: 0 !important ;
+	padding-right: 0 !important ;
+	text-align: left !important ;
+  }
+
+  .description {
+    font-size: 0.85em;
+  }
+}
+
+
+/*
+ * Highlight marks and form required mark
+ */
+.marker,
+.form-required {
+  color: $highlight;
+}
+
+
+/*
+ * The submit button
+ */
+input#edit-delete {
+  background-color: $ttc-darkred;
+  color: white;
+  border: none;
+}
+.form-submit {
+  font-family: $interstate;
+  font-weight: normal;
+  border: none;
+  background-color: $ttc-lightergrey;
+  color: $ttc-black;
+  padding: 0.3em 0.65em;
+  margin-right: 0.5em;
+  border-radius: 4px;
+}
+
+
+.container-inline {
+  div,
+  label {
+    display: inline;
+  }
+}
+
+/*
+ * Define consistent borders
+ */
+fieldset {
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  legend {
+	  //color: $ttc-darkred;
+	  font-weight: bold;
+  }
+}
+
+/*
+ * Buttons used by contrib modules like Media
+ */
+a.button {
+  @include appearance(button);
+}
+
+
+/*
+ * Password confirmation
+ */
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+/*
+ * Remove replace animated throbber
+ */
+html.js input.form-autocomplete {
+  background-image: none; /*url(images/throbber.gif);*/
+  background-position: 98% 0; /* LTR */
+  background-repeat: no-repeat;
+}
+html.js input.throbbing {
+  background-position: 98% -33px; /* LTR */
+}
+
+.page-node-edit,
+.page-node-add {
+	.form-submit {
+		margin: 0.5em 0;
+	}
+	.field-add-more-submit {
+		border-color: $ttc-black;
+		background-color: $status;
+		color: white;
+	}
+}
+
+
+/* =============================================================================
+ *   Tables
+ * ========================================================================== */
+
+table {
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+
+  &.sticky-header {
+    z-index: 10;
+  }
+}
+
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border-color: $border;
+}
+
+
+table,
+td,
+th {
+  vertical-align: middle;
+}
+
+
+caption,
+th,
+td {
+  text-align: left;
+}
+
+
+thead tr {
+  font-weight: bold;
+}
+
+
+td,
+th {
+  border-bottom: 0;
+  margin: 0;
+  padding: 5px 7px;
+}
+
+
+tr {
+
+  &.odd {
+    background: $page;
+  }
+
+  /* Table row striping */
+  &.info,
+  &.even,
+  &:nth-child(2n+2)  {
+    border-bottom: 0;
+  }
+}
+
+/*
+ * Forum tables
+ * Core sets white-space to nowrap, which makes no sense
+ */
+#forum td {
+  .created,
+  .posts,
+  .topics,
+  .last-reply,
+  .replies,
+  .pager {
+     white-space: normal;
+  }
+}
+/*
+ * Forum icons
+ */
+#forum td.forum .icon,
+#forum .icon div {
+  background-image: url(images/forum_icons.png);
+}
+
+
+/* =============================================================================
+ *   Messages
+ * ========================================================================== */
+
+div {
+  &.messages {
+  // Left and right margin are set by the global gutter width
+  padding: 1em 1em 1em 54px;
+  color: white;
+  background-color: $status;
+  background-image: url(images/info.png);
+  background-repeat: no-repeat;
+  background-position: 1em 1em;
+  border: none;
+  margin: 0 0 1.5em 0;
+  border-radius: 4px;
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 0;
+      list-style: inherit;
+    }
+
+    a {
+	  color: white;
+	  text-decoration: underline;
+    }
+  }
+
+  &.status {
+    background-color: $status;
+  }
+
+  &.warning {
+    background-color: $warning;
+  }
+}
+
+tr.warning {
+  background-color: $warning;
+}
+
+
+div.error,
+tr.error {
+  background-color: $highlight;
+}
+
+
+.error {
+  color: $highlight;
+}
+
+
+.warning {
+  color: $warning;
+}
+
+
+/*
+ * Unpublished nodes
+ */
+.node-unpublished,
+.comment-unpublished {
+	background: #ecf9f8;
+	padding: 1em;
+}
+
+
+.node-unpublished,
+.comment-unpublished {
+
+  p.unpublished {
+    color: white;
+	background: $ttc-skyblue url(images/icon-padlock.png) no-repeat 5px 5px;
+	padding: 0.25em 0.5em 0.25em 2em;
+	font-size: 1.25em;
+	font-weight: bold;
+  }
+}
+
+
+/* =============================================================================
+ *    Maintenance pages
+ * ========================================================================== */
+
+.maintenance-page {
+  .container {
+    padding: 1em 0;
+  }
+
+  #main-content {
+	  margin-top: 1em;
+  }
+
+  #logo-maintenance {
+	  text-align: center;
+  }
+
+  #site-name,
+  #page-title {
+    margin: 0;
+  }
+
+  #page-title {
+	  font-size: 2.250em;
+	  margin-bottom: 0.25em;
+	  line-height: 1.2;
+	  text-align: center;
+  }
+
+  #content p {
+	  text-align: center;
+  }
+}
+
+
+.db-offline {
+  .container {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 100%;
+    max-width: 960px;
+  }
+
+  div.messages {
+    margin: 20px 0 0;
+  }
+
+  #content {
+    padding: 20px 0;
+  }
+}
+
+
+/* =============================================================================
+ *   Misc overrides for contrib modules
+ * ========================================================================== */
+
+/*
+ * AT Panels
+ */
+.two-brick-extra {
+	.block {
+		margin: 0;
+	}
+	.pane-view .block-inner,
+	.region-two-brick-extra-left-row-1 .panel-pane .block-inner,
+	.region-two-brick-extra-right-row-1 .panel-pane .block-inner {
+		padding-top: 1em;
+		margin-top: 1em;
+	}
+	.pane-view h2.pane-title,
+	.pane-carousel h2 {
+		font-family: $interstate;
+		font-weight: bold;
+		font-size: 1.875em;
+		margin-bottom: 0.5em;
+		a {
+			color: $ttc-grey;
+		}
+	}
+	.pane-carousel {
+		margin-bottom: 1em;
+		h2 {
+			text-align: left;
+			font-size: 1.375em;
+		}
+	}
+	.pane-fieldable-panels-pane {
+		.field-name-field-headline {
+			display: block;
+			border-top: 3px solid $ttc-lightgrey;
+			padding-top: 0.25em;
+			font-family: $interstate-black;
+			font-size: 1.25em;
+			font-weight: normal;
+			a {
+				color: $ttc-grey;
+			}
+			//width: 50%;
+		}
+		.field-name-field-caption {
+			@include element-hidden;
+			//width: 50%;
+		}
+		.field-name-field-link {
+			float: right;
+			width: 45%;
+			margin-left: 10px;
+			border-left: 8px solid white;
+		}
+	}
+	.region-two-brick-extra-top {
+		.pane-fieldable-panels-pane {
+			.field-name-field-caption {
+				display: block;
+				clear: both;
+				width: 100%;
+				p {
+					margin-bottom: 1em;
+				}
+			}
+			.field-name-field-link {
+				float: none;
+				margin: 0;
+				border: none;
+				width: 100%;
+			}
+		}
+	}
+	.pane-view {
+		h2.pane-title {
+			text-align: center;
+			margin-bottom: 0.25em;
+		}
+		.view-content {
+			.views-row {
+				border-color: $ttc-lightgrey;
+				border-width: 1px;
+				h3 {
+					font-size: 1.15em;
+					margin-bottom: 0.5em;
+				}
+				p {
+					margin-bottom: 0;
+					font-size: 0.875em;
+				}
+			}
+			.views-row-last {
+				border: none;
+			}
+		}
+	}
+	.pane-blog-feeds-latest-blogs,
+	.pane-ttc-content-feeds {
+		h2.pane-title {
+			font-family: $interstate;
+			font-weight: normal;
+			color: $ttc-blue;
+			a {
+				color: $ttc-blue;
+			}
+		}
+		.view-content {
+			background-color: $ttc-lightblue;
+			border-radius: 4px;
+			@include rough-border-lightblue;
+			.views-row {
+				border: none;
+				background: none;
+				padding: 1em;
+				margin: 0;
+				a {
+					color: $ttc-blue;
+				}
+			}
+		}
+	}
+}
+
+
+/*
+ * Views
+ */
+.view {
+	.no-results-message {
+		background-color: $ttc-blue;
+		color: white; padding: 1em;
+		border-radius: 6px;
+	}
+}
+.view-filters {
+	background: $ttc-lightergrey;
+	padding: 0 1em 0.25em 1em;
+	margin: 0 0 1em 0;
+	border-radius: 4px;
+	.views-exposed-widget {
+		width: 100%;
+		margin-bottom: 0.5em;
+		label {
+			padding-bottom: 0.75em;
+		}
+		.views-widget {
+			.form-select {
+				width: 100%;
+				background: white;
+				border: 2px solid $ttc-lightgrey;
+ 			}
+			.form-text {
+				padding: 0.2em 0;
+			}
+		}
+	 	.form-submit {
+		 	margin: 0;
+		 	border: none;
+		 	color: white;
+		 	background: $ttc-darkred;
+	 	}
+	}
+	.views-submit-button,
+	.views-reset-button {
+		float: left;
+		width: auto;
+		padding-right: 1em;
+	}
+}
+.view-content {
+	.views-row {
+		border-bottom: 6px solid $ttc-lightergrey;
+		margin-bottom: 1em;
+		padding-bottom: 1em;
+	}
+	.views-field-title {
+		a {
+			color: $ttc-grey;
+		}
+	}
+	.views-field-body img {
+		float: right;
+		width: 125px;
+		height: 125px;
+		border-radius: 4px;
+	}
+}
+.views-field {
+	.list-tags {
+		ul {
+			@include taxonomy-tags;
+		}
+	}
+}
+.views-field-field-video-small-1 {
+	float: right;
+	margin-left: 1em;
+}
+.view-champions-view,
+.view-display-id-grants_projects {
+	.view-filters {
+		@include element-hidden;
+	}
+	.attachment {
+		.view-display-id-champions_events_list,
+		.view-display-id-projects_list {
+			.view-content {
+				.views-row {
+					border: 3px solid $ttc-lightergrey;
+					background-color: #f8f8f8;
+					padding: 1em;
+					border-radius: 4px;
+				}
+			}
+			.views-field-field-start-date {
+				padding-left: 32px;
+				padding-bottom: 0.75em;
+				background: url(images/icon_calendar.png) no-repeat left top;
+			}
+			.views-field-field-region {
+				padding-left: 32px;
+				padding-bottom: 0.75em;
+				background: url(images/icon_compass.png) no-repeat left top;
+			}
+		}
+		.view-display-id-projects_list {
+			.views-field-title,
+			.views-field-field-activity-title,
+			.views-field-field-activity-date,
+			.views-field-city {
+				padding-bottom: 0.75em;
+			}
+			.views-field-field-activity-date {
+				padding-left: 32px;
+				background: url(images/icon_calendar.png) no-repeat left top;
+			}
+			.views-field-city {
+				padding-left: 32px;
+				background: url(images/icon_compass.png) no-repeat left top;
+			}
+			.views-field-field-category {
+				padding-left: 32px;
+				background: url(images/icon-tags.png) no-repeat left top;
+			}
+		}
+		.view-display-id-events_key,
+		.view-display-id-map_key {
+			@include element-hidden;
+		}
+	}
+	.gmap {
+		@include element-hidden;
+	}
+}
+/* Events and case studies GMap page */
+.view-display-id-gmap {
+	@include element-hidden;
+}
+.view-display-id-casestudies_list,
+.view-display-id-localmind_list,
+.view-display-id-champions_list,
+.view-display-id-ttchub_list,
+.view-display-id-meetings_list,
+.view-display-id-events_list {
+	border-bottom: 4px solid $ttc-lightgrey;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	.view-header {}
+	.view-filters {
+		padding-bottom: 0;
+		.views-exposed-widget {
+			width: auto;
+			.views-widget {
+				.form-select {
+					width: auto;
+				}
+			}
+			.form-submit {
+				margin-top: 1.5em;
+			}
+		}
+	}
+	.view-content {
+		.views-view-grid {
+			.gridRow {
+				.gridCol {
+					width: 48%;
+					float: left;
+					&.col-first { padding-right: 2%; }
+					&.col-last { padding-left: 2%; }
+					.grid-item {
+						background-color: $ttc-darkred;
+						margin-bottom: 1em;
+						.views-field-title {
+							h3 {
+								font-size: 0.9375em;
+								padding: 0; margin: 0;
+								a {
+									display: block;
+									padding: 0.75em 0.75em 0 0.75em;
+									height: 100px;
+									color: white;
+									text-align: center;
+									&:hover, &:focus {
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.item-list-pager {
+		ul.pager-load-more {
+			padding: 0;
+			margin: 0;
+			li {
+				a {
+					padding-bottom: 0.5em;
+				}
+			}
+		}
+	}
+}
+.view-display-id-casestudies_list { .view-filters { .views-exposed-widget { .form-submit { background: $ttc-blue; } } }
+	.view-content { .views-view-grid { .gridRow { .gridCol { .grid-item { background-color: $ttc-blue; } } } } } }
+.view-display-id-meetings_list { .view-filters { .views-exposed-widget { .form-submit { background: $ttc-purple; } } }
+	.view-content { .views-view-grid { .gridRow { .gridCol { .grid-item { background-color: $ttc-purple; } } } } } }
+.view-display-id-localmind_list { .view-filters { .views-exposed-widget { .form-submit { background: $ttc-green; } } }
+	.view-content { .views-view-grid { .gridRow { .gridCol { .grid-item { background-color: $ttc-green; } } } } } }
+.view-display-id-champions_list { .view-filters { .views-exposed-widget { .form-submit { background: $ttc-orange; } } }
+	.view-content { .views-view-grid { .gridRow { .gridCol { .grid-item { background-color: $ttc-orange; } } } } } }
+.view-display-id-ttchub_list { .view-filters { .views-exposed-widget { .form-submit { background: $ttc-pink; } } }
+	.view-content { .views-view-grid { .gridRow { .gridCol { .grid-item { background-color: $ttc-pink; } } } } } }
+
+/* Event Suggestions / Classified Ads - Views */
+.view-id-event_suggestions,
+.view-id-champions_classified_ads {
+	.view-header {
+		a#ideas-filter-btn,
+		.cta-btn a {
+			float: left;
+			padding: 0.3em 0.8em 0.3em 2em;
+			font-size: 1.5em;
+			background: $ttc-darkred url(images/search.png) no-repeat 0.5em center;
+			border-radius: 6px 6px 0 0;
+			cursor: pointer;
+		}
+		.cta-btn a {
+			border-radius: 6px;
+			background-image: url(images/icon_arrow.png);
+		}
+	}
+	.view-filters {
+		background-color: white;
+		clear: both;
+		padding: 0;
+		form#views-exposed-form-event-suggestions-page {
+			@include element-hidden;
+			background-color: $ttc-darkred;
+			padding: 1em;
+			.views-exposed-widget {
+				label {
+					color: white;
+				}
+				.form-text {
+					border: none;
+					width: 30%;
+				}
+				.description {
+					font-size: 0.75em;
+					color: white;
+					padding-top: 0.25em;
+				}
+			 	.form-submit {
+				 	background: $ttc-blue;
+			 	}
+			}
+			.views-widget-filter-field_minimum_audience_size_value,
+			.views-widget-filter-field_maximum_audience_size_value {
+				width: 45%;
+				float: left;
+				.form-text {
+					width: 70%;
+				}
+			}
+		 	.views-widget-filter-field_your_budget_num_value {
+		 		clear: both;
+		 		.form-item-field-your-budget-num-value:before {
+		 			content: "\00a3 ";
+		 			color: white;
+				}
+			}
+		}
+	}
+	.view-content {
+		.views-view-grid {
+			.gridRow {
+				.gridCol {
+					.grid-item {
+						border-width: 4px;
+						border-color: $ttc-blue;
+						@include rough-border-blue-square;
+						border-image-width: 18px 18px 18px 18px;
+						padding: 1em 1em 0 1em;
+						margin-bottom: 1em;
+						h1 {
+							margin: 0 0 0.5em 0;
+							a {
+								color: $ttc-blue;
+							}
+						}
+						.views-field-view-node {
+							margin: 0 0 1em 0; padding: 0;
+							a { color: $ttc-darkred; }
+						}
+						.field-name-field-contact-link {
+							a { color: $ttc-darkred; }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*
+ * Admin menu overrides
+ */
+#admin-menu {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+ * Devel Module
+ */
+.dev-query {
+  background: $light;
+  padding: 30px;
+}
+
+
+/*
+ * Styleguide module tweaks
+ */
+#styleguide-header {
+  padding: 0 10px;
+
+  .item-list {
+    font-family: inherit;
+    margin: 0 20px 20px 0;
+    min-height: 260px;
+    width: auto;
+  }
+}
+
+
+/*
+ * Pledgewall
+ */
+body.section-pledgewall {
+	#page-wrapper {
+		/* Pledge tabs */
+		.block-pledgewall-menu {
+			margin: 0;
+			ul.menu {
+				margin: 0;
+				padding: 0;
+				li {
+					list-style: none;
+					float: left;
+					padding: 0 4px 0 0;
+					a {
+						display: block;
+						float: left;
+						background-color: $ttc-lightergrey;
+						color: white;
+						background-repeat: no-repeat;
+						background-position: 1.35em 1em;
+						text-decoration: none;
+						font-weight: bold;
+						font-size: 0.9em;
+						height: 46px;
+						width: 58px;
+						line-height: 44px;
+						&.personal-pledges {
+							background-image: url(images/person_o.png);
+							background-color: $ttc-red;
+							@include rough-border-redlight-pledge;
+							span { @include element-hidden; } }
+						&.organisation-pledges {
+							background-image: url(images/network_o.png);
+							background-color: $ttc-purple;
+							@include rough-border-purple-pledge;
+							span { @include element-hidden; } }
+						&.celebrity-pledges {
+							background-image: url(images/celebrity_star_o.png);
+							background-color: $ttc-violet;
+							@include rough-border-violet-pledge;
+							span { @include element-hidden; } }
+						&.why-pledge {
+							background-image: url(images/pledge_info_o.png);
+							background-color: $ttc-blue;
+							@include rough-border-blue-pledge;
+							span { @include element-hidden; } }
+					}
+					&.active-trail {
+						a.active {
+							@include rough-border-reddark-pledge;
+							background-color: $ttc-darkred;
+						}
+					}
+				}
+			}
+		}
+		/* Pledge header */
+		.block-pledgewall-header {
+			margin: 0 0 1em 0;
+			.block-inner {
+				color: white;
+				padding: 0;
+				margin-bottom: 0;
+				.pledgewall-header-top {
+					background-color: $ttc-darkred;
+					@include rough-border-red-pledge;
+					padding: 0 0 1em 0;
+					.pledgewall-counter {
+						//@include element-hidden;
+						padding: 1em 0 0 0;
+						text-align: center;
+						h2 {
+							font-size: 3.125em;
+							font-family: $interstate-black;
+							font-weight: normal;
+							margin: 0;
+							padding: 0;
+							//float: left;
+						}
+						.pledgewall-h3share {
+							//float: left;
+							//padding-left: 1em;
+							h3 {
+								font-weight: normal;
+								font-size: 1em;
+								margin: 0 auto 1em auto;
+								padding: 0;
+								width: 230px;
+							}
+							ul.pledgewall-share {
+								display: table;
+								margin: 0 auto;
+								padding: 0;
+								list-style: none;
+								li {
+									float: left;
+									padding: 0 1em 0 0;
+									font-size: 0.85em;
+									a {
+										display: block;
+										float: left;
+										height: 28px;
+										width: 28px;
+										span {
+											@include offscreen;
+										}
+										&.pledge-facebook { background: url(images/facebook.png) no-repeat left top; }
+										&.pledge-twitter { background: url(images/twitter.png) no-repeat left top; }
+										&.pledge-whatsapp { background: url(images/whatsapp_white.png) no-repeat left top; }
+									}
+								}
+							}
+						}
+					}
+					.pledgewall-btn {
+						padding: 1em;
+						clear: both;
+						h3 {
+							margin: 0;
+							font-size: 1.5em;
+							a {
+								display: block;
+								padding: 0.4em 0;
+								margin: 0;
+								text-align: center;
+								border-radius: 4px;
+								@include big-button-lime;
+							}
+						}
+					}
+				}
+				.view-content {
+					.views-row {
+						border: none;
+						margin: 0;
+						padding: 0;
+					}
+				}
+			}
+		}
+
+		/* Pledge thumbnails */
+		.view-display-id-all_pledges,
+		.view-display-id-organisation_pledges_page,
+		.view-display-id-celebrity_pledges {
+			.gridCol { width: 25%; }
+		}
+		.views-pledgewall {
+			.view-filters {
+				background: $ttc-grey;
+				margin: 0 0 1.5em 0;
+				.views-exposed-widget {
+					label {
+						color: white;
+					}
+				}
+			 	.form-submit {
+				 	color: $ttc-grey;
+				 	background: white;
+			 	}
+			}
+			.view-content {
+				padding: 6px;
+				background-color: $ttc-darkred;
+				.gridRow {
+					.pledge-text-jquery {
+						clear: both;
+						color: white;
+						padding: 0.75em 1em 1em 1em;
+						background-color: $ttc-darkred;
+						a {
+							color: white;
+						}
+						h3, p {
+							text-align: center;
+						}
+						h3 {
+							font-size: 1em;
+						}
+						p {
+							margin-bottom: 0;
+							font-size: 0.85em;
+							&.pledge-more-link {
+								margin: 1.5em 0 0.5em 0;
+								font-weight: bold;
+								a {
+									color: $ttc-darkred;
+									background-color: white;
+									padding: 0.4em 0.8em;
+									border-radius: 4px;
+									&:hover {
+										color: white;
+										background-color: $ttc-black;
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+					.gridCol {
+						float: left;
+						.grid-item {
+							a.pull-pledgethumb {
+								cursor: pointer;
+								position: relative;
+								display: block;
+								&:hover { text-decoration: none; }
+								img.image-style-none {
+									border: 6px solid $ttc-darkred;
+									box-sizing: border-box;
+								}
+								img.arrow-thumb {
+									@include element-hidden;
+									position: absolute;
+									left: 40%;
+									bottom: 0;
+								}
+								.pledge-firstname {
+									width: 100%;
+									position: absolute;
+									color: white;
+									font-size: 0.75em;
+									text-align: center;
+									white-space: nowrap;
+									top: 32%;
+								}
+								img {
+									float: left;
+								}
+							}
+							.pledge-text {
+								@include element-hidden;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.view-display-id-organisation_pledges_page {
+			.view-content {
+				border-left: 1px solid $ttc-lightergrey;
+				border-right: 1px solid $ttc-lightergrey;
+				background-color: $ttc-lightergrey;
+				.gridRow {
+					.gridCol {
+						.grid-item {
+							a.pull-pledgethumb {
+								.img-wrapper {
+									background-color: white;
+									border: 1px solid $ttc-lightergrey;
+									float: left;
+									padding: 10px;
+									img {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.view-display-id-featured_pledges,
+		.view-display-id-organisation_pledges_featured,
+		.view-display-id-organisation_pledges_featured_block {
+			.view-content {
+				background-color: $ttc-lightergrey;
+				.gridRow {
+					.gridCol {
+						width: 33.33333333333333%;
+					}
+				}
+			}
+		}
+		.view-display-id-featured_pledges {
+			.view-content {
+				background-color: $ttc-darkred;
+				.gridRow {
+					.gridCol {
+						.grid-item {
+							a.pull-pledgethumb {
+								img.star-icon {
+									position: absolute;
+									right: 10px; bottom: 10px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		#page-title {
+			margin: 0.5em 0 0.25em 0;
+		}
+		/* Pledge Webform */
+		#content {
+			.pledge-share-btns {
+				text-align: center;
+				font-size: 1em;
+				clear: both;
+				a {
+					display: block;
+					padding: 0.7em 1.4em 0.9em 3.2em;
+					margin-bottom: 1em;
+					border-radius: 4px;
+					text-decoration: none;
+					&.pledge-share-btn-fb {
+						background: url(images/facebook_white.png) no-repeat 1em 0.7em;
+						@include big-button-blue;
+					}
+					&.pledge-share-btn-tw {
+						background: url(images/twitter_white.png) no-repeat 1em 0.7em;
+						@include big-button-teal;
+					}
+					&.pledge-share-btn-wa {
+						background: url(images/whatsapp_white.png) no-repeat 1em 0.7em;
+						@include big-button-green;
+					}
+					span {
+						font-weight: bold;
+					}
+				}
+			}
+			.pledge-share-footer {
+				clear: both;
+			}
+		}
+		.node-webform {
+			.node-content {
+				label {
+					padding-bottom: 0.25em;
+				}
+				input.form-text,
+				textarea.form-textarea {
+					border: 2px solid $ttc-lightgrey;
+				}
+				input.form-text,
+				textarea.form-textarea,
+				select.form-select {
+					width: 100%;
+					padding: 0.5em 0;
+					text-indent: 0.5em;
+				}
+				select.form-select {
+					padding: 0;
+					text-indent: 0;
+				}
+				.webform-component-managed_file {
+					clear: both;
+					.form-managed-file {
+						input.form-file {
+							/*border: none;
+							background-color: white;*/
+							margin: 0 0 0.5em 0;
+							/*padding: 0;*/
+							width: 100%;
+						}
+						span.file {
+							display: block !important ;
+							margin: 1em 0;
+							/*a, img.file-icon {
+								@include element-hidden;
+							}*/
+						}
+						img.civicrm-contact-image {
+							@include element-hidden;
+						}
+					}
+				}
+				.form-actions {
+					clear: both;
+					input.form-submit {
+						padding: 0.7em 1em 0.8em 1em;
+						border: none;
+						background-color: $ttc-darkred;
+						font-weight: bold;
+						color: white;
+					}
+				}
+				.description {
+					padding-top: 0.5em;
+					font-size: 0.750em;
+				}
+			}
+		}
+	}
+}
+
+/*
+ * FlexSlider CSS overrides
+ */
+.flexslider {
+	position: relative;
+	border: none;
+	margin: 0;
+	-webkit-box-shadow: 0 0 0;
+	-moz-box-shadow: 0 0 0;
+	-o-box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
+	&:hover .flex-prev {
+		left: 0;
+		opacity: 1;
+	}
+	&:hover .flex-next {
+		right: 0;
+		opacity: 1;
+	}
+	.flex-direction-nav {
+		@include element-hidden;
+		a {
+			background-color: $ttc-black;
+			background-repeat: no-repeat;
+			background-position: left top;
+			text-indent:-9999px;
+			color: rgba(0,0,0,0.0);
+			text-shadow: 0 0 0 rgba(0,0,0,0.0);
+			overflow:hidden;
+			width: 50px;
+			height: 50px;
+			margin: -25px 0 0;
+			&:before {
+				content: '';
+			}
+		}
+		.flex-prev {
+			background-image: url(images/flex_arrow_prev.png);
+		}
+		.flex-next {
+			background-image: url(images/flex_arrow_next.png);
+		}
+	}
+	.flex-control-nav {
+		@include element-hidden;
+	}
+	.slide-heading {
+		position: absolute;
+		color: white;
+		left: 1em;
+		right: 35%;
+		top: 0.6em;
+		ul {
+			list-style: none;
+			padding: 0;
+			li.first {
+				font-size: 1em;
+				line-height: 1.25;
+			}
+			li.last {
+				@include element-hidden;
+			}
+		}
+	}
+	img {
+		border-radius: 4px;
+	}
+}
+
+
+/*
+ * Social Share
+ */
+div.social-share {
+	margin: 1.5em 0;
+	span {
+		float: left;
+		margin-right: 8px;
+		font-weight: bold;
+	}
+	a {
+		float: left;
+		margin-right: 8px;
+		display: block;
+		height: 28px;
+		width: 28px;
+		text-indent: -9999px;
+		&.social-share-facebook {
+		  background: transparent url(images/share_icons.png) no-repeat 0 0;
+		}
+		&.social-share-twitter {
+		  background: transparent url(images/share_icons.png) no-repeat -28px 0;
+		}
+		&.social-share-googleplus {
+		  background: transparent url(images/share_icons.png) no-repeat -56px 0;
+		}
+		&.social-share-linkedin {
+		  background: transparent url(images/share_icons.png) no-repeat -84px 0;
+		}
+	}
+}
+
+
+/*
+ * Ubercart & Product Pages
+ */
+.node-product {
+	margin: 0;
+}
+
+
+/*
+ * Location & GMap
+ */
+.gmap {
+	margin: 1.5em 0;
+	* {
+		font-family: $interstate;
+		font-weight: normal;
+	}
+	.vcard {
+		.street-address,
+		.additional,
+		.locality,
+		.postal-code {
+			font-family: $interstate;
+			font-weight: normal;
+		}
+	}
+}
+.view-map-locations {
+	padding-top: 1em;
+}
+body.node-type-map-location {
+	#content {
+		h3.location-locations-header,
+		.location-locations-wrapper {
+			@include element-hidden;
+		}
+		.field-items {
+			margin-bottom: 1.5em;
+			.vcard {
+				margin-bottom: 1.5em;
+			}
+		}
+	}
+}
+
+
+/*
+ * Audio File Field
+ */
+.field-name-field-attach-audio-file {
+	.field-label {
+		margin-bottom: 1em;
+	}
+	.field-item {
+		border-radius: 4px;
+		background: $ttc-lightergrey url(images/audio.png) no-repeat right top;
+		margin-bottom: 1em;
+		padding: 1em;
+	}
+}
+
+
+/* Field Collection */
+
+// FAQ page
+
+.node-type-faq-page {
+	.field-collection-container {
+		border: none;
+	}
+	.field-name-field-faq-topic {
+		border: none;
+		* {
+			font-size: 1em;
+			border: none;
+			margin: 0;
+			padding: 0;
+		}
+		.field-collection-view {
+			.field-name-field-topic {
+				.field-item {
+					font-weight: bold;
+					font-size: 1.125em;
+					padding-bottom: 0.5em;
+				}
+			}
+			.field-name-field-faq-questions {
+				border-top: 2px solid $ttc-black;
+				margin-bottom: 1em;
+				.entity-field-collection-item {
+					border-bottom: 1px dashed $ttc-black;
+					.group-question {
+						a.field-group-format-title {
+							display: block;
+							padding: 0.5em 0 0.5em 24px;
+							background: url(images/icon-minus.png) no-repeat left 11px;
+							color: $ttc-grey;
+						}
+						.field-name-field-answer {
+							padding-left: 24px;
+							h3 {
+								padding-left: 0;
+							}
+							p {
+								margin-bottom: 1em;
+							}
+						}
+					}
+					.collapsed {
+						a.field-group-format-title {
+							background: url(images/icon-plus.png) no-repeat left 11px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Event Calendar & Calendar modules */
+
+.view-calendar {
+	.view-header {
+		.date-heading {
+			text-align: left !important ;
+		}
+		ul.pager {
+			background: none;
+			padding: 0;
+			margin: 0;
+			.date-prev {}
+			.date-next {}
+		}
+	}
+	.view-content {
+		.calendar-calendar {
+			margin-bottom: 2em;
+			td {
+				.inner {
+					div.day a {
+						color: $ttc-darkred;
+					}
+				}
+				&.empty {
+					color: $ttc-lightgrey;
+				}
+				&.mini .year {
+					font-size: 0.875em;
+					text-align: center;
+				}
+			}
+			div.calendar {
+				font-size: 12px;
+				border: none !important ;
+				a {
+					color: white;
+				}
+			}
+			.month-view {
+				table.full {
+					tr td.today,
+					tr.odd td.today,
+					tr.even td.today,
+					td.date-box.today,
+					tr td.single-day.today,
+					tr td.multi-day.starts-today,
+					tr td.multi-day.ends-today {
+						border-color: $ttc-darkred;
+					}
+				}
+			}
+			.week-view, .day-view {
+				table.full {
+					border: none;
+				}
+			}
+			.day-view {}
+			.year-view {
+				table {
+					border: none;
+					td.today {
+						background-color: $ttc-darkred;
+						a {
+							color: white;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Misc */
+
+body.section-email-signup-fb,
+body.section-thank-you-fb {
+	#main-content {
+		@include rough-border-lightergrey-page;
+		background-color: $ttc-lightergrey;
+		padding: 1em 3em;
+	}
+}
+
+body.section-email-signup-fb {
+	#main-content {
+		form {
+			.form-submit {
+				font-weight: bold;
+				font-size: 1.5em;
+				background-color: $ttc-darkred;
+				color: white;
+			}
+		}
+	}
+}
+
+/* Champions eCertificates */
+
+.ecertificate-top {
+	@include rough-border-red-thicker;
+	padding: 1em;
+	margin: 0 auto 1em auto;
+	.ecertificate-heading {
+		margin: 0 auto 1em auto;
+	}
+	.ecertificate-namebox {
+		@include rough-border-lightergrey;
+		padding: 1em 1em 0 1em;
+		.ecertificate-name {
+			font-size: 1.25em;
+		}
+	}
+	.ttc-logo {
+		width: 150px;
+		margin: 1em auto 0 auto;
+	}
+}
+
+.ecertificate-bottom {
+	padding-bottom: 2em;
+	.print-btn {
+		@include big-button-lime;
+		background: $ttc-lime url(images/icon-printer.png) no-repeat 0.25em center;
+		font-size: 1.5em;
+		color: $ttc-black !important ;
+		border-radius: 4px;
+		padding: 0.25em 0.5em 0.25em 1.75em;
+	}
+	.feedback-link {
+		font-size: 1.25em;
+		margin-top: 1em;
+	}
+}
+
+.view-blog-feeds {
+	.view-content {
+		.views-field-body {
+			img {
+				@include element-hidden;
+			}
+		}
+	}
+}
+
+/* Champions Project Planner (Webform) */
+
+#node-100133, .webform-confirmation {
+	h2 { font-size: 1.875em; margin-bottom: 0.5em; color: $ttc-black; }
+	h3 { font-size: 1.5em; margin-bottom: 0.5em; color: $ttc-black; }
+	p.help-text {
+		border-radius: 4px;
+		background-color: $ttc-lightergrey;
+		padding: 1em;
+		margin-bottom: 1.5em;
+		font-size: 1.125em;
+		strong { color: $ttc-blue; }
+	}
+	.messages {
+		padding: 0;
+		color: $ttc-black;
+		background: none;
+		margin: 0;
+		border-radius: 0px;
+	}
+	.webform-component--dates-fieldset {
+		background-color: $ttc-lightblue;
+		padding: 0 1em; margin-bottom: 1em;
+	}
+	.webform-component--milestones-fieldset {
+		.form-wrapper {
+			background-color: $ttc-lightblue;
+			padding: 0 1em; margin-bottom: 1em;
+		}
+	}
+	.webform-component--email-reminders-fieldset {
+		clear: both;
+	}
+	.webform-component-checkboxes {
+		border: 2px solid $ttc-darkred;
+		border-radius: 4px;
+		background-color: white;
+		padding: 0.5em 1em; margin-top: 0.5em;
+		float: left; clear: both;
+		label { color: $ttc-darkred; }
+	}
+	.form-actions {
+		padding-top: 1em; clear: both;
+		.form-submit {
+			font-weight: bold;
+			font-size: 1.25em;
+			background-color: $ttc-darkred;
+			color: white;
+			padding: 0.25em 0.75em;
+		}
+	}
+}
+#milestones-print-area {
+	@include rough-border-lightergrey;
+	padding: 1em 1.5em 0 1.5em;
+	margin-bottom: 1.5em;
+}
+#milestones {
+	margin-bottom: 2em;
+	.planning-date, .event-date {
+		padding: 1em 1em 1em 4em;
+		background-color: $ttc-lightergrey;
+		background-repeat: no-repeat;
+		background-position: 16px center;
+		margin-bottom: 1em;
+		p { font-size: 1.3125em; margin: 0; }
+	}
+	.planning-date { color: $ttc-blue; background-image: url(images/icon_calendar_32x32_blue.png); }
+	.event-date { color: $ttc-darkred; background-image: url(images/icon_calendar_32x32_red.png); margin-bottom: 2em; }
+	.milestone-wrapper {
+		background-color: $ttc-lightblue;
+		padding: 1em; margin-bottom: 1em;
+		.milestone-date {
+			background: white url(images/icon_clock_32x32.png) no-repeat 16px center;
+			padding: 1em 1em 1em 4em; color: $ttc-darkred;
+			margin-bottom: 1em;
+			h3 { margin: 0; color: $ttc-darkred; font-size: 1.3125em; float: left; }
+			div.completed-box {
+				float: right; color: $ttc-blue; font-size: 1.125em;
+				span.tick-box {
+					display: inline-block; width: 32px; height: 32px; border: 3px solid $ttc-blue; margin-left: 0.5em;
+				}
+			}
+		}
+		.milestone-info {
+			p.subject-title { font-size: 1.25em; color: $ttc-blue; }
+			p.notes { margin: 0; }
+		}
+	}
+}
+#milestones-print-btn {
+	.print-btn {
+		color: white;
+		padding: 0.25em 0.75em 0.25em 2em;
+		border-radius: 4px;
+		background-image: url(images/icon_print.png);
+		background-position: 16px center;
+		font-size: 1.5em;
+		@include big-button-blue;
+	}
+}
+
+/* Webforms general */
+.webform-component-markup {
+	a:link, a:visited {
+		text-decoration: underline;
+	}
+}
+.webform-component-fieldset {
+	padding: 0;
+	margin: 1em 0 0 0;
+	legend {
+		font-size: 1.5em;
+	}
+}
+
+/* Owl carousel Theme */
+.owl-theme .owl-controls .owl-buttons div,
+.owl-theme .owl-controls .owl-page span {
+	background: $ttc-blue;
+}
+
+/* Media module overrides - Increase the z-index of the UI dialog so it is higher than Panels 'add content' modal */
+.ui-dialog.ui-front {
+	z-index: 1002;
+}

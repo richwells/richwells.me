@@ -1,0 +1,380 @@
+//
+// Custom sass variables and mixins
+//
+// Variables
+// -----------------------------------------------------------------------------
+// The variables set here serve only as example of how you can use SASS variables
+// to centralize and control frequently used styles more easily. Here you will
+// find variables for colors, fonts and the global gutter width.
+//
+// Mixins
+// -----------------------------------------------------------------------------
+// To use a mixin in this file, add this line to the top of your .scss file:
+//   @import "base"; (_base.scss imports _custom.scss).
+//
+// Then to use a mixin for a particular rule, add this inside the ruleset's
+// curly brackets:
+//   @include mix-in-name;
+//
+
+//
+// Color Variables
+// Colors used in the sample global.styles. You can use these to recolor many
+// elements such as forms, tables, tabs etc.
+//
+
+/* Primary Colours */
+$ttc-darkred:    #c60751;
+$ttc-grey:       #69615f;
+$ttc-midgrey:    #a5a09f;
+$ttc-lightgrey:  #d2c8c8;
+$ttc-lightergrey:#edeaea;
+$ttc-lightblue:  #dceff4;
+$ttc-black:      #222222;
+/* Tertiary Colours */
+$ttc-red:        #F15060;
+$ttc-purple:     #a14f8c;
+$ttc-violet:     #765BA7;
+$ttc-blue:       #216A95;
+$ttc-green:      #19975d;
+/* Accent Colours */
+$ttc-pink:       #F04E98;
+$ttc-skyblue:    #93cedd;
+$ttc-yellow:     #FFDD35;
+$ttc-orange:     #FFBB4F;
+$ttc-lime:       #DBE200;
+
+/* Social Media Colours */
+$facebook-blue:  #3b5999; // facebook blue
+$twitter-blue:   #4099FF; // twitter blue
+$whatsapp-green: #25D366; // whatsapp green
+
+
+$page:           white;    // to match the page background, default is white
+$border:         $ttc-lightgrey;    // all borders set in global.styles - tables, fieldset, primary links
+$highlight:      $ttc-red; // required mark, form error highlight, "new" label on comments
+$ultralight:     $ttc-lightergrey; // table row even, primary link inactive tabs
+$light:          $ttc-lightergrey;    // table row odd active, primary link inactive hover
+$medium_light:   $ttc-lightergrey; // table row even active
+$medium_dark:    $ttc-lightgrey; // table thead
+$debug:          rgba(255, 192, 203, 0.5); // Full width wrapper test
+
+$thead:          $medium_dark;
+$tr_odd:         $page;
+$tr_even:        $ultralight;
+$tr_odd_active:  $light;
+$tr_even_active: $medium_light;
+
+$primary_task:        $ultralight;
+$primary_task_hover:  $light;
+$primary_task_active: $page;
+
+$status:  $ttc-green; // messages (green)
+$warning: $ttc-orange; // messages (orange)
+
+//
+// Font Variables
+// These font stacks are an exact copy of the stacks found in AT Cores
+// theme settings for web safe fonts.
+//
+
+// custom fonts
+$interstate:                  Interstate, Arial, Helvetica, sans-serif;
+$interstate-black:            "Interstate Black", Arial, Helvetica, sans-serif;
+$interstate-light:            "Interstate Light", Arial, Helvetica, sans-serif;
+$interstate-blackcond:        "Interstate Black Cond", Arial, Helvetica, sans-serif;
+$interstate-lightcond:        "Interstate Light Condensed", Arial, Helvetica, sans-serif;
+
+// web safe
+$sans-serif-small:            'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+$sans-serif-large:            Verdana, Geneva, 'DejaVu Sans', Arial, Helvetica, sans-serif;
+$sans-serif-arial-helvetica:  Arial, Helvetica, sans-serif;
+$calibri-candara:             Calibri, Candara, Arial, Helvetica, sans-serif;
+$serif-small:                 Garamond, Perpetua, 'Times New Roman', serif;
+$serif-large:                 Georgia, Baskerville, Palatino, 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif;
+$modern-myriad:               'Segoe UI', 'Myriad Pro', Myriad, Arial, Helvetica, sans-serif;
+$lucida:                      'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Grande', Verdana, Geneva, sans-serif;
+$impact:                      Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+$mono:                        Consolas, Monaco, 'Courier New', Courier, monospace, sans-serif;
+
+//
+// Gutters
+//
+// Set a variable for the gutters. Adaptivetheme allows you to easly modify the
+// global gutter width for precise control over the design. Panel pages need
+// special gutter wrangling when a Panel is inside #content wrapper, so to ease
+// setting this we use a variable.
+//
+$gutter-width: 1em;
+
+
+//
+// Markup free clearing
+// http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/
+//
+
+@mixin cf {
+  overflow: hidden;   // New formatting context in better browsers
+  *overflow: visible; // Protect IE7 and older from the overflow property
+  *zoom: 1;           // Give IE hasLayout, a new formatting context equivalent
+}
+
+
+//
+// Image replacement
+// Kellum Method: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement
+// Additional helpers from http://html5boilerplate.com/docs/css/
+// This is also included as a SASS mixin, see: sass/custom.rb
+//
+
+@mixin ir {
+  // Kellum Method
+  display: block !important;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  // Additional helpers
+  border: 0;                     // Remove the default border from elements like <button>
+  font: 0/0 a;                   // Crush the text down to take up no space
+  text-shadow: none;             // Remove any text shadows
+  color: transparent;            // Hide any residual text in Safari 4 and any mobile devices that may need it
+  background-color: transparent; // Hide the default background color on elements like <button>
+}
+
+
+//
+// element-invisible improved and more robust
+//
+@mixin element-invisible {
+  border: 0;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    clip: rect(1px 1px 1px 1px); // IE6 and IE7 use the wrong syntax
+  }
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+//
+// Turns off the element-invisible effect
+//
+@mixin element-invisible-off {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+@mixin element-focusable {
+  @include element-invisible;
+
+  &:active,
+  &:focus {
+    @include element-invisible-off;
+  }
+}
+
+
+//
+// Shift content offscreen, can be usefull when you reall need to do this
+//
+@mixin offscreen {
+  position: absolute;
+  top: -99999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  outline: 0;
+}
+
+
+//
+// Hide content from all users
+//
+@mixin element-hidden {
+  display: none;
+}
+
+
+//
+// Input fields e.g. text area
+//
+@mixin text-field {
+  border: 2px solid $ttc-lightgrey;
+  background: #fff;
+  padding: 0.5em 0;
+  text-indent: 0.5em;
+  border-radius: 4px;
+}
+
+
+//
+// The word "Unpublished" displayed underneath unpublished nodes and comments
+//
+@mixin unpublished {
+  color: $ttc-lightergrey; // target browsers that do not support rgba
+  /*color: rgba(239, 170, 170, 0.4);*/
+  font-family: $interstate;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  word-wrap: break-word;
+
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    .ie6-7 &>* {
+      position: relative; // Otherwise these elements will appear below the "Unpublished" text.
+    }
+  }
+}
+
+
+//
+// Taxonomy tags
+//
+@mixin taxonomy-tags {
+	padding: 0;
+	margin: 0;
+	li {
+		list-style: none;
+		padding-right: 1.25em;
+		float: left;
+		a {
+			background: url(images/tag.png) no-repeat left top;
+			padding-left: 1.6em;
+			font-size: 0.875em;
+			color: $ttc-grey;
+			&:hover {
+				background: url(images/tag_blue.png) no-repeat left top;
+				text-decoration: none;
+				color: $ttc-blue;
+			}
+		}
+	}
+}
+
+
+//
+// Rough borders
+//
+@mixin rough-border-global {
+	border-image-slice: 17 17 17 17;
+	border-image-width: 12px 12px 12px 12px;
+	border-image-outset: 0px 0px 0px 0px;
+	border-image-repeat: stretch stretch;
+	border-style: solid;
+}
+@mixin rough-border-red { @include rough-border-global; border-image-source: url(../img/border_red.png); }
+@mixin rough-border-redlight { @include rough-border-global; border-image-source: url(images/border_redlight.png); }
+@mixin rough-border-blue { @include rough-border-global; border-image-source: url(images/border_blue.png); }
+@mixin rough-border-blue-square { @include rough-border-global; border-image-source: url(images/border_blue_square.png); }
+@mixin rough-border-green { @include rough-border-global; border-image-source: url(images/border_green.png); }
+@mixin rough-border-grey { @include rough-border-global; border-image-source: url(images/border_grey.png); }
+@mixin rough-border-lightblue { @include rough-border-global; border-image-source: url(images/border_lightblue.png); }
+@mixin rough-border-lightgrey { @include rough-border-global; border-image-source: url(images/border_lightgrey.png); }
+@mixin rough-border-lightergrey { @include rough-border-global; border-image-source: url(images/border_lightergrey.png); }
+@mixin rough-border-lightergrey-page { @include rough-border-global; border-image-source: url(images/border_lightergrey_page.png); }
+@mixin rough-border-yellow { @include rough-border-global; border-image-source: url(images/border_yellow.png); }
+@mixin rough-border-skyblue { @include rough-border-global; border-image-source: url(images/border_skyblue.png); }
+@mixin rough-border-skybluethin { @include rough-border-global; border-image-source: url(images/border_skybluethin.png); }
+@mixin rough-border-violet { @include rough-border-global; border-image-source: url(images/border_violet.png); }
+@mixin rough-border-purple { @include rough-border-global; border-image-source: url(images/border_purple.png); }
+@mixin rough-border-lime { @include rough-border-global; border-image-source: url(images/border_lime.png); }
+@mixin rough-border-red-pledge { @include rough-border-global; border-image-source: url(images/border_red_pledge.png); }
+@mixin rough-border-purple-pledge { @include rough-border-global; border-image-source: url(images/border_purple_pledge.png); }
+@mixin rough-border-redlight-pledge { @include rough-border-global; border-image-source: url(images/border_redlight_pledge.png); }
+@mixin rough-border-reddark-pledge { @include rough-border-global; border-image-source: url(images/border_reddark_pledge.png); }
+@mixin rough-border-blue-pledge { @include rough-border-global; border-image-source: url(images/border_blue_pledge.png); }
+@mixin rough-border-violet-pledge { @include rough-border-global; border-image-source: url(images/border_violet_pledge.png); }
+
+@mixin rough-border-red-thicker { @include rough-border-global; border-image-source: url(images/border_red_thicker.png); }
+
+//
+// Big button styles
+//
+@mixin big-button-global {
+	-webkit-appearance: none;
+	border: none;
+	font-family: $interstate-blackcond;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff !important ;
+}
+@mixin big-button-hover {
+	text-decoration: none;
+}
+@mixin big-button-purple {
+	background-color: $ttc-purple;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-violet {
+	background-color: $ttc-violet;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-teal {
+	background-color: $twitter-blue;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-green {
+	background-color: $whatsapp-green;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-blue {
+	background-color: $ttc-blue;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-white {
+	background-color: white;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-red {
+	background-color: $ttc-darkred;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-lime {
+	background-color: $ttc-lime;
+	@include big-button-global;
+	color: $ttc-grey !important ;
+	&:hover {
+		@include big-button-hover;
+	}
+}
+@mixin big-button-black {
+	background-color: #333;
+	@include big-button-global;
+	&:hover {
+		@include big-button-hover;
+	}
+}
