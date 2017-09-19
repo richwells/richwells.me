@@ -1,0 +1,904 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ * Smartphone sizes and down
+ */
+@media only screen and (max-width: 480px) {
+  
+	.region[class*="float-blocks"] .block {
+		float: none;
+		width: 100%;
+	}
+
+}
+
+
+/*
+ * Smartphone sizes and up
+ */
+@media only screen and (min-width: 481px) {
+	/* Time to Talk Day 2017 - webform page (live and staging) */
+	body.page-node-99677,
+	body.page-node-99678,
+	body.page-node-99469,
+	body.page-node-99468 {
+		#main-content {
+			.p-share {
+				a {
+					&.whatsapp-share { @include element-hidden; }
+				}
+			}
+		}
+	}
+}
+
+
+/*
+ * Small tablet sizes and down
+ */
+@media only screen and (max-width: 600px) {
+
+/* Event Calendar & Calendar modules */
+.view-calendar {
+	.view-header {
+		padding-top: 1em;
+		.date-heading {
+			h3 {
+				font-size: 1em;
+				padding-right: 40%;
+			}
+		}
+	}
+	.view-content {
+		.calendar-calendar {
+			th.days,
+			td.date-box .day {
+				font-size: 0.75em;
+			}
+			td.mini .year {
+				font-size: 0.625em;
+			}
+		}
+	}
+}
+
+}
+
+/*
+ * Small tablet sizes and up
+ */
+@media only screen and (min-width: 600px) {
+
+body.section-pledgewall {
+	#page-wrapper {
+		#content {
+			.pledge-share-btns {
+				a.pledge-share-btn-wa {
+					@include element-hidden;
+				}
+			}
+		}
+	}
+}
+
+}
+
+
+
+/*
+ * Tablet sizes and up
+ */
+@media only screen and (min-width: 768px) {
+
+	#tasks {
+	  margin-bottom: 1.5em;
+	  //display: block;
+	}
+
+
+	/* Forms */
+	.form-item {
+		.form-text,
+		.form-textarea {
+			/*width: 50%;*/
+		}
+		.form-file {
+			width: 30%;
+		}
+	}
+  	
+	/* Quotations content type */
+	.node-quotations {
+		.field-item {
+			text-align: left;
+			.field-type-image {
+				width: auto;
+				margin: 0;
+			}
+			h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+			p { font-size: 1em; }
+		}
+		.even {
+			background: $ttc-lightergrey url(images/quote_left.gif) no-repeat left top;
+			.field-type-image {
+				float: right;
+				margin: 0 0 0 1em;
+			}
+			.field-type-text-long {
+				margin-left: 4em;
+			}
+		}
+		.odd {
+			background: $ttc-lightergrey url(images/quote_right.gif) no-repeat right top;
+			.field-type-image {
+				float: left;
+				margin: 0 1em 0 0;
+			}
+			.field-type-text-long {
+				margin-right: 4em;
+			}
+		}
+	}
+
+	/* Branding */
+	#branding {
+		float: left;
+		width: 30%;
+		margin-bottom: 30px;
+	}
+	
+	.logo-tttd  {
+		text-align: center !important ;
+	}
+	
+	/* Search bar */
+	.region-search-bar {
+		display: block;
+		position: absolute;
+		top: 20px; right: 0;
+		.region-inner {
+			.block-header-links {
+				width: auto;
+			}
+			.block-search {
+				width: auto;
+				.search-form {
+					.form-type-textfield {
+						.form-text {
+							min-width: 220px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* Main Menu */
+	#primary-menu-bar {
+		.menu-wrapper {
+			ul.menu {
+				li {
+					float:left;
+					a {
+						display: block;
+						float: left;
+						border-radius: 3px;
+						margin-right: 0.3em;
+						font-size: 0.9375em;
+						&.home-btn {
+							background-image: url(images/icon_home.png);
+							background-position: center center;
+							background-repeat: no-repeat;
+							min-height: 24px;
+							min-width: 28px;
+							&.active-trail, &.active {
+								background-image: url(images/icon_home_white.png);
+							}
+							span {
+								@include element-hidden;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* AT Panels */
+	.two-brick-extra {
+		.region-two-brick-extra-top {
+			.pane-carousel {
+				margin-bottom: 0;
+			}
+			.pane-fieldable-panels-pane {
+				.field-name-field-caption {
+					clear: none;
+					/*width: 100%;*/
+				}
+				.field-name-field-link {
+					float: right;
+					width: 45%;
+					padding-left: 5%;
+				}
+			}
+		}
+		.pane-fieldable-panels-pane {
+			.field-name-field-headline {
+				margin-bottom: 0.5em;
+			}
+			.field-name-field-caption {
+				display: block;
+				font-size: 0.875em;
+				p {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	
+	/* Tertiary content */
+	.region-tertiary-content {
+		.block {
+			width: 50%;
+			float: left;
+		}
+	}
+	
+	/* Footer region */
+	.region-footer-one {}
+	.region-footer-two {}
+	
+	/* Pledge Wall */
+	body.section-pledgewall {
+		#page-wrapper {
+			/* Pledge tabs */
+			.block-pledgewall-menu {
+				ul.menu {
+					li {
+						a {
+							width: auto; height: auto;
+							line-height: normal;
+							padding: 0.5em 1em;
+							font-size: 1.0625em;
+							background-image: none !important ;
+							&.personal-pledges span,
+							&.celebrity-pledges span,
+							&.organisation-pledges span,
+							&.why-pledge span {
+								display: inline;
+							}
+						}
+					}
+				}
+			}
+			/* Pledge header */
+			.block-pledgewall-header {
+				.block-inner {
+					.pledgewall-header-top {
+						.pledgewall-counter {
+							//display: block;
+							float: left;
+							text-align: left;
+							padding-left: 1em;
+							h2 {
+								float: left;
+							}
+							.pledgewall-h3share {
+								float: left;
+								padding-left: 1em;
+								ul.pledgewall-share {
+									display: block;
+									li {
+										a {
+											&.pledge-whatsapp { @include element-hidden; }
+										}
+									}
+								}
+							}
+						}
+						.pledgewall-btn {
+							float: right;
+							width: 250px;
+							clear: none;
+							h3 {
+								a {
+									padding: 0.2em 3em 0.2em 0.5em;
+									background: $ttc-lime url(images/pencil_grey.png) no-repeat right center;
+									text-align: left;
+								}
+							}
+						}
+					}
+				}
+			}
+			.block-organisations-header {
+				.block-inner {
+					.pledgewall-header-top {
+						.pledgewall-btn {
+							width: 300px;
+						}
+					}
+				}
+			}
+
+			.view-display-id-featured_pledges {
+				.view-content {
+					.gridRow {
+						.gridCol {
+							.grid-item {
+								a.pull-pledgethumb {
+									img.star-icon {
+										right: 40px; bottom: 20px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			/* Pledge Webform */
+			#content {
+				.pledge-share-header {
+					margin-top: 1em;
+				}
+				.pledge-share-btns {
+					font-size: 1.125em;
+					a {
+						float: left;
+						margin-right: 1em;
+					}
+				}
+			}
+			.node-webform {
+				.node-content {
+					label {
+						float: left;
+						width: 14em;
+					}
+					input.form-text,
+					textarea.form-textarea,
+					select.form-select {
+						width: 50%;
+					}
+					.form-type-radio {
+						width: 6em;
+						float: left;
+						/*input.form-radio {
+							width: 1.5em;
+						}*/
+						label {
+							float: none;
+						}
+					}
+					.webform-component {
+						clear: both;
+					}
+					.webform-component-managed_file {
+						padding: 1em 0;
+						.form-managed-file {
+							input.form-file {
+								width: 30%;
+							}
+							span.file {
+								float: left;
+								margin: 0 1em 1em 0;
+							}
+						}
+					}
+					.webform-component-checkboxes {
+						padding: 0.5em 0;
+						label {
+							float: none;
+						}
+						.form-checkbox {
+							margin-right: 0.5em;
+						}
+					}
+					.form-actions {
+						padding-top: 1em;
+					}
+					.description {
+						margin-left: 18.7em;
+						width: 50%;
+					}
+					.messages {
+						clear: both;
+						width: 418px;
+						margin-left: 225px;
+						font-size: 0.875em;
+					}
+				}
+			}
+		}
+	}
+	
+	/* FlexSlider CSS overrides */
+	.flexslider {
+		.slide-heading {
+			right: 40%;
+			ul {
+				li.first {
+					font-size: 1.5em;
+					padding-bottom: 0.5em;
+				}
+				li.last {
+					font-size: 1em;
+					display: inline;
+				}
+			}
+		}
+	}
+	
+	/* Ubercart & Product Pages */
+	.node-product {
+		.field-type-image {
+			float: left;
+			margin-right: 1em;
+		}
+	}
+	
+	/* Views */
+	.view-filters {
+		.views-exposed-widget {
+			float: left;
+			width: auto;
+			.form-text {
+				width: 250px;
+			}
+		}
+		.views-submit-button,
+		.views-reset-button {
+			width: auto;
+			padding-top: 2.5em;
+		}
+	}
+	.view-content {
+		.views-row {
+			border: 2px solid $ttc-lightgrey;
+			background-color: white;
+			padding: 1em;
+			border-radius: 4px;
+		}
+	}
+	.view-champions-view,
+	.view-display-id-grants_projects {
+		.view-filters {
+			display: block;
+		}
+		.attachment {
+			.view-display-id-champions_events_list,
+			.view-display-id-projects_list {
+				@include element-hidden;
+			}
+			.view-display-id-events_key,
+			.view-display-id-map_key {
+				display: block;
+				padding: 0.5em 1em 0 1em;
+				margin-bottom: 1.5em;
+				background-color: $ttc-lightergrey;
+				border-radius: 4px;
+				.view-content {
+					.field-content {
+						float: left;
+						font-size: 0.875em;
+						margin-right: 1em;
+						margin-bottom: 1em;
+						padding-left: 1.5em;
+						padding-bottom: 0.5em;
+						background-image: url(images/marker_key_red.png);
+						background-position: left top;
+						background-repeat: no-repeat;
+					}
+					.General { background-image: url(images/marker_key_orange.png); }
+					.Time-to-Change-partnership { background-image: url(images/marker_key_blue.png); }
+					.Grant-funded-event { background-image: url(images/marker_key_green.png); }
+					.Current-grant-project { background-image: url(images/marker_key_orange.png); }
+					.Previously-funded-project { background-image: url(images/marker_key_blue.png); }
+				}
+			}
+		}
+		.gmap {
+			display: block;
+		}
+	}
+	/* Events and case studies GMap page */
+	.view-display-id-gmap {
+		display: block;
+		.gmap {
+			.gmap-popup-content {
+				max-width: 300px;
+				h3 {
+					a {
+						color: $ttc-black;
+						font-weight: bold;
+					}
+				}
+				p {
+					a {
+						color: $ttc-darkred;
+					}
+				}
+			}
+		}
+		.view-footer {
+			background-color: $ttc-lightergrey;
+			border-radius: 4px;
+			padding: 0.5em 1em 0.25em 1em;
+			ul.map-key {
+				list-style: none;
+				padding: 0;
+				li {
+					float: left;
+					padding: 0 1.25em 0.5em 1.25em;
+					background-position: left top;
+					background-repeat: no-repeat;
+					&.map-icon-events { background-image: url(images/marker_key_red.png); }
+					&.map-icon-pledges { background-image: url(images/marker_key_blue.png); }
+					&.map-icon-meetings { background-image: url(images/marker_key_purple.png); }
+					&.map-icon-localmind { background-image: url(images/marker_key_green.png); }
+					&.map-icon-champions { background-image: url(images/marker_key_orange.png); }
+					&.map-icon-ttchub { background-image: url(images/marker_key_pink.png); }
+				}
+			}
+		}
+	}
+	.view-display-id-casestudies_list,
+	.view-display-id-localmind_list,
+	.view-display-id-champions_list,
+	.view-display-id-ttchub_list,
+	.view-display-id-meetings_list,
+	.view-display-id-events_list {
+		@include element-hidden;
+	}
+
+	/* Event Suggestions / Classified Ads - Views */
+	.view-id-event_suggestions,
+	.view-id-champions_classified_ads {
+		.view-filters {
+			form#views-exposed-form-event-suggestions-page {
+				.views-exposed-widgets {
+					.widgets-row {
+						.widgets-col {
+							width: 47%; float: left;
+							.views-exposed-widget {
+								width: 100%;
+								.form-select { width: 50%; }
+								label.option { font-weight: normal; }
+							}
+							.views-widget-filter-field_minimum_audience_size_value,
+							.views-widget-filter-field_maximum_audience_size_value {
+								width: 45%;
+							}
+							&.widgets-col-first {
+								padding-right: 2%;
+								border-right: 1px solid white;
+							}
+							&.widgets-col-last { padding-left: 2%; }
+						}
+					}
+					.widget-form-buttons {
+						padding-top: 1em;
+						float: right; clear: both;
+						.views-exposed-widget {
+							padding: 0; margin: 0;
+							&.views-submit-button { padding-right: 1.5em;}
+						}
+					}
+				}
+			}
+		}
+		.view-content {
+			.views-view-grid {
+				.gridRow {
+					.gridCol {
+						float: left;
+						width: 49%;
+						&.col-first { padding-right: 1%; }
+						&.col-last { padding-left: 1%; }
+						.grid-item {
+							min-height: 180px;
+							.field-name-field-contact-link {
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* Audio File Field */
+	.field-name-field-attach-audio-file {
+		.field-item {
+			width: 35%;
+		}
+	}
+
+	/* Case study content type */
+	.node-case-study-pledge {
+		.group-pledge-summary,
+		.group-pledge-content {
+			background: none;
+			padding: 0; }
+		.group-pledge-summary {
+			width: 180px;
+			float: left; }
+		.group-pledge-content {
+			margin-left: 230px;
+			padding-left: 2em;
+			border-left: 1px solid $ttc-grey;
+		} } 
+	
+	/* Champions eCertificates */
+	
+	.ecertificate-top {
+		padding: 2em;
+		margin: 0 0 3em 0;
+		.ecertificate-heading {
+			width: 650px;
+			margin: 0 auto 2em auto;
+		}
+		.ecertificate-namebox {
+			padding: 1.5em 6em 0.5em 6em;
+			p {
+				font-size: 1.625em;
+				margin-bottom: 0.5em;
+			}
+			.ecertificate-name {
+				font-size: 2.25em;
+			}
+			.ecertificate-date {
+				margin: 1em 0;
+			}
+		}
+		.ttc-logo {
+			width: 234px;
+		}
+	}
+
+	/* Time to Talk Day 2017 - webform page (live and staging) */
+
+	body.page-node-98794,
+	body.page-node-98795,
+	body.page-node-99469,
+	body.page-node-99468 {
+		#main-content {
+			padding: 2em 1em;
+			#page-title {
+				font-size: 2em;
+				padding: 0.7em 0 1.75em 0;
+			}
+			.node-webform {
+				.webform-component-number {
+					.form-text {
+						width: 18%;
+					}
+				}
+			}
+			.nav-buttons {
+				.nav-button-left {
+					float: left;
+					text-align: left;
+				}
+				.nav-button-right {
+					float: right;
+					text-align: right;
+				}
+			}
+		}
+	}
+
+	/* Event Suggestion content type */
+	.node-event-suggestion {
+		.node-content {
+			.field-name-field-call-to-actions {
+				p {
+					.cta-btn {
+						padding: 0.3em 0.8em 0.3em 2em;
+						font-size: 1.5em;
+						background: $ttc-darkred url(images/search.png) no-repeat 0.5em center;
+						border-radius: 6px;
+						&.cta-btn-register { background-image: url(images/icon_arrow.png); }
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*
+ * Desktops/laptops and up
+ */
+@media only screen and (min-width: 1024px) {
+	blockquote {
+		/*font-size: 1.5em;*/
+		&.floatright {
+			width: 50%;
+			float: right;
+			margin: 0 0 1.5em 1.5em;
+		}
+	}
+
+	/* Main Menu */
+	#primary-menu-bar {
+		.menu-wrapper {
+			ul.menu {
+				li {
+					a {
+						margin-right: 0.4em;
+						font-size: 1.1875em;
+					}
+				}
+			}
+		}
+	}
+
+	/* The main page title (h1) */
+	#page-title,
+	.block-featured-case-studies .block-title {
+	  font-size: 2.5em;
+	}
+
+	/* AT Panels */
+	.two-brick-extra {
+		.region-two-brick-extra-top {
+			.pane-fieldable-panels-pane {
+				.field-name-field-caption {
+					font-size: 1.15em;
+				}
+			}
+		}
+		.pane-fieldable-panels-pane {
+			.field-name-field-headline {
+				font-size: 1.375em;
+			}
+			.field-name-field-caption {
+				font-size: 1em;
+			}
+		}
+	}
+	/* hub page with side bar */
+	.one-sidebar .two-brick-extra {
+		.pane-fieldable-panels-pane {
+			.field-name-field-headline {
+				font-size: 1.25em;
+			}
+			.field-name-field-caption {
+				font-size: 0.875em;
+			}
+		}
+	}
+
+	/* Pledge Wall */
+	body.section-pledgewall {
+		#page-wrapper {
+			/* Pledge tabs */
+			.block-pledgewall-menu {
+				ul.menu {
+					li {
+						a {
+							font-size: 1.4375em;
+							padding: 0.2em 0.7em;
+						}
+					}
+				}
+			}
+			/* Pledge header */
+			.block-pledgewall-header {
+				.block-inner {
+					.pledgewall-header-top {
+						.pledgewall-counter {
+							h2 {
+								font-size: 3.750em;
+							}
+							.pledgewall-h3share {
+								h3 {
+									font-size: 1.5em;
+									width: 325px;
+								}
+								ul.pledgewall-share {
+									li {
+										font-size: 1em;
+									}
+								}
+							}
+						}
+						.pledgewall-btn {
+							margin: 1em 1em 0 0;
+						}
+					}
+				}
+			}
+			.block-organisations-header {
+				.block-inner {
+					.pledgewall-header-top {
+						.pledgewall-btn {
+							width: 370px;
+						}
+					}
+				}
+			}
+			/* Pledge thumbnails */
+			.views-pledgewall {
+				.view-content {
+					.gridRow {
+						.gridCol {
+							.grid-item {
+								a.pull-pledgethumb {
+									.pledge-firstname {
+										font-size: 0.85em;
+										top: 35%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.view-display-id-featured_pledges,
+			.view-display-id-organisation_pledges_featured,
+			.view-display-id-organisation_pledges_featured_block {
+				.view-content {
+					.gridRow {
+						padding: 2em 0;
+						.gridCol {
+							.grid-item {
+								margin-left: 2em;
+								/*a.pull-pledgethumb {
+									img.star-icon {
+										right: 40px; bottom: 20px;
+									}
+								}*/
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* FlexSlider CSS overrides */
+	.flexslider {
+		.flex-direction-nav {
+			display: block;
+		}
+		.slide-heading {
+			ul {
+				li.first {
+					font-size: 1.875em;
+				}
+				li.last {
+					font-size: 1.15em;
+				}
+			}
+		}
+	}
+
+
+	/* Champions eCertificates */
+	
+	.ecertificate-top {
+		margin: 0 4.5em 3em 4.5em;
+		.ecertificate-heading {
+			width: 750px;
+			margin: 0 auto 2em auto;
+		}
+	}
+
+	/* Champions Project Planner */
+	
+	#milestones {
+		.planning-date, .event-date {
+			margin-bottom: 1em;
+			margin-right: 1em;
+			float: left;
+		}
+	}
+}

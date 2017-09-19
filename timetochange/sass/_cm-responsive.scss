@@ -1,0 +1,80 @@
+// Some variables and mixins for responsive stuff
+
+$xs-start:          450px   !default;
+$sm-start:          769px   !default;
+$md-start:          954px   !default;
+$lg-start:          1200px  !default;
+$xl-start:          1400px  !default;
+$xxl-start:         1700px  !default;
+
+
+$xs-end:          $sm-start - 1px!default;
+$sm-end:          $md-start - 1px!default;
+$md-end:          $lg-start - 1px!default;
+
+
+
+@mixin media-query($media-query) {
+
+  @if $media-query == ipad-landscape {
+
+      @media only screen and (max-width:$md-end) and (orientation : landscape) { @content; }
+  }
+
+  @if $media-query == xxs-max {
+
+      @media only screen and (max-width:$xs-start) { @content; }
+  }
+  @if $media-query == xs {
+
+      @media only screen and (min-width:$xs-start) { @content; }
+  }
+  @if $media-query == xs-max {
+
+      @media only screen and (max-width:$xs-end) { @content; }
+  }
+  @if $media-query == sm {
+
+      @media only screen and (min-width:$sm-start) { @content; }
+  }
+
+  @if $media-query == sm-max {
+
+      @media only screen and (max-width:$sm-end) { @content; }
+  }
+
+  @if $media-query == md {
+
+      @media only screen and (min-width:$md-start) { @content; }
+  }
+  @if $media-query == md-max {
+
+      @media only screen and (max-width:$md-end) { @content; }
+  }
+
+  @if $media-query == lg {
+
+      @media only screen and (min-width:$lg-start) { @content; }
+  }
+
+  @if $media-query == xl {
+
+      @media only screen and (min-width: $xl-start) { @content; }
+  }
+
+  @if $media-query == xxl {
+
+     @media only screen and (min-width: $xxl-start) { @content; }
+
+  }
+
+  @if $media-query == laptop {
+
+     @media only screen and (min-width: 767px) and (max-height: 700px) { @content; }
+
+  }
+
+  @if $media-query == retina {
+    @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {@content;}
+  }
+}

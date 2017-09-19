@@ -1,0 +1,137 @@
+// Hide the nav and search until desktop screen sizes
+.cm-show-desktop {
+	display:none;
+	@include media-query (md) {
+		display:block;
+	}
+}
+.cm-show-mobile {
+	display:block;
+	@include media-query (md) {
+		display:none;
+	}
+}
+.cm-mobile-nav {
+	a.cm-menu-mobile-link {
+		float:right;
+		background:$ttc-lightergrey;
+		color: $ttc-black;
+		display:block;
+		padding:10px 20px;
+		border-radius:3px;
+		margin:20px 0 0;
+	}
+}
+
+
+
+// Header and navigation
+// -----------------------------------------------------------------------------
+#header-wrapper .container header.cm-header {
+	padding:20px;
+	float:left;
+	width:100%;
+	background:#fff;
+	box-sizing: border-box;
+
+}
+// Just hiding this for now
+.cm-site-title-and-tagline {
+	display:none;
+}
+.cm-header__logo {
+	float:left;
+	width: 230px;
+	img {
+		width:100%;
+	}
+}
+.cm-top-nav-wrapper {
+	float:right;
+	width:70%;
+}
+.cm-search-and-links {
+	float:right;
+	width:100%;
+	.search-bar {
+		float:right;
+		width:200px;
+		position:relative;
+	}
+	#edit-search-block-form--2 {
+		border-radius:40px;
+		border: 1px solid $ttc-midgrey;
+		padding:7px;
+	}
+	#edit-submit {
+		position:absolute;
+		top: 7px;
+		right:10px;
+		text-indent: -9000em;
+	  display:block;
+	  background: url(../img/icon-search.png) no-repeat 0 0;
+	  background: url(../img/icon-search.svg) no-repeat 0 0 linear-gradient(transparent, transparent);
+		background-size:100%;
+	  width:15px;
+	  height:15px;
+	}
+}
+.cm-top-links {
+	list-style-type:none;
+	margin:0 10px 0 0;
+	padding:0;
+	float: right;
+	display:none;
+	li {
+		display:inline-block;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		a {
+			color:$ttc-darkred;
+			display: inline-block;
+			padding:6px 10px;
+		}
+	}
+}
+.cm-top-nav {
+	clear:both;
+	list-style-type:none;
+	margin:20px 0 10px 0;
+	padding:0;
+	float:right;
+	li {
+		margin:0;
+		display:inline-block;
+		&.nav-active a, &.nav-active a:hover {
+			background:$ttc-darkred;
+			color:white;
+		}
+		a {
+			-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			border-radius:4px;
+			display:block;
+			background:$ttc-lightergrey;
+			color: $ttc-black;
+			text-decoration:none;
+			line-height:1;
+			padding:9px;
+			margin:0 0 0 10px;
+
+			&:hover {
+				background:$ttc-lightgrey;
+			}
+		}
+		// home icon
+		a.cm-top-nav__a--home span {
+			text-indent: -9000em;
+		  display:block;
+		  background: url(../img/icon-home.png ) no-repeat center;
+		  background: url(../img/icon-home.svg ) no-repeat center linear-gradient(transparent, transparent);
+		  width:20px;
+		  height:16px;
+		}
+
+	}
+}
