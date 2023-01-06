@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/css/.sass-cache/71195f7ae76244872c1e328be370609710225c57/hiay.scssc": {
 		"cB": 0,
 		"ft": 8192,
