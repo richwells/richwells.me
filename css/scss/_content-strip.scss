@@ -1,0 +1,119 @@
+.strip--content {
+  
+}
+.col--content_image {
+  max-width:100%;
+}
+.content-image-center {
+  text-align:center;
+  .col--content_text {
+    @extend .col-sm-10;
+    @extend .offset-sm-1;
+  }
+  .col--content_image {
+    margin-top: 2rem;
+    @extend .offset-sm-1;
+    @extend .col-sm-10;
+  }
+}
+.content-in-middle {
+  .col--content_text {
+    @extend .col-sm-10;
+    @extend .col-md-6;
+    @extend .offset-sm-1;
+    @extend .offset-md-3;
+  }
+  .col--content_image {
+    margin-top: 2rem;
+    @extend .offset-sm-1;
+    @extend .col-sm-10;
+  }
+}
+
+.content-in-middle-but-wider {
+  .content-title {
+    text-align:center;
+  }
+  .col--content_text {
+    @extend .col-sm-10;
+    @extend .offset-sm-1;
+  }
+  .col--content_image {
+    margin-top: 2rem;
+    @extend .col-sm-12;
+  }
+}
+.content-image-left .col--content_text {
+ @extend .order-1;
+}
+.content-color-1 {
+  background:$content-strip-color-1;
+}
+.content-color-2 {
+  background:$content-strip-color-2;
+  .tn, .tn:hover {
+    color: $white;
+  }
+}
+.content-color-3 {
+  background:$content-strip-color-3;
+  .tn, .tn:hover {
+    color: $white;
+  }
+}
+.content-color-4 {
+  background:$content-strip-color-4;
+}
+.content-color-5 {
+  background:$content-strip-color-5;
+}
+.content-color-6 {
+  background:$content-strip-color-6;
+  .tn, .tn:hover {
+    color: $white;
+  }
+}
+.content-color-7 {
+  background:$content-strip-color-7;
+}
+.content-color-8 {
+  background:$content-strip-color-8;
+}
+.content-color-9 {
+  background:$content-strip-color-9;
+}
+.content-color-10 {
+  background:$content-strip-color-10;
+  .tn, .tn:hover {
+    color: $white;
+  }  
+}
+.content-color-11 {
+  background:$content-strip-color-11;
+}
+.content-color-2, .content-color-3,  .content-color-6, .content-color-7, .content-color-9, .content-color-10, .content-color-11 {
+  @extend .text-light;
+  .content-title, h6 {
+    color:$white;
+  }
+  .content-button {
+    @extend .btn-light;
+  }
+  .content-button--secondary {
+    @extend .btn-outline-light;
+  }
+}
+.image-mb .col--content_image img {
+  margin-bottom:2rem;
+}
+
+
+.link-tile-3 .tn--link-tile {
+  @extend .col-sm-4;
+}
+.link-tile-2 .tn--link-tile {
+  @extend .col-sm-6;
+}
+.link-tile-4 .tn--link-tile {
+  @extend .col-sm-3;
+}

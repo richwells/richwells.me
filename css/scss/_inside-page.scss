@@ -1,0 +1,139 @@
+.wp-block-embed-twitter {
+  display:flex;
+  justify-content: center;
+
+}
+.page-full-width-image {
+  width:100%;
+}
+.row.align_text_to_the_top {
+  align-items: unset !important;
+}
+.back-to-parent-link {
+  margin-top:0.8rem;
+  margin-bottom:0.8rem;
+  display: inline-block;
+  text-decoration:none;
+  i {
+    margin-right:0.5rem;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  &:hover {
+    i {
+      transform: translate(-4px, 0);
+    }
+  }
+}
+.entry-content p:first-child {
+    font-size: 1.4rem;
+    line-height: 1.35;
+    font-weight: 400;
+}
+.hide-title, .hide-children {
+  display:none;
+}
+
+.row.make_image_smaller .col--content_image img {
+  @include media-breakpoint-up(lg) {
+    width: 80%;
+    float: right;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 70%;
+  }
+}
+figcaption {
+  font-size:$font-size-sm;
+  font-weight: 300;
+  color: #9595a6;
+  margin:0;
+}
+.wp-block-image figcaption {
+ margin-bottom:0;
+}
+.wp-block-image, .wp-block-gallery {
+  margin: 0 0 1.5rem 0;
+  @include media-breakpoint-up(lg) {
+    margin-bottom:2rem;
+  }
+}
+
+
+.intro--hero {
+  background:#000;
+  position: relative;
+  @include media-breakpoint-up(sm) {
+    padding: 0rem 0;
+  }
+  p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4;
+    @include media-breakpoint-down(sm) {
+      text-align:center;
+    }
+  }
+  .col--content_image {
+    padding-top: 2rem;
+    @include media-breakpoint-up(sm) {
+      padding-right:0;
+      padding-top: 0rem;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .container {
+      padding-right: 0;
+    }
+    .row {
+      margin-right:0;
+    }
+  }
+}
+.strip--intro {
+  p {
+    font-size: 1.2rem;
+  }
+}
+.strip--bio {
+  background:#eddbd0;
+  padding:0;
+  font-size:1.2rem;
+  h4 {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .col--content_text {
+    padding-top:1rem;
+    padding-bottom:1rem;
+    @include media-breakpoint-down(sm) {
+      padding-top: 3rem;
+      padding-bottom: 0rem;
+    }
+  }
+  .col--content_image {
+    padding: 0 5rem;
+  }
+  
+}
+@include media-breakpoint-down(sm) {
+  .strip--bio .row {
+    -webkit-box-direction: reverse!important;
+    -ms-flex-direction: column-reverse!important;
+    flex-direction: column-reverse!important;
+  }
+}
+p.bio-more {
+  
+}
+.strip {
+  a.more-link {
+    font-weight: normal;
+    display:none;
+  }
+  .more-link.collapsed {
+    display:block;
+  }
+
+}

@@ -1,0 +1,60 @@
+.card {
+  border: none;
+}
+.tn {
+  margin-bottom:0;
+  color:$body-color;
+  text-decoration:none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  &:hover {
+    color:#000;
+    text-decoration:none;
+    opacity: 0.9;
+  }
+}
+.tn__img {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border-radius:10px;
+  
+}
+h3.tn__title, .tn__title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  margin-top: 1px;
+  @include media-breakpoint-up(md) {
+    margin-top: 3px;
+
+  }
+}
+.tn__text {
+  opacity: 0.9;
+  font-size:$font-size-sm;
+}
+
+.child-link__image {
+  margin-bottom:1rem;
+}
+.child-link__link {
+  text-decoration:none;
+}
+.child-link__image-link {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity:0.8;
+  }
+}
+a.tn--link-tile .tn__title {
+  text-decoration:underline;
+  text-decoration-thickness: .095em;
+  text-underline-offset: 2px;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: rgb(84 168 180 / 25%);
+}
+a.tn--link-tile:hover .tn__title {
+  text-decoration-color: rgb(84 168 180 / 99%);
+}

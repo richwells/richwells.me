@@ -1,0 +1,42 @@
+
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 1rem;
+  position: relative;
+  @include media-breakpoint-up(md) {
+    margin: 0 auto;
+  }
+}
+.box {
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: underline;
+  }
+  p {
+    margin:0;
+  }
+}
+.rw-logo {
+  max-width: 8rem;
+  margin:2rem auto;
+  display: block;
+}
+.main-img {
+  margin-bottom: 0rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.box--main {
+  background:#E8DCCC;
+  border-radius:1.5rem;
+}
+.inner {
+  padding: 1rem 1.4rem 1.4rem;
+  display:block;
+  @include media-breakpoint-up(md) {
+    padding: 1.4rem 2rem;
+  }
+}

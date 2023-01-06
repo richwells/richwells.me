@@ -1,0 +1,69 @@
+// required
+@import 'scss/_variables.scss';
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/reboot";
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+
+@import "bootstrap/print";
+
+
+// Custom
+@import "scss/aos/aos.scss";
+@import "scss/_accordion.scss";
+@import "scss/_typography.scss";
+@import "scss/_swiper.scss";
+@import "scss/_general.scss";
+@import "scss/_strip.scss";
+@import "scss/_content-strip.scss";
+@import "scss/_pagination.scss";
+@import "scss/_buttons.scss";
+
+@import "scss/_card.scss";
+@import "scss/_hamburger-icon.scss";
+@import "scss/_footer.scss";
+@import "scss/_header.scss";
+@import "scss/_content-thumbnails.scss";
+@import "scss/_homepage.scss";
+@import "scss/_inside-page.scss";
+@import "scss/_blog.scss";
+
+@import "scss/_artwork.scss";

@@ -1,0 +1,30 @@
+.accordion {
+  .card-body {
+    color: #000;
+    text-align:left;
+    font-size:$font-size-sm;
+  }
+  .card-header button:focus {
+    box-shadow:none;
+  }
+  .btn.btn-block {
+    border-radius:0;
+    padding-left: 0;
+    text-decoration:underline;
+    text-decoration-thickness: .095em;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: rgb(84 168 180 / 00%);
+    color:$black;
+    
+  }
+  .btn.btn-block.collapsed {
+    text-decoration-color: rgb(84 168 180 / 25%);
+    color:$mb-dark-blue;
+    &:hover {
+      text-decoration-color: rgb(84 168 180 / 55%);
+
+    }
+
+  }
+}

@@ -1,0 +1,369 @@
+$button-width: 44px;                    // The width of the button area
+$button-height: $button-width;          // The height of the button area
+$bar-thickness: $button-width * 0.08;   // The thickness of the button bars
+$button-pad: $button-width * 0.1875;    // The left/right padding between button area and bars.
+$button-bar-space: $button-width * 0.125; // The spacing between button bars
+$button-transistion-duration: 0.2s;     // The transition duration
+
+
+// Colours
+$c-hamburger-line-color: white;
+
+$c-hamburger--x-bgcolor: $mb-teal;
+$c-hamburger--x-bgcolor-hover: $mb-dark-blue;
+$c-hamburger--x-active-bgcolor: $mb-dark-blue;
+$c-hamburger--x-active-bgcolor-hover: $mb-dark-blue;
+
+$c-hamburger--rot-bgcolor: #28aadc;
+$c-hamburger--rot-bgcolor-hover: $c-hamburger--rot-bgcolor;
+$c-hamburger--rot-active-bgcolor: #166888;
+$c-hamburger--rot-active-bgcolor-hover: $c-hamburger--rot-active-bgcolor;
+
+$c-hamburger--htx-bgcolor: #ff3264;
+$c-hamburger--htx-bgcolor-hover: $c-hamburger--htx-bgcolor;
+$c-hamburger--htx-active-bgcolor: #cb0032;
+$c-hamburger--htx-active-bgcolor-hover: $c-hamburger--htx-active-bgcolor;
+
+$c-hamburger--htla-bgcolor: #32dc64;
+$c-hamburger--htla-bgcolor-hover: $c-hamburger--htla-bgcolor;
+$c-hamburger--htla-active-bgcolor: #18903c;
+$c-hamburger--htla-active-bgcolor-hover: $c-hamburger--htla-active-bgcolor;
+
+$c-hamburger--htra-bgcolor: #ff9650;
+$c-hamburger--htra-bgcolor-hover: $c-hamburger--htra-bgcolor;
+$c-hamburger--htra-active-bgcolor: #e95d00;
+$c-hamburger--htra-active-bgcolor-hover: $c-hamburger--htra-active-bgcolor;
+
+
+// Base/unclicked hamburger icon
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: $button-width;
+  height: $button-height;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background $button-transistion-duration;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: $button-width * 0.45833333;
+  left: $button-pad;
+  right: $button-pad;
+  height: $bar-thickness;
+  background: $c-hamburger-line-color;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: $bar-thickness;
+  background-color: $c-hamburger-line-color;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: (-1) * $button-width * 0.2083333333;
+}
+
+.c-hamburger span::after {
+  bottom: (-1) * $button-width * 0.2083333333;
+}
+
+
+
+
+
+
+
+// X (with hover colours) hamburger style and animation
+.c-hamburger--x {
+  background-color: $c-hamburger--x-bgcolor;
+}
+
+.c-hamburger--x:hover {
+  background-color: $c-hamburger--x-bgcolor-hover;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s $button-transistion-duration;
+}
+
+.c-hamburger--x span::before,
+.c-hamburger--x span::after {
+  transition-duration: $button-transistion-duration, $button-transistion-duration;
+  transition-delay: $button-transistion-duration, 0s;
+}
+
+.c-hamburger--x span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--x span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--x.is-active {
+  background-color:  $c-hamburger--x-active-bgcolor;
+}
+
+.c-hamburger--x.is-active:hover {
+  background-color:  $c-hamburger--x-active-bgcolor-hover;
+}
+
+.c-hamburger--x.is-active span {
+  background: none;
+}
+
+.c-hamburger--x.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--x.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--x.is-active span::before,
+.c-hamburger--x.is-active span::after {
+  transition-delay: 0s, $button-transistion-duration;
+}
+
+
+
+
+
+
+
+
+
+// Rotated hamburger style and animation
+.c-hamburger--rot {
+  background-color: $c-hamburger--rot-bgcolor;
+}
+
+.c-hamburger--rot:hover {
+  background-color: $c-hamburger--rot-bgcolor-hover;
+}
+
+.c-hamburger--rot span {
+  transition: transform $button-transistion-duration;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--rot.is-active {
+  background-color: $c-hamburger--rot-active-bgcolor;
+}
+
+.c-hamburger--rot.is-active:hover {
+  background-color: $c-hamburger--rot-active-bgcolor-hover;
+}
+
+.c-hamburger--rot.is-active span {
+  transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// X hamburger style and animation
+.c-hamburger--htx {
+  background-color: $c-hamburger--htx-bgcolor;
+}
+
+.c-hamburger--htx:hover {
+  background-color: $c-hamburger--htx-bgcolor-hover;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s $button-transistion-duration;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: $button-transistion-duration, $button-transistion-duration;
+  transition-delay: $button-transistion-duration, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color:  $c-hamburger--htx-active-bgcolor;
+}
+
+.c-hamburger--htx.is-active:hover {
+  background-color:  $c-hamburger--htx-active-bgcolor-hover;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, $button-transistion-duration;
+}
+
+
+
+
+
+
+
+
+
+
+
+// Left arrow hamburger style and animation
+.c-hamburger--htla {
+  background-color: $c-hamburger--htla-bgcolor;
+}
+
+.c-hamburger--htla:hover {
+  background-color: $c-hamburger--htla-bgcolor-hover;
+}
+
+.c-hamburger--htla span {
+  transition: transform $button-transistion-duration;
+}
+
+.c-hamburger--htla span::before {
+  transform-origin: top right;
+  transition: transform $button-transistion-duration, width $button-transistion-duration, top $button-transistion-duration;
+}
+
+.c-hamburger--htla span::after {
+  transform-origin: bottom right;
+  transition: transform $button-transistion-duration, width $button-transistion-duration, bottom $button-transistion-duration;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htla.is-active {
+  background-color: $c-hamburger--htla-active-bgcolor;
+}
+
+.c-hamburger--htla.is-active:hover {
+  background-color: $c-hamburger--htla-active-bgcolor-hover;
+}
+
+.c-hamburger--htla.is-active span {
+  transform: rotate(180deg);
+}
+
+.c-hamburger--htla.is-active span::before,
+.c-hamburger--htla.is-active span::after {
+  width: 50%;
+}
+
+.c-hamburger--htla.is-active span::before {
+  top: 0;
+  transform: translateX($button-width * 0.39583333333) translateY($button-width * 0.041666666) rotate(45deg);
+}
+
+.c-hamburger--htla.is-active span::after {
+  bottom: 0;
+  transform: translateX($button-width * 0.39583333333) translateY((-1) * $button-width * 0.041666666) rotate(-45deg);
+}
+
+
+
+
+
+
+// Right arrow hamburger style and animation
+.c-hamburger--htra {
+  background-color: $c-hamburger--htra-bgcolor;
+}
+
+.c-hamburger--htra:hover {
+  background-color: $c-hamburger--htra-bgcolor-hover;
+}
+
+.c-hamburger--htra span {
+  transition: transform $button-transistion-duration;
+}
+
+.c-hamburger--htra span::before {
+  transform-origin: top left;
+  transition: transform $button-transistion-duration, width $button-transistion-duration, top $button-transistion-duration;
+}
+
+.c-hamburger--htra span::after {
+  transform-origin: bottom left;
+  transition: transform $button-transistion-duration, width $button-transistion-duration, bottom $button-transistion-duration;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htra.is-active {
+  background-color: $c-hamburger--htra-active-bgcolor;
+}
+
+.c-hamburger--htra.is-active:hover {
+  background-color: $c-hamburger--htra-active-bgcolor-hover;
+}
+
+.c-hamburger--htra.is-active span {
+  transform: rotate(180deg);
+}
+
+.c-hamburger--htra.is-active span::before,
+.c-hamburger--htra.is-active span::after {
+  width: 50%;
+}
+
+.c-hamburger--htra.is-active span::before {
+  top: 0;
+  transform: translateX((-1) * $button-width * 0.08333333) translateY($button-width * 0.041666666) rotate(-45deg);
+}
+
+.c-hamburger--htra.is-active span::after {
+  bottom: 0;
+  transform: translateX((-1) * $button-width * 0.08333333) translateY((-1) * $button-width * 0.041666666) rotate(45deg);
+}
+
+

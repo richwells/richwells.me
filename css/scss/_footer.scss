@@ -1,0 +1,95 @@
+.site-footer {
+  padding: 1rem 0 0rem;
+  position: relative;
+}
+.footer-logo {
+  margin-bottom:0;
+  max-width: 11rem;
+}
+.btn-social {
+  padding: 0;
+  font-size: 1.7rem;
+  width: 2rem;
+  height: 3rem;
+  margin: 2px 2px 0;
+  color: #000;
+}
+.footer-smallprint {
+  font-size:$font-size-sm;
+a {
+  color: $white;
+  text-decoration: underline;
+}
+}
+.sra-logo {
+  margin:2rem 0;
+  @include media-breakpoint-up(sm) {
+    margin:0 0 2rem 0;
+  }
+}
+.footer-contact {
+  font-size:1.6rem;
+  color:#999;
+  display:block;
+  padding-left: 16px;
+  span {
+    display:inline-block;
+    padding:0 3px;
+    color:#000;
+  }
+  &:hover {
+    text-decoration:none;
+    
+  }
+}
+.page-id-269 .site-footer .grass-hair {
+  display:none;
+}
+.art-info-links {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  height: 8rem;
+
+  top: 1rem;
+  width: 75%;
+  margin-left: -37%;
+  @include media-breakpoint-up(sm) {
+    top: 4rem;
+  }
+  @include media-breakpoint-up(md) {
+    top: 22px;
+    width: 360px;
+    margin-left: -175px;
+  }
+  @include media-breakpoint-up(lg) {
+    top: 42px;
+    width: 450px;
+    margin-left: -225px;
+  }
+}
+.page-id-269 .art-info-links {
+  display:none;
+}
+.footer-side-link {
+  position:absolute;
+  background: #000;
+  display: block;
+  text-indent: -9000em;
+}
+.footer-side-link--art {
+  width: 70%;
+  height: 90px;
+  background: url(../images/footer-link-art.png) no-repeat 0 60px;
+  top: 0;
+  left: 0;
+  background-size: 50%;
+}
+.footer-side-link--info {
+  width: 70%;
+  height: 140px;
+  background: url(../images/footer-link-info.png) no-repeat right 10px;
+  top: 0;
+  right: 0;
+  background-size: 50%;
+}

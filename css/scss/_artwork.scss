@@ -1,0 +1,138 @@
+.collection-top {
+  
+}
+.artwork-caption-wrap {
+  font-size:$font-size-sm;
+  margin-top:1rem;
+  position: relative;
+}
+.artwork-caption {
+  width: 80%;
+  float: left;
+  color:#777;
+  color: rgba(0,0,0,0.6);
+  p {
+    margin-bottom: 0;
+  }
+}
+.artwork-link {
+  width: 20%;
+  float:right;
+  text-align: right;
+  .fa-volume-up {
+    font-size: 0.7rem;
+    margin-left: 4px;
+  }
+}
+.strip--collection {
+}
+.strip--collection.is_light {
+  color:$white;
+  a, p {
+    color:$white;
+    color:rgba(255,255,255,0.7);
+  }
+}
+.is_wide {
+  .collection__artwork {
+   @extend .col-md-12;
+   @extend .col-xl-12;
+   padding: 0;
+ }
+ .artwork-caption-wrap {
+   padding: 0 20px;
+ }
+}
+.is_medium {
+  .collection__artwork {
+   @extend .col-md-10;
+   @extend .col-xl-9;
+   padding: 0;
+ }
+ .artwork-caption-wrap {
+   @include media-breakpoint-down(sm) {
+     padding: 0 20px;
+   }
+ }
+}
+
+.collection__artwork {
+  @extend .col-md-5;
+  @extend .col-xl-5;
+  // padding: 20px;
+}
+.post-nav {
+  background:#f8f6f0;
+  position:relative;
+  padding:2rem 0;
+  color:$white;
+  font-weight: 500;
+  a {
+    color:$black;
+  }
+  .col {
+    display: flex;
+    justify-content: space-between;
+  }
+  .artwork-arrow svg {
+    display:block;
+    width: 20px;
+    height: auto;
+  }
+}
+.post-nav--next {
+  display:block;
+  float:right;
+}
+.post-nav--previous {
+  display:block;
+  float:left;
+}
+.all-collections-link {
+  display:inline-block;
+  margin:0 auto;
+  width: auto;
+  display:none;
+}
+.post-nav--next a {
+  float:right;
+  display:block;
+  &::after {
+    content: '.';
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    text-indent: -9000em;
+    background: url(../images/arrow-next.svg) no-repeat center;
+    margin:0 0 0 10px;
+    background-size: 100%;
+    @include media-breakpoint-up(md) {
+      height:24px;
+    }
+  }
+}
+.post-nav--previous a {
+  float: left;
+  display:block;
+  &::before {
+    content: '.';
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    text-indent: -9000em;
+    background: url(../images/arrow-prev.svg) no-repeat center;
+    margin:0 10px 0 0px;
+    background-size: 100%;
+    @include media-breakpoint-up(md) {
+      height:24px;
+    }
+  }
+}
+p.use-keyboard-arrows {
+  @include media-breakpoint-down(sm) {
+    display:none;
+  }
+  color: #999;
+  text-align:center;
+  margin-top:2rem;
+}

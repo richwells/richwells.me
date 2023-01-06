@@ -1,0 +1,12 @@
+.strip {
+    padding:2rem 0;
+
+    @include media-breakpoint-up(lg) {
+      padding:2.5rem 0;
+    }
+
+}
+.strip--heading {
+  padding: 3rem 0;
+
+}

@@ -1,0 +1,22 @@
+.page-numbers {
+  padding: 8px 15px;
+  font-weight: 600;
+  margin: 0 3px;
+  border-radius: 40px;
+  &.next, &.prev {
+    font-weight: normal;
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+  &.current {
+    background:#000;
+    color:$white;
+
+  }
+}
+.pagination {
+  background: #f8f6f0;
+  margin-top: 3rem;
+  justify-content: center;
+  padding: 2rem 0;
+}

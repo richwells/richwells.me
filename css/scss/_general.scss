@@ -1,0 +1,34 @@
+.entry-footer {
+    border:none;
+}
+.container {
+    max-width: 1600px;
+    @include media-breakpoint-up(md) {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding: 0 6rem;
+    }
+}
+.strip p a, .strip li a {
+    text-decoration:underline;
+    text-decoration-thickness: .13em;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: auto;
+    font-weight: 600;
+    text-decoration-color: rgba(176, 181, 182, 0.4);
+    color:#1d3848;
+    &:hover {
+      text-decoration-color: rgba(19, 60, 67, 0.99);
+      text-decoration-thickness: .13em;
+
+    }
+}
+button#euCookieAcceptWP {
+  background:$mb-teal;
+  font-weight: 700;
+  margin: 4px 10px;
+}
+.row--collections  {
+  margin-right: -20px;
+  margin-left: -20px;
+}
