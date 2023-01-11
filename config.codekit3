@@ -1606,6 +1606,14 @@
 		"oAP": "/fonts/Mona-Sans.woff2",
 		"oF": 0
 		},
+	"/img/404.gif": {
+		"ft": 4194304,
+		"iS": 195565,
+		"oA": 0,
+		"oAP": "/img/404.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/img/arrow-next.svg": {
 		"ft": 2097152,
 		"miP": 0,

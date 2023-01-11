@@ -11961,6 +11961,17 @@ a.tn--link-tile:hover .tn__title {
   }
 }
 
+.fourohfour {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .fourohfour {
+    max-width: 400px;
+  }
+}
+
 .wp-block-embed-twitter {
   display: flex;
   justify-content: center;

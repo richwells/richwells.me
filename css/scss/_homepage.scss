@@ -60,3 +60,12 @@
     padding: 1.4rem 2rem;
   }
 }
+.fourohfour {
+  margin:0 auto;
+  display:block;
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+    max-width:400px;
+
+  }
+}
