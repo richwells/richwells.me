@@ -13,10 +13,30 @@
     max-width: 100%;
   }
   a {
-    text-decoration: underline;
+    color: #212121;
+    -webkit-transition: color .15s ease-out;
+    -moz-transition: color .15s ease-out;
+    -ms-transition: color .15s ease-out;
+    -o-transition: color .15s ease-out;
+    transition: color .15s ease-out;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,.2);
+    -webkit-transition: border-color .15s ease-out,color .15s ease-out;
+    -moz-transition: border-color .15s ease-out,color .15s ease-out;
+    -ms-transition: border-color .15s ease-out,color .15s ease-out;
+    -o-transition: border-color .15s ease-out,color .15s ease-out;
+    transition: border-color .15s ease-out,color .15s ease-out;
+    &:hover {
+      text-decoration:none;
+      // color: rgba(33,33,33,.6);
+    border-color: rgba(0,0,0,1);
+    }
   }
   p {
     margin:0;
+    line-height:1.55;
   }
 }
 .rw-logo {

@@ -11909,10 +11909,29 @@ a.tn--link-tile:hover .tn__title {
   max-width: 100%;
 }
 .box a {
-  text-decoration: underline;
+  color: #212121;
+  -webkit-transition: color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out;
+  -ms-transition: color 0.15s ease-out;
+  -o-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+  padding-bottom: 0.05em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: border-color 0.15s ease-out, color 0.15s ease-out;
+  -moz-transition: border-color 0.15s ease-out, color 0.15s ease-out;
+  -ms-transition: border-color 0.15s ease-out, color 0.15s ease-out;
+  -o-transition: border-color 0.15s ease-out, color 0.15s ease-out;
+  transition: border-color 0.15s ease-out, color 0.15s ease-out;
+}
+.box a:hover {
+  text-decoration: none;
+  border-color: black;
 }
 .box p {
   margin: 0;
+  line-height: 1.55;
 }
 
 .rw-logo {
